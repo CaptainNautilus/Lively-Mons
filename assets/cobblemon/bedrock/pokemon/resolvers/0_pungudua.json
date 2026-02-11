@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:pungudua",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:pungudua",
+      "model": "cobblemon:pungudua.geo",
+      "texture": "cobblemon:textures/pokemon/pungudua/pungudua.png",
+      "layers": [
+        {
+          "name": "eyes",
+          "texture": "cobblemon:textures/pokemon/pungudua/pungudua_transparent.png",
+          "translucent": true
+        }  
+      ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/pungudua/pungudua_shiny.png",
+      "layers":[
+        {
+        "name": "eyes",
+        "texture": "cobblemon:textures/pokemon/pungudua/pungudua_shiny_transparent.png",
+        "translucent": true
+      }  
+    ]
+  }
+]
+}

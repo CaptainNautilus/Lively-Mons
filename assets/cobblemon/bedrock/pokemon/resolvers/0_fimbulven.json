@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:fimbulven",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:fimbulven",
+        "model": "cobblemon:fimbulven.geo",
+        "texture": "cobblemon:textures/pokemon/fimbulven/fimbulven.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/fimbulven/fimbulven_shiny.png"
+      }
+    ]
+  }

@@ -1,0 +1,52 @@
+{
+      "portraitScale": 2.9,
+      "portraitTranslation": [-0.35, -0.5, 0],
+      "profileScale": 1,
+      "profileTranslation": [0, 0.325, 0],
+  "rootBone": "duskarou",
+  "animations": {
+    "faint": "q.bedrock_primary('duskarou', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('duskarou', 'cry')",
+    "recoil": "q.bedrock_stateful('duskarou', 'recoil')"
+  },
+  "poses": {
+        "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.pitch_tilt('body')", 
+        "q.look('head')",
+        "q.bedrock('duskarou', 'battle_idle')"],
+      "quirks": [
+        "q.bedrock_quirk('duskarou', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "HOVER"],
+      "isBattle": false,
+      "animations": ["q.pitch_tilt('body')", 
+        "q.look('head')",
+        "q.bedrock('duskarou', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('duskarou', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "FLY"],
+      "animations": ["q.pitch_tilt('body')", 
+        "q.look('head')",
+        "q.bedrock('duskarou', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('duskarou', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('duskarou', 'sleep')"],
+            "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

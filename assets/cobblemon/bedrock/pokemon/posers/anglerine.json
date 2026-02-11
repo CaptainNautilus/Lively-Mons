@@ -1,0 +1,136 @@
+{
+    "portraitScale": 1.3,
+    "portraitTranslation": [ -0.2, -0.25, 0 ],
+    "profileScale": 0.6,
+    "profileTranslation": [ 0, 0.8, 0 ],
+  "rootBone": "anglerine",
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0],
+    "seat_2": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0.5],
+    "seat_1_reverse": [0, 0.45, 0.5],
+    "seat_2": [0, 0.45, 0.5],
+    "seat_2_reverse": [0, 0.45, 0.5]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 0.45, 0.5],
+    "seat_1_reverse": [0, 0.45, 0.5],
+    "seat_2": [0, 0.45, 0.5],
+    "seat_2_reverse": [0, 0.45, 0.5]
+  },
+    "animations": {
+      "faint": "q.bedrock_primary('anglerine', 'faint', q.curve('one'))",
+      "cry": "q.bedrock_stateful('anglerine', 'cry')",
+      "recoil": "q.bedrock_stateful('anglerine', 'recoil')"
+    },
+    "poses": {
+      "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isTouchingWater": false,
+        "isBattle": true,
+          "namedAnimations": {
+          "recoil": "q.bedrock_stateful('anglerine', 'battle_recoil')"
+          },
+        "animations": [
+          "q.bedrock('anglerine', 'battle_idle')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('anglerine', 'blink')",
+          "q.bedrock_quirk('anglerine', 'angler_blink')"
+        ]
+      },
+      "standing": {
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "isBattle": false,
+        "isTouchingWater": false,
+        "animations": [
+          "q.bedrock('anglerine', 'ground_idle')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('anglerine', 'blink')",
+          "q.bedrock_quirk('anglerine', 'angler_blink')"
+        ]
+      },
+      "walking": {
+        "poseTypes": ["WALK"],
+        "isTouchingWater": false,
+        "animations": [
+          "q.bedrock('anglerine', 'ground_walk')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('anglerine', 'blink')",
+          "q.bedrock_quirk('anglerine', 'angler_blink')"
+        ]
+      },
+      "float": {
+        "poseTypes": ["FLOAT"],
+        "isTouchingWater": true,
+        "isUnderWater": true,
+        "animations": ["q.pitch_tilt('body', 0.22)",
+          "q.bedrock('anglerine', 'water_idle')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('anglerine', 'blink')",
+          "q.bedrock_quirk('anglerine', 'angler_blink')"
+        ]
+      },
+      "surface-float": {
+        "poseTypes": ["STAND", "FLOAT"],
+        "isTouchingWater": true,
+        "isUnderWater": false,
+        "animations": [
+          "q.bedrock('anglerine', 'water_idle')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('anglerine', 'blink')",
+          "q.bedrock_quirk('anglerine', 'angler_blink')"
+        ]
+      },
+      "swim": {
+        "poseTypes": ["SWIM"],
+        "isTouchingWater": true,
+        "isUnderWater": true,
+        "animations": ["q.pitch_tilt('body', 0.22)",
+          "q.bedrock('anglerine', 'water_swim')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('anglerine', 'blink')",
+          "q.bedrock_quirk('anglerine', 'angler_blink')"
+        ]
+      },
+      "surface-swim": {
+        "poseTypes": ["WALK", "SWIM"],
+        "isTouchingWater": true,
+        "isUnderWater": false,
+        "animations": [
+          "q.bedrock('anglerine', 'water_swim')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('anglerine', 'blink')",
+          "q.bedrock_quirk('anglerine', 'angler_blink')"
+        ]
+      },
+      "sleep": {
+        "poseTypes": ["SLEEP"],
+        "isTouchingWater": false,
+          "namedAnimations": {
+          "cry": "q.bedrock_stateful('dummy', 'cry')"
+          },
+          "animations": [
+          "q.bedrock('anglerine', 'sleep')"
+        ]
+      },
+      "water-sleep": {
+        "poseTypes": ["SLEEP"],
+        "isTouchingWater": true,
+          "namedAnimations": {
+          "cry": "q.bedrock_stateful('dummy', 'cry')"
+          },
+          "animations": [
+          "q.bedrock('anglerine', 'sleep')"
+        ]
+      }
+    }
+  }

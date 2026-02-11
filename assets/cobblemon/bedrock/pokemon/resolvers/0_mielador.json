@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:mielador",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:mielador",
+        "model": "cobblemon:mielador.geo",
+        "texture": "cobblemon:textures/pokemon/mielador/mielador.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/mielador/mielador_shiny.png"
+      }
+    ]
+  }

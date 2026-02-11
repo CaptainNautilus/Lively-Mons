@@ -1,0 +1,91 @@
+{
+  "portraitScale": 2.75,
+  "portraitTranslation": [ -2.1, 20.5, 0 ],
+  "profileScale": 0.17,
+  "profileTranslation": [ 0, 1.5, 0 ],
+  "rootBone": "tropius",
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0],
+    "seat_2": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 2, 2],
+    "seat_1_reverse": [0, 2, 2],
+    "seat_2": [0, 0.5, 1],
+    "seat_2_reverse": [0, 0.5, 1]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 2, 2],
+    "seat_1_reverse": [0, 2, 2],
+    "seat_2": [0, 0.5, 1],
+    "seat_2_reverse": [0, 0.5, 1]
+  },
+   "animations": {
+     "faint": "q.bedrock_primary('tropiussanrosa', 'faint', q.curve('one'))",
+     "cry": "q.bedrock_stateful('tropiussanrosa', 'cry')",
+     "recoil": "q.bedrock_stateful('tropiussanrosa', 'recoil')"
+   },
+   "poses": {
+    "portrait": {
+      "poseTypes": ["PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head', 0.5, 0)",
+        "q.bedrock('tropiussanrosa', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tropiussanrosa', 'blink')"
+      ]
+    },
+     "battle-standing": {
+       "poseTypes": ["STAND", "FLOAT"],
+       "isBattle": true,
+       "animations": [
+         "q.look('head', 0.5, 0)",
+         "q.bedrock('tropiussanrosa', 'battle_idle')"
+       ],
+       "quirks": [
+         "q.bedrock_quirk('tropiussanrosa', 'blink')"
+       ]
+     },
+     "standing": {
+       "poseTypes": ["STAND", "NONE", "FLOAT"],
+       "isBattle": false,
+       "animations": [
+         "q.look('head', 0.5, 0)",
+         "q.bedrock('tropiussanrosa', 'ground_idle')"
+       ],
+       "quirks": [
+         "q.bedrock_quirk('tropiussanrosa', 'blink')",
+         "q.bedrock_quirk('tropiussanrosa', 'look_quirk')"
+       ]
+     },
+     "walking": {
+       "poseTypes": ["WALK", "SWIM"],
+       "condition": "!q.is_sprinting",
+       "animations": [
+         "q.look('head', 0.5, 0)",
+         "q.bedrock('tropiussanrosa', 'ground_walk')"
+       ],
+       "quirks": ["q.bedrock_quirk('tropiussanrosa', 'blink')"]
+     },
+     "running": {
+       "poseTypes": ["WALK"],
+       "condition": "q.is_sprinting",
+       "animations": [
+         "q.look('head', 0.5, 0)",
+         "q.bedrock('tropiussanrosa', 'ground_run')"
+       ],
+       "quirks": ["q.bedrock_quirk('tropiussanrosa', 'blink')"]
+     },
+     "sleeping": {
+       "poseTypes": ["SLEEP"],
+       "namedAnimations": {
+         "cry": "q.bedrock_stateful('dummy', 'cry')"
+       },
+       "animations": [
+         "q.bedrock('tropiussanrosa', 'sleep')"
+       ]
+     }
+   }
+}

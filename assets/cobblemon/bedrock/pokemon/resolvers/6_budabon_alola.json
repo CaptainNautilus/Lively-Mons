@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:budabon",
+    "order": 6,
+    "variations": [
+      {
+        "aspects": [ "alolan"],
+        "poser": "cobblemon:budabon_alola",
+        "model": "cobblemon:budabon_alola.geo",
+        "texture": "cobblemon:textures/pokemon/budabon/budabon_alola.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny", "alolan" ],
+        "texture": "cobblemon:textures/pokemon/budabon/budabon_alola_shiny.png",
+        "layers":[]
+      }
+  ]
+}

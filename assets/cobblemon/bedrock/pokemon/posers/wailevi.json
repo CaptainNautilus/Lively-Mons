@@ -1,0 +1,73 @@
+{
+      "portraitScale": 1.2,
+      "portraitTranslation": [ -0.15, 0.6, 0],
+      "profileScale": 0.8,
+      "profileTranslation": [ 0, 0.6, 0 ],
+  "rootBone": "wailevi",
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0.5],
+    "seat_1_reverse": [0, 0.45, 0.5]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 0.45, 0.5],
+    "seat_1_reverse": [0, 0.45, 0.5]
+  },
+  "animations": {
+    "faint": "q.bedrock_primary('wailevi', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('wailevi', 'cry')",
+      "recoil": "q.bedrock_stateful('wailevi', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.pitch_tilt('body')", "q.look('body')", "q.bedrock('wailevi', 'battle_idle')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('wailevi', 'ride_air_fly')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('wailevi', 'blink')",
+        "q.bedrock_quirk('wailevi', 'brow_raise')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "HOVER"],
+      "isBattle": false,
+      "animations": ["q.pitch_tilt('body')", "q.look('body')", "q.bedrock('wailevi', 'air_idle')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('wailevi', 'ride_air_fly')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('wailevi', 'blink')",
+        "q.bedrock_quirk('wailevi', 'brow_raise')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM", "FLY"],
+      "animations": ["q.pitch_tilt('body')", "q.bedrock('wailevi', 'air_fly')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('wailevi', 'ride_air_fly')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('wailevi', 'blink')",
+        "q.bedrock_quirk('wailevi', 'brow_raise')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('wailevi', 'sleep')"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:fungalith",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": ["female"],
+        "poser": "cobblemon:fungalith_female",
+        "model": "cobblemon:fungalith.geo",
+        "texture": "cobblemon:textures/pokemon/fungalith/fungalith.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny", "female"],
+        "texture": "cobblemon:textures/pokemon/fungalith/fungalith_shiny.png"
+      }
+    ]
+  }

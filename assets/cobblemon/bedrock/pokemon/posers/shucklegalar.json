@@ -1,0 +1,66 @@
+  {
+  "portraitScale": 2.2,
+  "portraitTranslation": [-0.7, 0.1, 0.0],
+  "profileScale": 0.6,
+  "profileTranslation": [0.0, 0.8, 0.0],
+  "rootBone": "shuckle",
+  "animations": {
+    "faint": "q.bedrock_primary('shucklegalar', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('shucklegalar', 'cry')",
+    "recoil": "q.bedrock_stateful('shucklegalar', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "PROFILE"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('shucklegalar', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('shucklegalar', 'blink')",
+        "q.bedrock_quirk('shucklegalar', 'quirk', 10, 60, 1)"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('shucklegalar', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('shucklegalar', 'blink')"
+      ]
+    },
+    "battle-walking": {
+      "poseTypes": ["WALK"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('shucklegalar', 'battle_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('shucklegalar', 'blink')"
+      ]
+    },
+    "walking": {
+      "isBattle": false,
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('shucklegalar', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('shucklegalar', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('shucklegalar', 'sleep')"],
+            "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

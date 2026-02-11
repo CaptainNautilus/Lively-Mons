@@ -1,0 +1,103 @@
+{
+    "portraitScale": 1.55,
+    "portraitTranslation": [ -0.1, 6, 0],
+    "profileScale": 0.3,
+    "profileTranslation": [ 0, 1.325, 0 ],
+  "rootBone": "xenoster",
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0.5],
+    "seat_1_reverse": [0, 0.45, 0.5]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 0.45, 0.5],
+    "seat_1_reverse": [0, 0.45, 0.5]
+  },
+  "animations": {
+    "faint": "q.bedrock_primary('xenoster', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('xenoster', 'cry')",
+    "recoil": "q.bedrock_stateful('xenoster', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.pitch_tilt('body', 0.22)", 
+        "q.look('eye')",
+        "q.look('eye_back_left')",
+        "q.look('eye_back_right')",
+        "q.look('eye_front_left')",
+        "q.look('eye_front_right')",
+        "q.bedrock('xenoster', 'air_idle')", 
+        "q.bedrock('xenoster', 'leg_spin')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('xenoster', 'ride_air_fly')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('xenoster', 'blink')",
+        "q.bedrock_quirk('xenoster', 'blink2')",
+        "q.bedrock_quirk('xenoster', 'blink3')",
+        "q.bedrock_quirk('xenoster', 'blink4')",
+        "q.bedrock_quirk('xenoster', 'blink5')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "HOVER", "FLOAT"],
+      "isBattle": false,
+      "animations": ["q.pitch_tilt('body', 0.22)", 
+        "q.look('eye')",
+        "q.look('eye_back_left')",
+        "q.look('eye_back_right')",
+        "q.look('eye_front_left')",
+        "q.look('eye_front_right')",
+        "q.bedrock('xenoster', 'air_idle')", 
+        "q.bedrock('xenoster', 'leg_spin')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('xenoster', 'ride_air_fly')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('xenoster', 'blink')",
+        "q.bedrock_quirk('xenoster', 'blink2')",
+        "q.bedrock_quirk('xenoster', 'blink3')",
+        "q.bedrock_quirk('xenoster', 'blink4')",
+        "q.bedrock_quirk('xenoster', 'blink5')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM", "FLY"],
+      "animations": ["q.pitch_tilt('body', 0.22)", 
+        "q.look('eye')",
+        "q.look('eye_back_left')",
+        "q.look('eye_back_right')",
+        "q.look('eye_front_left')",
+        "q.look('eye_front_right')",
+        "q.bedrock('xenoster', 'air_idle')", 
+        "q.bedrock('xenoster', 'leg_spin')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('xenoster', 'ride_air_fly')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('xenoster', 'blink')",
+        "q.bedrock_quirk('xenoster', 'blink2')",
+        "q.bedrock_quirk('xenoster', 'blink3')",
+        "q.bedrock_quirk('xenoster', 'blink4')",
+        "q.bedrock_quirk('xenoster', 'blink5')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('xenoster', 'sleep')"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

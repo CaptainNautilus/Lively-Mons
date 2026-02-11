@@ -1,0 +1,41 @@
+{
+    "portraitScale": 1.9,
+    "portraitTranslation": [-0.04, -0.7, 0],
+    "profileScale": 1,
+    "profileTranslation": [0, 0.27, 0],
+    "rootBone": "budabon",
+    "animations": {
+      "faint": "q.bedrock_primary('budabon_unova', 'faint', q.curve('one'))",
+      "cry": "q.bedrock_stateful('budabon_unova', 'cry')",
+      "recoil": "q.bedrock_stateful('budabon_unova', 'recoil')"
+    },
+    "poses": {
+      "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": ["q.look('head')", "q.bedrock('budabon_unova', 'battle_idle')"],
+        "quirks": ["q.bedrock_quirk('budabon_unova', 'blink')"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('budabon_unova', 'battle_cry', q.curve('symmetrical_wide'))"
+      }
+      },
+      "standing": {
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "isBattle": false,
+        "animations": ["q.look('head')", "q.bedrock('budabon_unova', 'ground_idle')"],
+        "quirks": ["q.bedrock_quirk('budabon_unova', 'blink')"]
+      },
+      "walking": {
+        "poseTypes": ["WALK"],
+        "animations": ["q.look('head')", "q.bedrock('budabon_unova', 'ground_walk')"],
+        "quirks": ["q.bedrock_quirk('budabon_unova', 'blink')"]
+      },
+      "sleep": {
+        "poseTypes": ["SLEEP"],
+        "animations": ["q.bedrock('budabon_unova', 'sleep')"],
+            "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+      }
+    }
+  }  

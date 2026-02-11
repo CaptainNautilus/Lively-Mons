@@ -1,0 +1,59 @@
+{
+    "species": "cobblemon:haghoula",
+    "order": 0,
+    "variations": [
+      {
+        "poser": "cobblemon:haghoula",
+        "model": "cobblemon:haghoula.geo",
+        "texture": "cobblemon:textures/pokemon/haghoula/haghoula.png",
+        "layers": [
+          {
+            "name": "apparition",
+            "texture": "cobblemon:textures/pokemon/haghoula/haghoula_transparent.png",
+            "translucent": true,
+          "emissive":true
+          },
+          {
+            "name": "animation",
+            "texture": {
+              "frames": [
+                "cobblemon:textures/pokemon/haghoula/animation/hypnotize1.png",
+                "cobblemon:textures/pokemon/haghoula/animation/hypnotize2.png",
+                "cobblemon:textures/pokemon/haghoula/animation/hypnotize3.png",
+                "cobblemon:textures/pokemon/haghoula/animation/hypnotize4.png"
+              ],
+              "fps": 10,
+              "loop": true
+            },
+            "emissive":true
+            }
+        ]
+      },
+      {
+        "aspects": [ "shiny"],
+        "texture": "cobblemon:textures/pokemon/haghoula/haghoula_shiny.png",
+        "layers":[
+          {
+          "name": "apparition",
+          "texture": "cobblemon:textures/pokemon/haghoula/haghoula_shiny_transparent.png",
+          "translucent": true,
+          "emissive":true
+        },
+          {
+            "name": "animation",
+            "texture": {
+              "frames": [
+                "cobblemon:textures/pokemon/haghoula/animation/hypnotize_shiny1.png",
+                "cobblemon:textures/pokemon/haghoula/animation/hypnotize_shiny2.png",
+                "cobblemon:textures/pokemon/haghoula/animation/hypnotize_shiny3.png",
+                "cobblemon:textures/pokemon/haghoula/animation/hypnotize_shiny4.png"
+              ],
+              "fps": 10,
+              "loop": true
+            },
+            "emissive":true
+          }
+      ]
+    }
+  ]
+}

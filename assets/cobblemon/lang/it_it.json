@@ -1,0 +1,288 @@
+{
+    "cobblemon.species.anglerine.name": "Anglerine",
+    "cobblemon.species.anglerine.desc1": "This Pokémon lures it prey close with the two bulbs on its head. It also seems these bulbs also work as an extra set of eyes.",
+
+    "cobblemon.species.seibat.name": "Seibat",
+    "cobblemon.species.seibat.desc1": "An ancient civilization created statues to ward off deadly spirits. When this ancient civilization fell, the spirits of its citizens possessed the statues and became Seibat. Beacuse of this, Seibat are found around the remains of this ancient civilization.",
+
+    "cobblemon.species.frostnatch.name": "Frostnatch",
+    "cobblemon.species.frostnatch.desc1": "Frostnatch search for ice crystals to add to its feather coat. Frostnatch are very territorial and often get into fights with other Pokémon.",
+
+        "cobblemon.species.frivid.name": "Frivid",
+    "cobblemon.species.frivid.desc1": "Frivid have been known to steal shiny objects from people to add to their nests. For this reason it is recommended to keep things like jewelry away from wild Frivid. Frivid nests can contain many things like icy crystals, shiny gems, or even some small shiny Pokémon.",
+
+    "cobblemon.species.fimbulven.name": "Fimbulven",
+    "cobblemon.species.fimbulven.desc1": "Fimbulven often take shiny objects and adds them to its never ending hoard of treasures. It protects this hoard with its life. This Pokémon tends to hunt Gimmieghouls to get their coins. To get them out of their chests it raises them hundreds of feet into the air and drops them.",
+
+    "cobblemon.species.eggward.name": "Eggward",
+    "cobblemon.species.eggward.desc1": "Eggwards are a very dull species of Pokémon, so much that they don't even know how to fully break out of their egg. While their egg can protect them from predators, it is also very cumbersome and causes them to trip on themselves frequently.",
+
+    "cobblemon.species.voltite.name": "Voltite",
+    "cobblemon.species.voltite.desc1": "After being freed from their egg, Voltite have a lot of pent up energy to burn which they use to run at quick speeds. While Voltite lose their clumsiness on evolution, their dimwitted nature is still there as when this Pokémon is frightened, it sticks its head into the ground, hoping whatever is scaring it dissapears.",
+
+    "cobblemon.species.ostrike.name": "Ostrike",
+    "cobblemon.species.ostrike.desc1": "When Ostrike runs, its legs move so fast they become a blur. Ostrikes can run so fast the very ground they run on smokes from the kinetic energy. Ostrikes inexplicably have the ability to walk right through a painted tunnel as if it was real. Scientists have zero idea how this could be possible.",
+
+    "cobblemon.species.wailevi.name": "Wailevi",
+    "cobblemon.species.wailevi.desc1":"Wailevi's body is made entirely out of clouds, held together by its power to manipulate air. Though it looks like Wailmer, Wailevi is an entirely different species. The resemblance seems to be a coincidental result of environmental adaptation.",
+
+    "cobblemon.species.levilord.name": "Levilord",
+    "cobblemon.species.levilord.desc1": "Levilord are gentle giants, not hurting anything unless it considers it a threat to the mountain it lives on. Though this Pokémon was once thought to be a regional form of Wailord, recent research shows Levilord actually diverged from a common ancestor with Swirlix around 50 million years ago.",
+
+    "cobblemon.species.dollamb.name": "Dollamb",
+    "cobblemon.species.dollamb.desc1": "Dollamb at first seems to be an average Pokémon but the cells in its body multiply at much faster rate than any other Pokémon. Its cells also are also very reactive to ionizing radiation and multiply even faster when next to radioative materials like redstone.",
+
+    "cobblemon.species.folly.name": "Folly",
+    "cobblemon.species.folly.desc1": "Folly is the product of Dollamb's cells multiplying so fast a clone is created. It is unclear if the two clones have one consciousness or if they communicate with eachother in a different way but the two clones never leave each other's side. Folly like to consume radioative materials like redstone.",
+
+    "cobblemon.species.moistery.name": "Moistery",
+    "cobblemon.species.moistery.desc1": "This Pokémon was only recently discovered and it is unclear how Moistery evolved as their no signs of it in the fossil record. As time goes on Moistery populations are rising at a rapid rate. Moistery gather together in massive groupings under the full moon, no one knows why this is.",
+
+    "cobblemon.species.orbiclad.name": "Orbiclad",
+    "cobblemon.species.orbiclad.desc1": "For an unknown reason, Orbiclad scan the shores of Earth on nights with a full moon like some sort of scout. They fly off to an unknown location when the full moon sets. Orbiclad are very secretive and put observers of their behaviour to sleep. Some rumors say Orbiclad can even take away people's memories.",
+
+    "cobblemon.species.xenoster.name": "Xenoster",
+    "cobblemon.species.xenoster.desc1": "Xenoster seem to come from the very vacuum of space, only landing on earth's shores on nights with a full moon. Xenoster lead legions of Moistery and Orbiclad and often get into fights with other Pokémon. It is unclear what their intentions are.",
+
+    "cobblemon.species.ludikappa.name": "Ludikappa",
+    "cobblemon.species.ludikappa.desc1": "Ludikappa are solitary predators that lure travellers deep into bogs with the sweet scent of the flower on its head. When its prey gets too close to the water it drags them down into the deep, never to be seen again. The flower on its head makes a smell so pleasent it is said no one can resist its aroma. For this reason many perfumes use this flower as a part of their recipes.",
+
+    "cobblemon.species.krillcracker.name": "Krillcracker",
+    "cobblemon.species.krillcracker.desc1": "Krillcracker are very mischevious Pokémon and explode in bright colors to scare people and Pokémon alike. Some people enjoy Krillcracker tails as a delicious snack but most people find them too spicy for their taste.",
+
+    "cobblemon.species.shiboom.name": "Shiboom",
+    "cobblemon.species.shiboom.desc1": "Shiboom can fly with extreme speed and agility. Every year in a far off region, the Shiboom festival draws in tourists to watch many Shiboom fly through the sky with colorful trails and explode with stunning choreography.",
+
+    "cobblemon.species.fossoil.name": "Fossoil",
+    "cobblemon.species.fossoil.desc1": "Fossoil are created from the decomposed fossils of ancient Pokémon, taking millions of years to form. The black goop on Fossoil's body is very flammable and can be used to power industrial machinery.",
+
+    "cobblemon.species.petrolisk.name": "Petrolisk",
+    "cobblemon.species.petrolisk.desc1": "Because Petrolisk takes millions of years to form from fossils and people used to hunt it for its oil, Petrolisk is an endangered Pokémon. The Unova region harvests a lot of Petrolisk oil to power the region's many machines. This mass burning of Petrolisk oil is also rapidy heating up the atmosphere.",
+
+    "cobblemon.species.potdary.name": "Potdary",
+    "cobblemon.species.potdary.desc1": "Even though this Pokémon lives in arid deserts, it can swim surprising distances. Some sailors claim to have found Potdary swimming as far as 4 miles out from land. Potdary's body is incredibly buoyant, making it near impossible for Potdary to sink.",
+
+    "cobblemon.species.vasaddle.name": "Vasaddle",
+    "cobblemon.species.vasaddle.desc1": "Vasaddle are very territorial and will bombard anything in a 10 foot radius with rocks launched from the pot shaped humps on its back. Sometimes Vasaddle swim out long distances just to get into fights with wild Sharpedo.",
+
+    "cobblemon.species.mortaraid.name": "Mortaraid",
+    "cobblemon.species.mortaraid.desc1": "Mortaraid were used by humans in old wars, which dwindled their population. Mortaraid protect their young by firing rocks from its back, bombarding any agressors with boulders and highly pressurized water.",
+
+    "cobblemon.species.citrillume.name": "Citrillume",
+    "cobblemon.species.citrillume.desc1": "Citrillume likes to eat nectar from Bellosm and in exchange it protects the Bellosm from bug types. Every time Citrillume flaps its wings its heart beats and if it stops flapping its wings, its heart stops beating. This is similar to Spoink and its jumping. Scientists have no clue why this is an evolutionary advantage.",
+
+    "cobblemon.species.limonzal.name": "Limonzal",
+    "cobblemon.species.limonzal.desc1": "Limonzal can generate energy by catching wind in their tails. They then store that energy in their heads. Young children commonly make science projects for shcool that explain how Limonzal store their energy.",
+
+    "cobblemon.species.citrisaurid.name": "Citrisaurid",
+    "cobblemon.species.citrisaurid.desc1": "Citrisaurids were used by cities to mass produce energy. These projects were harsh and dangerous on the Citrisaurids and ended up greatly damaging the Citrisaurid population. Citrisaurid can generate 20 killowatts of energy per hour.",
+
+    "cobblemon.species.infernito.name": "Infernito",
+    "cobblemon.species.infernito.desc1": "Infernito are very lazy Pokémon and prefer to loaf around instead of listening to their trainer. Many trainers overcome this struggle by encouraging their Infernito with tasty treats.",
+
+    "cobblemon.species.pillosinge.name": "Pillosinge",
+    "cobblemon.species.pillosinge.desc1": "Pillosinge have been known help warm up and guide people lost in snowy forests. Scientists used to assume Pillosinge weren't very smart but recent studies show they have a remarkable intelligence.",
+
+    "cobblemon.species.slacho.name": "Slacho",
+    "cobblemon.species.slacho.desc1": "Slacho live in vast snowy forests which have been deforested by people, devastating their population and almost causing their extinction. Slacho are very caring and protect smaller Pokémon around them even, attacking the industrial machinery humans use to cut down their forests to protect their friends. Despite the fierce fighting from Slachos, the size of their homes are still quickly shrinking.",
+
+    "cobblemon.species.fungalith.name": "Fungalith",
+    "cobblemon.species.fungalith.desc1": "For most of a Fungalith's lifespan it lives entierly underground. A Fungalith only starts to surface when it reaches maturity and a mushroom grows on its head. Fungalith lure in their prey with the mushroom on their head, ambushing them from the sand.",
+
+    "cobblemon.species.cyclopod.name": "Cyclopod",
+    "cobblemon.species.cyclopod.desc1": "When Cyclopod feel threatened, they create a cyclone around them, causing mass-destruction in its vicinity and trapping anything inside the eye of the hurricane. As temperatures rise, Cyclopod become more numerous, causing more cyclones to appear across the globe.",
+
+    "cobblemon.species.slimara.name": "Slimara",
+    "cobblemon.species.slimara.desc1": "Slimara create slimy apparitions made from ectoplasm that help them fight. In medieval times, Slimara slime was used for medicinal purposes. Now we know Slimara slime drains the souls from people's bodies.",
+
+    "cobblemon.species.haghoula.name": "Haghoula",
+    "cobblemon.species.haghoula.desc1": "Haghoula use their ghostly powers to scare people using their apparitions made from ectoplasm. Haghoula make up not having arms by making arm-like apparitions with their ectoplasmic slime.",
+
+    "cobblemon.species.ectomancer.name": "Ectomancer",
+    "cobblemon.species.ectomancer.desc1": "Ectomancer use spells and hexes to frighten Pokémon wandering forests by night. Despite their love of scaring Pokémon, they never actually hurt their victims.",
+
+    "cobblemon.species.lupayena.name": "Lupayena",
+    "cobblemon.species.lupayena.desc1": "Lupayena lead clans of Mightyena and Poochyena. They are kind souls, letting the Poochyena in the clan eat food first so they don't have to compete with the older members of the group.",
+
+    "cobblemon.species.polporos.name": "Polporos",
+    "cobblemon.species.polporos.desc1": "This ancient Pokémon hunted prehistoric Mareanie to protect the coral reefs it lived in. Polporos are very friendly compared to most Pokémon who lived in the distant past.",
+
+    "cobblemon.species.spinarift.name": "Spinarift",
+    "cobblemon.species.spinarift.desc1": "This ancient Pokémon got into massive brawls with swarms of prehistoric toxapex in an effort to protect its nest. Spinarift control the temperatures around its nest to help the growth of coral around it. The coral helps protect the nest from predators.",
+
+    "cobblemon.species.hollorn.name": "Hollorn",
+    "cobblemon.species.hollorn.desc1": "This ancient Pokémon can make a wide variety of sounds using the holes on its horn and body. Because the bodies of Hollorn are entierly made out of bones, Scientists originally thought they made a mistake when resurrecting it.",
+
+    "cobblemon.species.calciopi.name": "Calciopi",
+    "cobblemon.species.calciopi.desc1": "Ancient humans would use the fossils of this Pokémon as instruments. Calciopi use their hollow bodies to create a variety of sounds. These sounds are used to scare predators and communicate with Hollorn and other Calciopi.",
+
+    "cobblemon.species.wickarus.name": "Wickarus",
+    "cobblemon.species.wickarus.desc1": "Wickarus can produce a wax that they use as wings and even as hair. This wax isn't very strong and is easily washed away by water and melted by heat. This Pokémon was very popular among ancient civilizations and is regarded as possibly the original starter Pokémon",
+
+    "cobblemon.species.solarica.name": "Solarica",
+    "cobblemon.species.solarica.desc1": "Wickarus can only evolve into Solarica if their wax is heated to extreme temperatures. There is a famous ancient story about a Wickarus evolving into Solarica by flying too close to the sun. This, of course, is impossible as the higher up you go, the colder the atmosphere gets.",
+
+    "cobblemon.species.pokokari.name": "Pokokari",
+    "cobblemon.species.pokokari.desc1": "Pokokari live in deep and dark tunnels, only surfacing at night. They use their bright nose to light up the surrounding area. Pokokari noses are made out of the same material Miniors are made out of.",
+
+    "cobblemon.species.taplatter.name": "Taplatter",
+    "cobblemon.species.taplatter.desc1": "Taplatter groups often break into friendly fights, shooting a colorful, sticky substance from their nose that covers the battleground and Taplatter. The sticky substance Taplatter can shoot out of their nose gets its color from the wiki berries Taplatter like to eat.",
+
+    "cobblemon.species.pungudua.name": "Pungudua",
+    "cobblemon.species.pungudua.desc1": "Pungudua carry large amounts of sticky goo in their stomachs which they can shoot through their snouts. They shoot this goo in territorial disputes with Taplatter and other Pungudua. They favor territory containing wiki berry trees because consumption of wiki berries increases the strength of their goo.",
+
+    "cobblemon.species.linub.name": "Linub",
+    "cobblemon.species.linub.desc1": "Linub love to gather in big clumps in people's homes and roll around in massive balls, growing in size as they picking up dust particles and other Linub. While Linub tend to burrow through walls in the houses they live in, many homeowners choose to keep Linub that are in their home because of how cute they are.",
+
+    "cobblemon.species.pilolint.name": "Pilolint",
+    "cobblemon.species.pilolint.desc1": "Pilolint are so fuzzy they pick up clumps of dust as they walk around. They would actually do prety well at cleaning houses if they didn't attack anyone who tried to clean the dust off of them. Sometimes Pilolint let Linub hide inside of their coat for protection and warmth.",
+
+    "cobblemon.species.mamolint.name": "Mamolint",
+    "cobblemon.species.mamolint.desc1": "Mamolint pick up clumps of dust on their face, resembling a beard. The Mamolint with the biggest dust beards have the highest social status. Mamolint carry groups of Pilolint and Linub inside their mass of fur to protect them.",
+
+    "cobblemon.species.keenai.name": "Keenai",
+    "cobblemon.species.keenai.desc1": "Keenai are very stealthy and can effortlessly stalk through the night without getting caught. Keenai have feathers that are sharp as steel which use to fight Canjitsu.",
+
+    "cobblemon.species.sajonin.name": "Sajonin",
+    "cobblemon.species.sajonin.desc1": "Sajonin lead groups of Keenai and teach them how to fight. They commonly get into fights with Branchief and use their tough sharp claws and feathers to bring them down in battle.",
+
+    "cobblemon.species.canjitsu.name": "Canjitsu",
+    "cobblemon.species.canjitsu.desc1": "Groups of Canjitsu commonly get into fights with Keenai and the two are fierce rivals. They can use their tough skin to resist attacks from Keenai's sharp feathers.",
+
+    "cobblemon.species.branchief.name": "Branchief",
+    "cobblemon.species.branchief.desc1": "Branchief protect groups of Canjitsu and teach them how to fight. They commonly get into fights with Sajonin and use their tough skin to outlast them in battle.",
+    
+    "cobblemon.species.piochio.name": "Piochio",
+    "cobblemon.species.piochio.desc1": "Piochio seem to be mechanical rather than natural. Its engineering is so incredible, however, that their creator must have been a prodigy, with no modern person being able to creating anything close to its craftsmanship.",
+   
+    "cobblemon.species.thunkoo.name": "Thunkoo",
+    "cobblemon.species.thunkoo.desc1": "Thunkoo have an incredible sense of time, crying out at precisely 8:00 at every day, even if they can't see the sky. It is believed Thunkoo are an engineered Pokémon made in a distant time.",
+
+    "cobblemon.species.duskarou.name": "Duskarou",
+    "cobblemon.species.duskarou.desc1": "Duskarou prance around forests, sucking the dreams from sleeping Pokémon with their teeth. Duskarou and Deerling have a striking resemblance to each other though scientists can find no other connection between the two.",
+
+
+    
+    "cobblemon.species.stagrion.name": "Stagrion",
+    "cobblemon.species.stagrion.desc1": "Stagrion have immense strength, speed, and senses, which they use to hunt down sleeping Pokémon. Some believe that Stagrion is created from the souls of hunted Deerling.",
+
+    "cobblemon.species.grubbee.name": "Grubbee",
+    "cobblemon.species.grubbee.desc1": "Grubbee are a ravenous species of Pokémon that often raid the hives of combee. They love the honey so much that they even choose to live in the hives that they raid, using the stored honey inside as food.",
+
+    "cobblemon.species.mielador.name": "Mielador",
+    "cobblemon.species.mielador.desc1": "With its newfound wings, Mielador take to the skies with an air of laziness, so much laziness that all Mielador refuse to walk, and only get around by flapping their wings. Mielador don't even have to move to get food, eating from the stored honey inside the hive it lives in.",
+
+    "cobblemon.species.sandilelively.desc1": "Sanrosan Sandile can commonly be found near ancient ruins. Because of this, historians believe an ancient empire commonly used Sanrosan Sandile. It is believed that all Sandile looked like this at the time of this ancient civilization.",
+
+    "cobblemon.species.krokoroklively.desc1": "The thick skin of Sanrosan Krokorok has a similar strength to steel. Historians believe a powerful ancient empire used this tough skin to help in their vast army.",
+
+    "cobblemon.species.krookodilelively.desc1": "Sanrosan Krookodile's scales can be shed and when they do they can be used to make incredibly sharp tools. Historians believe that Sanrosan Krookodile was a popular Pokémon for high ranking army members of an ancient civilization.",
+
+    "cobblemon.species.shucklegalar.desc1": "Sanrosan Shuckle is incredibly different from the more common form seen in most parts of the world. Instead of having a hard shell, its shell is made out of brittle ice but it can extend a massive appendage resembling a cannon that retracts from its shell to fight predators. This cannon shoots delicious sweet ice cream from it, similar to how Johtonian Shuckle's shell produces sweet berry juice from its shell.",
+
+    "cobblemon.species.heracrosspaldea.desc1": "Sanrosan Heracross is very docile and friendly to other Pokémon, even letting smaller Pokémon ride on their back. This form of Heracross love eating acorns and other tree nuts.",
+
+    "cobblemon.species.tropiussanrosa.desc1": "Unlike its Hoennian counterpart, Sanrosan Tropius's immense height mean they can sometimes be confused for real trees. Their height also allow them to scout the treetops of the forests they live in, stopping any forest fires they come across before they get out of hand. Some scientists have made connections between the large height difference of Sanrosan and Heonnian Tropius with that of Alolan and Kantonian Exeggutor.",
+
+    "cobblemon.species.sandygastsanrosa.desc1": "Sanrosan Sandygast are meticulous artists, using the chisel on their head to craft their bodies into beautiful sculptures. If someone took the chisel from a Sanrosan Sandygast, it would forever have a grudge against them.",
+
+    "cobblemon.species.palobod.name": "Palobod",
+    "cobblemon.species.palobod.desc1": "Palobod are a very narcissistic Pokémon, seemingly in love with their own bodies, which are painstakingly chiseled from its old form as a Sandygast. There is a famous ancient story about a Palobod that stared at its reflection in a pool of water for so long that it died.",
+
+    "cobblemon.species.budabon.name": "Budabon",
+    "cobblemon.species.budabon_kanto.desc": "Budabon are a very resiliant Pokémon, seemingly being found across the world in a variety of forms. Because of how common Budabon are, it was the first documented Pokémon in the original Pokédex, making it Pokémon Number 0. This specific form of Budabon is known for its vibrant color and agitated temperament.",
+    "cobblemon.species.budabon_johto.desc": "Budabon are a very resiliant Pokémon, seemingly being found across the world in a variety of forms. Because of how common Budabon are, it was the first documented Pokémon in the original Pokédex, making it Pokémon Number 0. This specific form of Budabon is known for its delayed reactions and relaxed temperament.",
+    "cobblemon.species.budabon_hoenn.desc": "Budabon are a very resiliant Pokémon, seemingly being found across the world in a variety of forms. Because of how common Budabon are, it was the first documented Pokémon in the original Pokédex, making it Pokémon Number 0. This specific form of Budabon is known for its general popularity and smug temperament.",
+    "cobblemon.species.budabon_sinnoh.desc": "Budabon are a very resiliant Pokémon, seemingly being found across the world in a variety of forms. Because of how common Budabon are, it was the first documented Pokémon in the original Pokédex, making it Pokémon Number 0. This specific form of Budabon is known for its tuff skin and determined temperament.",
+    "cobblemon.species.budabon_unova.desc": "Budabon are a very resiliant Pokémon, seemingly being found across the world in a variety of forms. Because of how common Budabon are, it was the first documented Pokémon in the original Pokédex, making it Pokémon Number 0. This specific form of Budabon is known for its kleptomania and sneaky temperament.",
+    "cobblemon.species.budabon_kalos.desc": "Budabon are a very resiliant Pokémon, seemingly being found across the world in a variety of forms. Because of how common Budabon are, it was the first documented Pokémon in the original Pokédex, making it Pokémon Number 0. This specific form of Budabon is known for its constant dizziness and confused temperament.",
+    "cobblemon.species.budabon_alola.desc": "Budabon are a very resiliant Pokémon, seemingly being found across the world in a variety of forms. Because of how common Budabon are, it was the first documented Pokémon in the original Pokédex, making it Pokémon Number 0. This specific form of Budabon is known for its massive head and excited temperament.",
+    "cobblemon.species.budabon_galar.desc": "Budabon are a very resiliant Pokémon, seemingly being found across the world in a variety of forms. Because of how common Budabon are, it was the first documented Pokémon in the original Pokédex, making it Pokémon Number 0. This specific form of Budabon is known for its chivalry and confident temperament.",
+    "cobblemon.species.budabon_hisui.desc": "Budabon are a very resiliant Pokémon, seemingly being found across the world in a variety of forms. Because of how common Budabon are, it was the first documented Pokémon in the original Pokédex, making it Pokémon Number 0. This specific form of Budabon is known for its relation to Sinnohan Budabon and troublesome temperament.",
+    "cobblemon.species.budabon_paldea.desc": "Budabon are a very resiliant Pokémon, seemingly being found across the world in a variety of forms. Because of how common Budabon are, it was the first documented Pokémon in the original Pokédex, making it Pokémon Number 0. This specific form of Budabon is known for its emotional outbursts and fearful temperament.",
+    "cobblemon.species.budabon_sanrosa.desc": "Budabon are a very resiliant Pokémon, seemingly being found across the world in a variety of forms. Because of how common Budabon are, it was the first documented Pokémon in the original Pokédex, making it Pokémon Number 0. This specific form of Budabon is known for its sharp spikes and its bold temperament.",
+    "cobblemon.species.budabon_lumora.desc": "Budabon are a very resiliant Pokémon, seemingly being found across the world in a variety of forms. Because of how common Budabon are, it was the first documented Pokémon in the original Pokédex, making it Pokémon Number 0. This specific form of Budabon is known for its nocturnal  ways and whimsical temperament.",
+    "cobblemon.species.budabon_alatia.desc": "Budabon are a very resiliant Pokémon, seemingly being found across the world in a variety of forms. Because of how common Budabon are, it was the first documented Pokémon in the original Pokédex, making it Pokémon Number 0. This specific form of Budabon is known for its acidic skin and carefree temperament.",
+    "cobblemon.species.budabon_laser.desc": "Budabon are a very resiliant Pokémon, seemingly being found across the world in a variety of forms. Because of how common Budabon are, it was the first documented Pokémon in the original Pokédex, making it Pokémon Number 0. This specific form of Budabon is known for its glowing skin and cautious temperament.",
+    "cobblemon.species.budabon_jetia.desc": "Budabon are a very resiliant Pokémon, seemingly being found across the world in a variety of forms. Because of how common Budabon are, it was the first documented Pokémon in the original Pokédex, making it Pokémon Number 0. This specific form of Budabon is known for its tear-inducing skin and mischevious temperament. Some scientists argue that Jetian Budabon isn't a true Budabon because it doesn't resemble a fruit, but these scientists fail to realize how awesome Jetian Budabon is.",
+
+    "advancements.cobblemon.catch_all_budabon": "From Across the Regions",
+    "advancements.cobblemon.catch_all_budabon.description": "Find a Budabon form from every region",
+
+    "advancements.cobblemon.catch_all_budabon_including_fakemon": "Fakemon Party",
+    "advancements.cobblemon.catch_all_budabon_including_fakemon.description": "Get every Budabon form, inclduing the ones from Fakemon Regions",
+
+    "advancements.cobblemon.catch_all_budabon_shiny": "The Garden of Hesperides",
+    "advancements.cobblemon.catch_all_budabon_shiny.description": "Get a shiny for every form of Budabon and watch them glitter",
+
+    "cobblemon.starterselection.category.sanrosa": "Sanrosa",
+
+    "cobblemon.ability.honeypot": "Honeypot",
+    "cobblemon.ability.honeypot.desc": "This Pokémon eats the stored honey inside its hive, healing it 1/16th of its health every turn.",
+
+    "cobblemon.ability.starlight": "Starlight",
+    "cobblemon.ability.starlight.desc": "This Pokémon and its allies can never miss a damaging attack. This does not effect one-hit knockout moves.",
+
+    "cobblemon.ability.apexpredator": "Apex Predator",
+    "cobblemon.ability.apexpredator.desc": "When the Pokémon enters a battle, it uses its expert hunting skills to lower the opposing Pokémon's Defence stats.",
+
+    "cobblemon.ability.cumulonimbus": "Cumulonimbus",
+    "cobblemon.ability.cumulonimbus.desc": "This Pokémon's moves do 50% more damage if there is weather on the field.",
+
+    "cobblemon.ability.linkedminds": "Linked Minds",
+    "cobblemon.ability.linkedminds.desc": "This Pokémon is made up of two linked minds that attack synchronously.",
+
+    "cobblemon.ability.undertow": "Undertow",
+    "cobblemon.ability.undertow.desc": "This Pokémon's moves will always target all opposing Pokémon on the field.",
+
+    "cobblemon.ability.magicdrain": "Magic Drain",
+    "cobblemon.ability.magicdrain.desc": "This Pokémon's drains the magical power of its foes, lowering their Special Attack every turn.",
+
+    "wallpaper.mielador": "Smokey the Bear",
+    "wallpaper.polporos": "Ancient Sunset",
+    "wallpaper.seibat": "Seibat",
+
+    "cobblemon.ui.pokedex.info.form.lively": "Sanrosan",
+    "cobblemon.ui.pokedex.info.form.sandile": "",
+    "cobblemon.ui.pokedex.info.form.sandile-lively": "Sanrosan",
+    "cobblemon.ui.pokedex.info.form.krokorok": "",
+    "cobblemon.ui.pokedex.info.form.krokorok-lively": "Sanrosan",
+    "cobblemon.ui.pokedex.info.form.krookodile": "",
+    "cobblemon.ui.pokedex.info.form.krookodile-lively": "Sanrosan",
+    "cobblemon.ui.pokedex.info.form.shuckle": "",
+    "cobblemon.ui.pokedex.info.form.shuckle-galar": "Sanrosan",
+    "cobblemon.ui.pokedex.info.form.heracross": "",
+    "cobblemon.ui.pokedex.info.form.heracross-paldea": "Sanrosan",
+    "cobblemon.ui.pokedex.info.form.sandygast": "",
+    "cobblemon.ui.pokedex.info.form.sandygast-sanrosa": "Sanrosan",
+    "cobblemon.ui.pokedex.info.form.tropius": "",
+    "cobblemon.ui.pokedex.info.form.tropius-sanrosa": "Sanrosan",
+
+    
+    "cobblemon.ui.pokedex.info.form.palobod": "",
+    "cobblemon.ui.pokedex.info.form.palobod-prideful": "Prideful",
+    "cobblemon.ui.pokedex.info.form.palobod-mighty": "Mighty",
+    "cobblemon.ui.pokedex.info.form.palobod-nerdy": "Nerdy",
+    "cobblemon.ui.pokedex.info.form.palobod-spiral": "Spiral",
+    "cobblemon.ui.pokedex.info.form.palobod-thinker": "Thinker",
+    "cobblemon.ui.pokedex.info.form.palobod-striking": "Striking",
+
+    "cobblemon.ui.pokedex.info.form.budabon-kantonian": "Kantonian",
+    "cobblemon.ui.pokedex.info.form.budabon-johtonian": "Johtonian",
+    "cobblemon.ui.pokedex.info.form.budabon-hoennian": "Hoennian",
+    "cobblemon.ui.pokedex.info.form.budabon-sinnohan": "Sinnohan",
+    "cobblemon.ui.pokedex.info.form.budabon-unovan": "Unovan",
+    "cobblemon.ui.pokedex.info.form.budabon-kalosian": "Kalosian",
+    "cobblemon.ui.pokedex.info.form.budabon-alolan": "Alolan",
+    "cobblemon.ui.pokedex.info.form.budabon-galarian": "Galarian",
+    "cobblemon.ui.pokedex.info.form.budabon-hisuian": "Hisuian",
+    "cobblemon.ui.pokedex.info.form.budabon-paldean": "Paldean",
+    "cobblemon.ui.pokedex.info.form.budabon-sanrosan": "Sanrosan",
+    "cobblemon.ui.pokedex.info.form.budabon-lumoran": "Lumoran",
+    "cobblemon.ui.pokedex.info.form.budabon-laser": "Laser",
+    "cobblemon.ui.pokedex.info.form.budabon-alatian": "Alatian",
+    "cobblemon.ui.pokedex.info.form.budabon-jetian": "Jetian",
+    
+    "cobblemon.ui.pokedex.region.lively": "Sanrosa",
+    "cobblemon.ui.pokedex.region.budabon": "Budabon"
+}

@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:sandygast",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": ["sanrosan"],
+        "poser": "cobblemon:sandygastsanrosa",
+        "model": "cobblemon:sandygastsanrosa.geo",
+        "texture": "cobblemon:textures/pokemon/sandygastsanrosa/sandygastsanrosa.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny", "sanrosan"],
+        "texture": "cobblemon:textures/pokemon/sandygastsanrosa/sandygastsanrosa_shiny.png",
+        "layers":[]
+      }
+  ]
+}

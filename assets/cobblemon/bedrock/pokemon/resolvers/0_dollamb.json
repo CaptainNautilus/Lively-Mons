@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:dollamb",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:dollamb",
+        "model": "cobblemon:dollamb.geo",
+        "texture": "cobblemon:textures/pokemon/dollamb/dollamb.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/dollamb/dollamb_shiny.png"
+      }
+    ]
+  }

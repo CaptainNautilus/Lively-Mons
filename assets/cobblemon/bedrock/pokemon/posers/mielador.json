@@ -1,0 +1,95 @@
+{
+  "portraitScale": 1.6,
+  "portraitTranslation": [-0.145, 1.2, 0],
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1, 0],
+  "rootBone": "mielador",
+  "animations": {
+    "faint": "q.bedrock_primary('mielador', 'faint', q.curve('symmetrical'))",
+    "physical": "q.bedrock_primary('mielador', 'physical', q.curve('symmetrical'))",
+    "cry": "q.bedrock_stateful('mielador', 'cry')",
+    "recoil": "q.bedrock_stateful('mielador', 'recoil')"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND","FLOAT","PROFILE","PORTRAIT"],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('mielador', 'ground_idle')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('mielador', 'blink')"
+      ]
+    },
+    "hover": {
+      "poseName": "hover",
+      "poseTypes": ["FLOAT", "HOVER"],
+      "quirks": ["q.bedrock_quirk('mielador', 'blink')"],
+          "namedAnimations": {
+          "faint": "q.bedrock_stateful('mielador', 'faint_air')"
+          },
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('mielador', 'air_idle')",
+        "q.pitch_tilt('body', 0.5)"
+    ]
+    },
+    "fly": {
+      "poseName": "fly",
+      "poseTypes": ["FLY", "SWIM"],
+      "quirks": ["q.bedrock_quirk('mielador', 'blink')"],
+          "namedAnimations": {
+          "faint": "q.bedrock_stateful('mielador', 'faint_air')"
+          },
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('mielador', 'air_fly')",
+        "q.pitch_tilt('body', 0.5)",
+        "q.bedrock('mielador', 'ride_dive')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('mielador', 'ride_air_fly')"
+        }
+      ]
+    },
+     "air-sleep": {
+      "poseName": "air_sleep",
+       "poseTypes": ["SLEEP"],
+       "condition": "q.is_flying",
+       "namedAnimations": {
+         "cry": "q.bedrock_stateful('dummy', 'cry')"
+       },
+       "animations": [
+         "q.bedrock('mielador', 'sleep_air')"
+       ]
+     },
+    "battle-sleep": {
+      "poseName": "battle_sleep",
+       "condition": "!q.is_flying",
+      "poseTypes": ["SLEEP"],
+      "isBattle": true,
+          "namedAnimations": {
+          "cry": "q.bedrock_stateful('dummy', 'cry')"
+          },
+      "animations": [
+        "q.bedrock('mielador', 'battle_sleep')"
+      ],
+      "transformTicks": 10
+    },
+    "sleep": {
+      "poseName": "sleep",
+       "condition": "!q.is_flying",
+      "poseTypes": ["SLEEP"],
+      "isBattle": false,
+          "namedAnimations": {
+          "cry": "q.bedrock_stateful('dummy', 'cry')"
+          },
+      "animations": [
+        "q.bedrock('mielador', 'sleep')"
+      ],
+      "transformTicks": 10
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+    "species": "cobblemon:solarica",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:solarica",
+        "model": "cobblemon:solarica.geo",
+        "texture": "cobblemon:textures/pokemon/solarica/solarica.png",
+        "layers": [
+            {
+                "name": "animation",
+                "texture": {
+                  "frames": [
+                    "cobblemon:textures/pokemon/solarica/animation/solarica_flame1.png",
+                    "cobblemon:textures/pokemon/solarica/animation/solarica_flame2.png",
+                    "cobblemon:textures/pokemon/solarica/animation/solarica_flame3.png",
+                    "cobblemon:textures/pokemon/solarica/animation/solarica_flame4.png"
+                  ],
+                  "fps": 10,
+                  "loop": true
+                },
+                "emissive":true,
+                "translucent": true
+            }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/solarica/solarica_shiny.png",
+        "layers": [
+            {
+                "name": "animation",
+                "texture": {
+                  "frames": [
+                    "cobblemon:textures/pokemon/solarica/animation/solarica_shiny_flame1.png",
+                    "cobblemon:textures/pokemon/solarica/animation/solarica_shiny_flame2.png",
+                    "cobblemon:textures/pokemon/solarica/animation/solarica_shiny_flame3.png",
+                    "cobblemon:textures/pokemon/solarica/animation/solarica_shiny_flame4.png"
+                  ],
+                  "fps": 10,
+                  "loop": true
+                },
+                "emissive":true,
+                "translucent": true
+            }
+        ]
+      }
+    ]
+  }

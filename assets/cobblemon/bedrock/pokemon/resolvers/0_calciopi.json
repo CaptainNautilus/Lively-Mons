@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:calciopi",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:calciopi",
+        "model": "cobblemon:calciopi.geo",
+        "texture": "cobblemon:textures/pokemon/calciopi/calciopi.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/calciopi/calciopi_shiny.png"
+      }
+    ]
+  }

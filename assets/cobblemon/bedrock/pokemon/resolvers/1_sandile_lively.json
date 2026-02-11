@@ -1,0 +1,26 @@
+{
+    "species": "cobblemon:sandile",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": [ "lively"],
+        "poser": "cobblemon:sandilelively",
+        "model": "cobblemon:sandilelively.geo",
+        "texture": "cobblemon:textures/pokemon/sandilelively/sandilelively.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny", "lively" ],
+        "texture": "cobblemon:textures/pokemon/sandilelively/sandilelively_shiny.png",
+        "layers":[]
+    },
+    {
+      "aspects": ["lively", "cosmetic_item-black_glasses"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/sandilelively/sandilelively_sunglasses.png"
+        }
+      ]
+    }
+  ]
+}

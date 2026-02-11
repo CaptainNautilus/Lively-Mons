@@ -1,0 +1,63 @@
+{
+      "portraitScale": 2.35,
+      "portraitTranslation": [-0.25, -0.2, 0],
+      "profileScale": 0.6,
+      "profileTranslation": [0, 0.9, 0],
+  "rootBone": "haghoula",
+  "animations": {
+    "faint": "q.bedrock_primary('haghoula', 'faint', q.curve('symmetrical'))",
+    "cry": "q.bedrock_stateful('haghoula', 'cry')",
+    "recoil": "q.bedrock_stateful('haghoula', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND","FLOAT"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('haghoula', 'battle_idle')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('haghoula', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND","FLOAT","NONE","PROFILE","PORTRAIT"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('haghoula', 'ground_idle')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('haghoula', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK","SWIM"],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('haghoula', 'ground_walk')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('haghoula', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseName": "sleep",
+      "poseTypes": ["SLEEP"],
+          "namedAnimations": {
+          "cry": "q.bedrock_stateful('dummy', 'cry')"
+          },
+      "animations": [
+        "q.bedrock('haghoula', 'sleep')"
+      ],
+      "transformTicks": 10
+    }
+  }
+}

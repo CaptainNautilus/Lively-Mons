@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:xenoster",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:xenoster",
+      "model": "cobblemon:xenoster.geo",
+      "texture": "cobblemon:textures/pokemon/xenoster/xenoster.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/xenoster/xenoster_emissive.png",
+          "translucent": true
+    }
+      ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/xenoster/xenoster_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/xenoster/xenoster_shiny_emissive.png",
+          "translucent": true
+    }
+      ]
+    }
+  ]
+}

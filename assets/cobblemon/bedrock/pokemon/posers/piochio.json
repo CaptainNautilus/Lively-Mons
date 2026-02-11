@@ -1,0 +1,43 @@
+{
+      "portraitScale": 2.5,
+      "portraitTranslation": [0, -1.65, 0],
+      "profileScale": 1.2,
+      "profileTranslation": [0, 0, 0],
+  "rootBone": "piochio",
+  "animations": {
+    "faint": "q.bedrock_primary('piochio', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('piochio', 'cry')",
+    "recoil": "q.bedrock_stateful('piochio', 'recoil')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('torso')",
+        "q.bedrock('piochio', 'ground_idle')",
+        "q.bedrock('piochio', 'wind_up')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('piochio', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 1, 10, 1)"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('torso')",
+        "q.bedrock('piochio', 'ground_walk')",
+        "q.bedrock('piochio', 'wind_down')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('piochio', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4'), 1, 10, 1)"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('piochio', 'sleep')"],
+            "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

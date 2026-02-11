@@ -1,0 +1,51 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [-0.2, -0.6, 0],
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.55, 0],
+  "rootBone": "grubbee",
+  "animations": {
+    "faint": "q.bedrock_primary('grubbee', 'faint', q.curve('symmetrical'))",
+    "physical": "q.bedrock_primary('grubbee', 'physical', q.curve('symmetrical'))",
+    "cry": "q.bedrock_stateful('grubbee', 'cry')",
+    "recoil": "q.bedrock_stateful('grubbee', 'recoil')",
+    "ability": "q.bedrock_primary('grubbee', 'honeypot')"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND","FLOAT","PROFILE","PORTRAIT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('grubbee', 'ground_idle')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('grubbee', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK","SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('grubbee', 'ground_walk')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('grubbee', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseName": "sleep",
+      "poseTypes": ["SLEEP"],
+          "namedAnimations": {
+          "cry": "q.bedrock_stateful('dummy', 'cry')"
+          },
+      "animations": [
+        "q.bedrock('grubbee', 'sleep')"
+      ],
+      "transformTicks": 10
+    }
+  }
+}

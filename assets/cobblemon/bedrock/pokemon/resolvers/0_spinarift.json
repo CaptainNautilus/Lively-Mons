@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:spinarift",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:spinarift",
+        "model": "cobblemon:spinarift.geo",
+        "texture": "cobblemon:textures/pokemon/spinarift/spinarift.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/spinarift/spinarift_shiny.png"
+      }
+    ]
+  }

@@ -1,0 +1,118 @@
+  {
+      "portraitScale": 2.3,
+      "portraitTranslation": [-0.9, 3.35, 0],
+      "profileScale": 0.45,
+      "profileTranslation": [0, 1.1, 0],
+  "rootBone": "ostrike",
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 0.35, 0],
+    "seat_1_reverse": [0, 0.35, 0]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 0.35, 0],
+    "seat_1_reverse": [0, 0.35, 0]
+  },
+  "animations": {
+    "faint": "q.bedrock_primary('ostrike', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('ostrike', 'cry')",
+    "recoil": "q.bedrock_stateful('ostrike', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "condition": "q.has_entity ? !q.in_air : 1.0",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('ostrike', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ostrike', 'blink')"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('ostrike', 'battle_cry', q.curve('symmetrical_wide'))"
+      }
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "condition": "q.has_entity ? !q.in_air : 1.0",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('ostrike', 'ground_idle')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('ostrike', 'ride_ground_walk')"
+        },
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('ostrike', 'ride_overlay')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ostrike', 'blink')",
+        "q.bedrock_quirk('ostrike', 'quirk', 10, 60, 1)"
+      ]
+    },
+    "in_air": {
+      "poseTypes": ["WALK","STAND", "NONE"],
+      "condition": "q.has_entity ? q.in_air && q.is_ridden : 0.0",
+      "animations": [
+        "q.look('head')", 
+        "q.bedrock('ostrike', 'ride_jump')",
+        "q.bedrock('ostrike', 'ground_run')",
+        "q.bedrock('ostrike', 'wheel_spin')",
+        "q.bedrock('ostrike', 'wheel_crackle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ostrike', 'blink')"
+      ],
+      "transformTicks": 5,
+      "transformToTicks": 5
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "condition": "q.has_entity ? !q.in_air && !q.is_sprinting : 1.0",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('ostrike', 'ground_walk')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('ostrike', 'ride_ground_walk')"
+        },
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('ostrike', 'ride_overlay')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ostrike', 'blink')"
+      ]
+    },
+    "running": {
+      "poseTypes": ["WALK", "SWIM"],
+      "condition": "q.has_entity ? !q.in_air && q.is_sprinting : 0.0",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('ostrike', 'ground_run')",
+        "q.bedrock('ostrike', 'wheel_spin')",
+        "q.bedrock('ostrike', 'wheel_crackle')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('ostrike', 'ride_ground_run')"
+        }
+      ],
+      "quirks": ["q.bedrock_quirk('ostrike', 'blink')", "q.bedrock_quirk('ostrike', 'quirk_run', 1, 4, 1)"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('ostrike', 'sleep')"],
+            "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+    "head": "head_ai",
+      "portraitScale": 1.45,
+      "portraitTranslation": [ -0.35, 0, 0],
+      "profileScale": 0.9,
+      "profileTranslation": [ 0, 0.4, 0 ],
+      "animations": {
+    "cry": "q.bedrock_stateful('dollamb', 'cry')",
+    "recoil": "q.bedrock_stateful('dollamb', 'recoil')",
+    "faint": "q.bedrock_primary('dollamb', 'faint', q.curve('one'))"
+      },
+      "poses": {
+        "battle-idle": {
+            "poseName": "battle-idle",
+            "transformTicks": 10,
+            "poseTypes": ["STAND"],
+            "isBattle": true,
+            "isTouchingWater": false,
+            "animations": [
+              "look",
+              "bedrock(dollamb, battle_idle)"],
+            "quirks": [
+              {
+                "name": "blink",
+                "loopTimes": 1,
+                "minSecondsBetweenOccurrences": 8,
+                "maxSecondsBetweenOccurrences": 20,
+                "animations": ["bedrock(dollamb, blink)"]
+              }
+            ]
+          },
+      "standing": {
+          "poseName": "standing",
+          "transformTicks": 10,
+          "poseTypes": [
+          "STAND",
+          "NONE",
+          "PORTRAIT",
+          "PROFILE"
+          ],
+          "isBattle": false,
+          "animations": [
+            "look",
+          "bedrock(dollamb, ground_idle)"
+          ],
+          "quirks": [
+              {
+                "name": "blink",
+                "loopTimes": 1,
+                "minSecondsBetweenOccurrences": 8,
+                "maxSecondsBetweenOccurrences": 20,
+                "animations": ["bedrock(dollamb, blink)"]
+              }
+      ]
+      },
+      "walking": {
+          "poseName": "walking",
+          "transformTicks": 10,
+          "poseTypes": [ "WALK" ],
+          "animations": [ "look",
+          "bedrock(dollamb, ground_walk)"]
+      },
+      
+      "sleeping": {
+          "poseName": "sleeping",
+          "transformTicks": 10,
+          "poseTypes": [ "SLEEP" ],
+          "animations": [ "bedrock(dollamb, sleep)"]
+      }
+    }
+  }

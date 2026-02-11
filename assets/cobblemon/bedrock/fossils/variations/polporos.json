@@ -1,0 +1,14 @@
+{
+    "name": "cobblemon:polporos_fetus",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:polporos_fetus",
+        "model": "cobblemon:polporos_fetus.geo",
+        "texture": "cobblemon:textures/fossils/polporos_fetus.png",
+        "layers": []
+      }
+    ]
+  }
+  

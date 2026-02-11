@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:budabon",
+    "order": 10,
+    "variations": [
+      {
+        "aspects": [ "sanrosan"],
+        "poser": "cobblemon:budabon_sanrosa",
+        "model": "cobblemon:budabon_sanrosa.geo",
+        "texture": "cobblemon:textures/pokemon/budabon/budabon_sanrosa.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny", "sanrosan" ],
+        "texture": "cobblemon:textures/pokemon/budabon/budabon_sanrosa_shiny.png",
+        "layers":[]
+      }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:voltite",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:voltite",
+        "model": "cobblemon:voltite.geo",
+        "texture": "cobblemon:textures/pokemon/voltite/voltite.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/voltite/voltite_shiny.png"
+      }
+    ]
+  }

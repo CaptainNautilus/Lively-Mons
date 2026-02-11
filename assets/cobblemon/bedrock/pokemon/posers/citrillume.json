@@ -1,0 +1,50 @@
+    {
+      "portraitScale": 1.8,
+      "portraitTranslation": [0, 0.2, 0],
+      "profileScale": 0.7,
+      "profileTranslation": [0, 0.8, 0],
+  "rootBone": "citrillume",
+  "animations": {
+    "faint": "q.bedrock_primary('citrillume', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('citrillume', 'cry')",
+    "recoil": "q.bedrock_stateful('citrillume', 'recoil')",
+    "physical": "q.bedrock_primary('citrillume', 'physical', q.curve('symmetrical'))",
+    "special": "q.bedrock_primary('citrillume', 'special', q.curve('symmetrical'))",
+    "status": "q.bedrock_primary('citrillume', 'status', q.curve('symmetrical'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.pitch_tilt('body')", "q.look('head')", "q.bedrock('citrillume', 'battle_idle')"],
+      "quirks": [
+        "q.bedrock_quirk('citrillume', 'blink')",
+        "q.bedrock_quirk('citrillume', 'quirk')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "HOVER"],
+      "isBattle": false,
+      "animations": ["q.pitch_tilt('body')", "q.look('head')", "q.bedrock('citrillume', 'ground_idle')"],
+      "quirks": [
+        "q.bedrock_quirk('citrillume', 'blink')",
+        "q.bedrock_quirk('citrillume', 'quirk')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM", "FLY"],
+      "animations": ["q.pitch_tilt('body')", "q.look('head')", "q.bedrock('citrillume', 'ground_walk')"],
+      "quirks": [
+        "q.bedrock_quirk('citrillume', 'blink')",
+        "q.bedrock_quirk('citrillume', 'quirk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('citrillume', 'sleep')"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

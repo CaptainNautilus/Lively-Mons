@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:budabon",
+    "order": 5,
+    "variations": [
+      {
+        "aspects": [ "kalosian"],
+        "poser": "cobblemon:budabon_kalos",
+        "model": "cobblemon:budabon_kalos.geo",
+        "texture": "cobblemon:textures/pokemon/budabon/budabon_kalos.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny", "kalosian" ],
+        "texture": "cobblemon:textures/pokemon/budabon/budabon_kalos_shiny.png",
+        "layers":[]
+      }
+  ]
+}

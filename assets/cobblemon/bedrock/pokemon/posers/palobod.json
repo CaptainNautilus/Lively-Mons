@@ -1,0 +1,70 @@
+{
+  "portraitScale": 2.0,
+  "portraitTranslation": [-0.3, 1.2, 0],
+  "profileScale": 0.75,
+  "profileTranslation": [-0.1, 0.66, 0],
+  "rootBone": "palobod",
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 0.35, 0],
+    "seat_1_reverse": [0, 0.35, 0]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 0.35, 0],
+    "seat_1_reverse": [0, 0.35, 0]
+  },
+   "animations": {
+     "faint": "q.bedrock_primary('palobod', 'faint', q.curve('one'))",
+     "cry": "q.bedrock_stateful('palobod', 'cry')",
+     "recoil": "q.bedrock_stateful('palobod', 'recoil')"
+   },
+   "poses": {
+     "standing": {
+       "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+       "animations": [
+        "q.look('head')",
+         "q.bedrock('palobod', 'ground_idle')"
+       ],
+       "quirks": [
+         "q.bedrock_quirk('palobod', 'blink')"
+       ]
+     },
+     "walking": {
+      "condition": "!q.is_sprinting",
+       "poseTypes": ["WALK", "SWIM"],
+       "animations": [
+        "q.look('head')",
+         "q.bedrock('palobod', 'ground_walk')"
+       ],
+       "quirks": ["q.bedrock_quirk('palobod', 'blink')"]
+     },
+    "running": {
+      "poseTypes": ["WALK", "SWIM"],
+      "condition": "q.is_sprinting",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('palobod', 'ground_idle')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('palobod', 'ride_ground_run')"
+        },
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('palobod', 'ride_ground_run_sound')"
+        }
+      ],
+       "quirks": ["q.bedrock_quirk('palobod', 'blink')"]
+    },
+     "sleeping": {
+       "poseTypes": ["SLEEP"],
+       "namedAnimations": {
+         "cry": "q.bedrock_stateful('dummy', 'cry')"
+       },
+       "animations": [
+         "q.bedrock('palobod', 'sleep')"
+       ]
+     }
+   }
+}

@@ -1,0 +1,31 @@
+{
+    "species": "cobblemon:slimara",
+    "order": 0,
+    "variations": [
+      {
+        "poser": "cobblemon:slimara",
+        "model": "cobblemon:slimara.geo",
+        "texture": "cobblemon:textures/pokemon/slimara/slimara.png",
+        "layers": [
+          {
+            "name": "apparition",
+            "texture": "cobblemon:textures/pokemon/slimara/slimara_transparent.png",
+            "translucent": true,
+            "emissive":true
+          }  
+        ]
+      },
+      {
+        "aspects": [ "shiny"],
+        "texture": "cobblemon:textures/pokemon/slimara/slimara_shiny.png",
+        "layers":[
+          {
+          "name": "apparition",
+          "texture": "cobblemon:textures/pokemon/slimara/slimara_shiny_transparent.png",
+          "translucent": true,
+          "emissive":true
+        }  
+      ]
+    }
+  ]
+}

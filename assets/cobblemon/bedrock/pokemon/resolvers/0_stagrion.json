@@ -1,0 +1,43 @@
+{
+    "species": "cobblemon:stagrion",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:stagrion",
+        "model": "cobblemon:stagrion.geo",
+        "texture": "cobblemon:textures/pokemon/stagrion/stagrion.png",
+        "layers": [
+        {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/stagrion/stagrion_emissive.png",
+            "translucent": true
+        },
+        {
+            "name": "transparent",
+            "texture": "cobblemon:textures/pokemon/stagrion/stagrion_transparency.png",
+            "translucent": true
+        }  
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/stagrion/stagrion_shiny.png",
+        "layers":[
+        {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/stagrion/stagrion_shiny_emissive.png",
+            "translucent": true
+        },
+        {
+            "name": "transparent",
+            "texture": "cobblemon:textures/pokemon/stagrion/stagrion_shiny_transparency.png",
+            "translucent": true
+        }
+
+        ]
+      }
+    ]
+}

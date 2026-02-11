@@ -1,0 +1,62 @@
+{
+      "portraitScale": 1.7,
+      "portraitTranslation": [-1.3, -0.4, 0],
+      "profileScale": 0.55,
+      "profileTranslation": [0, 0.9, 0],
+  "rootBone": "lupayena",
+  "animations": {
+    "faint": "q.bedrock_primary('lupayena', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('lupayena', 'cry')",
+    "recoil": "q.bedrock_stateful('lupayena', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "PORTRAIT", "PROFILE"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head', 0.5, 0, 35, -35, 0, 0)",
+        "q.look('ear_left', -0.5, 0)",
+        "q.look('ear_right', -0.5, 0)",
+        "q.bedrock('lupayena', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lupayena', 'blink')",
+        "q.bedrock_quirk('lupayena', 'quirk')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head', 0.5, 0, 35, -35, 0, 0)",
+        "q.look('ear_left', -0.5, 0)",
+        "q.look('ear_right', -0.5, 0)",
+        "q.bedrock('lupayena', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lupayena', 'blink')",
+        "q.bedrock_quirk('lupayena', 'quirk')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head', 0.5, 0, 35, -35, 0, 0)",
+        "q.look('ear_left', -0.5, 0)",
+        "q.look('ear_right', -0.5, 0)",
+        "q.bedrock('lupayena', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lupayena', 'blink')",
+        "q.bedrock_quirk('lupayena', 'quirk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('lupayena', 'sleep')"],
+            "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

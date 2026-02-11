@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:pillosinge",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:pillosinge",
+        "model": "cobblemon:pillosinge.geo",
+        "texture": "cobblemon:textures/pokemon/pillosinge/pillosinge.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/pillosinge/pillosinge_shiny.png"
+      }
+    ]
+  }

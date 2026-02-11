@@ -1,0 +1,159 @@
+{
+      "portraitScale": 1.55,
+      "portraitTranslation": [-1.1, 1.375, 0],
+      "profileScale": 0.325,
+      "profileTranslation": [0, 1.3, -5],
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, -0.2]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 1.4, 1.5],
+    "seat_1_reverse": [0, 1.4, 1.5]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 1.4, 1.5],
+    "seat_1_reverse": [0, 1.4, 1.5]
+  },
+  "rootBone": "spinarift",
+  "animations": {
+    "faint": "q.bedrock_primary('spinarift', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('spinarift', 'cry')",
+    "recoil": "q.bedrock_stateful('spinarift', 'recoil')"
+  },
+  "poses": {
+    "swim-ride": {
+      "poseTypes": ["SWIM", "WALK", "NONE"],
+      "isTouchingWater": true,
+      "condition": "!q.in_air && q.is_ridden",
+      "animations": [
+        "q.look('head', 1, 0.25)",
+        "q.bedrock('spinarift', 'water_swim_ride')",
+        "q.bedrock('spinarift', 'ride_water_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('spinarift', 'blink')",
+        "q.bedrock_quirk('spinarift', 'quirk1')",
+        "q.bedrock_quirk('spinarift', 'quirk2')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM", "WALK", "NONE"],
+      "isTouchingWater": true,
+      "condition": "!q.in_air && !q.is_ridden",
+      "animations": [
+        "q.look('head', 1, 0.25)",
+        "q.bedrock('spinarift', 'water_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('spinarift', 'blink')",
+        "q.bedrock_quirk('spinarift', 'quirk1')",
+        "q.bedrock_quirk('spinarift', 'quirk2')"
+      ]
+    },
+      "in-air": {
+        "poseTypes": ["STAND", "WALK", "FLOAT", "SWIM"],
+        "isBattle": false,
+        "condition": "q.in_air && q.is_ridden",
+        "animations": ["q.look('head', 1, 0.25)", "q.bedrock('spinarift', 'ride_jump')"],
+        "transformTicks": 5,
+        "transformToTicks": 5
+      },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head', 1, 0.25)",
+        "q.bedrock('spinarift', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('spinarift', 'blink')",
+        "q.bedrock_quirk('spinarift', 'quirk1')",
+        "q.bedrock_quirk('spinarift', 'quirk2')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "condition": "!q.in_air",
+      "animations": [
+        "q.look('head', 1, 0.25)",
+        "q.bedrock('spinarift', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('spinarift', 'blink')",
+        "q.bedrock_quirk('spinarift', 'quirk1')",
+        "q.bedrock_quirk('spinarift', 'quirk2')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "condition": "!q.in_air && !q.is_sprinting",
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head', 1, 0.25)",
+        "q.bedrock('spinarift', 'ground_walk')",
+                {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('spinarift', 'ride_ground_run')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('spinarift', 'blink')",
+        "q.bedrock_quirk('spinarift', 'quirk1')",
+        "q.bedrock_quirk('spinarift', 'quirk2')"
+      ]
+    },
+      "run": {
+        "poseTypes": ["STAND","WALK"],
+      "isTouchingWater": false,
+        "isBattle": false,
+        "condition": "!q.in_air && q.is_sprinting",
+        "animations": [
+          "q.look('head', 1, 0.25)",
+          "q.bedrock('spinarift', 'ground_run')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('spinarift', 'ride_ground_run')"
+        }
+        ]
+      },
+    "float": {
+      "poseTypes": ["FLOAT", "STAND"],
+      "isTouchingWater": true,
+      "condition": "!q.in_air && !q.is_ridden",
+      "animations": [
+        "q.look('head', 1, 0.25)",
+        "q.bedrock('spinarift', 'water_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('spinarift', 'blink')",
+        "q.bedrock_quirk('spinarift', 'quirk1')",
+        "q.bedrock_quirk('spinarift', 'quirk2')"
+      ]
+    },
+    "float-ride": {
+      "poseTypes": ["FLOAT", "STAND"],
+      "isTouchingWater": true,
+      "condition": "!q.in_air && q.is_ridden",
+      "animations": [
+        "q.look('head', 1, 0.25)",
+        "q.bedrock('spinarift', 'water_idle_ride')",
+        "q.bedrock('spinarift', 'ride_water_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('spinarift', 'blink')",
+        "q.bedrock_quirk('spinarift', 'quirk1')",
+        "q.bedrock_quirk('spinarift', 'quirk2')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('spinarift', 'sleep')"],
+            "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

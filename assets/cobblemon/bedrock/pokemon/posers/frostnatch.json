@@ -1,0 +1,76 @@
+  {
+      "portraitScale": 2.7,
+      "portraitTranslation": [-0.2, -1.45, 0],
+      "profileScale": 1.4,
+      "profileTranslation": [0, -0.26, 0],
+  "rootBone": "frostnatch",
+  "animations": {
+    "faint": "q.bedrock_primary('frostnatch', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('frostnatch', 'cry')",
+    "recoil": "q.bedrock_stateful('frostnatch', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('frostnatch', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('frostnatch', 'blink')",
+        "q.bedrock_quirk('frostnatch', 'quirk', 10, 60, 1)",
+        "q.bedrock_quirk('frostnatch', 'battle_quirk', 10, 60, 1)"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_primary('frostnatch', 'battle_cry', q.curve('symmetrical_wide'))"
+      }
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('frostnatch', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('frostnatch', 'blink')",
+        "q.bedrock_quirk('frostnatch', 'quirk', 10, 60, 1)"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('frostnatch', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('frostnatch', 'blink')"
+      ]
+    },
+    "hover": {
+      "poseName": "hover",
+      "poseTypes": ["FLOAT", "HOVER"],
+      "quirks":
+      [
+        "q.bedrock_quirk('frostnatch', 'blink')",
+        "q.bedrock_quirk('frostnatch', 'quirk', 10, 60, 1)",
+        "q.bedrock_quirk('frostnatch', 'battle_quirk', 10, 60, 1)"
+      ],
+      "animations": ["q.pitch_tilt('body')", "q.look('head_ai')", "q.bedrock('frostnatch', 'air_idle')"]
+    },
+    "fly": {
+      "poseName": "fly",
+      "poseTypes": ["FLY", "SWIM"],
+      "quirks": ["q.bedrock_quirk('frostnatch', 'blink')"],
+      "animations": ["q.pitch_tilt('body')", "q.look('head_ai')", "q.bedrock('frostnatch', 'air_fly')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('frostnatch', 'sleep')"],
+            "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

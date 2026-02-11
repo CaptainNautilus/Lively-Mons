@@ -1,0 +1,54 @@
+{
+    "species": "cobblemon:krillcracker",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:krillcracker",
+        "model": "cobblemon:krillcracker.geo",
+        "texture": "cobblemon:textures/pokemon/krillcracker/krillcracker.png",
+        "layers": [
+            {
+                "name": "animation",
+                "texture": {
+                  "frames": [
+                    "cobblemon:textures/pokemon/krillcracker/animation/tail1.png",
+                    "cobblemon:textures/pokemon/krillcracker/animation/tail2.png",
+                    "cobblemon:textures/pokemon/krillcracker/animation/tail3.png",
+                    "cobblemon:textures/pokemon/krillcracker/animation/tail4.png",
+                    "cobblemon:textures/pokemon/krillcracker/animation/tail5.png",
+                    "cobblemon:textures/pokemon/krillcracker/animation/tail6.png",
+                    "cobblemon:textures/pokemon/krillcracker/animation/tail7.png"
+                  ],
+                  "fps": 5,
+                  "loop": true
+                },
+                "emissive":true
+              }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/krillcracker/krillcracker_shiny.png",
+        "layers":[
+        {
+            "name": "animation",
+            "texture": {
+              "frames": [
+                "cobblemon:textures/pokemon/krillcracker/animation/tail_shiny1.png",
+                "cobblemon:textures/pokemon/krillcracker/animation/tail_shiny2.png",
+                "cobblemon:textures/pokemon/krillcracker/animation/tail_shiny3.png",
+                "cobblemon:textures/pokemon/krillcracker/animation/tail_shiny4.png",
+                "cobblemon:textures/pokemon/krillcracker/animation/tail_shiny5.png",
+                "cobblemon:textures/pokemon/krillcracker/animation/tail_shiny6.png",
+                "cobblemon:textures/pokemon/krillcracker/animation/tail_shiny7.png"
+              ],
+              "fps": 5,
+              "loop": true
+            },
+            "emissive":true
+        }
+    ]
+      }
+    ]
+  }

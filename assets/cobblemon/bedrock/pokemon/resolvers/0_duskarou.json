@@ -1,0 +1,43 @@
+{
+    "species": "cobblemon:duskarou",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:duskarou",
+        "model": "cobblemon:duskarou.geo",
+        "texture": "cobblemon:textures/pokemon/duskarou/duskarou.png",
+        "layers": [
+        {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/duskarou/duskarou_emissive.png",
+            "translucent": true
+        },
+        {
+            "name": "transparent",
+            "texture": "cobblemon:textures/pokemon/duskarou/duskarou_transparency.png",
+            "translucent": true
+        }  
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/duskarou/duskarou_shiny.png",
+        "layers":[
+        {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/duskarou/duskarou_shiny_emissive.png",
+            "translucent": true
+        },
+        {
+            "name": "transparent",
+            "texture": "cobblemon:textures/pokemon/duskarou/duskarou_shiny_transparency.png",
+            "translucent": true
+        }
+
+        ]
+      }
+    ]
+}

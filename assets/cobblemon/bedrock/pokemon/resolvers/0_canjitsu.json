@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:canjitsu",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:canjitsu",
+        "model": "cobblemon:canjitsu.geo",
+        "texture": "cobblemon:textures/pokemon/canjitsu/canjitsu.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/canjitsu/canjitsu_shiny.png"
+      }
+    ]
+  }

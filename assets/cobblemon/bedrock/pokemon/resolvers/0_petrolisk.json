@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:petrolisk",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:petrolisk",
+        "model": "cobblemon:petrolisk.geo",
+        "texture": "cobblemon:textures/pokemon/petrolisk/petrolisk.png",
+        "layers": [
+              {
+                "name": "emissive",
+                "emissive": true,
+                "texture": "cobblemon:textures/pokemon/petrolisk/petrolisk_emissive.png",
+                "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/petrolisk/petrolisk_shiny.png",
+        "layers":[
+        {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/petrolisk/petrolisk_shiny_emissive.png",
+            "translucent": true
+      }
+    ]
+      }
+    ]
+  }

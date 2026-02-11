@@ -1,0 +1,48 @@
+{
+    "portraitScale": 1.75,
+    "portraitTranslation": [-0.1, -0.865, 0],
+    "profileScale": 0.9,
+    "profileTranslation": [0, 0.4, 0],
+    "rootBone": "taplatter",
+    "animations": {
+      "faint": "q.bedrock_primary('taplatter', 'faint', q.curve('one'))",
+      "cry": "q.bedrock_stateful('taplatter', 'cry')",
+      "recoil": "q.bedrock_stateful('taplatter', 'recoil')"
+    },
+    "poses": {
+      "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": ["q.bedrock('taplatter', 'battle_idle')"],
+        "quirks": [
+          "q.bedrock_quirk('taplatter', 'blink')",
+          "q.bedrock_quirk('taplatter', 'sniff_quirk')"
+        ]
+      },
+      "standing": {
+        "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+        "isBattle": false,
+        "animations": ["q.bedrock('taplatter', 'ground_idle')"],
+        "quirks": [
+          "q.bedrock_quirk('taplatter', 'blink')",
+          "q.bedrock_quirk('taplatter', 'sniff_quirk')"
+        ]
+      },
+      "walking": {
+        "poseTypes": ["WALK", "SWIM"],
+        "animations": ["q.bedrock('taplatter', 'ground_walk')"],
+        "quirks": [
+          "q.bedrock_quirk('taplatter', 'blink')",
+          "q.bedrock_quirk('taplatter', 'sniff_quirk')"
+        ]
+      },
+      "sleep": {
+        "poseTypes": ["SLEEP"],
+        "namedAnimations": {
+          "cry": "q.bedrock_stateful('dummy', 'cry')"
+        },
+        "animations": ["q.bedrock('taplatter', 'sleep')"],
+        "quirks": ["q.bedrock_quirk('taplatter', 'sniff_quirk')"]
+      }
+   }
+}

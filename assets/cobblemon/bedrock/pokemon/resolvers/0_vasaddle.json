@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:vasaddle",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:vasaddle",
+        "model": "cobblemon:vasaddle.geo",
+        "texture": "cobblemon:textures/pokemon/vasaddle/vasaddle.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/vasaddle/vasaddle_shiny.png"
+      }
+    ]
+  }

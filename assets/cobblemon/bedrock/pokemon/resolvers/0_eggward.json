@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:eggward",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:eggward",
+        "model": "cobblemon:eggward.geo",
+        "texture": "cobblemon:textures/pokemon/eggward/eggward.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/eggward/eggward_shiny.png"
+      }
+    ]
+  }

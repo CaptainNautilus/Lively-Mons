@@ -1,0 +1,95 @@
+{
+      "portraitScale": 1.85,
+      "portraitTranslation": [ -0.15, -1.15, 0],
+      "profileScale": 1,
+      "profileTranslation": [ 0, 0, 0 ],
+  "rootBone": "fossoil",
+  "animations": {
+    "faint": "q.bedrock_primary('fossoil', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('fossoil', 'cry')",
+    "recoil": "q.bedrock_stateful('fossoil', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isTouchingWater": false,
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('fossoil', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('fossoil', 'shifty')",
+        "q.bedrock_quirk('fossoil', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND"],
+      "isTouchingWater": false,
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('fossoil', 'ground_idle')"],
+      "quirks": [
+        "q.bedrock_quirk('fossoil', 'shifty')",
+        "q.bedrock_quirk('fossoil', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('fossoil', 'ground_walk')"
+    ],
+      "quirks": [
+        "q.bedrock_quirk('fossoil', 'shifty')",
+        "q.bedrock_quirk('fossoil', 'blink')"
+      ]
+    },
+    "floating": {
+      "poseTypes": ["PORTRAIT", "PROFILE", "FLOAT"],
+      "namedAnimations": {
+        "faint": "q.bedrock_primary('fossoil', 'faint_water', q.curve('one'))",
+        "recoil": "q.bedrock_stateful('fossoil', 'recoil_water')"
+      },
+      "animations": ["q.pitch_tilt('body')", 
+        "q.look('head')",
+        "q.bedrock('fossoil', 'water_idle')"],
+      "quirks": [
+        "q.bedrock_quirk('fossoil', 'shifty')",
+        "q.bedrock_quirk('fossoil', 'blink')"
+      ]
+    },
+    "swimming": {
+      "poseTypes": ["SWIM"],
+      "namedAnimations": {
+        "faint": "q.bedrock_primary('fossoil', 'faint_water', q.curve('one'))",
+        "recoil": "q.bedrock_stateful('fossoil', 'recoil_water')"
+      },
+      "animations": ["q.pitch_tilt('body')", 
+        "q.look('head')",
+        "q.bedrock('fossoil', 'water_swim')"
+    ],
+      "quirks": [
+        "q.bedrock_quirk('fossoil', 'shifty')",
+        "q.bedrock_quirk('fossoil', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "isTouchingWater": false,
+      "animations": ["q.bedrock('fossoil', 'sleep')"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    },
+    "water-sleep": {
+      "poseTypes": ["SLEEP"],
+      "isTouchingWater": true,
+      "animations": ["q.bedrock('fossoil', 'water_sleep')"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

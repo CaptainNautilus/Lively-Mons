@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:taplatter",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:taplatter",
+        "model": "cobblemon:taplatter.geo",
+        "texture": "cobblemon:textures/pokemon/taplatter/taplatter.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/taplatter/taplatter_shiny.png"
+      }
+    ]
+  }

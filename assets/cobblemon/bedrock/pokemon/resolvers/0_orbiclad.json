@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:orbiclad",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:orbiclad",
+        "model": "cobblemon:orbiclad.geo",
+        "texture": "cobblemon:textures/pokemon/orbiclad/orbiclad.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/orbiclad/orbiclad_shiny.png"
+      }
+    ]
+  }

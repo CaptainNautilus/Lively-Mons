@@ -1,0 +1,26 @@
+{
+    "species": "cobblemon:krokorok",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": [ "lively"],
+        "poser": "cobblemon:krokoroklively",
+        "model": "cobblemon:krokoroklively.geo",
+        "texture": "cobblemon:textures/pokemon/krokoroklively/krokoroklively.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny", "lively" ],
+        "texture": "cobblemon:textures/pokemon/krokoroklively/krokoroklively_shiny.png",
+        "layers":[]
+    },
+    {
+      "aspects": ["lively", "cosmetic_item-black_glasses"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/krokoroklively/krokoroklively_sunglasses.png"
+        }
+      ]
+    }
+  ]
+}

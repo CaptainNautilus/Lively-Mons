@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:thunkoo",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:thunkoo",
+        "model": "cobblemon:thunkoo.geo",
+        "texture": "cobblemon:textures/pokemon/thunkoo/thunkoo.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/thunkoo/thunkoo_shiny.png",
+        "layers":[]
+      }
+    ]
+}

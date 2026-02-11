@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:mamolint",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:mamolint",
+        "model": "cobblemon:mamolint.geo",
+        "texture": "cobblemon:textures/pokemon/mamolint/mamolint.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/mamolint/mamolint_shiny.png"
+      }
+    ]
+  }

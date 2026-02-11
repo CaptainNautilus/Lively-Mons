@@ -1,0 +1,69 @@
+{
+      "portraitScale": 3.3,
+      "portraitTranslation": [-0.9, -0.8, 0],
+      "profileScale": 1,
+      "profileTranslation": [0, 0.25, 0],
+  "rootBone": "thunkoo",
+  "animations": {
+    "faint": "q.bedrock_primary('thunkoo', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('thunkoo', 'cry')",
+    "recoil": "q.bedrock_stateful('thunkoo', 'recoil')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('thunkoo', 'ground_idle')",
+        "q.bedrock('thunkoo', 'wind_up')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('thunkoo', 'blink')",
+        "q.bedrock_quirk('thunkoo', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4', 'quirk5', 'quirk6', 'quirk7'), 1, 10, 1)"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('thunkoo', 'ground_walk')",
+        "q.bedrock('thunkoo', 'wind_down')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('thunkoo', 'blink')",
+        "q.bedrock_quirk('thunkoo', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4', 'quirk5', 'quirk6', 'quirk7'), 1, 10, 1)"
+      ]
+    },
+      "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": ["q.pitch_tilt('body')", 
+        "q.look('head_ai')",
+        "q.bedrock('thunkoo', 'air_idle')",
+        "q.bedrock('thunkoo', 'wind_up')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('thunkoo', 'blink')",
+        "q.bedrock_quirk('thunkoo', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4', 'quirk5', 'quirk6', 'quirk7'), 1, 10, 1)"
+      ]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": ["q.pitch_tilt('body')", 
+        "q.look('head_ai')",
+        "q.bedrock('thunkoo', 'air_fly')",
+        "q.bedrock('thunkoo', 'wind_down')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('thunkoo', 'blink')",
+        "q.bedrock_quirk('thunkoo', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4', 'quirk5', 'quirk6', 'quirk7'), 1, 10, 1)"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('thunkoo', 'sleep')"],
+            "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

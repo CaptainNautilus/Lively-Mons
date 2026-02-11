@@ -1,0 +1,95 @@
+{
+    "head": "head",
+    "portraitScale": 2.4,
+    "portraitTranslation": [ -0.1, -1, 0],
+    "profileScale": 1,
+    "profileTranslation": [ 0, 0.3, 0 ],
+    "animations": {
+      "cry": "q.bedrock_stateful('wickarus', 'cry')",
+        "faint": "q.bedrock_primary('wickarus', 'faint')",
+        "recoil": "q.bedrock_stateful('wickarus', 'recoil')"
+    },
+
+    "poses": {
+      "battle-idle": {
+        "poseName": "battle-idle",
+        "transformTicks": 10,
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "isTouchingWater": false,
+        "animations": [ "look",
+        "bedrock(wickarus, battle_idle)"],
+        "quirks": [
+          {
+            "name": "blink",
+            "loopTimes": 1,
+            "minSecondsBetweenOccurrences": 8,
+            "maxSecondsBetweenOccurrences": 20,
+            "animations": ["bedrock(wickarus, blink)"]
+          }
+        ]
+      },
+    "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "poseTypes": ["STAND",
+        "NONE",
+        "PROFILE",
+        "PORTRAIT"],
+        "animations": [
+        "look",
+        "bedrock(wickarus, ground_idle)"],
+        "quirks": [
+            {
+              "name": "blink",
+              "loopTimes": 1,
+              "minSecondsBetweenOccurrences": 8,
+              "maxSecondsBetweenOccurrences": 20,
+              "animations": ["bedrock(wickarus, blink)"]
+            }
+    ]
+    },
+    "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": [ "WALK" ],
+        "animations": [ 
+                      "look",
+                      "bedrock(wickarus, ground_walk)" ]
+    },
+	"hovering": {
+		"poseName": "hovering",
+		"transformTicks": 10,
+		"poseTypes": [ 
+    "HOVER" ],
+		"animations": [ 
+      "bedrock(wickarus, air_idle)",
+      "look"
+    ],
+        "quirks": [
+            {
+              "name": "blink",
+              "loopTimes": 1,
+              "minSecondsBetweenOccurrences": 8,
+              "maxSecondsBetweenOccurrences": 20,
+              "animations": ["bedrock(wickarus, blink)"]
+            }
+    ]
+	},
+	"flying": {
+		"poseName": "flying",
+		"transformTicks": 10,
+		"poseTypes": [ "FLY" ],
+		"animations": [ 
+                  "look",
+                  "bedrock(wickarus, air_fly)" ]
+		},
+	
+    "sleeping": {
+        "poseName": "sleeping",
+        "transformTicks": 10,
+        "poseTypes": [ "SLEEP" ],
+        "animations": [ "bedrock(wickarus, sleep)"]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "cobblemon:hollorn_fetus",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:hollorn_fetus",
+        "model": "cobblemon:hollorn_fetus.geo",
+        "texture": "cobblemon:textures/fossils/hollorn_fetus.png",
+        "layers": []
+      }
+    ]
+  }
+  

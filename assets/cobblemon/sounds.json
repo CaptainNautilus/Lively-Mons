@@ -1,0 +1,276 @@
+{
+    "pokemon.levilord.cry": {
+        "sounds": ["cobblemon:pokemon/levilord/levilord_cry"]
+    },
+    "pokemon.wailevi.cry": {
+        "sounds": ["cobblemon:pokemon/wailevi/wailevi_cry"]
+    },
+    "pokemon.ludikappa.cry": {
+        "sounds": ["cobblemon:pokemon/ludikappa/ludikappa_cry"]
+    },
+    "pokemon.moistery.cry": {
+        "sounds": ["cobblemon:pokemon/moistery/moistery_cry"]
+    },
+    "pokemon.orbiclad.cry": {
+        "sounds": ["cobblemon:pokemon/orbiclad/orbiclad_cry"]
+    },
+    "pokemon.xenoster.cry": {
+        "sounds": ["cobblemon:pokemon/xenoster/xenoster_cry"]
+    },
+    "pokemon.heracrosspaldea.cry": {
+        "sounds": ["cobblemon:pokemon/heracrosspaldea/heracrosspaldea_cry"]
+    },
+    "pokemon.shucklegalar.cry": {
+        "sounds": ["cobblemon:pokemon/shucklegalar/shucklegalar_cry"]
+    },
+    "pokemon.frostnatch.cry": {
+        "sounds": ["cobblemon:pokemon/frostnatch/frostnatch_cry"]
+    },
+    "pokemon.frivid.cry": {
+        "sounds": ["cobblemon:pokemon/frivid/frivid_cry"]
+    },
+    "pokemon.fimbulven.cry": {
+        "sounds": ["cobblemon:pokemon/fimbulven/fimbulven_cry"]
+    },
+    "pokemon.potdary.cry": {
+        "sounds": ["cobblemon:pokemon/potdary/potdary_cry"]
+    },
+    "pokemon.vasaddle.cry": {
+        "sounds": ["cobblemon:pokemon/vasaddle/vasaddle_cry"]
+    },
+    "pokemon.mortaraid.cry": {
+        "sounds": ["cobblemon:pokemon/mortaraid/mortaraid_cry"]
+    },
+    "pokemon.infernito.cry": {
+        "sounds": ["cobblemon:pokemon/infernito/infernito_cry"]
+    },
+    "pokemon.pillosinge.cry": {
+        "sounds": ["cobblemon:pokemon/pillosinge/pillosinge_cry"]
+    },
+    "pokemon.slacho.cry": {
+        "sounds": ["cobblemon:pokemon/slacho/slacho_cry"]
+    },
+    "pokemon.citrillume.cry": {
+        "sounds": ["cobblemon:pokemon/citrillume/citrillume_cry"]
+    },
+    "pokemon.limonzal.cry": {
+        "sounds": ["cobblemon:pokemon/limonzal/limonzal_cry"]
+    },
+    "pokemon.citrisaurid.cry": {
+        "sounds": ["cobblemon:pokemon/citrisaurid/citrisaurid_cry"]
+    },
+    "pokemon.anglerine.cry": {
+        "sounds": ["cobblemon:pokemon/anglerine/anglerine_cry"]
+    },
+    "pokemon.dollamb.cry": {
+        "sounds": ["cobblemon:pokemon/dollamb/dollamb_cry"]
+    },
+    "pokemon.folly.cry": {
+        "sounds": ["cobblemon:pokemon/folly/folly_cry"]
+    },
+    "pokemon.krillkracker.cry": {
+        "sounds": ["cobblemon:pokemon/krillkracker/krillkracker_cry"]
+    },
+    "pokemon.shiboom.cry": {
+        "sounds": ["cobblemon:pokemon/shiboom/shiboom_cry"]
+    },
+    "pokemon.eggward.cry": {
+        "sounds": ["cobblemon:pokemon/eggward/eggward_cry"]
+    },
+    "pokemon.voltite.cry": {
+        "sounds": ["cobblemon:pokemon/voltite/voltite_cry"]
+    },
+    "pokemon.ostrike.cry": {
+        "sounds": ["cobblemon:pokemon/ostrike/ostrike_cry"]
+    },
+    "pokemon.seibat.cry": {
+        "sounds": ["cobblemon:pokemon/seibat/seibat_cry"]
+    },
+    "pokemon.fossoil.cry": {
+        "sounds": ["cobblemon:pokemon/fossoil/fossoil_cry"]
+    },
+    "pokemon.petrolisk.cry": {
+        "sounds": ["cobblemon:pokemon/petrolisk/petrolisk_cry"]
+    },
+    "pokemon.fungalith.cry": {
+        "sounds": ["cobblemon:pokemon/fungalith/fungalith_cry"]
+    },
+    "pokemon.cyclopod.cry": {
+        "sounds": ["cobblemon:pokemon/cyclopod/cyclopod_cry"]
+    },
+    "pokemon.slimara.cry": {
+        "sounds": ["cobblemon:pokemon/slimara/slimara_cry"]
+    },
+    "pokemon.haghoula.cry": {
+        "sounds": ["cobblemon:pokemon/haghoula/haghoula_cry"]
+    },
+    "pokemon.ectomancer.cry": {
+        "sounds": ["cobblemon:pokemon/ectomancer/ectomancer_cry"]
+    },
+    "pokemon.lupayena.cry": {
+        "sounds": ["cobblemon:pokemon/lupayena/lupayena_cry"]
+    },
+    "pokemon.lupayena.quirk1": {
+        "sounds": ["cobblemon:pokemon/lupayena/lupayena_quirk1"]
+    },
+    "pokemon.polporos.cry": {
+    "sounds": ["cobblemon:pokemon/polporos/polporos_cry"]
+    },
+    "pokemon.spinarift.cry": {
+        "sounds": ["cobblemon:pokemon/spinarift/spinarift_cry"]
+    },
+    "pokemon.hollorn.cry": {
+        "sounds": ["cobblemon:pokemon/hollorn/hollorn_cry"]
+    },
+            "pokemon.hollorn.quirk1": {
+                "sounds": ["cobblemon:pokemon/hollorn/hollorn_quirk1"]
+            },
+            "pokemon.hollorn.quirk2": {
+                    "sounds": ["cobblemon:pokemon/hollorn/hollorn_quirk2"]
+            },
+            "pokemon.hollorn.quirk3": {
+                        "sounds": ["cobblemon:pokemon/hollorn/hollorn_quirk3"]
+            },
+            "pokemon.hollorn.quirk4": {
+                            "sounds": ["cobblemon:pokemon/hollorn/hollorn_quirk4"]
+            },
+            "pokemon.hollorn.quirk5": {
+                                "sounds": ["cobblemon:pokemon/hollorn/hollorn_quirk5"]
+            },
+            "pokemon.hollorn.quirk6": {
+                                    "sounds": ["cobblemon:pokemon/hollorn/hollorn_quirk6"]
+            },
+            "pokemon.hollorn.quirk7": {
+                                        "sounds": ["cobblemon:pokemon/hollorn/hollorn_quirk7"]
+            },
+    "pokemon.calciopi.cry": {
+        "sounds": ["cobblemon:pokemon/calciopi/calciopi_cry"]
+    },
+            "pokemon.calciopi.quirk1": {
+                "sounds": ["cobblemon:pokemon/calciopi/calciopi_quirk1"]
+            },
+            "pokemon.calciopi.quirk2": {
+                    "sounds": ["cobblemon:pokemon/calciopi/calciopi_quirk2"]
+            },
+            "pokemon.calciopi.quirk3": {
+                        "sounds": ["cobblemon:pokemon/calciopi/calciopi_quirk3"]
+            },
+            "pokemon.calciopi.quirk4": {
+                            "sounds": ["cobblemon:pokemon/calciopi/calciopi_quirk4"]
+            },
+            "pokemon.calciopi.quirk5": {
+                                "sounds": ["cobblemon:pokemon/calciopi/calciopi_quirk5"]
+            },
+            "pokemon.calciopi.quirk6": {
+                                    "sounds": ["cobblemon:pokemon/calciopi/calciopi_quirk6"]
+            },
+            "pokemon.calciopi.quirk7": {
+                                        "sounds": ["cobblemon:pokemon/calciopi/calciopi_quirk7"]
+            },
+    "pokemon.wickarus.cry": {
+    "sounds": ["cobblemon:pokemon/wickarus/wickarus_cry"]
+    },
+    "pokemon.solarica.cry": {
+        "sounds": ["cobblemon:pokemon/solarica/solarica_cry"]
+    },
+    "pokemon.pokokari.cry": {
+        "sounds": ["cobblemon:pokemon/pokokari/pokokari_cry"]
+    },
+    "pokemon.taplatter.cry": {
+        "sounds": ["cobblemon:pokemon/taplatter/taplatter_cry"]
+    },
+    "pokemon.pungudua.cry": {
+        "sounds": ["cobblemon:pokemon/pungudua/pungudua_cry"]
+    },
+    "pokemon.linub.cry": {
+        "sounds": ["cobblemon:pokemon/linub/linub_cry"]
+    },
+    "pokemon.pilolint.cry": {
+        "sounds": ["cobblemon:pokemon/pilolint/pilolint_cry"]
+    },
+    "pokemon.mamolint.cry": {
+        "sounds": ["cobblemon:pokemon/mamolint/mamolint_cry"]
+    },
+    "pokemon.canjitsu.cry": {
+        "sounds": ["cobblemon:pokemon/canjitsu/canjitsu_cry"]
+    },
+    "pokemon.branchief.cry": {
+        "sounds": ["cobblemon:pokemon/branchief/branchief_cry"]
+    },
+    "pokemon.keenai.cry": {
+        "sounds": ["cobblemon:pokemon/keenai/keenai_cry"]
+    },
+    "pokemon.sajonin.cry": {
+        "sounds": ["cobblemon:pokemon/sajonin/sajonin_cry"]
+    },
+    "pokemon.piochio.cry": {
+        "sounds": ["cobblemon:pokemon/piochio/piochio_cry"]
+    },
+            "pokemon.piochio.quirk1": {
+                "sounds": ["cobblemon:pokemon/piochio/piochio_quirk1"]
+            },
+            "pokemon.piochio.quirk2": {
+                "sounds": ["cobblemon:pokemon/piochio/piochio_quirk2"]
+            },
+            "pokemon.piochio.quirk3": {
+                "sounds": ["cobblemon:pokemon/piochio/piochio_quirk3"]
+            },
+            "pokemon.piochio.quirk4": {
+                "sounds": ["cobblemon:pokemon/piochio/piochio_quirk4"]
+            },
+            "pokemon.piochio.quirk5": {
+                "sounds": ["cobblemon:pokemon/piochio/piochio_quirk5"]
+            },
+            "pokemon.piochio.quirk6": {
+                "sounds": ["cobblemon:pokemon/piochio/piochio_quirk6"]
+            },
+            "pokemon.piochio.quirk7": {
+                "sounds": ["cobblemon:pokemon/piochio/piochio_quirk7"]
+            },
+            "pokemon.piochio.quirk8": {
+                "sounds": ["cobblemon:pokemon/piochio/piochio_quirk8"]
+            },
+
+    "pokemon.thunkoo.cry": {
+        "sounds": ["cobblemon:pokemon/thunkoo/thunkoo_cry"]
+    },
+    "pokemon.duskarou.cry": {
+        "sounds": ["cobblemon:pokemon/duskarou/duskarou_cry"]
+    },
+    "pokemon.stagrion.cry": {
+        "sounds": ["cobblemon:pokemon/stagrion/stagrion_cry"]
+    },
+    "pokemon.sandilelively.cry": {
+        "sounds": ["cobblemon:pokemon/sandilelively/sandilelively_cry"]
+    },
+    "pokemon.krokoroklively.cry": {
+        "sounds": ["cobblemon:pokemon/krokoroklively/krokoroklively_cry"]
+    },
+    "pokemon.krookodilelively.cry": {
+        "sounds": ["cobblemon:pokemon/krookodilelively/krookodilelively_cry"]
+    },
+    "pokemon.tropiussanrosa.cry": {
+        "sounds": ["cobblemon:pokemon/tropiussanrosa/tropiussanrosa_cry"]
+    },
+    "pokemon.grubbee.cry": {
+        "sounds": ["cobblemon:pokemon/grubbee/grubbee_cry"]
+    },
+    "pokemon.mielador.cry": {
+        "sounds": ["cobblemon:pokemon/mielador/mielador_cry"]
+    },
+    "pokemon.budabon.cry": {
+        "sounds": ["cobblemon:pokemon/budabon/budabon_cry"]
+    },
+    "pokemon.sandygastsanrosa.cry": {
+        "sounds": ["cobblemon:pokemon/sandygastsanrosa/sandygastsanrosa_cry"]
+    },
+        "pokemon.sandygastsanrosa.impact": {
+            "sounds": ["cobblemon:pokemon/sandygastsanrosa/sandygastsanrosa_impact"]
+        },
+    "pokemon.palobod.cry": {
+        "sounds": ["cobblemon:pokemon/palobod/palobod_cry"]
+    },
+        "pokemon.palobod.impact": {
+            "sounds": ["cobblemon:pokemon/palobod/palobod_impact"]
+        }
+ }

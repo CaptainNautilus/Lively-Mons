@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:grubbee",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:grubbee",
+        "model": "cobblemon:grubbee.geo",
+        "texture": "cobblemon:textures/pokemon/grubbee/grubbee.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/grubbee/grubbee_shiny.png"
+      }
+    ]
+  }

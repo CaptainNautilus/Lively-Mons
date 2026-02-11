@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:fossoil",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:fossoil",
+        "model": "cobblemon:fossoil.geo",
+        "texture": "cobblemon:textures/pokemon/fossoil/fossoil.png",
+        "layers": [
+              {
+                "name": "emissive",
+                "emissive": true,
+                "texture": "cobblemon:textures/pokemon/fossoil/fossoil_emissive.png",
+                "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/fossoil/fossoil_shiny.png",
+        "layers":[
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/fossoil/fossoil_shiny_emissive.png",
+          "translucent": true
+    }
+    ]
+      }
+    ]
+  }

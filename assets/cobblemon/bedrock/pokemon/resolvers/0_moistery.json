@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:moistery",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:moistery",
+        "model": "cobblemon:moistery.geo",
+        "texture": "cobblemon:textures/pokemon/moistery/moistery.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/moistery/moistery_shiny.png"
+      }
+    ]
+  }

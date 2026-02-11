@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:slacho",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:slacho",
+        "model": "cobblemon:slacho.geo",
+        "texture": "cobblemon:textures/pokemon/slacho/slacho.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/slacho/slacho_shiny.png",
+        "layers": []
+      }
+    ]
+  }

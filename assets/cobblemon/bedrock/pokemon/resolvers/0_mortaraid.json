@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:mortaraid",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:mortaraid",
+        "model": "cobblemon:mortaraid.geo",
+        "texture": "cobblemon:textures/pokemon/mortaraid/mortaraid.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/mortaraid/mortaraid_shiny.png"
+      }
+    ]
+  }

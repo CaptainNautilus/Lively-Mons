@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:linub",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:linub",
+        "model": "cobblemon:linub.geo",
+        "texture": "cobblemon:textures/pokemon/linub/linub.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/linub/linub_shiny.png"
+      }
+    ]
+  }

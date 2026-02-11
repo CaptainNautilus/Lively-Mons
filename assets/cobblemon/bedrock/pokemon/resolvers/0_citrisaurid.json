@@ -1,0 +1,33 @@
+{
+    "species": "cobblemon:citrisaurid",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:citrisaurid",
+        "model": "cobblemon:citrisaurid.geo",
+        "texture": "cobblemon:textures/pokemon/citrisaurid/citrisaurid.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/citrisaurid/citrisaurid_emissive.png",
+            "translucent": true
+      }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/citrisaurid/citrisaurid_shiny.png",
+        "layers":[
+          {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/citrisaurid/citrisaurid_shiny_emissive.png",
+            "translucent": true
+      }
+
+        ]
+      }
+    ]
+  }

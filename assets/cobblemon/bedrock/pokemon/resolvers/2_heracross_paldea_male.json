@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:heracross",
+    "order": 2,
+    "variations": [
+      {
+        "aspects": ["paldean", "male"],
+        "poser": "cobblemon:heracrosspaldea",
+        "model": "cobblemon:heracrosspaldea_male.geo",
+        "texture": "cobblemon:textures/pokemon/heracrosspaldea/heracrosspaldea.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny", "paldean"],
+        "texture": "cobblemon:textures/pokemon/heracrosspaldea/heracrosspaldea_shiny.png"
+      }
+    ]
+  }

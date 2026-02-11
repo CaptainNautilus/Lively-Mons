@@ -1,0 +1,63 @@
+{
+      "portraitScale": 2.5,
+      "portraitTranslation": [0.2, -1.65, 0],
+      "profileScale": 0.8,
+      "profileTranslation": [0, 0.5, 0],
+  "rootBone": "slimara",
+  "animations": {
+    "faint": "q.bedrock_primary('slimara', 'faint', q.curve('symmetrical'))",
+    "cry": "q.bedrock_stateful('slimara', 'cry')",
+    "recoil": "q.bedrock_stateful('slimara', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND","FLOAT","PROFILE","PORTRAIT"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head_ai', 1, 1, 45, -45, 25, -25)",
+        "q.bedrock('slimara', 'battle_idle')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('slimara', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND","FLOAT","NONE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head_ai', 1, 1, 45, -45, 25, -25)",
+        "q.bedrock('slimara', 'ground_idle')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('slimara', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK","SWIM"],
+      "animations": [
+        "q.look('head_ai', 1, 1, 45, -45, 25, -25)",
+        "q.bedrock('slimara', 'ground_walk')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('slimara', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseName": "sleep",
+      "poseTypes": ["SLEEP"],
+          "namedAnimations": {
+          "cry": "q.bedrock_stateful('dummy', 'cry')"
+          },
+      "animations": [
+        "q.bedrock('slimara', 'sleep')"
+      ],
+      "transformTicks": 10
+    }
+  }
+}

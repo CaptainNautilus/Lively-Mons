@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:budabon",
+    "order": 8,
+    "variations": [
+      {
+        "aspects": [ "hisuian"],
+        "poser": "cobblemon:budabon_hisui",
+        "model": "cobblemon:budabon_hisui.geo",
+        "texture": "cobblemon:textures/pokemon/budabon/budabon_hisui.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny", "hisuian" ],
+        "texture": "cobblemon:textures/pokemon/budabon/budabon_hisui_shiny.png",
+        "layers":[]
+      }
+  ]
+}

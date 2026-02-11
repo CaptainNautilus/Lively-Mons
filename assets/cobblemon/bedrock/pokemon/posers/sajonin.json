@@ -1,0 +1,101 @@
+{
+    "portraitScale": 2.06,
+    "portraitTranslation": [-0.2, 2, 0],
+    "profileScale": 0.6,
+    "profileTranslation": [0, 0.86, 0],
+  "rootBone": "sajonin",
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 0.35, 0],
+    "seat_1_reverse": [0, 0.35, 0]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 0.35, 0],
+    "seat_1_reverse": [0, 0.35, 0]
+  },
+    "animations": {
+      "faint": "q.bedrock_primary('sajonin', 'faint', q.curve('one'))",
+      "cry": "q.bedrock_stateful('sajonin', 'cry')",
+      "recoil": "q.bedrock_stateful('sajonin', 'recoil')"
+    },
+    "poses": {
+      "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+      "condition": "q.has_entity ? !q.in_air : 1.0",
+        "animations": ["q.look('head_ai')", "q.bedrock('sajonin', 'battle_idle')",
+                    {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('sajonin', 'ride_ground_walk')"
+        }
+      ],
+        "quirks": [
+          "q.bedrock_quirk('sajonin', 'blink')",
+          "q.bedrock_quirk('sajonin', q.array('quirk', 'quirk2', 'quirk3'), 15, 25, 1)"
+        ]
+      },
+      "standing": {
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "isBattle": false,
+      "condition": "q.has_entity ? !q.in_air : 1.0",
+        "animations": ["q.look('head_ai')", "q.bedrock('sajonin', 'ground_idle')",
+                    {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('sajonin', 'ride_ground_walk')"
+        }
+      ],
+        "quirks": [
+          "q.bedrock_quirk('sajonin', 'blink')",
+          "q.bedrock_quirk('sajonin', q.array('quirk', 'quirk2', 'quirk3'), 15, 25, 1)"
+        ]
+      },
+    "in_air": {
+      "poseTypes": ["WALK","STAND", "NONE"],
+      "condition": "q.has_entity ? q.in_air && q.is_ridden : 0.0",
+      "animations": [
+        "q.look('head')", 
+        "q.bedrock('sajonin', 'ride_jump')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('sajonin', 'blink')"
+      ],
+      "transformTicks": 5,
+      "transformToTicks": 5
+    },
+      "walking": {
+        "poseTypes": ["WALK"],
+        "animations": ["q.look('head_ai')", "q.bedrock('sajonin', 'ground_walk')", 
+              {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('sajonin', 'ride_ground_walk')"
+        }
+      ],
+        "condition": "q.has_entity ? !q.in_air && !q.is_sprinting : 1.0",
+        "quirks": [
+          "q.bedrock_quirk('sajonin', 'blink')",
+          "q.bedrock_quirk('sajonin', q.array('quirk', 'quirk2'), 15, 25, 1)"
+        ]
+      },
+    "running": {
+      "poseTypes": ["WALK", "SWIM"],
+      "condition": "q.has_entity ? !q.in_air && q.is_sprinting : 0.0",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('sajonin', 'ground_run')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('sajonin', 'ride_ground_run')"
+        }
+      ],
+      "quirks": ["q.bedrock_quirk('sajonin', 'blink')", "q.bedrock_quirk('sajonin', q.array('quirk', 'quirk2'), 15, 25, 1)"]
+    },
+      "sleep": {
+        "poseTypes": ["SLEEP"],
+        "animations": ["q.bedrock('sajonin', 'sleep')"],
+        "quirks": [
+        ]
+      }
+    }
+  }  

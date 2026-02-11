@@ -1,0 +1,30 @@
+{
+    "species": "cobblemon:wickarus",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:wickarus",
+        "model": "cobblemon:wickarus.geo",
+        "texture": "cobblemon:textures/pokemon/wickarus/wickarus.png",
+        "layers": [
+          {
+            "name": "eyes",
+            "texture": "cobblemon:textures/pokemon/wickarus/wickarus_transparent.png",
+            "translucent": true
+          }  
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/wickarus/wickarus_shiny.png",
+        "layers":[
+          {
+          "name": "eyes",
+          "texture": "cobblemon:textures/pokemon/wickarus/wickarus_shiny_transparent.png",
+          "translucent": true
+        }  
+      ]
+    }
+  ]
+}

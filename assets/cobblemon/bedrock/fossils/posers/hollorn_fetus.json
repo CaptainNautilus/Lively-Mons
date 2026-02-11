@@ -1,0 +1,31 @@
+{
+  "maxScale": 0.7,
+  "yTranslation": 0.1,
+  "yGrowthPoint": 0.625,
+  "poses": {
+    "sleep":{
+      "poseTypes":["SLEEP"],
+      "animations": ["q.bedrock('hollorn_fetus', 'sleep')"],
+  "quirks": [
+      {
+        "name": "quirk1",
+        "animations": [
+          "bedrock(hollorn_fetus, quirk1)"
+        ],
+        "loopTimes": 1,
+        "minSeconds": 30,
+        "maxSeconds": 60
+      },
+      {
+        "name": "quirk2",
+        "animations": [
+          "bedrock(hollorn_fetus, quirk2)"
+        ],
+        "loopTimes": 1,
+        "minSeconds": 30,
+        "maxSeconds": 60
+      }
+    ]
+  }
+ }
+}

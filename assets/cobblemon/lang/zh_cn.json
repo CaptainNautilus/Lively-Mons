@@ -1,0 +1,286 @@
+{
+    "cobblemon.species.anglerine.name": "诱灯鮟",
+    "cobblemon.species.anglerine.desc1": "这只宝可梦用头上的两个发光球引诱猎物靠近。这些球体似乎也能充当额外的眼睛。",
+
+    "cobblemon.species.seibat.name": "古像蝠",
+    "cobblemon.species.seibat.desc1": "一个古老文明曾制作雕像以抵御恶灵。当这个文明衰落后，其居民的亡灵附身于雕像，化作了古像蝠。因此，古像蝠常见于该古文明的遗迹周围。",
+
+    "cobblemon.species.frostnatch.name": "冰晶雏",
+    "cobblemon.species.frostnatch.desc1": "冰晶雏会寻找冰晶添加到自己羽毛状的外衣上。它们领地意识很强，常与其他宝可梦发生争斗。",
+
+    "cobblemon.species.frivid.name": "窃晶鸟",
+    "cobblemon.species.frivid.desc1": "已知窃晶鸟会从人类那里偷取闪亮的物品来装饰巢穴。因此，建议将珠宝等物远离野生的窃光鹰。它们的巢中可能包含冰晶、闪亮的宝石，甚至是一些小巧闪亮的宝可梦。",
+
+    "cobblemon.species.fimbulven.name": "霜晶翎鸟",
+    "cobblemon.species.fimbulven.desc1": "霜晶翎鸟常将闪亮之物收入其无尽的宝藏堆。它会拼死守护这些宝藏。这只宝可梦倾向于捕食索财灵以获取硬币。为了把它们从宝箱里弄出来，它会将其带上数百英尺高空然后扔下。",
+
+    "cobblemon.species.eggward.name": "呆呆鸵",
+    "cobblemon.species.eggward.desc1": "呆呆鸵是一种非常呆滞的宝可梦，迟钝到甚至不知如何完全破壳而出。它们的蛋壳虽能保护其免受捕食者伤害，但也非常累赘，常导致它们自己绊倒自己。",
+
+    "cobblemon.species.voltite.name": "伏特鸵",
+    "cobblemon.species.voltite.desc1": "破壳而出后，伏特鸵体内积压了大量需要释放的能量，它们借此快速奔跑。尽管进化后不再笨拙，但其愚钝的天性依旧。当受到惊吓时，它会将头埋进土里，希望吓到它的东西自行消失。",
+
+    "cobblemon.species.ostrike.name": "神速鸵",
+    "cobblemon.species.ostrike.desc1": "神速鸵奔跑时双腿快到模糊。它们奔跑的动能之大，甚至能使脚下的地面冒烟。神速鸵拥有无法解释的能力，能径直穿过绘制的隧道，仿佛它是真实存在的一般。科学家对此毫无头绪。",
+
+    "cobblemon.species.wailevi.name": "朵朵鲸",
+    "cobblemon.species.wailevi.desc1":"朵朵鲸的身体完全由云构成，凭借其操纵空气的力量聚拢成型。虽然外形像吼吼鲸，但朵朵鲸是完全不同的物种。这种相似似乎是环境适应带来的巧合结果。",
+
+    "cobblemon.species.levilord.name": "飞云鲸",
+    "cobblemon.species.levilord.desc1": "飞云鲸是温和的巨人，除非认为对方对其栖居的山峦构成威胁，否则不会伤害任何事物。尽管曾被认为是吼鲸王的地区形态，但最新研究表明，飞云鲸实际上约在五千万年前与绵绵泡芙从共同祖先分化而来。",
+
+    "cobblemon.species.dollamb.name": "玩偶羊",
+    "cobblemon.species.dollamb.desc1": "玩偶羊初看平平无奇，但其体内细胞分裂速度远超任何宝可梦。这些细胞对电离辐射反应剧烈，在红石等放射性物质附近会分裂得更快。",
+
+    "cobblemon.species.folly.name": "双生羊",
+    "cobblemon.species.folly.desc1": "双生羊是玩偶羊细胞过快分裂产生克隆体的产物。尚不清楚两个克隆体是共享一个意识还是以其他方式沟通，但它们形影不离。双生羊喜欢吞食红石等放射性物质。",
+
+    "cobblemon.species.moistery.name": "月岩贝",
+    "cobblemon.species.moistery.desc1": "这种宝可梦近期才被发现，其进化方式成谜，化石记录中毫无踪迹。随着时间的推移，月岩贝的数量正在快速增长。它们会在满月之夜大规模聚集，原因不明。",
+
+    "cobblemon.species.orbiclad.name": "异灵螺",
+    "cobblemon.species.orbiclad.desc1": "出于未知原因，异灵螺在满月之夜像侦察兵一样扫描地球海岸。月落时分便飞往未知地点。它们行为隐秘，会让观察者陷入沉睡。有传言称其甚至能夺走人的记忆。",
+
+    "cobblemon.species.xenoster.name": "异星藤壶",
+    "cobblemon.species.xenoster.desc1": "异星藤壶似乎来自太空深处，仅在满月之夜降临地球海岸。它们统领着月岩贝与异灵螺军团，常与其他宝可梦发生冲突。其意图尚不明确。",
+
+    "cobblemon.species.ludikappa.name": "沼花河童",
+    "cobblemon.species.ludikappa.desc1": "沼花河童是独行的掠食者，用头上花朵的甜美香气将旅人诱入沼泽深处。当猎物过于靠近水边，它便将其拖入深渊，再无踪影。其头上的花朵香气据说无人能抗拒，因而被众多香水用作配方。",
+
+    "cobblemon.species.krillcracker.name": "爆竹虾",
+    "cobblemon.species.krillcracker.desc1": "爆竹虾是非常顽皮的宝可梦，会爆发出鲜艳的色彩来吓唬人和宝可梦。有些人喜欢将其尾巴当作美味零食，但大多人觉得过于辛辣。",
+
+    "cobblemon.species.shiboom.name": "灯笼虾",
+    "cobblemon.species.shiboom.desc1": "灯笼虾能以极高的速度和敏捷度飞行。在某个遥远地区，每年一度的灯笼虾节会吸引游客，观赏大量灯笼虾在空中划出彩色轨迹并以精心编排的爆炸绽放。",
+
+    "cobblemon.species.fossoil.name": "化石骨鱼",
+    "cobblemon.species.fossoil.desc1": "化石骨鱼由古代宝可梦的遗骸分解形成，历经数百万年。其体表的黑色粘稠物极易燃，可用于驱动工业机械。",
+
+    "cobblemon.species.petrolisk.name": "石油剑鱼",
+    "cobblemon.species.petrolisk.desc1": "由于石油剑鱼需数百万年才能从化石中形成，且过去曾因人类获取其油脂而遭猎捕，它已成为濒危宝可梦。合众地区大量采集石油剑鱼油来驱动众多机器。这种大规模燃烧也正在快速加剧大气升温。",
+
+    "cobblemon.species.potdary.name": "罐罐驼",
+    "cobblemon.species.potdary.desc1": "尽管生活在干旱沙漠，这种宝可梦却拥有惊人的游泳能力。有水手称曾在离岸4英里处发现其踪迹。其身体浮力极佳，几乎无法沉没。",
+
+    "cobblemon.species.vasaddle.name": "峰流驼",
+    "cobblemon.species.vasaddle.desc1": "峰流驼领地意识极强，会用背上壶状驼峰发射的岩石轰炸半径十英尺内的一切。有时它们会长途游泳，只为与野生的巨牙鲨打架。",
+
+    "cobblemon.species.mortaraid.name": "水击炮驼",
+    "cobblemon.species.mortaraid.desc1": "水击炮驼在古时战争中被人类大量使用，导致其数量锐减。它们会从背上发射岩石保护幼崽，用巨石和高压水流轰炸任何来犯者。",
+
+    "cobblemon.species.citrillume.name": "蜂粉雏",
+    "cobblemon.species.citrillume.desc1": "蜂粉雏喜食美丽花的花蜜，并保护它们免受虫属性宝可梦侵袭。它每次振翅，心脏随之搏动；一旦停止振翅，心跳亦会停止。这与跳跳猪的跳跃行为类似，科学家尚不清楚这为何是进化优势。",
+
+    "cobblemon.species.limonzal.name": "风檬鸟",
+    "cobblemon.species.limonzal.desc1": "风檬鸟能用尾巴捕捉风能并将其储存在头部。小学生常以此制作解释其储能原理的科学课题。",
+
+    "cobblemon.species.citrisaurid.name": "千瓦蜂鸟",
+    "cobblemon.species.citrisaurid.desc1": "城市曾利用千瓦蜂鸟大规模生产能源。这些项目对其极为苛刻危险，最终严重损害了种群数量。千瓦蜂鸟每小时能产生20千瓦能量。",
+
+    "cobblemon.species.infernito.name": "吞火崽",
+    "cobblemon.species.infernito.desc1": "吞火崽非常懒惰，宁愿闲逛也不听训练家的话。许多训练家通过用美味零食鼓励来克服这一难题。",
+
+    "cobblemon.species.pillosinge.name": "暖雪兽",
+    "cobblemon.species.pillosinge.desc1": "已知暖雪兽会帮助在雪林中迷路的人取暖和指引方向。科学家曾认为它们不够聪明，但最新研究显示其拥有非凡的智慧。",
+
+    "cobblemon.species.slacho.name": "爆燃雪怪",
+    "cobblemon.species.slacho.desc1": "爆燃雪怪栖息于广阔的雪林，但因人类砍伐森林导致栖息地锐减，种群濒临灭绝。它们极富爱心，会保护周围的弱小宝可梦，甚至攻击人类用来伐木的工业机械。尽管爆燃雪怪奋力抗争，它们的家园仍在快速缩小。",
+
+    "cobblemon.species.fungalith.name": "蕈隐菇",
+    "cobblemon.species.fungalith.desc1": "蕈隐菇一生大部分时间都潜藏地底，直到成熟期头顶长出蘑菇才会现身地表。它们用菌伞引诱猎物，从沙中发动突袭。",
+
+    "cobblemon.species.cyclopod.name": "飓瞳灵",
+    "cobblemon.species.cyclopod.desc1": "飓瞳灵遇险时会制造环绕自身的旋风，在风眼内困住猎物并造成大范围破坏。随着全球气温升高，它们的数量激增导致飓风灾害频发。",
+
+    "cobblemon.species.slimara.name": "灵液蛇",
+    "cobblemon.species.slimara.desc1": "灵液蛇能操纵灵质制造黏液幻影协助战斗。中世纪曾用其黏液入药，如今才知这种物质会侵蚀人类灵魂。",
+
+    "cobblemon.species.haghoula.name": "幻臂巫蛇",
+    "cobblemon.species.haghoula.desc1": "幻臂巫蛇虽无实体手臂，却能驱使灵质凝成幻肢。它们专以幽灵伎俩制造恐怖幻象吓唬路人。",
+
+    "cobblemon.species.ectomancer.name": "通幽术士",
+    "cobblemon.species.ectomancer.desc1": "通幽术士爱在深夜森林用咒语惊吓宝可梦，但从不真正伤害目标。",
+
+    "cobblemon.species.lupayena.name": "鬃恐狼犬",
+    "cobblemon.species.lupayena.desc1": "鬃恐狼犬领导着土狼犬和大狼犬的族群。它们心地善良，会让族群中的土狼犬先吃食物，以免与年长成员竞争。",
+
+    "cobblemon.species.polporos.name": "珊瑚小龙",
+    "cobblemon.species.polporos.desc1": "这种古代宝可梦猎杀史前好坏星以保护其栖息的珊瑚礁。相比大多数远古宝可梦，珊瑚小龙非常友善。",
+
+    "cobblemon.species.spinarift.name": "礁瑚龙",
+    "cobblemon.species.spinarift.desc1": "这种古代宝可梦为保护巢穴，曾与成群的史前超坏星展开大规模搏斗。礁瑚龙能调节巢穴周围的温度以促进珊瑚生长，而珊瑚有助于保护巢穴免受捕食者侵袭。",
+
+    "cobblemon.species.hollorn.name": "洞骨幼龙",
+    "cobblemon.species.hollorn.desc1": "这种古代宝可梦能利用角和身体上的孔洞发出各种声音。由于身体完全由骨骼构成，科学家最初以为复活过程出了差错。",
+
+    "cobblemon.species.calciopi.name": "骨音龙",
+    "cobblemon.species.calciopi.desc1": "古代人类会用这种宝可梦的化石制作乐器。骨音龙利用中空的身体发出各种声音来吓退捕食者，并与洞骨幼龙及其他骨音龙交流。",
+
+    "cobblemon.species.wickarus.name": "融蜡虫",
+    "cobblemon.species.wickarus.desc1": "融蜡虫能分泌蜡质形成翅膀甚至发丝。这种蜡不够坚固，遇水易溶，遇热易化。它在古代文明中极受欢迎，被认为可能是最初的初学者宝可梦。",
+
+    "cobblemon.species.solarica.name": "日烛虫",
+    "cobblemon.species.solarica.desc1": "只有将蜡质加热到极端温度，融蜡虫才能进化为日烛虫。有著名的古代传说讲述融蜡虫因飞得离太阳太近而进化。当然，这不可能，因为高度越高，大气越冷。",
+
+    "cobblemon.species.pokokari.name": "闪岩匠",
+    "cobblemon.species.pokokari.desc1": "闪岩匠居住在幽深黑暗的隧道中，仅在夜间浮出地表。它们用闪亮的鼻子照亮周围。其鼻子材质与小陨星相同。",
+
+    "cobblemon.species.taplatter.name": "蓬蓬蚁兽",
+    "cobblemon.species.taplatter.desc1": "蓬蓬蚁兽群体之间常进行友好的角斗，从鼻子喷射彩色黏性物质覆盖战场。这种物质的颜色来自它们爱吃的莓榴果。",
+
+    "cobblemon.species.pungudua.name": "彩蓬蚁兽",
+    "cobblemon.species.pungudua.desc1": "彩蓬蚁兽胃中储存大量黏液，可从长鼻喷射。它们在与蓬蓬蚁兽及其他彩蓬蚁兽的领地争夺中使用此招。它们偏爱有莓榴果树的领地，因为食用莓榴果能增强黏液威力。",
+
+    "cobblemon.species.linub.name": "滚滚鼠",
+    "cobblemon.species.linub.desc1": "滚滚鼠喜欢在人家中聚集成大毛团滚动，吸附灰尘和其他滚滚鼠。尽管它们会在墙上打洞，但许多屋主因其可爱而选择留下它们。",
+
+    "cobblemon.species.pilolint.name": "尘球鼠",
+    "cobblemon.species.pilolint.desc1": "尘球鼠毛发蓬松，行走时吸附灰尘。若非攻击试图清洁它的人，本可成为优秀家务助手。有时会让滚滚鼠藏身其毛发中寻求保护与温暖。",
+
+    "cobblemon.species.mamolint.name": "灰胡鼠",
+    "cobblemon.species.mamolint.desc1": "灰胡鼠脸上积聚的灰尘形似胡须。“胡须”越大，社会地位越高。它们会让尘球鼠和滚滚鼠藏身厚重毛发中以提供保护。",
+
+    "cobblemon.species.keenai.name": "铁嘴雀",
+    "cobblemon.species.keenai.desc1": "铁嘴雀行动隐秘，能在夜晚悄然潜行。其羽毛锋利如钢，用于与剑竹茏战斗。",
+
+    "cobblemon.species.sajonin.name": "钢翎鹋",
+    "cobblemon.species.sajonin.desc1": "钢翎鹋领导铁嘴雀群并教授战斗技巧。常与三首竹茏冲突，利用坚爪利羽在战斗中压制对手。",
+
+    "cobblemon.species.canjitsu.name": "剑竹茏",
+    "cobblemon.species.canjitsu.desc1": "剑竹茏群常与铁嘴雀群冲突，双方是宿敌。坚韧皮肤能抵挡铁嘴雀的锋利羽毛。",
+
+    "cobblemon.species.branchief.name": "三首竹茏",
+    "cobblemon.species.branchief.desc1": "三首竹茏保护剑竹茏群并教授战斗。常与钢翎鹋交战，凭坚韧皮肤在持久战中取胜。",
+    
+    "cobblemon.species.piochio.name": "匹械鸟",
+    "cobblemon.species.piochio.desc1": "匹械鸟似为机械造物，其工艺精妙绝伦，创造者必是旷世奇才，现代无人能及。",
+   
+    "cobblemon.species.thunkoo.name": "报时鸮",
+    "cobblemon.species.thunkoo.desc1": "报时鸮拥有惊人时间感，每日8点准时鸣叫，即便不见天日。据信它是遥远时代被制造出的宝可梦。",
+
+    "cobblemon.species.duskarou.name": "食梦鹿",
+    "cobblemon.species.duskarou.desc1": "食梦鹿在森林游荡，用利齿吸取沉睡宝可梦的梦境。其外形虽与四季鹿惊人相似，但科学家未发现二者关联。",
+
+
+
+    "cobblemon.species.stagrion.name": "狩夜鹿",
+    "cobblemon.species.stagrion.desc1": "狩夜鹿拥有强大的力量、速度与感知力，用于猎捕沉睡的宝可梦。有人认为它是由被猎杀的四季鹿的灵魂所化。",
+
+    "cobblemon.species.grubbee.name": "蜜盗蜂熊",
+    "cobblemon.species.grubbee.desc1": "蜜盗蜂熊是贪婪的宝可梦，常袭击三蜜蜂的蜂巢。它们酷爱蜂蜜，甚至会占据被袭蜂巢，以储存的蜂蜜为食。",
+
+    "cobblemon.species.mielador.name": "蜜罐蜂熊",
+    "cobblemon.species.mielador.desc1": "获得翅膀后，蜜罐蜂熊以慵懒之姿翱翔天际——它们拒绝行走，仅靠振翅移动。甚至无需动弹即可取食，靠蜂巢内的储蜜为生。",
+
+    "cobblemon.species.sandilelively.desc1": "圣罗桑黑眼鳄常见于古遗迹附近。历史学家据此推测某古帝国曾广泛驯养它们，并认为所有黑眼鳄在那个时代均为此形态。",
+
+    "cobblemon.species.krokoroklively.desc1": "圣罗桑混混鳄的厚皮强度堪比钢铁。历史学家认为某强大古帝国曾利用这坚韧皮质装备庞大军队。",
+
+    "cobblemon.species.krookodilelively.desc1": "圣罗桑流氓鳄脱落的鳞片可制成极锋利的工具。历史学家认为该形态曾是古文明高级军官青睐的宝可梦。",
+
+    "cobblemon.species.shucklegalar.desc1": "圣罗桑壶壶与世上常见形态截然不同。其外壳并非坚硬甲壳，而是由脆冰构成，但它能从中伸出形似大炮的巨型附肢对抗捕食者。这门“炮”能喷射美味甜冰淇淋，类似城都壶壶外壳产生甜莓果汁。",
+
+    "cobblemon.species.heracrosspaldea.desc1": "圣罗桑赫拉克罗斯非常温顺友善，甚至允许小型宝可梦骑乘。该形态喜食橡果等树坚果。",
+
+    "cobblemon.species.tropiussanrosa.desc1": "与丰缘形态不同，圣罗桑热带龙体型极为高大，有时会被误认为真树。其高度也使其能俯瞰所栖森林的树冠，及时阻止任何蔓延的林火。有科学家将其与阿罗拉和关东椰蛋树的高度差异相类比。",
+
+    "cobblemon.species.sandygastsanrosa.desc1": "圣罗桑沙丘娃是细致的艺术家，用头上的凿子将身体精心雕琢成美丽雕塑。若有人夺走其凿子，它将永远怀恨在心。",
+
+    "cobblemon.species.palobod.name": "雕沙巨灵",
+    "cobblemon.species.palobod.desc1": "雕沙巨灵极为自恋，似乎痴迷于自己从沙丘娃形态辛苦雕琢而成的身躯。有著名古代故事讲述一只雕沙魔凝视水中倒影过久而亡。",
+
+    "cobblemon.species.budabon.name": "布达邦",
+    "cobblemon.species.budabon_kanto.desc": "布达邦是适应力极强的宝可梦，似乎遍布世界各地，形态多样。因其极为常见，它被记载为最初宝可梦图鉴的第一号宝可梦，即宝可梦编号0。这种形态以其鲜艳色彩与易怒性情著称。",
+    "cobblemon.species.budabon_johto.desc": "布达邦是适应力极强的宝可梦，似乎遍布世界各地，形态多样。因其极为常见，它被记载为最初宝可梦图鉴的第一号宝可梦，即宝可梦编号0。这种形态以其反应迟缓与悠闲性情著称。",
+    "cobblemon.species.budabon_hoenn.desc": "布达邦是适应力极强的宝可梦，似乎遍布世界各地，形态多样。因其极为常见，它被记载为最初宝可梦图鉴的第一号宝可梦，即宝可梦编号0。这种形态以其普遍受欢迎程度与自大性情著称。",
+    "cobblemon.species.budabon_sinnoh.desc": "布达邦是适应力极强的宝可梦，似乎遍布世界各地，形态多样。因其极为常见，它被记载为最初宝可梦图鉴的第一号宝可梦，即宝可梦编号0。这种形态以其粗糙皮肤与坚定性情著称。",
+    "cobblemon.species.budabon_unova.desc": "布达邦是适应力极强的宝可梦，似乎遍布世界各地，形态多样。因其极为常见，它被记载为最初宝可梦图鉴的第一号宝可梦，即宝可梦编号0。这种形态以其偷窃癖与狡猾性情著称。",
+    "cobblemon.species.budabon_kalos.desc": "布达邦是适应力极强的宝可梦，似乎遍布世界各地，形态多样。因其极为常见，它被记载为最初宝可梦图鉴的第一号宝可梦，即宝可梦编号0。这种形态以其持续眩晕与困惑性情著称。",
+    "cobblemon.species.budabon_alola.desc": "布达邦是适应力极强的宝可梦，似乎遍布世界各地，形态多样。因其极为常见，它被记载为最初宝可梦图鉴的第一号宝可梦，即宝可梦编号0。这种形态以其巨大头部与兴奋性情著称。",
+    "cobblemon.species.budabon_galar.desc": "布达邦是适应力极强的宝可梦，似乎遍布世界各地，形态多样。因其极为常见，它被记载为最初宝可梦图鉴的第一号宝可梦，即宝可梦编号0。这种形态以其骑士精神与自信性情著称。",
+    "cobblemon.species.budabon_hisui.desc": "布达邦是适应力极强的宝可梦，似乎遍布世界各地，形态多样。因其极为常见，它被记载为最初宝可梦图鉴的第一号宝可梦，即宝可梦编号0。这种形态以其与洗翠形态的关联及麻烦性情著称。",
+    "cobblemon.species.budabon_paldea.desc": "布达邦是适应力极强的宝可梦，似乎遍布世界各地，形态多样。因其极为常见，它被记载为最初宝可梦图鉴的第一号宝可梦，即宝可梦编号0。这种形态以其情绪爆发与胆怯性情著称。",
+    "cobblemon.species.budabon_sanrosa.desc": "布达邦是适应力极强的宝可梦，似乎遍布世界各地，形态多样。因其极为常见，它被记载为最初宝可梦图鉴的第一号宝可梦，即宝可梦编号0。这种形态以其锋利尖刺与勇猛性情著称。",
+    "cobblemon.species.budabon_lumora.desc": "布达邦是适应力极强的宝可梦，似乎遍布世界各地，形态多样。因其极为常见，它被记载为最初宝可梦图鉴的第一号宝可梦，即宝可梦编号0。这种形态以其夜行习性与奇思妙想性情著称。",
+    "cobblemon.species.budabon_alatia.desc": "布达邦是适应力极强的宝可梦，似乎遍布世界各地，形态多样。因其极为常见，它被记载为最初宝可梦图鉴的第一号宝可梦，即宝可梦编号0。这种形态以其酸性皮肤与无忧无虑性情著称。",
+    "cobblemon.species.budabon_laser.desc": "布达邦是适应力极强的宝可梦，似乎遍布世界各地，形态多样。因其极为常见，它被记载为最初宝可梦图鉴的第一号宝可梦，即宝可梦编号0。这种形态以其发光皮肤与谨慎性情著称。",
+    "cobblemon.species.budabon_jetia.desc": "布达邦是适应力极强的宝可梦，似乎遍布世界各地，形态多样。因其极为常见，它被记载为最初宝可梦图鉴的第一号宝可梦，即宝可梦编号0。这种形态以其催泪皮肤与顽皮性情著称。有科学家因其不像水果而质疑其为真正布达邦，但他们忽略了杰提安布达邦有多么出色。",
+
+    "advancements.cobblemon.catch_all_budabon": "来自所有地区",
+    "advancements.cobblemon.catch_all_budabon.description": "找到来自每个地区的布达邦形态",
+
+    "advancements.cobblemon.catch_all_budabon_including_fakemon": "超大聚会",
+    "advancements.cobblemon.catch_all_budabon_including_fakemon.description": "获得所有布达邦形态，包括来自各个fakemon地区的形态",
+
+    "advancements.cobblemon.catch_all_budabon_shiny": "赫斯珀里得斯的花园",
+    "advancements.cobblemon.catch_all_budabon_shiny.description": "获得每种布达邦形态的异色形态，欣赏其闪耀光辉",
+
+    "cobblemon.starterselection.category.sanrosa": "圣罗桑",
+
+    "cobblemon.ability.honeypot": "蜜罐",
+    "cobblemon.ability.honeypot.desc": "此宝可梦食用蜂巢内的储蜜，每回合回复1/16HP。",
+
+    "cobblemon.ability.starlight": "星光",
+    "cobblemon.ability.starlight.desc": "此宝可梦及其同伴的招式必定命中。对一击必杀类招式无效。",
+
+    "cobblemon.ability.apexpredator": "顶级掠食",
+    "cobblemon.ability.apexpredator.desc": "宝可梦出场时，以精湛的猎杀技巧降低对手的防御。",
+
+    "cobblemon.ability.cumulonimbus": "积雨云",
+    "cobblemon.ability.cumulonimbus.desc": "场上有天气时，此宝可梦的招式威力提升50%。",
+
+    "cobblemon.ability.linkedminds": "链接思维",
+    "cobblemon.ability.linkedminds.desc": "此宝可梦由两个思维链接的个体构成，能同步攻击。",
+
+    "cobblemon.ability.undertow": "暗流",
+    "cobblemon.ability.undertow.desc": "此宝可梦的招式总是以场上所有对手为目标。",
+
+    "cobblemon.ability.magicdrain": "魔力吸取",
+    "cobblemon.ability.magicdrain.desc": "此宝可梦吸取对手的魔力，每回合降低其特攻。",
+
+    "wallpaper.mielador": "护林熊斯莫基",
+    "wallpaper.polporos": "远古日落",
+    "wallpaper.seibat": "古像蝠",
+
+    "cobblemon.ui.pokedex.info.form.lively": "圣罗桑",
+    "cobblemon.ui.pokedex.info.form.sandile": "",
+    "cobblemon.ui.pokedex.info.form.sandile-lively": "圣罗桑",
+    "cobblemon.ui.pokedex.info.form.krokorok": "",
+    "cobblemon.ui.pokedex.info.form.krokorok-lively": "圣罗桑",
+    "cobblemon.ui.pokedex.info.form.krookodile": "",
+    "cobblemon.ui.pokedex.info.form.krookodile-lively": "圣罗桑",
+    "cobblemon.ui.pokedex.info.form.shuckle": "",
+    "cobblemon.ui.pokedex.info.form.shuckle-galar": "圣罗桑",
+    "cobblemon.ui.pokedex.info.form.heracross": "",
+    "cobblemon.ui.pokedex.info.form.heracross-paldea": "圣罗桑",
+    "cobblemon.ui.pokedex.info.form.sandygast": "",
+    "cobblemon.ui.pokedex.info.form.sandygast-sanrosa": "圣罗桑",
+    "cobblemon.ui.pokedex.info.form.tropius": "",
+    "cobblemon.ui.pokedex.info.form.tropius-sanrosa": "圣罗桑",
+
+    "cobblemon.ui.pokedex.info.form.palobod-prideful": "Prideful",
+    "cobblemon.ui.pokedex.info.form.palobod-mighty": "Mighty",
+    "cobblemon.ui.pokedex.info.form.palobod-nerdy": "Nerdy",
+    "cobblemon.ui.pokedex.info.form.palobod-spiral": "Spiral",
+    "cobblemon.ui.pokedex.info.form.palobod-thinker": "Thinker",
+    "cobblemon.ui.pokedex.info.form.palobod-striking": "Striking",
+
+    "cobblemon.ui.pokedex.info.form.budabon-kantonian": "关都",
+    "cobblemon.ui.pokedex.info.form.budabon-johtonian": "城都",
+    "cobblemon.ui.pokedex.info.form.budabon-hoennian": "丰缘",
+    "cobblemon.ui.pokedex.info.form.budabon-sinnohan": "神奥",
+    "cobblemon.ui.pokedex.info.form.budabon-unovan": "合众",
+    "cobblemon.ui.pokedex.info.form.budabon-kalosian": "卡洛斯",
+    "cobblemon.ui.pokedex.info.form.budabon-alolan": "阿罗拉",
+    "cobblemon.ui.pokedex.info.form.budabon-galarian": "伽勒尔",
+    "cobblemon.ui.pokedex.info.form.budabon-hisuian": "洗翠",
+    "cobblemon.ui.pokedex.info.form.budabon-paldean": "帕底亚",
+    "cobblemon.ui.pokedex.info.form.budabon-sanrosan": "圣罗桑",
+    "cobblemon.ui.pokedex.info.form.budabon-lumoran": "露莫拉",
+    "cobblemon.ui.pokedex.info.form.budabon-laser": "雷瑟",
+    "cobblemon.ui.pokedex.info.form.budabon-alatian": "阿拉迪亚",
+    "cobblemon.ui.pokedex.info.form.budabon-jetian": "杰提亚",
+    
+    "cobblemon.ui.pokedex.region.lively": "莱伏利的宝可梦",
+    "cobblemon.ui.pokedex.region.budabon": "布达邦"
+}

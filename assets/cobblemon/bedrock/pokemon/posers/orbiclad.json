@@ -1,0 +1,44 @@
+{
+      "portraitScale": 1.35,
+      "portraitTranslation": [ -0.1, 0.55, 0],
+      "profileScale": 0.7,
+      "profileTranslation": [ 0, 0.8, 0 ],
+  "rootBone": "orbiclad",
+  "animations": {
+    "faint": "q.bedrock_primary('orbiclad', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('orbiclad', 'cry')",
+    "recoil": "q.bedrock_stateful('orbiclad', 'recoil')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "HOVER", "FLOAT"],
+      "animations": ["q.pitch_tilt('body_ai')", 
+        "q.look('body_ai')",
+        "q.bedrock('orbiclad', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('orbiclad', 'blink1')",
+        "q.bedrock_quirk('orbiclad', 'blink2')",
+        "q.bedrock_quirk('orbiclad', 'blink3')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM", "FLY"],
+      "animations": ["q.pitch_tilt('body_ai')", 
+        "q.bedrock('orbiclad', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('orbiclad', 'blink1')",
+        "q.bedrock_quirk('orbiclad', 'blink2')",
+        "q.bedrock_quirk('orbiclad', 'blink3')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('orbiclad', 'sleep')"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

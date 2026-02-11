@@ -1,0 +1,101 @@
+      {
+      "portraitScale": 2,
+      "portraitTranslation": [-0.8, -1.1, 0],
+      "profileScale": 0.7,
+      "profileTranslation": [0, 0.75, 0],
+  "rootBone": "polporos",
+  "animations": {
+    "faint": "q.bedrock_primary('polporos', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('polporos', 'cry')",
+    "recoil": "q.bedrock_stateful('polporos', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "PORTRAIT", "PROFILE"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head', 1, 0.25)",
+        "q.bedrock('polporos', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('polporos', 'blink')",
+        "q.bedrock_quirk('polporos', 'quirk')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE"],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head', 1, 0.25)",
+        "q.bedrock('polporos', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('polporos', 'blink')",
+        "q.bedrock_quirk('polporos', 'quirk')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head', 1, 0.25)",
+        "q.bedrock('polporos', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('polporos', 'blink')",
+        "q.bedrock_quirk('polporos', 'quirk')"
+      ]
+    },
+    "float": {
+      "poseTypes": ["FLOAT", "STAND"],
+      "isTouchingWater": true,
+      "animations": [
+        "q.look('head', 1, 0.25)",
+        "q.bedrock('polporos', 'water_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('polporos', 'blink')",
+        "q.bedrock_quirk('polporos', 'quirk')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM", "WALK"],
+      "isTouchingWater": true,
+      "animations": [
+        "q.look('head', 1, 0.25)",
+        "q.bedrock('polporos', 'water_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('polporos', 'blink')",
+        "q.bedrock_quirk('polporos', 'quirk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('polporos', 'sleep')"],
+            "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    },    
+      "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.look('head', 1, 0.25)",
+        "q.bedrock('polporos', 'shoulder_left')"
+        ],
+      "quirks": ["q.bedrock_quirk('polporos', 'blink')",
+        "q.bedrock_quirk('polporos', 'quirk')"]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('head', 1, 0.25)",
+        "q.bedrock('polporos', 'shoulder_right')"
+    ],
+      "quirks": ["q.bedrock_quirk('polporos', 'blink')",
+        "q.bedrock_quirk('polporos', 'quirk')"]
+    }
+  }
+}

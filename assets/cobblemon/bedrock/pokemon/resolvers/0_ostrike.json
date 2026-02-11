@@ -1,0 +1,49 @@
+{
+  "species": "cobblemon:ostrike",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ostrike",
+      "model": "cobblemon:ostrike.geo",
+      "texture": "cobblemon:textures/pokemon/ostrike/ostrike.png",
+      "layers": [
+          {
+              "name": "animation",
+            "emissive": true,
+              "texture": {
+                "frames": [
+                  "cobblemon:textures/pokemon/ostrike/animation/wheel_1.png",
+                  "cobblemon:textures/pokemon/ostrike/animation/wheel_2.png",
+                  "cobblemon:textures/pokemon/ostrike/animation/wheel_3.png",
+                  "cobblemon:textures/pokemon/ostrike/animation/wheel_4.png"
+                ],
+                "fps": 5,
+                "loop": true
+              }
+            }
+      ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "poser": "cobblemon:ostrike_shiny",
+      "texture": "cobblemon:textures/pokemon/ostrike/ostrike_shiny.png",
+      "layers":[
+      {
+          "name": "animation",
+            "emissive": true,
+          "texture": {
+            "frames": [
+                  "cobblemon:textures/pokemon/ostrike/animation/wheel_shiny_1.png",
+                  "cobblemon:textures/pokemon/ostrike/animation/wheel_shiny_2.png",
+                  "cobblemon:textures/pokemon/ostrike/animation/wheel_shiny_3.png",
+                  "cobblemon:textures/pokemon/ostrike/animation/wheel_shiny_4.png"
+            ],
+            "fps": 5,
+            "loop": true
+          }
+      }
+  ]
+    }
+  ]
+}

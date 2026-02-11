@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:tropius",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": [ "sanrosan"],
+        "poser": "cobblemon:tropiussanrosa",
+        "model": "cobblemon:tropiussanrosa.geo",
+        "texture": "cobblemon:textures/pokemon/tropiussanrosa/tropiussanrosa.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny", "sanrosan" ],
+        "texture": "cobblemon:textures/pokemon/tropiussanrosa/tropiussanrosa_shiny.png",
+        "layers":[]
+    }
+  ]
+}

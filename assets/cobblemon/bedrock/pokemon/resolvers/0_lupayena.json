@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:lupayena",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:lupayena",
+        "model": "cobblemon:lupayena.geo",
+        "texture": "cobblemon:textures/pokemon/lupayena/lupayena.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/lupayena/lupayena_shiny.png"
+      }
+    ]
+  }

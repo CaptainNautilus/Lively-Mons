@@ -1,0 +1,48 @@
+{
+      "portraitScale": 2.8,
+      "portraitTranslation": [ -0.7, -1.2, 0],
+      "profileScale": 0.65,
+      "profileTranslation": [ 0, 0.8, 0 ],
+  "rootBone": "moistery",
+  "animations": {
+    "faint": "q.bedrock_primary('moistery', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('moistery', 'cry')",
+    "recoil": "q.bedrock_stateful('moistery', 'recoil')"
+  },
+  "poses": {
+    "portrait": {
+      "poseTypes":["PORTRAIT"],
+      "animations": [
+        "q.bedrock('moistery', 'ground_idle')"
+    ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PROFILE", "HOVER", "FLOAT"],
+      "animations": ["q.pitch_tilt('body')", 
+        "q.look('body')",
+        "q.bedrock('moistery', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('moistery', 'blink1')",
+        "q.bedrock_quirk('moistery', 'blink2')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM", "FLY"],
+      "animations": ["q.pitch_tilt('body')", 
+        "q.bedrock('moistery', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('moistery', 'blink1')",
+        "q.bedrock_quirk('moistery', 'blink2')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('moistery', 'sleep')"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

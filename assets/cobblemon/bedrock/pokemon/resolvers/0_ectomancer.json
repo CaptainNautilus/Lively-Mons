@@ -1,0 +1,31 @@
+{
+    "species": "cobblemon:ectomancer",
+    "order": 0,
+    "variations": [
+      {
+        "poser": "cobblemon:ectomancer",
+        "model": "cobblemon:ectomancer.geo",
+        "texture": "cobblemon:textures/pokemon/ectomancer/ectomancer.png",
+        "layers": [
+          {
+            "name": "apparition",
+            "texture": "cobblemon:textures/pokemon/ectomancer/ectomancer_transparent.png",
+            "translucent": true,
+            "emissive":true
+          }  
+        ]
+      },
+      {
+        "aspects": [ "shiny"],
+        "texture": "cobblemon:textures/pokemon/ectomancer/ectomancer_shiny.png",
+        "layers":[
+          {
+          "name": "apparition",
+          "texture": "cobblemon:textures/pokemon/ectomancer/ectomancer_shiny_transparent.png",
+          "translucent": true,
+          "emissive":true
+        }  
+      ]
+    }
+  ]
+}

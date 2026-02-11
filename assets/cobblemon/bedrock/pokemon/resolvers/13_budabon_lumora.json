@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:budabon",
+    "order": 13,
+    "variations": [
+      {
+        "aspects": [ "lumoran"],
+        "poser": "cobblemon:budabon_lumora",
+        "model": "cobblemon:budabon_lumora.geo",
+        "texture": "cobblemon:textures/pokemon/budabon/budabon_lumora.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny", "lumoran" ],
+        "texture": "cobblemon:textures/pokemon/budabon/budabon_lumora_shiny.png",
+        "layers":[]
+      }
+  ]
+}

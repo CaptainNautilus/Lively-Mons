@@ -1,0 +1,33 @@
+{
+    "species": "cobblemon:cyclopod",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:cyclopod",
+        "model": "cobblemon:cyclopod.geo",
+        "texture": "cobblemon:textures/pokemon/cyclopod/cyclopod.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/cyclopod/cyclopod_emissive.png",
+            "translucent": true
+      }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "poser": "cobblemon:cyclopod_shiny",
+        "texture": "cobblemon:textures/pokemon/cyclopod/cyclopod_shiny.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/cyclopod/cyclopod_shiny_emissive.png",
+            "translucent": true
+      }
+        ]
+      }
+    ]
+  }

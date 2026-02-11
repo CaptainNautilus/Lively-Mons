@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:branchief",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:branchief",
+        "model": "cobblemon:branchief.geo",
+        "texture": "cobblemon:textures/pokemon/branchief/branchief.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/branchief/branchief_shiny.png"
+      }
+    ]
+  }

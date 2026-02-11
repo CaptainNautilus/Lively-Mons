@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:frostnatch",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:frostnatch",
+        "model": "cobblemon:frostnatch.geo",
+        "texture": "cobblemon:textures/pokemon/frostnatch/frostnatch.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/frostnatch/frostnatch_shiny.png"
+      }
+    ]
+  }

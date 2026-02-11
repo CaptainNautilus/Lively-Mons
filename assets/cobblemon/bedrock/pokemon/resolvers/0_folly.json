@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:folly",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:folly",
+      "model": "cobblemon:folly.geo",
+      "texture": "cobblemon:textures/pokemon/folly/folly.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/folly/folly_emissive.png"
+    }
+      ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/folly/folly_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/folly/folly_shiny_emissive.png"
+    }
+      ]
+    }
+  ]
+}

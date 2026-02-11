@@ -1,0 +1,30 @@
+{
+    "species": "cobblemon:pokokari",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:pokokari",
+        "model": "cobblemon:pokokari.geo",
+        "texture": "cobblemon:textures/pokemon/pokokari/pokokari.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/pokokari/pokokari_emissive.png"
+      }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/pokokari/pokokari_shiny.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/pokokari/pokokari_shiny_emissive.png"
+      }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:hollorn",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:hollorn",
+        "model": "cobblemon:hollorn.geo",
+        "texture": "cobblemon:textures/pokemon/hollorn/hollorn.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/hollorn/hollorn_shiny.png"
+      }
+    ]
+  }

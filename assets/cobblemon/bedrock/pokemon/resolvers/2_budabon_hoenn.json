@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:budabon",
+    "order": 2,
+    "variations": [
+      {
+        "aspects": [ "hoennian"],
+        "poser": "cobblemon:budabon_hoenn",
+        "model": "cobblemon:budabon_hoenn.geo",
+        "texture": "cobblemon:textures/pokemon/budabon/budabon_hoenn.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny", "hoennian" ],
+        "texture": "cobblemon:textures/pokemon/budabon/budabon_hoenn_shiny.png",
+        "layers":[]
+      }
+  ]
+}

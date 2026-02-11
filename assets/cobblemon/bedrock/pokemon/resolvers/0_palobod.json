@@ -1,0 +1,43 @@
+{
+    "species": "cobblemon:palobod",
+    "order": 0,
+    "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:palobod",
+      "model": "cobblemon:palobod.geo",
+      "texture": "cobblemon:textures/pokemon/palobod/palobod.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/palobod/palobod_shiny.png",
+      "layers":[]
+    },
+    {
+      "aspects": ["prideful-pose"],
+      "model": "cobblemon:palobod_pose2.geo"
+    },
+    {
+      "aspects": ["mighty-pose"],
+      "model": "cobblemon:palobod_pose3.geo"
+    },
+    {
+      "aspects": ["nerdy-pose"],
+      "model": "cobblemon:palobod_pose4.geo"
+    },
+    {
+      "aspects": ["spiral-pose"],
+      "model": "cobblemon:palobod_pose5.geo"
+    },
+    {
+      "aspects": ["thinker-pose"],
+      "model": "cobblemon:palobod_pose6.geo"
+    },
+    {
+      "aspects": ["striking-pose"],
+      "poser": "cobblemon:palobod_pose7",
+      "model": "cobblemon:palobod_pose7.geo"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:wailevi",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:wailevi",
+        "model": "cobblemon:wailevi.geo",
+        "texture": "cobblemon:textures/pokemon/wailevi/wailevi.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/wailevi/wailevi_shiny.png"
+      }
+    ]
+  }

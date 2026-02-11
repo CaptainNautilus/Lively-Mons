@@ -1,0 +1,41 @@
+{
+      "portraitScale": 2.2,
+      "portraitTranslation": [ -0.2, -1.65, 0],
+      "profileScale": 1,
+      "profileTranslation": [ 0, 0.25, 0 ],
+  "rootBone": "krillcracker",
+  "animations": {
+    "faint": "q.bedrock_primary('krillcracker', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('krillcracker', 'cry')",
+      "recoil": "q.bedrock_stateful('krillcracker', 'recoil')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('krillcracker', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('krillcracker', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('krillcracker', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('krillcracker', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('krillcracker', 'sleep')"],
+            "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

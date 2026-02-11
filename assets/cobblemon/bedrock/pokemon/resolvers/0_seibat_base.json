@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:seibat",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:seibat",
+        "model": "cobblemon:seibat.geo",
+        "texture": "cobblemon:textures/pokemon/seibat/seibat.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/seibat/seibat_shiny.png"
+      }
+    ]
+  }
+  
