@@ -1,0 +1,35 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "haghoula-1",
+            "pokemon": "haghoula",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "31-42",
+            "weight": 0.54,
+            "weightMultiplier": {
+                "multiplier": 2.0,
+                "condition": {
+                    "timeRange": "night"
+
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_spooky",
+                    "#cobblemon:is_magical"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,363 @@
+{
+    "implemented": true,
+    "name": "spinarift",
+    "nationalPokedexNumber": 100,
+    "primaryType": "rock",
+    "secondaryType": "water",
+    "abilities": [
+      "filter",
+      "swiftswim",
+      "h:regenerator"
+    ],
+    "preEvolution":"polporos",
+    "baseStats": {
+      "hp": 71,
+      "attack": 70,
+      "defence": 59,
+      "special_attack": 121,
+      "special_defence": 118,
+      "speed": 82
+    },
+    "catchRate": 45,
+    "maleRatio": 0.875,
+    "shoulderMountable": false,
+    "baseExperienceYield": 182,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 30,
+    "eggGroups": [
+      "water_1",
+      "dragon"
+    ],
+      "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "40-60",
+          "JUMP": "40-55",
+          "SKILL": "15-25",
+          "SPEED": "20-30",
+          "STAMINA": "50-70"
+        }
+      },
+      "LIQUID": {
+        "key": "cobblemon:liquid/dolphin",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "45-75",
+          "JUMP": "35-65",
+          "SKILL": "25-65",
+          "SPEED": "45-65",
+          "STAMINA": "25-55"
+        }
+    }
+  },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": -0.0044199796,
+              "y": -4.43871,
+              "z": -1.7035363
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.24040884,
+              "y": -4.319892,
+              "z": -1.9330622
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.4900259,
+              "y": -4.2273817,
+              "z": -1.8066592
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.4900259,
+              "y": -4.2273817,
+              "z": -1.8066592
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.4900259,
+              "y": -4.2273817,
+              "z": -1.8066592
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.4900259,
+              "y": -4.2273817,
+              "z": -1.8066592
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.4900259,
+              "y": -4.2273817,
+              "z": -1.8066592
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      },
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": -0.0013658587,
+              "y": -2.688829,
+              "z": 0.88855124
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.014507234,
+              "y": -2.91135,
+              "z": 0.50614136
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.28322676,
+              "y": -2.8153157,
+              "z": 0.828276
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.28322676,
+              "y": -2.8153157,
+              "z": 0.828276
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.28322676,
+              "y": -2.8153157,
+              "z": 0.828276
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.28322676,
+              "y": -2.8153157,
+              "z": 0.828276
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.28322676,
+              "y": -2.8153157,
+              "z": 0.828276
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,
+      "light": "0-4",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "2",
+      "toleratedLeaders": [
+        {
+          "pokemon": "spinarift",
+          "tier": 1
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+      "moving": {
+        "swim": {
+          "canSwimInWater": true,
+          "canWalkOnWater": true,
+          "canBreatheUnderwater": true,
+          "swimSpeed": "0.2"
+        },
+        "walk": {
+          "walkSpeed": 0.27
+        }
+      }
+    },
+    "drops": {
+      "amount": 6,
+      "entries": [
+        {
+          "item": "minecraft:brain_coral",
+          "quantityRange": "0-2"
+        },
+        {
+          "item": "minecraft:brain_coral_fan",
+          "quantityRange": "0-2"
+        },
+        {
+          "item": "minecraft:brain_coral_block",
+          "quantityRange": "0-2",
+          "percentage": 50.0
+        }
+      ]
+    },
+    "moves": [
+      "1:scratch",
+      "1:growl",
+      "1:watergun",
+      "1:roar",
+      "5:bite",
+      "10:aquaring",
+      "15:waterpulse",
+      "20:ancientpower",
+      "25:lifedew",
+      "30:brine",
+      "36:chillingwater",
+      "43:powergem",
+      "47:surf",
+      "50:crunch",
+      "55:earthpower",
+      "60:dragonpulse",
+      "65:hydropump",
+
+      "tm:aquaring",
+      "tm:ancientpower",
+      "tm:lifedew",
+      "tm:brine",
+      "tm:chillingwater",
+      "tm:powergem",
+      "tm:surf",
+      "tm:crunch",
+      "tm:earthpower",
+      "tm:dragonpulse",
+      "tm:hydropump",
+      "tm:bodyslam",
+      "tm:brine",
+      "tm:captivate",
+      "tm:confide",
+      "tm:dive",
+      "tm:doubleteam",
+      "tm:earthpower",
+      "tm:endure",
+      "tm:facade",
+      "tm:frustration",
+      "tm:gyroball",
+      "tm:hail",
+      "tm:hiddenpower",
+      "tm:hydropump",
+      "tm:icebeam",
+      "tm:icywind",
+      "tm:irondefense",
+      "tm:round",
+      "tm:sandstorm",
+      "tm:scald",
+      "tm:secretpower",
+      "tm:sleeptalk",
+      "tm:smackdown",
+      "tm:snore",
+      "tm:spikes",
+      "tm:stealthrock",
+      "tm:substitute",
+      "tm:surf",
+      "tm:swagger",
+      "tm:thief",
+      "tm:toxic",
+      "tm:waterfall",
+      "tm:waterpulse",
+      
+      "tutor:meteorbeam",
+      "tutor:whirlpool",
+      "tutor:blizzard",
+      "tutor:dragondance"
+    ],
+    "labels": [
+      "custom"
+    ],
+    "pokedex": [
+      "cobblemon.species.spinarift.desc1"
+    ],
+    "baseScale": 1.2,
+    "hitbox": {
+      "width": 1.425,
+      "height": 4,
+      "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 2,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "height": 19,
+    "weight": 950,
+    "aspects": [],
+    "cannotDynamax": false
+  }  

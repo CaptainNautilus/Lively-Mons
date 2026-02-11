@@ -1,0 +1,336 @@
+{
+    "implemented": true,
+    "name": "mortaraid",
+    "nationalPokedexNumber": 9,
+    "primaryType": "water",
+    "secondaryType":"rock",
+    "abilities": [
+      "torrent",
+      "h:rockypayload"
+    ],
+    "preEvolution":"vasaddle",
+    "baseStats": {
+      "hp": 90,
+      "attack": 85,
+      "defence": 100,
+      "special_attack": 110,
+      "special_defence": 60,
+      "speed": 90
+    },
+    "catchRate": 45,
+    "maleRatio": 0.875,
+    "shoulderMountable": false,
+    "baseExperienceYield": 241,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 20,
+    "eggGroups": [
+      "field",
+      "water_1"
+    ],
+      "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "50-70",
+          "JUMP": "15-25",
+          "SKILL": "35-55",
+          "SPEED": "45-60",
+          "STAMINA": "80-100"
+        }
+      },
+      "LIQUID": {
+        "key": "cobblemon:liquid/boat",
+        "surfaceLevelOffset": -1.6,
+        "rideSounds": [
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.water_surface",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          }
+        ],
+        "stats": {
+          "ACCELERATION": "20-45",
+          "JUMP": "10-20",
+          "SKILL": "40-65",
+          "SPEED": "15-30",
+          "STAMINA": "55-85"
+        }
+    }
+  },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.019325797,
+              "y": -2.7409186,
+              "z": -0.035812236
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.010157736,
+              "y": -2.7402267,
+              "z": -0.04133668
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.019325797,
+              "y": -2.7409186,
+              "z": -0.035812236
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.010157736,
+              "y": -2.7402267,
+              "z": -0.04133668
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.019325797,
+              "y": -2.7409186,
+              "z": -0.035812236
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.010157736,
+              "y": -2.7402267,
+              "z": -0.04133668
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.019325797,
+              "y": -2.7409186,
+              "z": -0.035812236
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "mortaraid",
+          "tier": 1
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+      "moving": {
+        "walk": {
+          "walkSpeed": 0.2
+        },
+          "swim": {
+            "canSwimInWater": true,
+            "canWalkOnWater": true,
+            "canBreatheUnderwater": false
+          }
+      }
+    },
+    "drops": {
+      "amount": 5,
+      "entries": [
+        {
+          "item": "minecraft:decorated_pot",
+          "quantityRange": "0-3"
+        },
+        {
+          "item": "cobblemon:mystic_water",
+          "percentage": 25.0
+        }
+      ]
+    },
+    "moves": [
+      "1:tailwhip",
+      "1:tackle",
+      "3:watergun",
+      "6:doublekick",
+      "9:quickattack",
+      "9:rockthrow",
+      "12:soak",
+      "12:protect",
+      "15:withdraw",
+      "17:bide",
+      "20:waterpulse",
+      "22:watersport",
+      "23:rockslide",
+      "26:takedown",
+      "29:torment",
+      "32:scald",
+      "38:rockpolish",
+      "39:earthpower",
+      "42:powergem",
+      "45:highhorsepower",
+      "49:muddywater",
+      "51:earthquake",
+      "54:hydropump",
+
+      "tm:highhorsepower",
+      "tm:torment",
+      "tm:attract",
+      "tm:avalanche",
+      "tm:blizzard",
+      "tm:bodyslam",
+      "tm:captivate",
+      "tm:chillingwater",
+      "tm:confide",
+      "tm:curse",
+      "tm:dig",
+      "tm:dive",
+      "tm:doubleedge",
+      "tm:doubleteam",
+      "tm:earthpower",
+      "tm:echoedvoice",
+      "tm:hydropump",
+      "tm:endure",
+      "tm:facade",
+      "tm:frustration",
+      "tm:hail",
+      "tm:hiddenpower",
+      "tm:powergem",
+      "tm:icebeam",
+      "tm:icywind",
+      "tm:irontail",
+      "tm:liquidation",
+      "tm:lowkick",
+      "tm:muddywater",
+      "tm:mudshot",
+      "tm:quickattack",
+      "tm:naturalgift",
+      "tm:protect",
+      "tm:raindance",
+      "tm:rest",
+      "tm:return",
+      "tm:roar",
+      "tm:rockslide",
+      "tm:doublekick",
+      "tm:rocktomb",
+      "tm:round",
+      "tm:scald",
+      "tm:rockpolish",
+      "tm:secretpower",
+      "tm:sleeptalk",
+      "tm:sludgewave",
+      "tm:snore",
+      "tm:strength",
+      "tm:substitute",
+      "tm:superpower",
+      "tm:surf",
+      "tm:swagger",
+      "tm:takedown",
+      "tm:terablast",
+      "tm:toxic",
+      "tm:uproar",
+      "tm:waterfall",
+      "tm:waterpledge",
+      "tm:waterpulse",
+      "tm:endeavor",
+      "tm:workup",
+      "tm:yawn",
+      "tm:stoneedge",
+      "tm:stealthrock",
+
+      "tutor:ancientpower",
+      "tutor:aquatail",
+      "tutor:bodyslam",
+      "tutor:defensecurl",
+      "tutor:dive",
+      "tutor:doubleedge",
+      "tutor:earthpower",
+      "tutor:hydropump",
+      "tutor:endure",
+      "tutor:tailwhip",
+      "tutor:headbutt",
+      "tutor:icywind",
+      "tutor:irontail",
+      "tutor:lowkick",
+      "tutor:mimic",
+      "tutor:quickattack",
+      "tutor:rollout",
+      "tutor:sleeptalk",
+      "tutor:snore",
+      "tutor:substitute",
+      "tutor:superpower",
+      "tutor:swagger",
+      "tutor:tackle",
+      "tutor:uproar",
+      "tutor:watergun",
+      "tutor:waterpledge",
+      "tutor:waterpulse"  
+    ],
+    "labels": [
+      "custom"
+    ],
+    "pokedex": [
+      "cobblemon.species.mortaraid.desc1"
+    ],
+
+    "baseScale": 0.7,
+    "hitbox": {
+      "width": 1.8,
+      "height": 5,
+      "fixed": false
+    },  
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 3,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "height": 32,
+    "weight": 1600,
+    "aspects": [],
+    "cannotDynamax": false
+  }
+  

@@ -1,0 +1,238 @@
+{
+    "implemented": true,
+    "name": "wickarus",
+    "nationalPokedexNumber": 28,
+    "labels": [ "custom" ],
+    "primaryType": "bug",
+    "secondaryType":"flying",
+    "abilities": [
+      "galewings",
+      "opportunist",
+      "h:protean"
+    ],
+    "baseStats": {
+      "hp": 39,
+      "attack": 49,
+      "defence": 42,
+      "special_attack": 37,
+      "special_defence": 32,
+      "speed": 71
+    },
+    "behaviour": {
+        "moving": {
+          "canLook": true,        
+          "walk": {
+            "canWalk": true,
+            "walkSpeed": 0.2
+          },
+          "fly": {
+            "canFly": true
+          }
+        },
+          "resting": {
+            "canSleep": true,
+            "willSleepOnBed": true,
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "3",
+      "toleratedLeaders": [
+        {
+          "pokemon": "wickarus",
+          "tier": 1
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+        },
+    "catchRate": 190,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 54,
+    "experienceGroup": "fast",
+    "eggCycles": 20,
+
+    "eggGroups": [
+    "bug",
+    "human_like"
+    ],
+    "drops": {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "minecraft:honeycomb",
+          "quantityRange": "0-1"
+        },
+        {
+          "item": "cobblemon:poison_barb",
+          "percentage": 5.0
+        },
+        {
+          "item": "cobblemon:charti_berry",
+          "percentage": 5.0
+        }  
+      ]
+    },
+    "moves": [
+      "1:leer",
+      "1:tackle",
+      "4:powder",
+      "7:bugbite",
+      "11:aerialace",
+      "15:rocksmash",
+      "20:fellstinger",
+      "24:roost",
+      "29:acrobatics",
+      "35:xscissor",
+      "egg:doubleedge",
+      "egg:feint",
+      "egg:feintattack",
+      "egg:leechlife",
+      "egg:pursuit",
+      "egg:reversal",
+      "egg:secretpower",
+      "egg:signalbeam",
+      "egg:silverwind",
+      "egg:whirlwind",
+      "tm:aerialace",
+      "tm:aircutter",
+      "tm:airslash",
+      "tm:attract",
+      "tm:bugbite",
+      "tm:bugbuzz",
+      "tm:captivate",
+      "tm:confide",
+      "tm:defog",
+      "tm:doubleedge",
+      "tm:doubleteam",
+      "tm:dreameater",
+      "tm:endure",
+      "tm:facade",
+      "tm:flash",
+      "tm:frustration",
+      "tm:gigadrain",
+      "tm:hiddenpower",
+      "tm:leechlife",
+      "tm:lunge",
+      "tm:naturalgift",
+      "tm:pounce",
+      "tm:protect",
+      "tm:psychic",
+      "tm:psychicnoise",
+      "tm:psychup",
+      "tm:rest",
+      "tm:return",
+      "tm:reversal",
+      "tm:roost",
+      "tm:round",
+      "tm:secretpower",
+      "tm:shadowball",
+      "tm:silverwind",
+      "tm:skittersmack",
+      "tm:sleeptalk",
+      "tm:solarbeam",
+      "tm:steelwing",
+      "tm:strugglebug",
+      "tm:substitute",
+      "tm:sunnyday",
+      "tm:swagger",
+      "tm:swift",
+      "tm:swordsdance",
+      "tm:tailwind",
+      "tm:takedown",
+      "tm:terablast",
+      "tm:thief",
+      "tm:toxic",
+      "tm:uproar",
+      "tm:uturn",
+      "tutor:aircutter",
+      "tutor:ancientpower",
+      "tutor:attract",
+      "tutor:bugbite",
+      "tutor:curse",
+      "tutor:defog",
+      "tutor:detect",
+      "tutor:doubleedge",
+      "tutor:doubleteam",
+      "tutor:dreameater",
+      "tutor:endure",
+      "tutor:feint",
+      "tutor:flash",
+      "tutor:foresight",
+      "tutor:frustration",
+      "tutor:gigadrain",
+      "tutor:headbutt",
+      "tutor:hiddenpower",
+      "tutor:leechlife",
+      "tutor:mimic",
+      "tutor:ominouswind",
+      "tutor:protect",
+      "tutor:quickattack",
+      "tutor:rest",
+      "tutor:return",
+      "tutor:reversal",
+      "tutor:roost",
+      "tutor:screech",
+      "tutor:signalbeam",
+      "tutor:sleeptalk",
+      "tutor:snore",
+      "tutor:solarbeam",
+      "tutor:sonicboom",
+      "tutor:stringshot",
+      "tutor:substitute",
+      "tutor:sunnyday",
+      "tutor:supersonic",
+      "tutor:swagger",
+      "tutor:swift",
+      "tutor:tackle",
+      "tutor:tailwind",
+      "tutor:thief",
+      "tutor:toxic",
+      "tutor:uproar",
+      "tutor:whirlwind",
+      "tutor:wingattack"
+    ],
+    "pokedex": [
+      "cobblemon.species.wickarus.desc1"
+    ],
+    "evolutions": [
+      {
+        "id": "wickarus_solarica",
+        "variant": "level_up",
+        "result": "solarica",
+        "consumeHeldItem": false,
+        "learnableMoves": [
+        "burnup"
+      ],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 31
+          }  
+        ]
+      }
+    ],
+    "baseScale": 0.55,
+    "hitbox": {
+      "width": 0.5,
+      "height": 0.85,
+      "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 1
+    },
+    "height": 6,
+    "weight": 55,
+    "aspects": [],
+    "cannotDynamax": false
+  }
+  

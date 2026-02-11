@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:shucklegalar",
+    "speciesId": "cobblemon:shuckle",
+    "displayAspects": ["Galar"],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Galar",
+        "unlockForms": [
+          "Galar"
+        ]
+      }
+    ],
+    "variations": []
+  }

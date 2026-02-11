@@ -1,0 +1,456 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "budabon-1",
+            "pokemon": "budabon kantonian",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "16-41",
+            "weight": 5.0,
+            "weightMultiplier": {
+                "multiplier": 10.0,
+                "condition": {
+                "neededNearbyBlocks": [
+                    "#minecraft:saplings"
+                    ]
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_floral"
+                ]
+            }
+        },
+        {
+            "id": "budabon-2",
+            "pokemon": "budabon johtonian",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "16-41",
+            "weight": 5.0,
+            "weightMultiplier": {
+                "multiplier": 10.0,
+                "condition": {
+                "neededNearbyBlocks": [
+                    "#minecraft:saplings"
+                    ]
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:has_block/birch_log"
+                ]
+            }
+        },
+        {
+            "id": "budabon-3",
+            "pokemon": "budabon hoennian",
+            "presets": [
+                "foliage",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "16-41",
+            "weight": 5.0,
+            "weightMultiplier": {
+                "multiplier": 10.0,
+                "condition": {
+                "neededNearbyBlocks": [
+                    "#minecraft:saplings"
+                    ]
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle"
+                ]
+            }
+        },
+        {
+            "id": "budabon-4",
+            "pokemon": "budabon sinnohan",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "16-41",
+            "weight": 5.0,
+            "weightMultiplier": {
+                "multiplier": 10.0,
+                "condition": {
+                "neededNearbyBlocks": [
+                    "#minecraft:saplings"
+                    ]
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ]
+            }
+        },
+        {
+            "id": "budabon-5",
+            "pokemon": "budabon unovan",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "16-41",
+            "weight": 5.0,
+            "weightMultiplier": {
+                "multiplier": 10.0,
+                "condition": {
+                "neededNearbyBlocks": [
+                    "#minecraft:saplings"
+                    ]
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            }
+        },
+        {
+            "id": "budabon-6",
+            "pokemon": "budabon kalosian",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "16-41",
+            "weight": 5.0,
+            "weightMultiplier": {
+                "multiplier": 10.0,
+                "condition": {
+                "neededNearbyBlocks": [
+                    "#minecraft:saplings"
+                    ]
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_hills"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        },
+        {
+            "id": "budabon-7",
+            "pokemon": "budabon alolan",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "16-41",
+            "weight": 5.0,
+            "weightMultiplier": {
+                "multiplier": 10.0,
+                "condition": {
+                "neededNearbyBlocks": [
+                    "#minecraft:saplings"
+                    ]
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_beach"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_cold"
+                ]
+            }
+        },
+        {
+            "id": "budabon-8",
+            "pokemon": "budabon galarian",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "16-41",
+            "weight": 5.0,
+            "weightMultiplier": {
+                "multiplier": 10.0,
+                "condition": {
+                "neededNearbyBlocks": [
+                    "#minecraft:saplings"
+                    ]
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "#cobblemon:ruin"
+                ]
+            }
+        },
+        {
+            "id": "budabon-9",
+            "pokemon": "budabon hisuian",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "16-41",
+            "weight": 5.0,
+            "weightMultiplier": {
+                "multiplier": 10.0,
+                "condition": {
+                "neededNearbyBlocks": [
+                    "#minecraft:saplings"
+                    ]
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "budabon-10",
+            "pokemon": "budabon paldean",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "16-41",
+            "weight": 5.0,
+            "weightMultiplier": {
+                "multiplier": 10.0,
+                "condition": {
+                "neededNearbyBlocks": [
+                    "#minecraft:saplings"
+                    ]
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        },
+        {
+            "id": "budabon-11",
+            "pokemon": "budabon sanrosan",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "16-41",
+            "weight": 5.0,
+            "weightMultiplier": {
+                "multiplier": 10.0,
+                "condition": {
+                "neededNearbyBlocks": [
+                    "#minecraft:saplings"
+                    ]
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_sandy"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ]
+            }
+        },
+        {
+            "id": "budabon-12",
+            "pokemon": "budabon lumoran",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "16-41",
+            "weight": 5.0,
+            "weightMultiplier": {
+                "multiplier": 10.0,
+                "condition": {
+                "neededNearbyBlocks": [
+                    "#minecraft:saplings"
+                    ]
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_magical"
+                ]
+            }
+        },
+        {
+            "id": "budabon-13",
+            "pokemon": "budabon lush",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "16-41",
+            "weight": 5.0,
+            "weightMultiplier": {
+                "multiplier": 10.0,
+                "condition": {
+                "neededNearbyBlocks": [
+                    "#minecraft:saplings"
+                    ]
+                }
+            },
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        },
+        {
+            "id": "budabon-14",
+            "pokemon": "budabon alatian",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "16-41",
+            "weight": 5.0,
+            "weightMultiplier": {
+                "multiplier": 10.0,
+                "condition": {
+                "neededNearbyBlocks": [
+                    "#minecraft:saplings"
+                    ]
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle"
+                ]
+            }
+        },
+        {
+            "id": "budabon-15",
+            "pokemon": "budabon jetian",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "16-41",
+            "weight": 5.0,
+            "weightMultiplier": {
+                "multiplier": 10.0,
+                "condition": {
+                "neededNearbyBlocks": [
+                    "#minecraft:saplings"
+                    ]
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:allium"
+                ]
+            }
+        }
+    ]
+}

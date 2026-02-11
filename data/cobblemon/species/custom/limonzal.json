@@ -1,0 +1,221 @@
+{
+    "implemented": true,
+    "name": "limonzal",
+    "nationalPokedexNumber": 2,
+    "primaryType": "grass",
+    "secondaryType": "electric",
+    "abilities": [
+      "overgrow",
+      "h:speedboost"
+    ],
+    "preEvolution":"citrillume",
+    "baseStats": {
+      "hp": 65,
+      "attack": 75,
+      "defence": 64,
+      "special_attack": 64,
+      "special_defence": 67,
+      "speed": 85
+    },
+    "catchRate": 45,
+    "maleRatio": 0.875,
+    "shoulderMountable": false,
+    "baseExperienceYield": 147,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 15,
+    "eggGroups": [
+      "flying"
+    ],
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "willSleepOnBed": false,
+            "light": "0-4",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "6",
+      "toleratedLeaders": [
+        {
+          "pokemon": "limonzal",
+          "tier": 1
+        },
+        {
+          "pokemon": "citrisaurid",
+          "tier": 2
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+      "moving": {
+        "fly": {
+          "canFly": true
+        }
+      }
+    },
+    "drops": {
+      "amount": 4,
+      "entries": [
+        {
+          "item": "minecraft:feather",
+          "quantityRange": "0-2"
+        },
+        {
+          "item": "cobblemon:grepa_berry"
+        },
+        {
+          "item": "cobblemon:miracle_seed",
+          "percentage": 10.0
+        }
+      ]
+    },
+    "moves": [
+      "1:leer",
+      "1:tackle",
+      "3:leafage",
+      "6:nuzzle",
+      "9:peck",
+      "12:quickattack",
+      "15:razorleaf",
+      "16:spark",
+      "20:synthesis",
+      "22:pluck",
+      "24:swordsdance",
+      "26:leechseed",
+      "28:bulletseed",
+      "31:electroball",
+      "34:agility",
+      "36:thunderclap",
+      "39:tropkick",
+      "40:featherdance",
+      "43:leafblade",
+      "47:bravebird",
+      "51:solarblade",
+      "55:wildcharge",
+      "60:skyattack",
+
+      "tm:electroball",
+      "tm:aerialace",
+      "tm:aircutter",
+      "tm:airslash",
+      "tm:attract",
+      "tm:batonpass",
+      "tm:bravebird",
+      "tm:bulletseed",
+      "tm:confide",
+      "tm:eerieimpulse",
+      "tm:doubleteam",
+      "tm:dualwingbeat",
+      "tm:echoedvoice",
+      "tm:endure",
+      "tm:energyball",
+      "tm:facade",
+      "tm:falseswipe",
+      "tm:featherdance",
+      "tm:frustration",
+      "tm:gigadrain",
+      "tm:grassknot",
+      "tm:grasspledge",
+      "tm:grassyglide",
+      "tm:grassyterrain",
+      "tm:thunderwave",
+      "tm:helpinghand",
+      "tm:hiddenpower",
+      "tm:knockoff",
+      "tm:leafblade",
+      "tm:leafstorm",
+      "tm:lightscreen",
+      "tm:magicalleaf",
+      "tm:swordsdance",
+      "tm:naturepower",
+      "tm:discharge",
+      "tm:protect",
+      "tm:raindance",
+      "tm:rest",
+      "tm:return",
+      "tm:roost",
+      "tm:round",
+      "tm:safeguard",
+      "tm:seedbomb",
+      "tm:voltswitch",
+      "tm:sleeptalk",
+      "tm:snore",
+      "tm:solarbeam",
+      "tm:steelwing",
+      "tm:substitute",
+      "tm:sunnyday",
+      "tm:swagger",
+      "tm:swift",
+      "tm:swordsdance",
+      "tm:takedown",
+      "tm:terablast",
+      "tm:toxic",
+      "tm:trailblaze",
+      "tm:workup",
+      "tm:thunderclap",
+      "tm:wildcharge",
+
+      "tutor:covet",
+      "tutor:defog",
+      "tutor:dualwingbeat",
+      "tutor:gigadrain",
+      "tutor:grasspledge",
+      "tutor:grassyglide",
+      "tutor:seedbomb",
+      "tutor:skyattack",
+      "tutor:snore",
+      "tutor:synthesis",
+      "tutor:worryseed"
+    ],
+    "labels": [
+      "custom"
+    ],
+    "pokedex": [
+      "cobblemon.species.limonzal.desc1"
+    ],
+    "evolutions": [
+      {
+        "id": "limonzal_citrisaurid",
+        "variant": "level_up",
+        "result": "citrisaurid",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 36
+          }
+        ]
+      }
+    ],
+    "baseScale": 0.75,
+    "hitbox": {
+      "width": 0.7,
+      "height": 1.5,
+      "fixed": false
+  
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 2
+    },
+    "height": 6,
+    "weight": 150,
+    "aspects": [],
+    "lightingData": {
+      "lightLevel": 7,
+      "liquidGlowMode": "BOTH"
+    },
+    "cannotDynamax": false
+  }
+  

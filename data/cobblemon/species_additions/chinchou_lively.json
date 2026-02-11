@@ -1,0 +1,49 @@
+{
+  "target": "cobblemon:chinchou",
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.3,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.15,
+        "canBreatheUnderwater": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "willSleepOnBed": true,
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "chinchou",
+          "tier": 1
+        },
+        {
+          "pokemon": "lanturn",
+          "tier": 2
+        },
+        {
+          "pokemon": "anglerine",
+          "tier": 3
+        },
+        {
+          "pokemon": "manaphy",
+          "tier": 4
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  }
+}

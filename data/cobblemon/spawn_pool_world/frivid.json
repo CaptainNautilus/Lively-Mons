@@ -1,0 +1,32 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+        "id": "frivid-1",
+        "pokemon": "frivid",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+        "type": "pokemon",
+        "spawnablePositionType": "grounded",
+        "bucket": "common",
+        "level": "17-34",
+        "weight": 0.54,
+        "weightMultiplier": {
+          "multiplier": 4.0,
+          "condition": {
+              "timeRange": "night",
+              "biomes": ["#cobblemon:is_freezing"]
+          }
+        },
+        "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+          "biomes": ["#cobblemon:is_taiga"]
+        }
+      }
+    ]
+  }

@@ -1,0 +1,238 @@
+{
+    "implemented": true,
+    "name": "vasaddle",
+    "nationalPokedexNumber": 8,
+    "primaryType": "water",
+    "secondaryType":"rock",
+    "abilities": [
+      "torrent",
+      "h:rockypayload"
+    ],
+    "preEvolution":"potdary",
+    "baseStats": {
+      "hp": 60,
+      "attack": 70,
+      "defence": 70,
+      "special_attack": 85,
+      "special_defence": 50,
+      "speed": 70
+    },
+    "catchRate": 45,
+    "maleRatio": 0.875,
+    "shoulderMountable": false,
+    "baseExperienceYield": 142,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 20,
+    "eggGroups": [
+      "field",
+      "water_1"
+    ], 
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "vasaddle",
+          "tier": 1
+        },
+        {
+          "pokemon": "mortaraid",
+          "tier": 2
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+      "moving": {
+        "walk": {
+          "walkSpeed": 0.29
+        },
+          "swim": {
+            "canSwimInWater": true,
+            "canWalkOnWater": true,
+            "canBreatheUnderwater": false
+          }
+      }
+    },
+    "drops": {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "minecraft:decorated_pot",
+          "quantityRange": "0-2"
+        },
+        {
+          "item": "cobblemon:mystic_water",
+          "percentage": 10.0
+        }
+      ]
+    },
+    "moves": [
+      "1:tailwhip",
+      "1:tackle",
+      "3:watergun",
+      "6:doublekick",
+      "9:quickattack",
+      "9:rockthrow",
+      "12:soak",
+      "12:protect",
+      "15:withdraw",
+      "17:bide",
+      "20:waterpulse",
+      "22:watersport",
+      "23:rockslide",
+      "26:takedown",
+      "29:torment",
+      "32:scald",
+      "35:rockpolish",
+      "36:earthpower",
+      "39:powergem",
+      "42:highhorsepower",
+      "46:muddywater",
+      "49:earthquake",
+      "51:hydropump",
+
+      "tm:torment",
+      "tm:attract",
+      "tm:avalanche",
+      "tm:blizzard",
+      "tm:bodyslam",
+      "tm:captivate",
+      "tm:chillingwater",
+      "tm:confide",
+      "tm:curse",
+      "tm:dig",
+      "tm:dive",
+      "tm:doubleedge",
+      "tm:doubleteam",
+      "tm:earthpower",
+      "tm:echoedvoice",
+      "tm:hydropump",
+      "tm:endure",
+      "tm:facade",
+      "tm:frustration",
+      "tm:hail",
+      "tm:hiddenpower",
+      "tm:powergem",
+      "tm:icebeam",
+      "tm:icywind",
+      "tm:irontail",
+      "tm:liquidation",
+      "tm:lowkick",
+      "tm:muddywater",
+      "tm:mudshot",
+      "tm:quickattack",
+      "tm:naturalgift",
+      "tm:protect",
+      "tm:raindance",
+      "tm:rest",
+      "tm:return",
+      "tm:roar",
+      "tm:rockslide",
+      "tm:doublekick",
+      "tm:rocktomb",
+      "tm:round",
+      "tm:scald",
+      "tm:rockpolish",
+      "tm:secretpower",
+      "tm:sleeptalk",
+      "tm:sludgewave",
+      "tm:snore",
+      "tm:strength",
+      "tm:substitute",
+      "tm:superpower",
+      "tm:surf",
+      "tm:swagger",
+      "tm:takedown",
+      "tm:terablast",
+      "tm:toxic",
+      "tm:uproar",
+      "tm:waterfall",
+      "tm:waterpledge",
+      "tm:waterpulse",
+      "tm:endeavor",
+      "tm:workup",
+      "tm:yawn",
+      "tm:stoneedge",
+      "tm:stealthrock",
+
+      "tutor:ancientpower",
+      "tutor:aquatail",
+      "tutor:bodyslam",
+      "tutor:defensecurl",
+      "tutor:dive",
+      "tutor:doubleedge",
+      "tutor:earthpower",
+      "tutor:hydropump",
+      "tutor:endure",
+      "tutor:tailwhip",
+      "tutor:headbutt",
+      "tutor:icywind",
+      "tutor:irontail",
+      "tutor:lowkick",
+      "tutor:mimic",
+      "tutor:quickattack",
+      "tutor:rollout",
+      "tutor:sleeptalk",
+      "tutor:snore",
+      "tutor:substitute",
+      "tutor:superpower",
+      "tutor:swagger",
+      "tutor:tackle",
+      "tutor:uproar",
+      "tutor:watergun",
+      "tutor:waterpledge",
+      "tutor:waterpulse"  
+  
+    ],
+    "labels": [
+      "custom"
+    ],
+    "pokedex": [
+      "cobblemon.species.vasaddle.desc1"
+    ],
+    "evolutions": [
+      {
+        "id": "vasaddle_mortaraid",
+        "variant": "level_up",
+        "result": "mortaraid",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 36
+          }
+        ]
+      }
+    ],
+    "baseScale": 0.8,
+    "hitbox": {
+      "width": 0.9,
+      "height": 1.7,
+      "fixed": false
+    },  
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 2,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "height": 10,
+    "weight": 300,
+    "aspects": [],
+    "cannotDynamax": false
+  }
+  

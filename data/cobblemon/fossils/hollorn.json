@@ -1,0 +1,11 @@
+{
+  "result": "hollorn",
+  "fossils": [
+    {
+      "item": "minecraft:fermented_spider_eye",
+      "components": {
+        "minecraft:custom_model_data": 1
+      }
+    }
+  ]
+}

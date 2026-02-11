@@ -1,0 +1,255 @@
+{
+  "implemented": true,
+  "name": "Fungalith",
+  "nationalPokedexNumber": 79,
+  "primaryType": "ground",
+  "secondaryType": "grass",
+  "labels": [ "custom" ],
+  "abilities": [
+    "arenatrap",
+    "myceliummight",
+    "h:sandstream"
+  ],
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:soft_sand",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:sand",
+          "quantityRange": "0-3"
+      },
+      {
+        "item": "minecraft:warped_mushroom"
+      }
+    ]
+  },
+  "baseStats": {
+    "hp": 110,
+    "attack": 145,
+    "defence": 108,
+    "special_attack": 68,
+    "special_defence": 82,
+    "speed": 35
+  },
+  "catchRate": 25,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 189,
+  "experienceGroup": "slow",
+  "eggCycles": 30,
+  "eggGroups": [
+    "amorphous",
+    "monster"
+  ],
+  "behaviour": {
+    "moving": {
+      "stepHeight": 1.0,
+      "walk": {
+        "canWalk": true,
+        "walkSpeed": 0.24
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "45-80",
+          "JUMP": "50-70",
+          "SKILL": "20-50",
+          "SPEED": "40-65",
+          "STAMINA": "35-75"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": -0.011616215,
+              "y": -1.3666525,
+              "z": -0.28912854
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.041163683,
+              "y": -1.4031144,
+              "z": -0.28313723
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.013957404,
+              "y": -1.4664029,
+              "z": -0.13922381
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.013957404,
+              "y": -1.4664029,
+              "z": -0.13922381
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.013957404,
+              "y": -1.4664029,
+              "z": -0.13922381
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.041163683,
+              "y": -1.4031144,
+              "z": -0.28313723
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.013957404,
+              "y": -1.4664029,
+              "z": -0.13922381
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "moves": [
+    "1:spore",
+    "1:leechseed",
+    "4:toxic",
+    "7:absorb",
+    "10:sandtomb",
+    "13:infestation",
+    "16:bulldoze",
+    "18:needlearm",
+    "21:stockpile",
+    "21:spitup",
+    "21:swallow",
+    "24:spikes",
+    "26:dig",
+    "28:rockslide",
+    "32:heavyslam",
+    "36:seedbomb",
+    "38:shoreup",
+    "40:bodypress",
+    "43:doubleedge",
+    "44:yawn",
+    "48:earthquake",
+    "52:fissure",
+
+    "tm:spore",
+    "tm:leechseed",
+    "tm:toxic",
+    "tm:sandtomb",
+    "tm:infestation",
+    "tm:bulldoze",
+    "tm:stockpile",
+    "tm:spitup",
+    "tm:swallow",
+    "tm:spikes",
+    "tm:dig",
+    "tm:rockslide",
+    "tm:heavyslam",
+    "tm:bodypress",
+    "tm:shoreup",
+    "tm:earthquake",
+    "tm:yawn",
+    "tm:doubleedge",
+    "tm:fissure",
+    "tm:stoneedge",
+    "tm:poisonpowder",
+    "tm:stunspore",
+    "tm:sleeppowder",
+    "tm:rest",
+    "tm:gigadrain",
+    "tm:earthpower",
+    "tm:gigaimpact",
+    "tm:crunch",
+
+    "egg:seedbomb",
+    "egg:rockblast",
+    "egg:poisonfang",
+    "egg:venoshock",
+
+    "tutor:stoneedge",
+    "tutor:poisonpowder",
+    "tutor:stunspore",
+    "tutor:sleeppowder",
+    "tutor:rest",
+    "tutor:gigadrain",
+    "tutor:earthpower",
+    "tutor:gigaimpact",
+    "tutor:crunch"
+  ],
+
+  "pokedex": [
+    "cobblemon.species.fungalith.desc1"
+  ],
+  "evolutions": [],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 2.2,
+    "height": 2.4,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 21,
+  "weight": 4600,
+  "aspects": [],
+  "cannotDynamax": false
+}

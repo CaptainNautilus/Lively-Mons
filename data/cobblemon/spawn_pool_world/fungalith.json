@@ -1,0 +1,131 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "fungalith-1",
+            "pokemon": "fungalith",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "22-47",
+            "weight": 10.0,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                "neededNearbyBlocks": [
+                    "#cobblemon:fungal_stuff"
+                    ]
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_sandy"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:sand"
+                ],
+                "timeRange": "night"
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ]
+            }
+        },
+        {
+            "id": "fungalith-2",
+            "pokemon": "fungalith",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "22-47",
+            "weight": 10.0,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                "neededNearbyBlocks": [
+                    "#cobblemon:fungal_stuff"
+                    ]
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_sandy"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:red_sand"
+                ],
+                "timeRange": "night"
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ]
+            }
+        },
+        {
+            "id": "fungalith-3",
+            "pokemon": "fungalith",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "22-47",
+            "weight": 5.0,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "neededNearbyBlocks": [
+                        "minecraft:sand"
+                    ]
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "minecraft:mushroom_fields"
+                ],
+                "timeRange": "night"
+            }
+        },
+        {
+            "id": "fungalith-4",
+            "pokemon": "fungalith",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "22-47",
+            "weight": 5.0,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "neededNearbyBlocks": [
+                        "minecraft:red_sand"
+                    ]
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "minecraft:mushroom_fields"
+                ],
+                "timeRange": "night"
+            }
+        }
+    ]
+}

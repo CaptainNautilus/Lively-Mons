@@ -1,0 +1,210 @@
+{
+    "implemented": true,
+    "name": "thunkoo",
+    "nationalPokedexNumber": 62,
+    "primaryType": "grass",
+    "secondaryType": "flying",
+    "abilities": [
+      "technician",
+      "analytic",
+      "h:clearbody"
+    ],
+    "preEvolution": "piochio",
+    "baseStats": {
+      "hp": 60,
+      "attack": 85,
+      "defence": 125,
+      "special_attack": 60,
+      "special_defence": 100,
+      "speed": 25
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 159,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 15,
+    "eggGroups": [
+      "flying"
+    ],
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "willSleepOnBed": true,
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "tranquill",
+          "tier": 1
+        },
+        {
+          "pokemon": "staravia",
+          "tier": 1
+        },
+        {
+          "pokemon": "pidgeotto",
+          "tier": 1
+        },
+        {
+          "pokemon": "unfezant",
+          "tier": 2
+        },
+        {
+          "pokemon": "pidgeot mega=false",
+          "tier": 2
+        },
+        {
+          "pokemon": "pidgeot mega",
+          "tier": 3
+        },
+        {
+          "pokemon": "thunkoo",
+          "tier": 4
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true
+    },
+      "moving": {
+        "fly": {
+          "canFly": true
+        }
+      }
+    },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:stick",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:redstone"
+      },
+      {
+        "item": "minecraft:oak_planks"
+      },
+      {
+        "item": "cobblemon:rindo_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+    "moves": [
+    "1:peck",
+    "1:autotomize",
+    "1:pluck",
+    "3:shiftgear",
+    "6:rapidspin",
+    "9:leafage",
+    "13:wingattack",
+    "15:geargrind",
+    "17:trailblaze",
+    "21:aerialace",
+    "27:grassyterrain",
+    "33:leechseed",
+    "39:grassyglide",
+    "45:endeavor",
+    "51:bravebird",
+    "57:woodhammer",
+
+    "egg:solarbeam",
+    "egg:mirrormove",
+    "egg:acrobatics",
+    "egg:rapidspin",
+    "egg:refresh",
+    "egg:supersonic",
+    "egg:hyperdrill",
+
+    "tm:grassknot",
+    "tm:powerwhip",
+    "tm:snaptrap",
+    "tm:bulletseed",
+    "tm:grasswhistle",
+    "tm:ingrain",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:assurance",
+    "tm:batonpass",
+    "tm:bravebird",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fly",
+    "tm:focusenergy",
+    "tm:heatwave",
+    "tm:hurricane",
+    "tm:mudslap",
+    "tm:ominouswind",
+    "tm:pluck",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:reversal",
+    "tm:roost",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:tailwind",
+    "tm:terablast",
+    "tm:thief",
+    "tm:twister",
+    "tm:uturn",
+    "tm:workup",
+
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:chloroblast",
+    "tutor:focusenergy",
+    "tutor:heatwave",
+    "tutor:seedbomb",
+    "tutor:ominouswind",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:tailwind",
+    "tutor:twister"
+    ],
+    "labels": [
+      "custom"
+    ],
+    "pokedex": [
+      "cobblemon.species.thunkoo.desc1"
+    ],
+    "baseScale": 0.9,
+    "hitbox": {
+      "width": 0.7,
+      "height": 1.2,
+      "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 2,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "height": 7,
+    "weight": 348,
+    "aspects": [],
+    "cannotDynamax": false
+  }
+  

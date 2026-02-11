@@ -1,0 +1,660 @@
+{
+    "implemented": true,
+    "name": "budabon",
+    "features": [
+      "kantonian",
+      "johtonian", 
+      "hoennian", 
+      "sinnohan", 
+      "unovan", 
+      "kalosian", 
+      "alolan", 
+      "galarian", 
+      "hisuian",
+      "paldean", 
+      "sanrosan",
+      "alatian",
+      "lumoran",
+      "lush",
+      "jetian"
+    ],
+    "nationalPokedexNumber": 0,
+  "primaryType": "grass",
+  "maleRatio": 0.5,
+  "height": 4,
+  "weight": 39,
+  "pokedex": [
+    "cobblemon.species.budabon_kanto.desc"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "aspects": [
+"kantonian"
+],
+  "eggGroups": [
+    "field",
+    "fairy"
+  ],
+  "abilities": [
+    "grassysurge",
+    "h:grassysurge"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 70,
+    "special_attack": 100,
+    "special_defence": 75,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_fast",
+  "catchRate": 200,
+  "eggCycles": 10,
+  "baseFriendship": 100,
+  "shoulderMountable": false,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 0.4,
+    "height": 0.8,
+    "fixed": false
+  },
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:lum_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:babydolleyes",
+    "1:followme",
+    "1:hyperfang",
+    "1:megadrain",
+    "4:quickattack",
+    "6:endeavor",
+    "9:quiverdance",
+    "13:grassyglide",
+    "17:strengthsap",
+    "19:syrupbomb",
+    "21:leechseed",
+    "25:gigadrain",
+    "29:pollenpuff",
+    "33:synthesis",
+    "37:superfang",
+    "41:energyball",
+    "45:leafstorm",
+    "49:powerwhip",
+    "55:chloroblast",
+
+    "egg:babydolleyes",
+    "egg:bestow",
+    "egg:bite",
+    "egg:worryseed",
+    "egg:covet",
+    "egg:defensecurl",
+    "egg:faketears",
+    "egg:flail",
+    "egg:flatter",
+    "egg:followme",
+    "egg:sleeppowder",
+    "egg:rollout",
+    "egg:tailwhip",
+
+    "tm:aerialace",
+    "tm:helpinghand",
+    "tm:agility",
+    "tm:alluringvoice",
+    "tm:babydolleyes",
+    "tm:worryseed",
+    "tm:leafblade",
+    "tm:charm",
+    "tm:covet",
+    "tm:cut",
+    "tm:dig",
+    "tm:echoedvoice",
+    "tm:aromatherapy",
+    "tm:grassyterrain",
+    "tm:gigadrain",
+    "tm:stunspore",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:ingrain",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:fling",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:leafstorm",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:grasswhistle",
+    "tm:rollout",
+    "tm:seedbomb",
+    "tm:woodhammer",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:leechseed",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:solarblade",
+    "tm:petalblizzard",
+    "tm:magicalleaf",
+    "tm:solarbeam",
+    "tm:synthesis",
+    "tm:trailblaze",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:petaldance",
+    "tm:crunch",
+
+    "tutor:aerialace",
+    "tutor:babydolleyes",
+    "tutor:leafblade",
+    "tutor:covet",
+    "tutor:stunspore",
+    "tutor:endeavor",
+    "tutor:gigaimpact",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:leafstorm",
+    "tutor:reflect",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:grasswhistle",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:woodhammer",
+    "tutor:sleeptalk",
+    "tutor:superfang",
+    "tutor:leechseed",
+    "tutor:petalblizzard",
+    "tutor:magicalleaf",
+    "tutor:solarbeam",
+    "tutor:uproar",
+    "tutor:crunch",
+
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:naturalgift",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "evolutions": [],
+  "behaviour": {
+    "resting": {
+      "willSleepOnBed": true,
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  },
+ "forms": [
+    {
+  "name": "Johtonian",
+  "pokedex": [
+    "cobblemon.species.budabon_johto.desc"
+  ],
+  "aspects": [
+    "johtonian"
+  ],
+  "abilities": [
+    "unaware",
+    "h:unaware"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 75,
+    "special_attack": 70,
+    "special_defence": 100,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "battleOnly": false
+ },
+    {
+  "name": "Hoennian",
+  "pokedex": [
+    "cobblemon.species.budabon_hoenn.desc"
+  ],
+  "aspects": [
+    "hoennian"
+  ],
+  "abilities": [
+    "defiant",
+    "h:defiant"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 100,
+    "defence": 60,
+    "special_attack": 70,
+    "special_defence": 75,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "battleOnly": false
+ },
+    {
+  "name": "Sinnohan",
+  "pokedex": [
+    "cobblemon.species.budabon_sinnoh.desc"
+  ],
+  "aspects": [
+    "sinnohan"
+  ],
+  "abilities": [
+    "sturdy",
+    "h:sturdy"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 75,
+    "defence": 100,
+    "special_attack": 70,
+    "special_defence": 80,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "battleOnly": false
+ },
+    {
+  "name": "Unovan",
+  "pokedex": [
+    "cobblemon.species.budabon_unova.desc"
+  ],
+  "aspects": [
+    "unovan"
+  ],
+  "abilities": [
+    "prankster",
+    "h:prankster"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 80,
+    "defence": 75,
+    "special_attack": 70,
+    "special_defence": 60,
+    "speed": 100
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "battleOnly": false
+ },
+    {
+  "name": "Kalosian",
+  "pokedex": [
+    "cobblemon.species.budabon_kalos.desc"
+  ],
+  "aspects": [
+    "kalosian"
+  ],
+  "abilities": [
+    "contrary",
+    "h:contrary"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 70,
+    "special_attack": 100,
+    "special_defence": 75,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "battleOnly": false
+ },
+    {
+  "name": "Alolan",
+  "pokedex": [
+    "cobblemon.species.budabon_alola.desc"
+  ],
+  "aspects": [
+    "alolan"
+  ],
+  "abilities": [
+    "hugepower",
+    "h:hugepower"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 100,
+    "defence": 80,
+    "special_attack": 70,
+    "special_defence": 75,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "battleOnly": false
+ },
+    {
+  "name": "Galarian",
+  "pokedex": [
+    "cobblemon.species.budabon_galar.desc"
+  ],
+  "aspects": [
+    "galarian"
+  ],
+  "abilities": [
+    "noguard",
+    "h:noguard"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 100,
+    "defence": 75,
+    "special_attack": 60,
+    "special_defence": 70,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "battleOnly": false
+ },
+    {
+  "name": "Hisuian",
+  "pokedex": [
+    "cobblemon.species.budabon_hisui.desc"
+  ],
+  "aspects": [
+    "hisuian"
+  ],
+  "abilities": [
+    "intimidate",
+    "h:intimidate"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 100,
+    "special_attack": 75,
+    "special_defence": 80,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "battleOnly": false
+ },
+    {
+  "name": "Paldean",
+  "pokedex": [
+    "cobblemon.species.budabon_paldea.desc"
+  ],
+  "aspects": [
+    "paldean"
+  ],
+  "abilities": [
+    "friendguard",
+    "h:friendguard"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 80,
+    "special_attack": 70,
+    "special_defence": 100,
+    "speed": 75
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "battleOnly": false
+ },
+    {
+  "name": "Sanrosan",
+  "pokedex": [
+    "cobblemon.species.budabon_sanrosa.desc"
+  ],
+  "aspects": [
+    "sanrosan"
+  ],
+  "abilities": [
+    "roughskin",
+    "h:roughskin"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 80,
+    "defence": 100,
+    "special_attack": 60,
+    "special_defence": 75,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "battleOnly": false
+ },
+    {
+  "name": "Lumoran",
+  "pokedex": [
+    "cobblemon.species.budabon_lumora.desc"
+  ],
+  "aspects": [
+    "lumoran"
+  ],
+  "abilities": [
+    "starlight",
+    "h:starlight"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 70,
+    "special_attack": 100,
+    "special_defence": 75,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "battleOnly": false
+ },
+    {
+  "name": "Laser",
+  "pokedex": [
+    "cobblemon.species.budabon_laser.desc"
+  ],
+  "aspects": [
+    "lush"
+  ],
+  "abilities": [
+    "magicguard",
+    "h:magicguard"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 75,
+    "defence": 60,
+    "special_attack": 100,
+    "special_defence": 70,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "battleOnly": false
+ },
+    {
+  "name": "Alatian",
+  "pokedex": [
+    "cobblemon.species.budabon_alatia.desc"
+  ],
+  "aspects": [
+    "alatian"
+  ],
+  "abilities": [
+    "simple",
+    "h:simple"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 75,
+    "special_attack": 80,
+    "special_defence": 100,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "battleOnly": false
+ },
+    {
+  "name": "Jetian",
+  "pokedex": [
+    "cobblemon.species.budabon_jetia.desc"
+  ],
+  "aspects": [
+    "jetian"
+  ],
+  "abilities": [
+    "neutralizinggas",
+    "h:neutralizinggas"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 100,
+    "special_attack": 70,
+    "special_defence": 80,
+    "speed": 75
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "battleOnly": false
+ }
+]
+}

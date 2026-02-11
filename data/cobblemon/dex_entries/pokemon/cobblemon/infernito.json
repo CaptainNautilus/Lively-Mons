@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:infernito",
+  "speciesId": "cobblemon:infernito",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

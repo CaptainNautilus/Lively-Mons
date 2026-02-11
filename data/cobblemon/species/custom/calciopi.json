@@ -1,0 +1,336 @@
+{
+    "implemented": true,
+    "name": "calciopi",
+    "nationalPokedexNumber": 98,
+    "primaryType": "rock",
+    "secondaryType": "ghost",
+    "abilities": [
+      "technician",
+      "soundproof",
+      "h:weakarmor"
+    ],
+    "preEvolution":"hollorn",
+    "baseStats": {
+      "hp": 80,
+      "attack": 60,
+      "defence": 100,
+      "special_attack": 108,
+      "special_defence": 132,
+      "speed": 32
+    },
+    "catchRate": 45,
+    "maleRatio": 0.875,
+    "shoulderMountable": false,
+    "baseExperienceYield": 173,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 30,
+    "eggGroups": [
+      "monster"
+    ],
+      "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "60-80",
+          "JUMP": "10-20",
+          "SKILL": "30-50",
+          "SPEED": "20-30",
+          "STAMINA": "50-70"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": -0.0044199796,
+              "y": -4.43871,
+              "z": -1.7035363
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.24040884,
+              "y": -4.319892,
+              "z": -1.9330622
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.4900259,
+              "y": -4.2273817,
+              "z": -1.8066592
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.4900259,
+              "y": -4.2273817,
+              "z": -1.8066592
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.4900259,
+              "y": -4.2273817,
+              "z": -1.8066592
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.4900259,
+              "y": -4.2273817,
+              "z": -1.8066592
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.4900259,
+              "y": -4.2273817,
+              "z": -1.8066592
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      },
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": -0.0013658587,
+              "y": -2.688829,
+              "z": 0.88855124
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.014507234,
+              "y": -2.91135,
+              "z": 0.50614136
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.28322676,
+              "y": -2.8153157,
+              "z": 0.828276
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.28322676,
+              "y": -2.8153157,
+              "z": 0.828276
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.28322676,
+              "y": -2.8153157,
+              "z": 0.828276
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.28322676,
+              "y": -2.8153157,
+              "z": 0.828276
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.28322676,
+              "y": -2.8153157,
+              "z": 0.828276
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,
+      "light": "0-4",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "calciopi",
+          "tier": 1
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+      "moving": {
+        "canLook": true,
+        "swim": {
+          "canSwimInWater": false,
+          "canBreatheUnderwater": false
+        },
+        "walk": {
+          "walkSpeed": 0.27
+        }
+      }
+    },
+    "drops": {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "minecraft:bone",
+          "quantityRange": "0-2"          
+        },
+        {
+          "item": "minecraft:bone_block"    
+        }
+      ]
+    },
+    "moves": [
+      "1:tackle",
+      "1:harden",
+      "1:shadowsneak",
+      "5:rockpolish",
+      "7:echoedvoice",
+      "10:curse",
+      "15:ominouswind",
+      "20:perishsong",
+      "25:ancientpower",
+      "30:uproar",
+      "36:shadowball",
+      "43:hypervoice",
+      "47:powergem",
+      "50:gigadrain",
+      "55:rest",
+      "60:meteorbeam",
+      "65:boomburst",
+
+      "egg:bodyslam",
+      "egg:fissure",
+      "egg:headbutt",
+      "egg:screech",
+      "egg:sing",
+      "egg:sleeptalk",
+
+      "tm:uproar",
+      "tm:shadowball",
+      "tm:hypervoice",
+      "tm:powergem",
+      "tm:gigadrain",
+      "tm:rest",
+      "tm:meteorbeam",
+      "tm:boomburst",
+      "tm:endure",
+      "tm:facade",
+      "tm:fireblast",
+      "tm:flamethrower",
+      "tm:flashcannon",
+      "tm:frustration",
+      "tm:hardpress",
+      "tm:heavyslam",
+      "tm:hiddenpower",
+      "tm:icebeam",
+      "tm:incinerate",
+      "tm:irondefense",
+      "tm:ironhead",
+      "tm:irontail",
+      "tm:metalsound",
+      "tm:mudslap",
+      "tm:naturalgift",
+      "tm:protect",
+      "tm:raindance",
+      "tm:return",
+      "tm:rockblast",  
+      
+      "tutor:roar",
+      "tutor:sandstorm",
+      "tutor:taunt",
+      "tutor:calmmind"
+    ],
+    "labels": [
+      "custom"
+    ],
+    "pokedex": [
+      "cobblemon.species.calciopi.desc1"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+      "width": 1.45,
+      "height": 3,
+      "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 2,
+      "speed": 0
+    },
+    "height": 19,
+    "weight": 425,
+    "aspects": [],
+    "cannotDynamax": false
+  }  

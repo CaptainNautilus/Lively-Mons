@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:tropiussanrosa",
+    "speciesId": "cobblemon:tropius",
+    "displayAspects": ["Sanrosa"],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Sanrosa",
+        "unlockForms": [
+          "Sanrosa"
+        ]
+      }
+    ],
+    "variations": []
+}

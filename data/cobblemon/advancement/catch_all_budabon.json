@@ -1,0 +1,107 @@
+{
+	"display": {
+		"icon": {
+			"id": "cobblemon:pokemon_model",
+	"components": {
+        "cobblemon:pokemon_item": {"species":"cobblemon:budabon","aspects":["kantonian"]}
+      }
+		},
+		"title": {
+			"translate": "advancements.cobblemon.catch_all_budabon"
+		},
+		"description": {
+			"translate": "advancements.cobblemon.catch_all_budabon.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "cobblemon:first_catch",
+	"criteria": {
+		"kantonian": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["kantonian"]
+			}
+		},
+		"johtonian": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["johtonian"]
+			}
+		},
+		"hoennian": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["hoennian"]
+			}
+		},
+		"sinnohan": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["sinnohan"]
+			}
+		},
+		"unovan": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["unovan"]
+			}
+		},
+		"kalosian": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["kalosian"]
+			}
+		},
+		"alolan": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["alolan"]
+			}
+		},
+		"galarian": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["galarian"]
+			}
+		},
+		"hisuian": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["hisuian"]
+			}
+		},
+		"paldean": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["paldean"]
+			}
+		}
+	},
+	"requirements": [
+		["kantonian"],
+		["johtonian"],
+		["hoennian"],
+		["sinnohan"],
+		["unovan"],
+		["kalosian"],
+		["alolan"],
+		["galarian"],
+		["hisuian"],
+		["paldean"]
+	],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": false
+}
+

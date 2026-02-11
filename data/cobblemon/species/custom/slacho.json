@@ -1,0 +1,385 @@
+{
+    "implemented": true,
+    "name": "slacho",
+    "nationalPokedexNumber": 6,
+    "primaryType": "fire",
+    "secondaryType":"ice",
+    "abilities": [
+      "blaze",
+      "h:fluffy"
+    ],
+    "preEvolution":"pillosinge",
+    "baseStats": {
+      "hp": 80,
+      "attack": 110,
+      "defence": 120,
+      "special_attack": 80,
+      "special_defence": 80,
+      "speed": 60
+    },
+    "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "50-70",
+          "JUMP": "50-70",
+          "SKILL": "20-40",
+          "SPEED": "20-30",
+          "STAMINA": "40-60"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": -0.0044199796,
+              "y": -4.43871,
+              "z": -1.7035363
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.24040884,
+              "y": -4.319892,
+              "z": -1.9330622
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.4900259,
+              "y": -4.2273817,
+              "z": -1.8066592
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.4900259,
+              "y": -4.2273817,
+              "z": -1.8066592
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.4900259,
+              "y": -4.2273817,
+              "z": -1.8066592
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.4900259,
+              "y": -4.2273817,
+              "z": -1.8066592
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.4900259,
+              "y": -4.2273817,
+              "z": -1.8066592
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      },
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": -0.0013658587,
+              "y": -2.688829,
+              "z": 0.88855124
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.014507234,
+              "y": -2.91135,
+              "z": 0.50614136
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.28322676,
+              "y": -2.8153157,
+              "z": 0.828276
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.28322676,
+              "y": -2.8153157,
+              "z": 0.828276
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.28322676,
+              "y": -2.8153157,
+              "z": 0.828276
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.28322676,
+              "y": -2.8153157,
+              "z": 0.828276
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.28322676,
+              "y": -2.8153157,
+              "z": 0.828276
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+    "behaviour": {
+      "moving": {
+        "walk": {
+          "walkSpeed": 0.3
+        }
+      },
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "4"
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+    },
+    "catchRate": 45,
+    "maleRatio": 0.875,
+    "shoulderMountable": false,
+    "baseExperienceYield": 239,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 20,
+    "eggGroups": [
+      "monster"
+    ],
+    "drops": {
+      "amount": 4,
+      "entries": [
+        {
+          "item": "minecraft:white_wool",
+          "quantityRange": "0-3"
+        },
+        {
+          "item": "cobblemon:charcoal_stick",
+          "percentage": 25.0
+        }
+      ]
+    },
+    "moves": [
+      "1:growl",
+      "1:scratch",
+      "3:ember",
+      "6:doubleslap",
+      "9:flamecharge",
+      "12:haze",
+      "14:rocksmash",
+      "15:babydolleyes",
+      "20:assurance",
+      "21:firespin",
+      "23:iceshard",
+      "26:dig",
+      "29:focusenergy",
+      "30:heatcrash",
+      "32:bellydrum",
+      "38:chillyreception",
+      "41:icespinner",
+      "44:flareblitz",
+      "46:avalanche",
+      "50:bulkup",
+      "54:flareblitz",
+      "58:closecombat",
+      "63:iceburn",  
+
+      "tm:assurance",
+      "tm:agility",
+      "tm:assurance",
+      "tm:attract",
+      "tm:batonpass",
+      "tm:bodyslam",
+      "tm:dig",
+      "tm:captivate",
+      "tm:confide",
+      "tm:curse",
+      "tm:cut",
+      "tm:dig",
+      "tm:doubleedge",
+      "tm:doubleteam",
+      "tm:echoedvoice",
+      "tm:endure",
+      "tm:facade",
+      "tm:chillyreception",
+      "tm:fireblast",
+      "tm:firepledge",
+      "tm:firespin",
+      "tm:flamecharge",
+      "tm:flamethrower",
+      "tm:flareblitz",
+      "tm:focusenergy",
+      "tm:frustration",
+      "tm:heatwave",
+      "tm:helpinghand",
+      "tm:hiddenpower",
+      "tm:honeclaws",
+      "tm:incinerate",
+      "tm:lowkick",
+      "tm:megakick",
+      "tm:megapunch",
+      "tm:naturalgift",
+      "tm:overheat",
+      "tm:protect",
+      "tm:rest",
+      "tm:return",
+      "tm:icespinner",
+      "tm:rockslide",
+      "tm:rocksmash",
+      "tm:rocktomb",
+      "tm:round",
+      "tm:secretpower",
+      "tm:shadowclaw",
+      "tm:sleeptalk",
+      "tm:snore",
+      "tm:strength",
+      "tm:substitute",
+      "tm:sunnyday",
+      "tm:swagger",
+      "tm:swift",
+      "tm:swordsdance",
+      "tm:takedown",
+      "tm:temperflare",
+      "tm:terablast",
+      "tm:toxic",
+      "tm:uproar",
+      "tm:willowisp",
+      "tm:workup",
+
+      "tutor:bodyslam",
+      "tutor:dig",
+      "tutor:counter",
+      "tutor:defog",
+      "tutor:doubleedge",
+      "tutor:ember",
+      "tutor:endure",
+      "tutor:firepledge",
+      "tutor:focusenergy",
+      "tutor:growl",
+      "tutor:headbutt",
+      "tutor:heatwave",
+      "tutor:helpinghand",
+      "tutor:lastresort",
+      "tutor:lowkick",
+      "tutor:megakick",
+      "tutor:megapunch",
+      "tutor:mimic",
+      "tutor:mudslap",
+      "tutor:rockslide",
+      "tutor:scratch",
+      "tutor:seismictoss",
+      "tutor:sleeptalk",
+      "tutor:snore",
+      "tutor:substitute",
+      "tutor:swagger",
+      "tutor:swift",
+      "tutor:swordsdance"  
+    ],
+    "labels": [
+      "custom"
+    ],
+    "pokedex": [
+      "cobblemon.species.slacho.desc1"
+    ],
+
+    "baseScale": 0.85,
+    "hitbox": {
+      "width": 1.5,
+      "height": 2.7,
+      "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 3,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "height": 25,
+    "weight": 2910,
+    "aspects": [],
+    "cannotDynamax": false,
+  "lightingData": {
+"lightLevel": 7,
+"liquidGlowMode": "LAND"
+}
+  }
+  

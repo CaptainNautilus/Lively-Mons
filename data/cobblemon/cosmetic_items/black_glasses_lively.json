@@ -1,0 +1,9 @@
+{
+  "pokemon": ["tropius sanrosan"],
+  "cosmeticItems": [
+    {
+      "consumedItem": "minecraft:glow_berries",
+      "aspects": ["cosmetic_item-glow_berries"]
+    }
+  ]
+}

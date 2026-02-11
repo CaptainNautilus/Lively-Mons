@@ -1,0 +1,70 @@
+{
+    "target": "cobblemon:mightyena",
+  "evolutions": [
+      {
+        "id": "mightyena_lupayena_lvl",
+        "variant": "level_up",
+        "result": "lupayena",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 35
+          },
+          {
+            "variant": "properties",
+            "target": "gender=female"  
+          }
+        ]
+      }
+    ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0033,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.25
+      },
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "entityInteract": {
+      "avoidedBySkeleton": true
+    },
+    "herd": {
+      "maxSize": "7",
+      "toleratedLeaders": [
+        {
+          "pokemon": "mightyena",
+          "tier": 1
+        },
+        {
+          "pokemon": "houndoom mega=false",
+          "tier": 1
+        },
+        {
+          "pokemon": "houndoom mega",
+          "tier": 2
+        },
+        {
+          "pokemon": "lupayena",
+          "tier": 3
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  }
+  }

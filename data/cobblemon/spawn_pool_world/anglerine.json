@@ -1,0 +1,143 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+      {
+          "id": "anglerine-1",
+          "pokemon": "anglerine",
+          "presets": [
+              "water"
+          ],
+          "type": "pokemon",
+          "spawnablePositionType": "submerged",
+          "bucket": "common",
+          "level": "27-46",
+          "weight": 0.1,
+          "condition": {
+              "canSeeSky": true,
+              "biomes": [
+                  "#cobblemon:is_deep_ocean"
+              ],
+              "maxY": 48
+          }
+      },
+      {
+          "id": "anglerine-2",
+          "pokemon": "anglerine",
+          "type": "pokemon",
+          "spawnablePositionType": "fishing",
+          "bucket": "common",
+          "level": "27-46",
+          "weight": 0.25,
+          "weightMultiplier": {
+              "multiplier": 0.1,
+              "condition": {
+                  "minLureLevel": "0",
+                  "maxLureLevel": "1"
+              }
+          },
+          "condition": {
+              "canSeeSky": true,
+              "biomes": [
+                "#cobblemon:is_deep_ocean"
+              ]
+          }
+      },
+      {
+          "id": "anglerine-3",
+          "pokemon": "anglerine",
+          "presets": [
+              "water"
+          ],
+          "type": "pokemon",
+          "spawnablePositionType": "submerged",
+          "bucket": "common",
+          "level": "27-46",
+          "weight": 0.1,
+          "condition": {
+              "canSeeSky": false,
+              "minSkyLight": 8,
+              "maxSkyLight": 15,
+              "biomes": [
+                  "#cobblemon:is_deep_ocean"
+              ],
+              "maxY": 48
+          }
+      },
+      {
+          "id": "anglerine-4",
+          "pokemon": "anglerine",
+          "type": "pokemon",
+          "spawnablePositionType": "fishing",
+          "bucket": "common",
+          "level": "27-46",
+          "weight": 0.25,
+          "weightMultiplier": {
+              "multiplier": 0.1,
+              "condition": {
+                  "minLureLevel": "0",
+                  "maxLureLevel": "1"
+              }
+          },
+          "condition": {
+              "canSeeSky": false,
+              "minSkyLight": 8,
+              "maxSkyLight": 15,
+              "biomes": [
+                "#cobblemon:is_deep_ocean"
+              ]
+          }
+      },
+      {
+          "id": "anglerine-5",
+          "pokemon": "anglerine",
+          "presets": [
+              "water"
+          ],
+          "type": "pokemon",
+          "spawnablePositionType": "submerged",
+          "bucket": "common",
+          "level": "27-46",
+          "weight": 0.1,
+          "condition": {
+              "canSeeSky": false,
+              "biomes": [
+                  "#cobblemon:is_overworld"
+              ],
+              "structures": [
+                  "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+              ],
+              "minY": -60,
+              "maxY": 13
+          }
+      },
+      {
+          "id": "anglerine-6",
+          "pokemon": "anglerine",
+          "type": "pokemon",
+          "spawnablePositionType": "fishing",
+          "bucket": "common",
+          "level": "27-46",
+          "weight": 0.25,
+          "weightMultiplier": {
+              "multiplier": 0.1,
+              "condition": {
+                  "minLureLevel": "0",
+                  "maxLureLevel": "1"
+              }
+          },
+          "condition": {
+              "canSeeSky": false,
+              "biomes": [
+                  "#cobblemon:is_overworld"
+              ],
+              "structures": [
+                  "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+              ],
+              "minY": -60,
+              "maxY": 13
+          }
+      }
+  ]
+}

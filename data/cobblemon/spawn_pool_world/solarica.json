@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "solarica-1",
+            "pokemon": "solarica",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "31-53",
+            "weight": 0.5,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_wasteland"
+                ]
+            }
+        }
+    ]
+}

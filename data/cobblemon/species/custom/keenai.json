@@ -1,0 +1,196 @@
+{
+    "implemented": true,
+"name": "keenai",
+"nationalPokedexNumber": 72,
+"labels": [ "custom" ],
+"pokedex": [
+  "cobblemon.species.keenai.desc1"
+],
+"height": 3,
+"weight": 42,
+
+"shoulderMountable": false,
+
+"primaryType": "steel",
+  "secondaryType": "fighting",
+  "baseStats": {
+    "hp": 41,
+    "attack": 75,
+    "defence": 60,
+    "special_attack": 36,
+    "special_defence": 46,
+    "speed": 70
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 66,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "flying"
+  ],
+  "baseFriendship": 50,
+  "evYield": {
+    "attack": 1
+  },
+  "moves": [
+    "1:substitute",
+    "1:peck",
+    "4:doublekick",
+    "8:quickattack",
+    "12:metalclaw",
+    "16:rollingkick",
+    "18:smokescreen",
+    "20:aerialace",
+    "24:nightslash",
+    "28:steelwing",
+    "32:swordsdance",
+    "34:ceaselessedge",
+    "36:flyingpress",
+    "40:kowtowcleave",
+    "44:drillpeck",
+    "48:closecombat",
+
+    "egg:endeavor",
+    "egg:featherdance",
+    "egg:leafblade",
+    "egg:aquacutter",
+    "egg:slash",
+    "egg:psychocut",
+
+    "tm:closecombat",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:swordsdance",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:bravebird",
+    "tm:autotomize",
+    "tm:ironhead",
+    "tm:steelwing",
+    "tm:metalsound",
+    "tm:irondefense",
+    "tm:jumpkick",
+    "tm:highjumpkick",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:fly",
+    "tm:hurricane",
+    "tm:metalclaw",
+    "tm:triplekick",
+    "tm:rest",
+    "tm:roost",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:brickbreak",
+    "tm:flyingpress",
+    "tm:skyuppercut",
+    "tm:nightslash",
+    "tm:uturn",
+    "tm:sacredsword",
+    "tm:psychocut",
+    "tm:detect",
+    
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:ironhead",
+    "tutor:steelwing",
+    "tutor:highjumpkick",
+    "tutor:endeavor",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:flyingpress",
+    "tutor:nightslash",
+    "tutor:detect"
+  ],
+  "abilities": [
+    "sharpness",
+    "steadfast",
+    "h:keeneye"
+  ],
+
+  "evolutions": [
+  {
+    "id": "keenai_sajonin_lvl",
+    "variant": "level_up",
+    "result": "sajonin",
+    "consumeHeldItem": false,
+    "learnableMoves": [],
+    "requirements": [
+      {
+        "variant": "level",
+        "minLevel": 34
+      },
+      {
+          "variant": "time_range",
+          "range": "night"
+      }
+    ]
+  }
+],
+
+
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.55,
+    "height": 1.15,
+    "fixed": false
+  },
+"drops": {
+"amount": "2",
+  "entries": [
+    {
+      "item": "minecraft:iron_ingot",
+      "quantityRange": "0-1"
+    },
+    {
+      "item": "minecraft:iron_sword",
+      "percentage": 2.5
+    }
+]
+},
+"behaviour": {
+  "moving": {
+    "walk": {
+      "walkSpeed": 0.2
+    },
+    "canLook": true
+  },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "times": [
+        "day"
+      ],
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "7",
+      "toleratedLeaders": [
+        {
+          "pokemon": "keenai",
+          "tier": 1
+        },
+        {
+          "pokemon": "sajonin",
+          "tier": 2
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  }
+}

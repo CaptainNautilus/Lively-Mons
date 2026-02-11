@@ -1,0 +1,174 @@
+{
+"implemented": true,
+"name": "seibat",
+"nationalPokedexNumber": 82,
+"labels": [ "custom" ],
+"pokedex": [
+  "cobblemon.species.seibat.desc1"
+],
+"height": 5,
+"weight": 110,
+
+"forms": [
+  { "name": "normal" }
+],
+"shoulderMountable": false,
+
+"primaryType": "dark",
+  "secondaryType": "flying",
+  "baseStats": {
+    "hp": 65,
+    "attack": 105,
+    "defence": 75,
+    "special_attack": 60,
+    "special_defence": 55,
+    "speed": 30
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 133,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "flying"
+  ],
+  "baseFriendship": 35,
+  "evYield": {
+    "attack": 2
+  },
+
+  "moves": [
+    "1:scratch",
+    "1:mist",
+    "1:leer",
+    "3:pursuit",
+    "9:wingattack",
+    "12:fakeout",
+    "15:bite",
+    "18:taunt",
+    "21:aerialace",
+    "24:knockoff",
+    "27:acrobatics",
+    "30:crunch",
+    "33:tailwind",
+    "36:suckerpunch",
+    "39:spikes",
+    "42:foulplay",
+    "45:switcheroo",
+    "48:dualwingbeat",
+
+    "tm:darkpulse",
+    "tm:aerialace",
+    "tm:confuseray",
+    "tm:psybeam",
+    "tm:nightshade",
+    "tm:earthquake",
+    "tm:leechlife",
+    "tm:fly",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:fling",
+    "tm:gigadrain",
+    "tm:trick",
+    "tm:psychic",
+    "tm:phantomforce",
+    "tm:nastyplot",
+    "tm:helpinghand",
+    "tm:terablast",
+    "tutor:honeclaws",
+    "tutor:shadowball",
+    "tutor:earthquake",
+    "tutor:smackdown",
+    "tutor:encore",
+    "egg:flatter"
+  ],
+  "abilities": [
+    "magicdrain",
+    "h:prankster"
+  ],
+
+    "baseScale": 0.8,
+"hitbox": {
+  "width": 0.45,
+  "height": 0.8,
+  "fixed": false
+},
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:phantom_membrane",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:colbur_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+
+"behaviour": {
+  "moving": {
+    "canLook": true,
+    "fly": {
+      "canFly": true
+    },          
+    "swim": {
+      "swimSpeed": 0.2,
+      "canSwimInWater": true,
+      "canBreatheUnderwater": false
+    }
+  },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "times": [
+        "any"
+      ],
+            "drowsyChance": 0.0014,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "zubat",
+          "tier": 1
+        },
+        {
+          "pokemon": "woobat",
+          "tier": 1
+        },
+        {
+          "pokemon": "noibat",
+          "tier": 1
+        },
+        {
+          "pokemon": "golbat",
+          "tier": 2
+        },
+        {
+          "pokemon": "swoobat",
+          "tier": 2
+        },
+        {
+          "pokemon": "noivern",
+          "tier": 2
+        },
+        {
+          "pokemon": "crobat",
+          "tier": 3
+        },
+        {
+          "pokemon": "seibat",
+          "tier": 4
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+    "implemented": true,
+    "name": "taplatter",
+    "nationalPokedexNumber": 74,
+    "labels": [ "custom" ],
+    "primaryType": "poison",
+    "abilities": [
+      "technician",
+      "sniper",
+      "h:merciless"
+    ],
+    "baseStats": {
+      "hp": 35,
+      "attack": 40,
+      "defence": 30,
+      "special_attack": 80,
+      "special_defence": 35,
+      "speed": 40
+    },
+    "behaviour": {
+        "moving": {
+          "canLook": true,        
+          "walk": {
+            "canWalk": true,
+            "walkSpeed":0.12
+          }
+        },
+          "resting": {
+            "canSleep": true,
+            "willSleepOnBed": true,
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "7",
+      "toleratedLeaders": [
+        {
+          "pokemon": "taplatter",
+          "tier": 1
+        },
+        {
+          "pokemon": "pungudua",
+          "tier": 2
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+        },
+    "catchRate": 255,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 52,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 20,
+
+    "eggGroups": [
+      "field"
+    ],
+    "drops": {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "minecraft:slime_ball",
+          "quantityRange": "0-1"
+        },  
+        {
+          "item": "cobblemon:wiki_berry",
+          "percentage": 5.0
+        },
+        {
+          "item": "cobblemon:black_sludge",
+          "percentage": 2.5
+        }
+      ]
+    },
+    "moves": [
+      "1:tackle",
+      "1:clearsmog",
+      "1:laserfocus",
+      "8:poisontail",
+      "12:mudshot",
+      "16:acidspray",
+      "20:toxic",
+      "24:venoshock",
+      "28:uproar",
+      "32:acidarmor",
+      "37:sludgebomb",
+      "43:bellydrum",
+
+      "egg:stuffcheeks",
+      "egg:memento",
+      "egg:belch",
+      "egg:spitup",
+      "egg:stockpile",
+      "egg:swallow",
+
+      "tm:amnesia",
+      "tm:attract",
+      "tm:bodypress",
+      "tm:bodyslam",
+      "tm:confide",
+      "tm:crosspoison",
+      "tm:darkpulse",
+      "tm:doubleteam",
+      "tm:drainpunch",
+      "tm:endure",
+      "tm:facade",
+      "tm:fling",
+      "tm:focusblast",
+      "tm:frustration",
+      "tm:gigadrain",
+      "tm:gigaimpact",
+      "tm:gunkshot",
+      "tm:hiddenpower",
+      "tm:hyperbeam",
+      "tm:infestation",
+      "tm:payback",
+      "tm:protect",
+      "tm:psychic",
+      "tm:raindance",
+      "tm:rest",
+      "tm:return",
+      "tm:rockblast",
+      "tm:rockpolish",
+      "tm:round",
+      "tm:screech",
+      "tm:secretpower",
+      "tm:seedbomb",
+      "tm:sleeptalk",
+      "tm:sludgebomb",
+      "tm:sludgewave",
+      "tm:smackdown",
+      "tm:snore",
+      "tm:solarbeam",
+      "tm:spikes",
+      "tm:stompingtantrum",
+      "tm:substitute",
+      "tm:sunnyday",
+      "tm:swagger",
+      "tm:thief",
+      "tm:thunderbolt",
+      "tm:toxic",
+      "tm:toxicspikes",
+      "tm:venomdrench",
+      "tm:venoshock",  
+
+      "tutor:toxicspikes",
+      "tutor:endeavor",
+      "tutor:hypervoice"  
+    ],
+    "pokedex": [
+      "cobblemon.species.taplatter.desc1"
+    ],
+    "evolutions": [
+      {
+        "id": "taplatter_pungudua_lvl",
+        "variant": "level_up",
+        "result": "pungudua",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 27
+          }
+        ]
+      }
+    ],
+    "baseScale": 0.8,
+    "hitbox": {
+      "width": 0.7,
+      "height": 0.8,
+      "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 1,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "height": 7,
+    "weight": 69,
+    "aspects": [],
+    "cannotDynamax": false
+  }

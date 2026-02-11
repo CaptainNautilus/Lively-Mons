@@ -1,0 +1,14 @@
+{
+    "target": "cobblemon:lombre",
+  "evolutions": [
+      {
+        "id": "lombre_ludikappa",
+        "variant": "item_interact",
+        "result": "ludikappa",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [],
+        "requiredContext": "cobblemon:leaf_stone"
+      }
+    ]
+  }

@@ -1,0 +1,9 @@
+{
+    "name": "Sanrosa",
+    "displayName": "cobblemon.starterselection.category.sanrosa",
+    "pokemon": [
+       "Citrillume level=10",
+       "Infernito level=10",
+       "Potdary level=10"
+    ]
+}

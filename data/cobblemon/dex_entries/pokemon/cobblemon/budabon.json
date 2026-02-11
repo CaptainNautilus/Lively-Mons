@@ -1,0 +1,69 @@
+{
+  "id": "cobblemon:budabon",
+  "speciesId": "cobblemon:budabon",
+  "displayAspects": ["Kantonian"],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Kantonian",
+      "unlockForms": ["Kantonian", "Normal"]
+    },
+    {
+      "displayForm": "Johtonian",
+      "unlockForms": ["Johtonian"]
+    },
+    {
+      "displayForm": "Hoennian",
+      "unlockForms": ["Hoennian"]
+    },
+    {
+      "displayForm": "Sinnohan",
+      "unlockForms": ["Sinnohan"]
+    },
+    {
+      "displayForm": "Unovan",
+      "unlockForms": ["Unovan"]
+    },
+    {
+      "displayForm": "Kalosian",
+      "unlockForms": ["Kalosian"]
+    },
+    {
+      "displayForm": "Alolan",
+      "unlockForms": ["Alolan"]
+    },
+    {
+      "displayForm": "Galarian",
+      "unlockForms": ["Galarian"]
+    },
+    {
+      "displayForm": "Hisuian",
+      "unlockForms": ["Hisuian"]
+    },
+    {
+      "displayForm": "Paldean",
+      "unlockForms": ["Paldean"]
+    },
+    {
+      "displayForm": "Sanrosan",
+      "unlockForms": ["Sanrosan"]
+    },
+    {
+      "displayForm": "Lumoran",
+      "unlockForms": ["Lumoran"]
+    },
+    {
+      "displayForm": "Laser",
+      "unlockForms": ["Laser"]
+    },
+    {
+      "displayForm": "Alatian",
+      "unlockForms": ["Alatian"]
+    },
+    {
+      "displayForm": "Jetian",
+      "unlockForms": ["Jetian"]
+    }
+  ],
+  "variations": []
+}

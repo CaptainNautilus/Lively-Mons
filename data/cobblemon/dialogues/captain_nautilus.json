@@ -1,0 +1,92 @@
+{
+  "initializationAction": "(q.npc.is_in_battle_with(q.player) || !q.npc.is_doing_activity('minecraft:idle', 'cobblemon:battling')) ? q.dialogue.close()",
+  "speakers": {
+    "npc": {
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      },
+      "face": "q.npc.face(false);"
+    },
+    "player": {
+      "face": "q.player.face();",
+      "name": {
+        "type": "expression",
+        "expression": "q.player.username"
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "player-greeting",
+      "speaker": "player",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "'Hello, I am ' + q.player.username + '!'"
+        }
+      ],
+      "input": "q.dialogue.set_page(q.npc.was_hurt_by(q.player) ? 'captain-hurt-1' : 'captain-greeting');"
+    },
+    {
+      "id": "captain-hurt-1",
+      "speaker": "npc",
+      "lines": ["Why would want to talk with you after you hit me? Go away!"],
+      "input": "q.dialogue.close();"
+    },
+    {
+      "id": "captain-greeting",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "'Well hello, ' + q.player.username + '! I am Captain Nautilus, the creator of Lively \\'Mons.'"
+        }
+      ],
+      "input": "q.dialogue.set_page('captain-dialogue');"
+    },
+    {
+    "id": "captain-dialogue",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "'I hope you like it because I have poured a lot of time and effort into it.'"
+        }
+      ],
+      "input": "q.dialogue.set_page('captain-battle');"
+    },
+      {
+      "id": "captain-battle",
+      "speaker": "npc",
+      "lines": [
+        {
+          "type": "expression",
+          "expression": "'Anyways, wanna battle? I will be using some of my favorite designs from Lively \\'Mons.'"
+        }
+      ],      
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Battle",
+            "value": "battle",
+            "action": [
+              "q.dialogue.close();",
+              "q.npc.start_battle(q.player, 'double');"
+            ],
+            "isSelectable": "c.npc.can_battle;"
+          },
+          {
+            "text": "Cancel",
+            "value": "cancel",
+            "action": [
+              "q.dialogue.close()"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

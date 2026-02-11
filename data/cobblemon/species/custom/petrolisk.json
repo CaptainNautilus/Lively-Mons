@@ -1,0 +1,372 @@
+{
+    "implemented": true,
+"name": "petrolisk",
+"nationalPokedexNumber": 24,
+"labels": [ "custom" ],
+"pokedex": [
+  "cobblemon.species.petrolisk.desc1"
+],
+"height": 25,
+"weight": 5200,
+
+"preEvolution": "fossoil",
+
+"primaryType": "rock",
+  "secondaryType": "poison",
+  "baseStats": {
+    "hp": 83,
+    "attack": 130,
+    "defence": 86,
+    "special_attack": 55,
+    "special_defence": 81,
+    "speed": 110
+  },
+  "catchRate": 25,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseFriendship": 50,
+  "evYield": {
+    "attack": 2
+  },
+  "moves": [
+    "1:harden",
+    "1:tackle",
+    "2:rockthrow",
+    "4:poisonfang",
+    "7:bite",
+    "13:ancientpower",
+    "15:stealthrock",
+    "19:toxicspikes",
+    "22:scaryface",
+    "24:mortalspin",
+    "27:barbbarrage",
+    "34:crunch",
+    "37:rockslide",
+    "40:crosspoison",
+    "44:earthquake",
+    "49:stoneedge",
+    "52:wavecrash",
+    "55:gunkshot",
+
+    "egg:agility",
+    "egg:nightslash",
+    "egg:poisontail",
+    "egg:sandattack",
+    "egg:screech",
+    "egg:slash",
+    "egg:whirlwind",
+
+    "tm:toxic",
+    "tm:taunt",
+    "tm:protect",
+    "tm:raindance",
+    "tm:irontail",
+    "tm:dig",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:sludgebomb",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:endure",
+    "tm:raindance",
+    "tm:sandstorm",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:spikes",
+    "tm:toxicspikes",
+    "tm:powergem",
+    "tm:gunkshot",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:terablast",    
+
+    "tutor:toxic",
+    "tutor:taunt",
+    "tutor:protect",
+    "tutor:raindance",
+    "tutor:irontail",
+    "tutor:dig",
+    "tutor:shadowball",
+    "tutor:brickbreak",
+    "tutor:doubleteam",
+    "tutor:sludgebomb",
+    "tutor:rocktomb",
+    "tutor:aerialace",
+    "tutor:torment",
+    "tutor:facade",
+    "tutor:rest",
+    "tutor:attract",
+    "tutor:thief",
+    "tutor:falseswipe",
+    "tutor:fling",
+    "tutor:endure",
+    "tutor:raindance",
+    "tutor:sandstorm",
+    "tutor:rockblast",
+    "tutor:rockslide",
+    "tutor:spikes",
+    "tutor:toxicspikes",
+    "tutor:powergem",
+    "tutor:gunkshot",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:terablast"
+  ],
+  "abilities": [
+    "roughskin",
+    "intimidate",
+    "h:swiftswim"
+  ],
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "canJump": false,
+        "stats": {
+          "ACCELERATION": "40-60",
+          "JUMP": "5-10",
+          "SKILL": "10-30",
+          "SPEED": "10-20",
+          "STAMINA": "65-85"
+        }
+      },
+      "LIQUID": {
+        "key": "cobblemon:liquid/dolphin",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "55-85",
+          "JUMP": "40-65",
+          "SKILL": "40-80",
+          "SPEED": "45-75",
+          "STAMINA": "15-30"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.9496859,
+              "z": 0.19579774
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.9526392,
+              "z": 0.40629542
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.1070426,
+              "z": 0.1356345
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.1070426,
+              "z": 0.1356345
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.0221033,
+              "z": 0.23787531
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.1070426,
+              "z": 0.1356345
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.1070426,
+              "z": 0.1356345
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      },
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.75379527,
+              "z": 1.0256639
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.7437379,
+              "z": 1.2329822
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.1180432,
+              "z": 0.9882362
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.1180432,
+              "z": 0.9882362
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.7830492,
+              "z": 1.0563521
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.1180432,
+              "z": 0.9882362
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.1180432,
+              "z": 0.9882362
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "baseScale": 1.7,
+"hitbox": {
+  "width": 1.25,
+  "height": 2.35,
+  "fixed": false
+},
+"drops": {
+"amount": "4",
+  "entries": [
+    {
+      "item": "minecraft:coal",
+      "quantityRange": "0-2"
+    },
+    {
+      "item": "minecraft:bone",
+      "quantityRange": "0-2"
+    }
+]
+},
+"behaviour": {
+  "moving": {
+    "canLook": true,
+    "fly": {
+      "canFly": false
+    },          
+    "swim": {
+      "canSwimInWater": true,
+      "canBreatheUnderwater": true
+    },
+    "walk": {
+        "canWalk": true
+      }
+  },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042,
+            "times": [
+            "any"
+            ],
+            "light": "0-4"
+          },
+    "herd": {
+      "maxSize": "9"
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  }
+}

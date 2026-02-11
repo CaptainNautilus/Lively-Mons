@@ -1,0 +1,162 @@
+{
+    "implemented": true,
+    "name": "krillcracker",
+    "nationalPokedexNumber": 51,
+    "primaryType": "fire",
+    "labels": [ "custom" ],
+    "abilities": [
+      "flashfire",
+      "unburden",
+      "h:keeneye"
+    ],
+    "baseStats": {
+      "hp": 47,
+      "attack": 65,
+      "defence": 52,
+      "special_attack": 57,
+      "special_defence": 50,
+      "speed": 48
+    },
+    "behaviour": {
+        "moving": {
+          "canLook": true,
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": false,
+            "canBreatheUnderwater": true
+          }
+        },
+          "resting": {
+            "canSleep": true,
+            "willSleepOnBed": true,
+            "light": "0-4",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "krillcracker",
+          "tier": 1
+        },
+        {
+          "pokemon": "shiboom",
+          "tier": 2
+        },
+        {
+          "pokemon": "manaphy",
+          "tier": 3
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+        },
+    "catchRate": 190,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 64,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+
+    "eggGroups": [
+      "dragon"
+    ],
+    "drops": {
+      "amount": 1,
+      "entries": [
+        {
+          "item": "minecraft:gunpowder",
+          "quantityRange": "0-1"
+        }
+      ]
+    },
+    "moves": [
+      "1:leer",
+      "1:tackle",
+      "4:ember",
+      "8:willowisp",
+      "12:flamecharge",
+      "16:flamewheel",
+      "21:headbutt",
+      "25:firelash",
+      "28:acrobatics",
+      "30:dragondance",
+      "32:breakingswipe",
+      "34:explosion",
+      "36:dragonclaw",
+      "38:crunch",
+      "40:extremespeed",
+      "46:outrage",
+      "49:mindblown",
+      "egg:dragonbreath",
+      "egg:twister",
+      "egg:flareblitz",
+      "tm:leer",
+      "tm:tackle",
+      "tm:ember",
+      "tm:willowisp",
+      "tm:flamecharge",
+      "tm:flamewheel",
+      "tm:headbutt",
+      "tm:firelash",
+      "tm:acrobatics",
+      "tm:dragondance",
+      "tm:breakingswipe",
+      "tm:lunge",
+      "tm:dragonclaw",
+      "tm:outrage",
+      "tm:dragonbreath",
+      "tm:twister",
+      "tm:flareblitz",
+      "tutor:heatcrash",
+      "tutor:bounce",
+      "tutor:lunge"
+    ],
+    "pokedex": [
+      "cobblemon.species.krillcracker.desc1"
+    ],
+
+    "evolutions": [
+      {
+        "id": "krillcracker_shiboom_lvl",
+        "variant": "level_up",
+        "result": "shiboom",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 36
+          }
+        ]
+      }
+    ],
+
+    "baseScale": 0.85,
+    "hitbox": {
+      "width": 0.6,
+      "height": 0.65,
+      "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 1,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "height": 8,
+    "weight": 120,
+    "aspects": [],
+    "lightingData": {
+      "lightLevel": 7,
+      "liquidGlowMode": "LAND"
+    },
+    "cannotDynamax": false
+  }
+  

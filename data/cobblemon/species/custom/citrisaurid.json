@@ -1,0 +1,404 @@
+{
+    "implemented": true,
+    "name": "citrisaurid",
+    "nationalPokedexNumber": 3,
+    "primaryType": "grass",
+    "secondaryType": "electric",
+    "abilities": [
+      "overgrow",
+      "h:speedboost"
+    ],
+    "preEvolution":"limonzal",
+    "baseStats": {
+      "hp": 72,
+      "attack": 100,
+      "defence": 66,
+      "special_attack": 105,
+      "special_defence": 72,
+      "speed": 115
+    },
+    "catchRate": 45,
+    "maleRatio": 0.875,
+    "shoulderMountable": false,
+    "baseExperienceYield": 265,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 15,
+    "eggGroups": [
+      "flying"
+    ],
+  "riding": {
+    "behaviours": {
+      "AIR": {
+        "key": "cobblemon:air/bird",
+        "rideSounds": [
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.wind",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          },
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.plumage",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          }
+        ],
+        "stats": {
+          "ACCELERATION": "45-70",
+          "JUMP": "35-50",
+          "SKILL": "80-100",
+          "SPEED": "50-65",
+          "STAMINA": "45-55"
+        }
+      },
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "55-75",
+          "JUMP": "35-50",
+          "SKILL": "65-80",
+          "SPEED": "25-40",
+          "STAMINA": "30-50"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 3.7252903e-09,
+              "y": -3.2956975,
+              "z": 0.12137693
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.029628474,
+              "y": -3.505073,
+              "z": -0.16433369
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -3.026501,
+              "z": 0.02329135
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -3.1509643,
+              "z": -0.77240765
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -3.026501,
+              "z": 0.02329135
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -3.1509643,
+              "z": -0.77240765
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 3.7252903e-09,
+              "y": -3.2956975,
+              "z": 0.12137693
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      },
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 3.7252903e-09,
+              "y": -2.5119905,
+              "z": 0.53009856
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.08413556,
+              "y": -2.8625107,
+              "z": 0.43183827
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -2.218462,
+              "z": 0.61262774
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -3.0305538,
+              "z": -0.15911621
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -2.218462,
+              "z": 0.61262774
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -3.0305538,
+              "z": -0.15911621
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 3.7252903e-09,
+              "y": -2.5119905,
+              "z": 0.53009856
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "willSleepOnBed": false,
+            "light": "0-4",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "6",
+      "toleratedLeaders": [
+        {
+          "pokemon": "citrisaurid",
+          "tier": 1
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+      "moving": {
+        "fly": {
+          "canFly": true
+        }
+      }
+    },
+    "drops": {
+      "amount": 5,
+      "entries": [
+        {
+          "item": "minecraft:feather",
+          "quantityRange": "0-3"
+        },
+        {
+          "item": "cobblemon:grepa_berry"
+        },
+        {
+          "item": "cobblemon:miracle_seed",
+          "percentage": 25.0
+        }
+      ]
+    },
+    "moves": [
+      "1:leer",
+      "1:tackle",
+      "3:leafage",
+      "6:nuzzle",
+      "9:peck",
+      "12:quickattack",
+      "15:razorleaf",
+      "16:spark",
+      "20:synthesis",
+      "22:pluck",
+      "24:swordsdance",
+      "26:leechseed",
+      "28:bulletseed",
+      "31:electroball",
+      "34:agility",
+      "39:thunderclap",
+      "42:tropkick",
+      "43:featherdance",
+      "46:leafblade",
+      "50:bravebird",
+      "54:solarblade",
+      "58:wildcharge",
+      "63:skyattack",
+
+      "tm:electroball",
+      "tm:aerialace",
+      "tm:aircutter",
+      "tm:airslash",
+      "tm:attract",
+      "tm:batonpass",
+      "tm:bravebird",
+      "tm:bulletseed",
+      "tm:confide",
+      "tm:eerieimpulse",
+      "tm:doubleteam",
+      "tm:dualwingbeat",
+      "tm:echoedvoice",
+      "tm:endure",
+      "tm:energyball",
+      "tm:facade",
+      "tm:falseswipe",
+      "tm:featherdance",
+      "tm:frustration",
+      "tm:gigadrain",
+      "tm:grassknot",
+      "tm:grasspledge",
+      "tm:grassyglide",
+      "tm:grassyterrain",
+      "tm:thunderwave",
+      "tm:helpinghand",
+      "tm:hiddenpower",
+      "tm:knockoff",
+      "tm:leafblade",
+      "tm:leafstorm",
+      "tm:lightscreen",
+      "tm:magicalleaf",
+      "tm:swordsdance",
+      "tm:naturepower",
+      "tm:discharge",
+      "tm:protect",
+      "tm:raindance",
+      "tm:rest",
+      "tm:return",
+      "tm:roost",
+      "tm:round",
+      "tm:safeguard",
+      "tm:seedbomb",
+      "tm:voltswitch",
+      "tm:sleeptalk",
+      "tm:snore",
+      "tm:solarbeam",
+      "tm:steelwing",
+      "tm:substitute",
+      "tm:sunnyday",
+      "tm:swagger",
+      "tm:swift",
+      "tm:swordsdance",
+      "tm:takedown",
+      "tm:terablast",
+      "tm:toxic",
+      "tm:trailblaze",
+      "tm:workup",
+      "tm:thunderclap",
+      "tm:wildcharge",
+
+      "tutor:covet",
+      "tutor:defog",
+      "tutor:dualwingbeat",
+      "tutor:gigadrain",
+      "tutor:grasspledge",
+      "tutor:grassyglide",
+      "tutor:seedbomb",
+      "tutor:skyattack",
+      "tutor:snore",
+      "tutor:synthesis",
+      "tutor:worryseed"
+    ],
+    "labels": [
+      "custom"
+    ],
+    "pokedex": [
+      "cobblemon.species.citrisaurid.desc1"
+    ],
+
+    "baseScale": 0.75,
+    "hitbox": {
+      "width": 1.2,
+      "height": 3.4,
+      "fixed": false
+  
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 3
+    },
+    "height": 19,
+    "weight": 520,
+    "aspects": [],
+    "lightingData": {
+      "lightLevel": 7,
+      "liquidGlowMode": "BOTH"
+    },
+    "cannotDynamax": false
+  }
+  

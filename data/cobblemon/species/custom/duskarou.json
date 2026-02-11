@@ -1,0 +1,240 @@
+{
+    "implemented": true,
+    "name": "duskarou",
+    "nationalPokedexNumber": 68,
+    "primaryType": "ghost",
+    "secondaryType": "normal",
+    "abilities": [
+      "levitate",
+      "h:levitate"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 60,
+      "defence": 50,
+      "special_attack": 40,
+      "special_defence": 50,
+      "speed": 75
+    },
+    "catchRate": 190,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 67,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+      "field"
+    ],
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "willSleepOnBed": true,
+      "times": [
+        "day"
+      ],
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "7",
+      "toleratedLeaders": [
+        {
+          "pokemon": "duskarou",
+          "tier": 1
+        },
+        {
+          "pokemon": "stagrion",
+          "tier": 2
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true
+    },
+      "moving": {
+          "canLook": true,
+        "fly": {
+          "canFly": true
+        },
+        "walk": {
+          "canWalk": false
+        }
+      }
+    },
+    "drops": {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "minecraft:leather",
+          "quantityRange": "0-1"
+        },
+        {
+          "item": "cobblemon:spell_tag",
+        "percentage": 2.5
+        },
+        {
+          "item": "cobblemon:chople_berry",
+          "percentage": 2.5
+        }
+      ]
+    },
+    "moves": [
+    "1:tackle",
+    "1:confuseray",
+    "4:growl",
+    "7:sandattack",
+    "10:shadowsneak",
+    "13:curse",
+    "16:feintattack",
+    "20:takedown",
+    "24:ominouswind",
+    "28:destinybond",
+    "32:howl",
+    "37:doubleedge",
+    "42:phantomforce",
+    
+    "egg:agility",
+    "egg:batonpass",
+    "egg:faketears",
+    "egg:grasswhistle",
+    "egg:headbutt",
+    "egg:naturalgift",
+    "egg:odorsleuth",
+    "egg:sleeptalk",
+    "egg:synthesis",
+    "egg:worryseed",
+    
+    "tm:hex",
+    "tm:grudge",
+    "tm:spite",
+    "tm:nightmare",
+    "tm:nightshade",
+    "tm:agility",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flash",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:lastresort",
+    "tm:leafstorm",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:hypnosis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:worryseed",
+    "tm:zenheadbutt",
+
+    "tutor:bounce",
+    "tutor:bulldoze",
+    "tutor:endeavor",
+    "tutor:energyball",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:helpinghand",
+    "tutor:lastresort",
+    "tutor:magicalleaf",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:hypnosis",
+    "tutor:wildcharge",
+    "tutor:worryseed",
+    "tutor:zenheadbutt",
+
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+    ],
+    "labels": [
+      "custom"
+    ],
+    "pokedex": [
+      "cobblemon.species.duskarou.desc1"
+    ],
+    "evolutions": [
+      {
+        "id": "duskarou_stagrion",
+        "variant": "level_up",
+        "result": "stagrion",
+        "consumeHeldItem": false,
+        "learnableMoves": [
+         "shadowclaw"
+        ],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 34
+          }
+        ]
+      }
+    ],
+    "baseScale": 0.8,
+    "hitbox": {
+      "width": 0.6,
+      "height": 1.1,
+      "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 1
+    },
+    "height": 6,
+    "weight": 1,
+    "aspects": [],
+    "lightingData": {
+      "lightLevel": 7,
+      "liquidGlowMode": "BOTH"
+    },
+    "cannotDynamax": false
+  }
+  

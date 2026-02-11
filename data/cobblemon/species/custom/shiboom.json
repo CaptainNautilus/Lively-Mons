@@ -1,0 +1,148 @@
+{
+    "implemented": true,
+    "name": "shiboom",
+    "nationalPokedexNumber": 52,
+    "primaryType": "fire",
+    "secondaryType": "dragon",
+    "labels": [ "custom" ],
+    "abilities": [
+      "flashfire",
+      "unburden",
+      "h:aerilate"
+    ],
+    "preEvolution":"krillcracker",
+    "baseStats": {
+      "hp": 57,
+      "attack": 120,
+      "defence": 54,
+      "special_attack": 66,
+      "special_defence": 55,
+      "speed": 138
+    },
+    "behaviour": {
+        "moving": {
+          "canLook": true,
+          "fly": {
+            "canFly": true
+          },          
+          "walk": {
+            "canWalk": false
+          },
+          "swim": {
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+          }
+        },
+          "resting": {
+            "canSleep": true,
+            "willSleepOnBed": true,
+            "light": "0-4",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "shiboom",
+          "tier": 1
+        },
+        {
+          "pokemon": "manaphy",
+          "tier": 2
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+      },
+    "catchRate": 75,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 165,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+
+    "eggGroups": [
+      "dragon"
+    ],
+    "drops": {
+      "amount": 2,
+      "entries": [
+        {
+          "item": "minecraft:gunpowder",
+          "quantityRange": "0-2"
+        }
+      ]
+    },
+    "moves": [
+      "1:leer",
+      "1:tackle",
+      "1:ember",
+      "1:willowisp",
+      "1:flamecharge",
+      "12:flamewheel",
+      "16:headbutt",
+      "20:firelash",
+      "24:acrobatics",
+      "28:dragondance",
+      "32:breakingswipe",
+      "34:explosion",
+      "39:dragonclaw",
+      "44:crunch",
+      "50:extremespeed",
+      "56:outrage",
+      "60:mindblown",
+      "tm:leer",
+      "tm:tackle",
+      "tm:ember",
+      "tm:willowisp",
+      "tm:flamecharge",
+      "tm:flamewheel",
+      "tm:headbutt",
+      "tm:firelash",
+      "tm:acrobatics",
+      "tm:dragondance",
+      "tm:breakingswipe",
+      "tm:lunge",
+      "tm:dragonclaw",
+      "tm:outrage",
+      "tm:dragonbreath",
+      "tm:twister",
+      "tm:flareblitz",
+      "tutor:heatcrash",
+      "tutor:bounce",
+      "tutor:lunge"
+    ],
+    "pokedex": [
+      "cobblemon.species.shiboom.desc1"
+    ],
+
+    "baseScale": 0.8,
+    "hitbox": {
+      "width": 1.2,
+      "height": 1.5,
+      "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 2,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "height": 20,
+    "weight": 85,
+    "aspects": [],
+    "lightingData": {
+      "lightLevel": 7,
+      "liquidGlowMode": "LAND"
+    },
+    "cannotDynamax": false
+  }
+  

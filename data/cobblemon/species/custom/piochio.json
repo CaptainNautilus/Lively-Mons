@@ -1,0 +1,236 @@
+{
+    "implemented": true,
+    "name": "piochio",
+    "nationalPokedexNumber": 61,
+    "primaryType": "grass",
+    "secondaryType": "flying",
+    "abilities": [
+      "technician",
+      "analytic",
+      "h:clearbody"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 60,
+      "defence": 70,
+      "special_attack": 30,
+      "special_defence": 50,
+      "speed": 20
+    },
+    "behaviour": {
+      "moving": {
+        "walk": {
+          "walkSpeed": 0.3
+        }
+      },
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": true,
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "pidove",
+          "tier": 1
+        },
+        {
+          "pokemon": "starly",
+          "tier": 1
+        },
+        {
+          "pokemon": "pidgey",
+          "tier": 1
+        },
+        {
+          "pokemon": "piochio",
+          "tier": 2
+        },
+        {
+          "pokemon": "tranquill",
+          "tier": 3
+        },
+        {
+          "pokemon": "staravia",
+          "tier": 3
+        },
+        {
+          "pokemon": "pidgeotto",
+          "tier": 3
+        },
+        {
+          "pokemon": "unfezant",
+          "tier": 4
+        },
+        {
+          "pokemon": "pidgeot mega=false",
+          "tier": 4
+        },
+        {
+          "pokemon": "pidgeot mega",
+          "tier": 5
+        },
+        {
+          "pokemon": "thunkoo",
+          "tier": 6
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+    },
+    "catchRate": 200,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 54,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 15,
+    "eggGroups": [
+      "flying"
+    ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:stick",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:redstone"
+      },
+      {
+        "item": "cobblemon:rindo_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+    "moves": [
+    "1:peck",
+    "1:autotomize",
+    "3:shiftgear",
+    "6:rapidspin",
+    "9:leafage",
+    "13:wingattack",
+    "15:geargrind",
+    "17:trailblaze",
+    "21:aerialace",
+    "25:grassyterrain",
+    "29:leechseed",
+    "33:grassyglide",
+    "37:endeavor",
+    "41:bravebird",
+    "45:woodhammer",
+
+    "egg:solarbeam",
+    "egg:mirrormove",
+    "egg:acrobatics",
+    "egg:rapidspin",
+    "egg:refresh",
+    "egg:supersonic",
+    "egg:hyperdrill",
+
+    "tm:grassknot",
+    "tm:powerwhip",
+    "tm:snaptrap",
+    "tm:bulletseed",
+    "tm:grasswhistle",
+    "tm:ingrain",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:assurance",
+    "tm:batonpass",
+    "tm:bravebird",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:dualwingbeat",
+    "tm:echoedvoice",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fly",
+    "tm:focusenergy",
+    "tm:heatwave",
+    "tm:hurricane",
+    "tm:mudslap",
+    "tm:ominouswind",
+    "tm:pluck",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:reversal",
+    "tm:roost",
+    "tm:skyattack",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:tailwind",
+    "tm:terablast",
+    "tm:thief",
+    "tm:twister",
+    "tm:uturn",
+    "tm:workup",
+
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:chloroblast",
+    "tutor:focusenergy",
+    "tutor:heatwave",
+    "tutor:seedbomb",
+    "tutor:ominouswind",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:skyattack",
+    "tutor:sleeptalk",
+    "tutor:tailwind",
+    "tutor:twister"
+    ],
+    "labels": [
+      "custom"
+    ],
+    "pokedex": [
+      "cobblemon.species.piochio.desc1"
+    ],
+    "evolutions": [
+      {
+        "id": "piochio_thunkoo",
+        "variant": "level_up",
+        "result": "thunkoo",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 22
+          }
+        ]
+      }
+    ],
+    "baseScale": 0.8,
+    "hitbox": {
+      "width": 0.7,
+      "height": 1.1,
+      "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 1,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "height": 3,
+    "weight": 23,
+    "aspects": [],
+    "cannotDynamax": false
+  }
+  

@@ -1,0 +1,290 @@
+{
+    "implemented": true,
+"name": "canjitsu",
+"nationalPokedexNumber": 70,
+"labels": [ "custom" ],
+"pokedex": [
+  "cobblemon.species.canjitsu.desc1"
+],
+"height": 10,
+"weight": 145,
+
+"shoulderMountable": false,
+
+"primaryType": "grass",
+  "secondaryType": "dragon",
+  "baseStats": {
+    "hp": 41,
+    "attack": 70,
+    "defence": 75,
+    "special_attack": 46,
+    "special_defence": 60,
+    "speed": 36
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 66,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "grass",
+    "dragon"
+  ],
+  "baseFriendship": 50,
+  "evYield": {
+    "defence": 1
+  },
+  "moves": [
+    "1:substitute",
+    "1:tackle",
+    "4:leafage",
+    "8:furycutter",
+    "12:razorleaf",
+    "16:dragonrage",
+    "18:synthesis",
+    "20:dragontail",
+    "24:nightslash",
+    "28:dragondance",
+    "32:leafblade",
+    "34:ceaselessedge",
+    "36:dragonhammer",
+    "40:agility",
+    "44:kowtowcleave",
+    "48:woodhammer",
+
+    "egg:endeavor",
+    "egg:leechseed",
+    "egg:crosspoison",
+    "egg:aquacutter",
+    "egg:slash",
+    "egg:psychocut",
+
+    "tm:xscissor",
+    "tm:outrage",
+    "tm:dragontail",
+    "tm:dragondance",
+    "tm:dragonrush",
+    "tm:dragonclaw",
+    "tm:solarblade",
+    "tm:autotomize",
+    "tm:seedbomb",
+    "tm:leafblade",
+    "tm:spikyshield",
+    "tm:worryseed",
+    "tm:powerwhip",
+    "tm:woodhammer",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:leechseed",
+    "tm:bulletseed",
+    "tm:dragonpulse",
+    "tm:razorleaf",
+    "tm:solarbeam",
+    "tm:rest",
+    "tm:swordsdance",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swift",
+    "tm:dracometeor",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:gigadrain",
+    "tm:petalblizzard",
+    "tm:leafstorm",
+    "tm:nightslash",
+    "tm:uturn",
+    "tm:dragonhammer",
+    "tm:psychocut",
+    "tm:detect",
+    
+    "tutor:dragontail",
+    "tutor:dragonrush",
+    "tutor:seedbomb",
+    "tutor:leafblade",
+    "tutor:woodhammer",
+    "tutor:endeavor",
+    "tutor:rest",
+    "tutor:swordsdance",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:dracometeor",
+    "tutor:petalblizzard",
+    "tutor:nightslash",
+    "tutor:detect"
+  ],
+  "abilities": [
+    "sharpness",
+    "steadfast",
+    "h:keeneye"
+  ],
+
+  "evolutions": [
+  {
+    "id": "canjitsu_branchief_lvl",
+    "variant": "level_up",
+    "result": "branchief",
+    "consumeHeldItem": false,
+    "learnableMoves": [],
+    "requirements": [
+      {
+        "variant": "level",
+        "minLevel": 34
+      },
+      {
+          "variant": "time_range",
+          "range": "day"
+      }
+    ]
+  }
+],
+
+
+  "baseScale": 1,
+"hitbox": {
+  "width": 0.55,
+  "height": 2.45,
+  "fixed": false
+},
+"drops": {
+"amount": "2",
+  "entries": [
+    {
+      "item": "minecraft:bamboo",
+      "quantityRange": "0-1"
+    },
+    {
+      "item": "cobblemon:pecha_berry",
+      "percentage": 2.5
+    }
+]
+},
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "40-65",
+          "JUMP": "10-20",
+          "SKILL": "40-60",
+          "SPEED": "30-45",
+          "STAMINA": "40-55"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": -1.3886806e-19,
+              "y": -0.85467255,
+              "z": 0.19203149
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.018005978,
+              "y": -0.92781013,
+              "z": 0.17846698
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": -1.3886806e-19,
+              "y": -0.85467255,
+              "z": 0.19203149
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": -1.3886806e-19,
+              "y": -0.85467255,
+              "z": 0.19203149
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": -1.3886806e-19,
+              "y": -0.85467255,
+              "z": 0.19203149
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": -1.3886806e-19,
+              "y": -0.85467255,
+              "z": 0.19203149
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": -1.3886806e-19,
+              "y": -0.85467255,
+              "z": 0.19203149
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+"behaviour": {
+  "moving": {
+    "walk" : {
+    "walkSpeed": 0.29
+    },
+    "canLook": true
+  },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "7",
+      "toleratedLeaders": [
+        {
+          "pokemon": "canjitsu",
+          "tier": 1
+        },
+        {
+          "pokemon": "branchief",
+          "tier": 2
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  }
+}

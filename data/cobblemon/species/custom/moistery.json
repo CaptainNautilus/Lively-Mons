@@ -1,0 +1,272 @@
+{
+  "implemented": true,
+"name": "moistery",
+"nationalPokedexNumber": 53,
+"labels": [ "custom" ],
+"pokedex": [
+"cobblemon.species.moistery.desc1"
+],
+"height": 4,
+"weight": 525,
+
+"shoulderMountable": false,
+"shoulderEffects": [ "slow_fall" ],
+
+
+"primaryType": "psychic",
+"secondaryType":"water",
+"baseStats": {
+  "hp": 55,
+  "attack": 50,
+  "defence": 75,
+  "special_attack": 55,
+  "special_defence": 45,
+  "speed": 20
+},
+"catchRate": 190,
+"maleRatio": -1,
+"baseExperienceYield": 53,
+"experienceGroup": "medium_slow",
+"eggCycles": 20,
+"eggGroups": [
+  "amorphous"
+],
+"baseFriendship": 50,
+"evYield": {
+  "defence": 2,
+  "special_defence": 1
+},
+"moves": [
+  "1:withdraw",
+  "3:tackle",
+  "5:watergun",
+  "7:hypnosis",
+  "9:whirlpool",
+  "12:confusion",
+  "15:bubblebeam",
+  "18:gyroball",
+  "21:psybeam",
+  "25:bubblebeam",
+  "27:metalsound",
+  "29:skittersmack",
+  "31:flashcannon",
+  "34:brine",
+  "36:psychic",
+  "38:recover",
+  "41:stoneedge",
+  "44:hydropump",
+  "47:steelbeam",
+
+  "tm:blizzard",
+  "tm:brine",
+  "tm:confide",
+  "tm:cosmicpower",
+  "tm:dazzlinggleam",
+  "tm:dive",
+  "tm:doubleteam",
+  "tm:endure",
+  "tm:facade",
+  "tm:flash",
+  "tm:flashcannon",
+  "tm:frustration",
+  "tm:gyroball",
+  "tm:hail",
+  "tm:hiddenpower",
+  "tm:hydropump",
+  "tm:icebeam",
+  "tm:icywind",
+  "tm:lightscreen",
+  "tm:naturalgift",
+  "tm:powergem",
+  "tm:protect",
+  "tm:psychic",
+  "tm:psychup",
+  "tm:raindance",
+  "tm:recycle",
+  "tm:reflect",
+  "tm:rest",
+  "tm:return",
+  "tm:round",
+  "tm:scald",
+  "tm:secretpower",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:substitute",
+  "tm:surf",
+  "tm:swagger",
+  "tm:swift",
+  "tm:thunder",
+  "tm:thunderbolt",
+  "tm:thunderwave",
+  "tm:toxic",
+  "tm:triattack",
+  "tm:waterfall",
+  "tm:waterpulse",
+  "tm:whirlpool",
+  "tm:swagger",
+  "tm:tailwind",
+  "tm:takedown",
+  "tm:uproar",
+  "tm:terablast",
+  "tm:thief",
+  "tm:thunderwave",
+  "tm:explosion",
+  "tm:toxic",
+  "tm:rockslide",
+  "tm:rocktomb",
+  "tm:stealthrock",
+  "tm:skillswap",
+  "tm:steelbeam",
+  "tm:terablast",
+
+  "tutor:blizzard",
+  "tutor:brine",
+  "tutor:confide",
+  "tutor:cosmicpower",
+  "tutor:dazzlinggleam",
+  "tutor:dive",
+  "tutor:doubleteam",
+  "tutor:endure",
+  "tutor:facade",
+  "tutor:flash",
+  "tutor:flashcannon",
+  "tutor:frustration",
+  "tutor:gyroball",
+  "tutor:hail",
+  "tutor:hiddenpower",
+  "tutor:hydropump",
+  "tutor:icebeam",
+  "tutor:icywind",
+  "tutor:lightscreen",
+  "tutor:naturalgift",
+  "tutor:powergem",
+  "tutor:protect",
+  "tutor:psychic",
+  "tutor:psychup",
+  "tutor:raindance",
+  "tutor:recycle",
+  "tutor:reflect",
+  "tutor:rest",
+  "tutor:return",
+  "tutor:round",
+  "tutor:scald",
+  "tutor:secretpower",
+  "tutor:sleeptalk",
+  "tutor:snore",
+  "tutor:substitute",
+  "tutor:surf",
+  "tutor:swagger",
+  "tutor:swift",
+  "tutor:thunder",
+  "tutor:thunderbolt",
+  "tutor:thunderwave",
+  "tutor:toxic",
+  "tutor:triattack",
+  "tutor:waterfall",
+  "tutor:waterpulse",
+  "tutor:whirlpool",
+  "tutor:swagger",
+  "tutor:tailwind",
+  "tutor:takedown",
+  "tutor:uproar",
+  "tutor:terablast",
+  "tutor:thief",
+  "tutor:thunderwave",
+  "tutor:explosion",
+  "tutor:toxic",
+  "tutor:rockslide",
+  "tutor:rocktomb",
+  "tutor:stealthrock",
+  "tutor:skillswap",
+  "tutor:steelbeam",
+  "tutor:terablast"
+],
+"abilities": [
+  "compoundeyes",
+  "steelworker",
+  "h:shellarmor"
+],
+
+"evolutions": [
+{
+  "id": "moistery_orbiclad_lvl",
+  "variant": "level_up",
+  "result": "orbiclad",
+  "consumeHeldItem": false,
+  "learnableMoves": [],
+  "requirements": [
+    {
+      "variant": "level",
+      "minLevel": 24
+    }
+  ]
+}
+],
+
+
+"baseScale": 0.65,
+"hitbox": {
+"width": 0.85,
+"height": 1.1,
+"fixed": false
+},
+"drops": {
+"amount": "2",
+"entries": [
+  {
+    "item": "minecraft:nautilus_shell"
+  },
+  {
+    "item": "minecraft:slime_ball",
+    "quantityRange": "0-1"
+  }
+]
+},
+"behaviour": {
+"moving": {
+  "canLook": true,
+  "fly": {
+    "canFly": true,
+    "flySpeed": 0.2
+  },          
+  "swim": {
+    "swimSpeed": 0.2,
+    "canSwimInWater": true,
+    "canBreatheUnderwater": true
+  },
+        "walk": {
+          "canWalk": false
+        }
+},
+  "resting": {
+    "canSleep": true,
+    "willSleepOnBed": true,
+      "light": "0-4",
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "moistery",
+          "tier": 1
+        },
+        {
+          "pokemon": "orbiclad",
+          "tier": 2
+        },
+        {
+          "pokemon": "xenoster",
+          "tier": 3
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+}
+}

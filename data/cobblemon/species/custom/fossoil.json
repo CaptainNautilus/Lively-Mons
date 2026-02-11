@@ -1,0 +1,214 @@
+{
+    "implemented": true,
+"name": "fossoil",
+"nationalPokedexNumber": 23,
+"labels": [ "custom" ],
+"pokedex": [
+  "cobblemon.species.fossoil.desc1"
+],
+"height": 4,
+"weight": 140,
+
+"shoulderMountable": false,
+"shoulderEffects": [ "slow_fall" ],
+
+
+"primaryType": "rock",
+  "secondaryType": "poison",
+  "baseStats": {
+    "hp": 75,
+    "attack": 65,
+    "defence": 75,
+    "special_attack": 25,
+    "special_defence": 50,
+    "speed": 40
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 63,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseFriendship": 50,
+  "evYield": {
+    "defence": 1
+  },
+  "moves": [
+    "1:harden",
+    "1:tackle",
+    "3:rockthrow",
+    "7:poisonfang",
+    "11:bite",
+    "14:ancientpower",
+    "17:stealthrock",
+    "20:toxicspikes",
+    "23:scaryface",
+    "26:mortalspin",
+    "29:barbbarrage",
+    "32:crunch",
+    "34:rockslide",
+    "37:crosspoison",
+    "40:earthquake",
+    "44:stoneedge",
+    "50:gunkshot",
+
+    "egg:agility",
+    "egg:nightslash",
+    "egg:poisontail",
+    "egg:sandattack",
+    "egg:screech",
+    "egg:slash",
+    "egg:whirlwind",
+
+    "tm:knockoff",
+    "tm:toxic",
+    "tm:taunt",
+    "tm:protect",
+    "tm:raindance",
+    "tm:irontail",
+    "tm:dig",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:sludgebomb",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:endure",
+    "tm:raindance",
+    "tm:sandstorm",
+    "tm:rockblast",
+    "tm:rockslide",
+    "tm:spikes",
+    "tm:toxicspikes",
+    "tm:powergem",
+    "tm:gunkshot",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:terablast",    
+
+    "tutor:toxic",
+    "tutor:taunt",
+    "tutor:protect",
+    "tutor:raindance",
+    "tutor:irontail",
+    "tutor:dig",
+    "tutor:shadowball",
+    "tutor:brickbreak",
+    "tutor:doubleteam",
+    "tutor:sludgebomb",
+    "tutor:rocktomb",
+    "tutor:aerialace",
+    "tutor:torment",
+    "tutor:facade",
+    "tutor:rest",
+    "tutor:attract",
+    "tutor:thief",
+    "tutor:falseswipe",
+    "tutor:fling",
+    "tutor:endure",
+    "tutor:raindance",
+    "tutor:sandstorm",
+    "tutor:rockblast",
+    "tutor:rockslide",
+    "tutor:spikes",
+    "tutor:toxicspikes",
+    "tutor:powergem",
+    "tutor:gunkshot",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:terablast"
+  ],
+  "abilities": [
+    "roughskin",
+    "intimidate",
+    "h:swiftswim"
+  ],
+
+  "evolutions": [
+  {
+    "id": "fossoil_petrolisk_lvl",
+    "variant": "level_up",
+    "result": "petrolisk",
+    "consumeHeldItem": false,
+    "learnableMoves": [],
+    "requirements": [
+      {
+        "variant": "level",
+        "minLevel": 33
+      }
+    ]
+  }
+],
+
+
+  "baseScale": 0.8,
+"hitbox": {
+  "width": 1,
+  "height": 1,
+  "fixed": false
+},
+"drops": {
+"amount": "2",
+  "entries": [
+    {
+      "item": "minecraft:coal",
+      "quantityRange": "0-1"
+    },
+    {
+      "item": "minecraft:bone",
+      "quantityRange": "0-1"
+    }
+]
+},
+"behaviour": {
+  "moving": {
+    "canLook": true,
+    "fly": {
+      "canFly": false
+    },          
+    "swim": {
+      "swimSpeed": 0.1,
+      "canSwimInWater": true,
+      "canBreatheUnderwater": true
+    },
+    "walk": {
+        "canWalk": true
+      }
+  },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "light":"0-4",
+      "times": [
+        "any"
+      ],
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "fossoil",
+          "tier": 1
+        },
+        {
+          "pokemon": "petrolisk",
+          "tier": 2
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  }
+}

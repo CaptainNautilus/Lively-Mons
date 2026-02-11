@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "cobblemon:helix_fossil"
+    },
+    "title": {
+      "translate": "advancements.cobblemon.obtain_fossil"
+    },
+    "description": {
+      "translate": "advancements.cobblemon.obtain_fossil.description"
+    }
+  },
+  "parent": "cobblemon:craft_poke_ball",
+  "criteria": {
+    "check_inv": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#cobblemon:fossils"
+          }
+        ]
+      }
+    },
+    "reef_fossil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glistering_melon_slice",
+            "components": {
+              "minecraft:custom_model_data": 1
+            }
+          }
+        ]
+      }
+    },
+    "hollow_fossil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:fermented_spider_eye",
+            "components": {
+              "minecraft:custom_model_data": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+		[
+      "check_inv",
+			"reef_fossil",
+      "hollow_fossil"
+		]
+	]
+}

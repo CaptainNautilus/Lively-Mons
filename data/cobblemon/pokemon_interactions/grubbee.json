@@ -1,0 +1,57 @@
+{
+  "requirements": [
+    {
+      "variant": "properties",
+      "target": "grubbee"
+    }
+  ],
+  "interactions": [
+    {
+      "grouping": "cobblemon:glass_bottle",
+      "cooldown": "36000",
+      "requirements": [
+        {
+          "variant": "owner_held_item",
+          "itemCondition": "minecraft:glass_bottle"
+        }
+      ],
+      "effects": [
+        {
+          "variant": "shrink_item"
+        },
+        {
+          "variant": "give_item",
+          "item": "minecraft:honey_bottle"
+        },
+        {
+          "variant": "play_sound",
+          "sound": "minecraft:item.bottle.fill"
+        }
+      ]
+    },
+    {
+      "grouping": "cobblemon:shears",
+      "cooldown": "36000",
+      "requirements": [
+        {
+          "variant": "owner_held_item",
+          "itemCondition": "#c:tools/shear"
+        }
+      ],
+      "effects": [
+        {
+          "variant": "shrink_item",
+          "amount": 1
+        },
+        {
+          "variant": "drop_item",
+          "item": "minecraft:honeycomb"
+        },
+        {
+          "variant": "play_sound",
+          "sound": "minecraft:block.beehive.shear"
+        }
+      ]
+    }
+  ]
+}

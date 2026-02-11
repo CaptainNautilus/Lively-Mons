@@ -1,0 +1,212 @@
+{
+    "implemented": true,
+"name": "voltite",
+"nationalPokedexNumber": 18,
+"labels": [ "custom" ],
+"pokedex": [
+  "cobblemon.species.voltite.desc1"
+],
+"height": 8,
+"weight": 180,
+
+"preEvolution": "eggward",
+
+"primaryType": "fighting",
+"secondaryType": "electric",
+
+  "baseStats": {
+    "hp": 40,
+    "attack": 35,
+    "defence": 35,
+    "special_attack": 75,
+    "special_defence": 35,
+    "speed": 120
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 119,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 15,
+  "eggGroups": [
+    "flying"
+  ],
+  "baseFriendship": 50,
+  "evYield": {
+    "speed": 2
+  },
+  "moves": [
+    "1:tackle",
+    "1:vacuumwave",
+    "1:peck",
+    "5:sandattack",
+    "9:gust",
+    "13:quickattack",
+    "17:chargebeam",
+    "21:wingattack",
+    "25:roost",
+    "29:electroball",
+    "33:aurasphere",
+    "37:thunderbolt",
+    "41:tailwind",
+    "45:earthpower",
+    "49:thunder", 
+    "53:focusblast",
+
+    "tm:thunder",
+    "tm:focusblast",
+    "tm:iondeluge",
+    "tm:hypervoice",
+    "tm:risingvoltage",
+    "tm:chargebeam",
+    "tutor:iondeluge",
+    "tutor:hypervoice",
+    "tutor:risingvoltage",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bravebird",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:confide",
+    "tm:confuseray",
+    "tm:drillpeck",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:rest",
+    "tm:embargo",
+    "tm:endure",
+    "tm:facade",
+    "tm:fly",
+    "tm:playrough",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:heatwave",
+    "tm:rocktomb",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:volttackle",
+    "tm:protect",
+    "tm:astonish",
+    "tm:babydolleyes",
+    "tm:secretpower",
+    "tm:electroball",
+    "tm:sleeptalk",
+    "tm:fling",
+    "tm:snatch",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:uproar",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:explosion",
+    "tm:toxic",
+    "tm:closecombat",
+    "tm:drainpunch",
+    "tm:poweruppunch",
+    "tm:rollingkick",
+    "tm:highjumpkick",
+    "tm:machpunch",
+    "tm:lowsweep",
+    "tm:triplekick",
+    "tm:skyuppercut",
+    
+    "tutor:skyuppercut",
+    "tutor:aircutter",
+    "tutor:captivate",
+    "tutor:defog",
+    "tutor:endure",
+    "tutor:closecombat",
+    "tutor:naturalgift",
+    "tutor:uturn",
+    "tutor:secretpower",
+    "tutor:snore",
+    "tutor:steelwing",
+    "tutor:twister"
+  ],
+  "abilities": [
+    "speedboost",
+    "h:noguard"
+  ],
+
+  "evolutions": [
+  {
+    "id": "voltite_ostrike_lvl",
+    "variant": "level_up",
+    "result": "ostrike",
+    "consumeHeldItem": false,
+    "learnableMoves": [],
+    "requirements": [
+      {
+        "variant": "level",
+        "minLevel": 34
+      }
+    ]
+  }
+],
+
+
+  "baseScale": 0.8,
+"hitbox": {
+  "width": 0.5,
+  "height": 1.35,
+  "fixed": false
+},
+"drops": {
+"amount": "3",
+  "entries": [
+    {
+      "item": "minecraft:chicken"
+    },
+    {
+      "item": "minecraft:feather",
+      "quantityRange": "1-2",
+      "percentage": 66
+    }
+]
+},
+"behaviour": {
+  "moving": {
+    "canLook": true,
+    "fly": {
+      "canFly": false
+    },          
+    "swim": {
+      "swimSpeed": 0.1,
+      "canSwimInWater": true,
+      "canBreatheUnderwater": false
+    }
+  },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "voltite",
+          "tier": 1
+        },
+        {
+          "pokemon": "ostrike",
+          "tier": 2
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  }
+}

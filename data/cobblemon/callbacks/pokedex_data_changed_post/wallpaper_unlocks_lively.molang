@@ -1,0 +1,17 @@
+t.pc = q.player.pc;
+
+t.pc.has_unlocked_wallpaper('cobblemon:seibat_wallpaper') == 0 ? {
+    q.pokedex.has_caught('cobblemon:seibat') ? {
+        t.pc.unlock_wallpaper('cobblemon:seibat_wallpaper', 1);
+    };
+};
+t.pc.has_unlocked_wallpaper('cobblemon:mielador_wallpaper') == 0 ? {
+    q.pokedex.has_caught('cobblemon:mielador') ? {
+        t.pc.unlock_wallpaper('cobblemon:mielador_wallpaper', 1);
+    };
+};
+t.pc.has_unlocked_wallpaper('cobblemon:polporos_wallpaper') == 0 ? {
+    q.pokedex.has_caught('cobblemon:polporos') ? {
+        t.pc.unlock_wallpaper('cobblemon:polporos_wallpaper', 1);
+    };
+};

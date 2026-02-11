@@ -1,0 +1,78 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "xenoster-1",
+            "pokemon": "xenoster",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "38-51",
+            "weight": 0.5,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ],
+                "timeRange":"night",
+                
+                "isRaining": false,         
+                "moonPhase":"0"
+            }
+        },
+        {
+            "id": "xenoster-2",
+            "pokemon": "xenoster",
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "38-51",
+            "weight": 0.5,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ],
+                "timeRange":"night",
+                
+                "isRaining": false,         
+                "moonPhase":"0"
+            }
+        },
+        {
+            "id": "xenoster-3",
+            "pokemon": "xenoster",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "38-51",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+        },
+        {
+            "id": "xenoster-4",
+            "pokemon": "xenoster",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "38-51",
+            "weight": 0.5,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_coast"
+                ],
+                "timeRange":"night",
+                
+                "isRaining": false,         
+                "moonPhase":"0"
+            }
+        }
+    ]
+}

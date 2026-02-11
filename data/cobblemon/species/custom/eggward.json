@@ -1,0 +1,204 @@
+{
+    "implemented": true,
+"name": "eggward",
+"nationalPokedexNumber": 17,
+"labels": [ "custom" ],
+"pokedex": [
+  "cobblemon.species.eggward.desc1"
+],
+"height": 3,
+"weight": 15,
+
+"primaryType": "flying",
+
+  "baseStats": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 76,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 20
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 50,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 15,
+  "eggGroups": [
+    "flying"
+  ],
+  "baseFriendship": 50,
+  "evYield": {
+    "speed": 1
+  },
+  "moves": [
+    "1:tackle",
+    "1:peck",
+    "5:sandattack",
+    "9:gust",
+    "13:quickattack",
+    "17:chargebeam",
+    "21:wingattack",
+    "25:roost",
+    "29:electroball",
+    "33:aurasphere",
+    "37:thunderbolt",
+    "41:tailwind",
+
+    "tm:iondeluge",
+    "tm:hypervoice",
+    "tm:risingvoltage",
+    "tm:chargebeam",
+    "tutor:iondeluge",
+    "tutor:hypervoice",
+    "tutor:risingvoltage",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bravebird",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:confide",
+    "tm:confuseray",
+    "tm:drillpeck",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:rest",
+    "tm:embargo",
+    "tm:endure",
+    "tm:facade",
+    "tm:fly",
+    "tm:playrough",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:heatwave",
+    "tm:rocktomb",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:volttackle",
+    "tm:protect",
+    "tm:astonish",
+    "tm:babydolleyes",
+    "tm:secretpower",
+    "tm:electroball",
+    "tm:sleeptalk",
+    "tm:fling",
+    "tm:snatch",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:uproar",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:explosion",
+    "tm:toxic",
+    "tm:closecombat",
+    "tm:drainpunch",
+    "tm:poweruppunch",
+    "tm:rollingkick",
+    "tm:highjumpkick",
+    "tm:machpunch",
+    "tm:lowsweep",
+    "tm:triplekick",
+    "tm:skyuppercut",
+    
+    "tutor:skyuppercut",
+    "tutor:aircutter",
+    "tutor:captivate",
+    "tutor:defog",
+    "tutor:endure",
+    "tutor:closecombat",
+    "tutor:naturalgift",
+    "tutor:uturn",
+    "tutor:secretpower",
+    "tutor:snore",
+    "tutor:steelwing",
+    "tutor:twister"
+  ],
+  "abilities": [
+    "weakarmor",
+    "h:noguard"
+  ],
+
+  "evolutions": [
+  {
+    "id": "eggward_voltite_lvl",
+    "variant": "level_up",
+    "result": "voltite",
+    "consumeHeldItem": false,
+    "learnableMoves": [
+        "vacuumwave"
+    ],
+    "requirements": [
+      {
+        "variant": "level",
+        "minLevel": 18
+      }
+    ]
+  }
+],
+
+
+  "baseScale": 0.7,
+"hitbox": {
+  "width": 0.5,
+  "height": 1.15,
+  "fixed": false
+},
+"drops": {
+"amount": "3",
+  "entries": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:feather",
+      "percentage": 66
+    },
+    {
+      "item":"minecraft:chicken"
+    }
+]
+},
+"behaviour": {
+  "moving": {
+    "canLook": true,
+    "fly": {
+      "canFly": false
+    }
+  },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "eggward",
+          "tier": 1
+        },
+        {
+          "pokemon": "voltite",
+          "tier": 2
+        },
+        {
+          "pokemon": "ostrike",
+          "tier": 3
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  }
+}

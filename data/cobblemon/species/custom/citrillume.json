@@ -1,0 +1,231 @@
+{
+    "implemented": true,
+    "name": "citrillume",
+    "nationalPokedexNumber": 1,
+    "primaryType": "grass",
+    "secondaryType": "flying",
+    "abilities": [
+      "overgrow",
+      "h:speedboost"
+    ],
+    "baseStats": {
+      "hp": 53,
+      "attack": 55,
+      "defence": 48,
+      "special_attack": 55,
+      "special_defence": 41,
+      "speed": 68
+    },
+    "catchRate": 45,
+    "maleRatio": 0.875,
+    "shoulderMountable": false,
+    "baseExperienceYield": 64,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 15,
+    "eggGroups": [
+      "flying"
+    ],
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "willSleepOnBed": true,
+            "light": "0-4",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "6",
+      "toleratedLeaders": [
+        {
+          "pokemon": "citrillume",
+          "tier": 1
+        },
+        {
+          "pokemon": "limonzal",
+          "tier": 2
+        },
+        {
+          "pokemon": "citrisaurid",
+          "tier": 3
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true
+    },
+      "moving": {
+        "canLook": true,
+        "fly": {
+          "canFly": true
+        },
+        "walk": {
+          "canWalk": false
+        }
+      }
+    },
+    "drops": {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "minecraft:feather",
+          "quantityRange": "0-1"
+        },
+        {
+          "item": "cobblemon:lum_berry"
+        },
+        {
+          "item": "cobblemon:miracle_seed",
+          "percentage": 5.0
+        }
+      ]
+    },
+    "moves": [
+      "1:leer",
+      "1:tackle",
+      "3:leafage",
+      "6:nuzzle",
+      "9:peck",
+      "12:quickattack",
+      "15:razorleaf",
+      "16:spark",
+      "18:synthesis",
+      "20:pluck",
+      "22:swordsdance",
+      "24:leechseed",
+      "26:bulletseed",
+      "29:electroball",
+      "32:agility",
+      "34:thunderclap",
+      "37:tropkick",
+      "38:featherdance",
+      "41:leafblade",
+      "45:bravebird",
+      "49:solarblade",
+      "53:wildcharge",
+      "58:skyattack",
+
+      "egg:batonpass",
+      "egg:eerieimpulse",
+      "egg:curse",
+      "egg:defog",
+      "egg:doubleteam",
+      "egg:thunderwave",
+      "egg:knockoff",
+      "egg:spark",
+      "egg:roost",
+
+      "tm:electroball",
+      "tm:aerialace",
+      "tm:aircutter",
+      "tm:airslash",
+      "tm:attract",
+      "tm:batonpass",
+      "tm:bravebird",
+      "tm:bulletseed",
+      "tm:confide",
+      "tm:eerieimpulse",
+      "tm:doubleteam",
+      "tm:dualwingbeat",
+      "tm:echoedvoice",
+      "tm:endure",
+      "tm:energyball",
+      "tm:facade",
+      "tm:falseswipe",
+      "tm:featherdance",
+      "tm:frustration",
+      "tm:gigadrain",
+      "tm:grassknot",
+      "tm:grasspledge",
+      "tm:grassyglide",
+      "tm:grassyterrain",
+      "tm:thunderwave",
+      "tm:helpinghand",
+      "tm:hiddenpower",
+      "tm:knockoff",
+      "tm:leafblade",
+      "tm:leafstorm",
+      "tm:lightscreen",
+      "tm:magicalleaf",
+      "tm:swordsdance",
+      "tm:naturepower",
+      "tm:discharge",
+      "tm:protect",
+      "tm:raindance",
+      "tm:rest",
+      "tm:return",
+      "tm:roost",
+      "tm:round",
+      "tm:safeguard",
+      "tm:seedbomb",
+      "tm:voltswitch",
+      "tm:sleeptalk",
+      "tm:snore",
+      "tm:solarbeam",
+      "tm:steelwing",
+      "tm:substitute",
+      "tm:sunnyday",
+      "tm:swagger",
+      "tm:swift",
+      "tm:swordsdance",
+      "tm:takedown",
+      "tm:terablast",
+      "tm:toxic",
+      "tm:trailblaze",
+      "tm:workup",
+      "tm:thunderclap",
+      "tm:wildcharge",
+
+      "tutor:covet",
+      "tutor:defog",
+      "tutor:dualwingbeat",
+      "tutor:gigadrain",
+      "tutor:grasspledge",
+      "tutor:grassyglide",
+      "tutor:seedbomb",
+      "tutor:skyattack",
+      "tutor:snore",
+      "tutor:synthesis",
+      "tutor:worryseed"
+    ],
+    "labels": [
+      "custom"
+    ],
+    "pokedex": [
+      "cobblemon.species.citrillume.desc1"
+    ],
+    "evolutions": [
+      {
+        "id": "citrillume_limonzal",
+        "variant": "level_up",
+        "result": "limonzal",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 16
+          }
+        ]
+      }
+    ],
+    "baseScale": 0.7,
+    "hitbox": {
+      "width": 0.7,
+      "height": 1.2,
+      "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 1
+    },
+    "height": 3,
+    "weight": 7,
+    "aspects": [],
+    "cannotDynamax": false
+  }
+  

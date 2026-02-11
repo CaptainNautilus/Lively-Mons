@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:hollorn",
+  "speciesId": "cobblemon:hollorn",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

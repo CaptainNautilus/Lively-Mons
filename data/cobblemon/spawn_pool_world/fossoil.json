@@ -1,0 +1,113 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+        "id": "fossoil-1",
+        "pokemon": "fossoil",
+        "presets": [
+          "water"
+      ],
+        "type": "pokemon",
+        "spawnablePositionType": "submerged",
+        "bucket": "common",
+        "level": "5-32",
+        "weight": 5.0,
+        "weightMultiplier": {
+          "multiplier": 1.2,
+          "condition": {
+            "biomes": [
+              "#cobblemon:is_lush"
+            ]
+          }
+        },
+        "condition": {
+          "canSeeSky": false,
+          "minSkyLight": 0,
+          "maxSkyLight": 7,
+          "biomes": [
+              "#cobblemon:is_overworld"
+          ],
+          "maxY": 48
+        },
+        "anticondition": {
+          "structures": [
+              "#cobblemon:shipwreck_cove"
+          ]
+        }
+      },
+        {
+            "id": "fossoil-2",
+            "pokemon": "fossoil",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "5-32",
+            "weight": 5.2,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": "0",
+                    "maxLureLevel": "1"
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "#cobblemon:shipwreck_cove"
+                ]
+            }
+        },
+        {
+            "id": "fossoil-3",
+            "pokemon": "fossoil",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "5-32",
+            "weight": 5.2,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        },
+        {
+            "id": "fossoil-4",
+            "pokemon": "fossoil",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "5-32",
+            "weight": 5.2,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        }
+    ]
+}

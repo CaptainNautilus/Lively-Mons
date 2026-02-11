@@ -1,0 +1,160 @@
+{
+    "implemented": true,
+    "name": "pokokari",
+    "nationalPokedexNumber": 25,
+    "primaryType": "electric",
+    "secondaryType": "ground",
+    "abilities": [
+      "starlight",
+      "h:arenatrap"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 65,
+      "defence": 102,
+      "special_attack": 50,
+      "special_defence": 95,
+      "speed": 43
+    },
+    "behaviour": {
+      "moving": {
+        "walk": {
+          "walkSpeed": 0.26
+        }
+      },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "light": "0-4"
+      },
+      "willDefendOwner": true
+    },
+    "catchRate": 180,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 153,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 10,
+    "eggGroups": [
+      "fairy",
+      "field"
+    ],
+    "drops": {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "minecraft:glowstone_dust",
+          "quantityRange": "1-2"
+        },
+        {
+            "item": "cobblemon:rindo_berry",
+            "percentage": 5.0
+        }    
+      ]
+    },
+    "moves": [
+        "1:scratch",
+        "1:sandattack",
+        "5:charge",
+        "9:spark",
+        "13:bulldoze",
+        "17:nuzzle",
+        "21:rollout",
+        "25:electricterrain",
+        "29:thunderpunch",
+        "33:dig",
+        "37:spikes",
+        "41:wildcharge",
+        "45:meteormash",
+        "49:earthquake",
+        "53:fissure",
+
+        "tm:attract",
+        "tm:chargebeam",
+        "tm:confide",
+        "tm:taunt",
+        "tm:facade",
+        "tm:fling",
+        "tm:frustration",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:endure",
+        "tm:hiddenpower",
+        "tm:payback",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:swagger",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:uturn",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:workup",
+
+        "tutor:copycat",
+        "tutor:crunch",
+        "tutor:covet",
+        "tutor:discharge",
+        "tutor:earthpower",
+        "tutor:endeavor",
+        "tutor:rototiller",
+        "tutor:helpinghand",
+        "tutor:ironhead",
+        "tutor:rocktomb",
+        "tutor:stoneedge",
+        "tutor:psychicfangs",
+        "tutor:nuzzle",
+        "tutor:batonpass",
+        "tutor:shockwave",
+        "tutor:yawn",
+        "tutor:superfang",
+        "tutor:zenheadbutt",
+        "tutor:agility",
+
+        "egg:fakeout",
+        "egg:sandtomb",
+        "egg:drillrun",
+        "egg:powergem",
+        "egg:rockslide",
+        "egg:bulletpunch"
+    ],
+    "labels": [
+      "custom"
+    ],
+    "pokedex": [
+      "cobblemon.species.pokokari.desc1"
+    ],
+    "baseScale": 0.8,
+    "hitbox": {
+      "width": 0.8,
+      "height": 1.1,
+      "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 2,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "height": 3,
+    "weight": 85,
+    "aspects": [],
+    "cannotDynamax": false,
+"lightingData": {
+"lightLevel": 7,
+"liquidGlowMode": "BOTH"
+}
+  }
+  

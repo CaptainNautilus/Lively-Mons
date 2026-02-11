@@ -1,0 +1,6 @@
+{
+    "keys": ["johtonian"],
+    "type": "flag",
+    "isAspect": true,
+    "default": false
+  }

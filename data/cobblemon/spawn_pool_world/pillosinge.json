@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+        "id": "pillosinge-1",
+        "pokemon": "pillosinge",
+        "presets": [
+          "natural"
+      ],
+        "type": "pokemon",
+        "spawnablePositionType": "grounded",
+        "bucket": "ultra-rare",
+        "level": "16-40",
+        "weight": 3.6,
+        "condition": {
+          "canSeeSky": true,
+          "biomes": [ 
+            "#cobblemon:is_snowy_forest",
+            "#cobblemon:is_snowy_taiga"
+          ]
+        }
+      }
+    ]
+  }

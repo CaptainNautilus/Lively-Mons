@@ -1,0 +1,427 @@
+{
+    "implemented": true,
+"name": "anglerine",
+"nationalPokedexNumber": 91,
+"labels": [ "custom" ],
+"pokedex": [
+  "cobblemon.species.anglerine.desc1"
+],
+"height": 24,
+"weight": 2700,
+"preEvolution": "lanturn",
+"forms": [
+  { "name": "normal" }
+],
+"shoulderMountable": false,
+
+"primaryType": "electric",
+  "secondaryType": "water",
+  "baseStats": {
+    "hp": 125,
+    "attack": 60,
+    "defence": 110,
+    "special_attack": 125,
+    "special_defence": 95,
+    "speed": 35
+  },
+  "catchRate": 25,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 275,
+  "experienceGroup": "slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "water_2"
+  ],
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 1,
+    "special_attack": 2
+  },
+
+    "moves": [
+      "1:bubble",
+      "1:eerieimpulse",
+      "1:electroball",
+      "1:spitup",
+      "1:spotlight",
+      "1:stockpile",
+      "1:supersonic",
+      "1:swallow",
+      "1:thunderwave",
+      "1:watergun",
+      "12:bubblebeam",
+      "16:confuseray",
+      "20:spark",
+      "24:charge",
+      "27:chillingwater",
+      "29:signalbeam",
+      "30:discharge",
+      "33:thunderbolt",
+      "36:aquaring",
+      "41:flail",
+      "45:surf",
+      "48:takedown",
+      "52:thunder",
+      "55:hydropump",
+      "58:iondeluge",
+      "60:waterspout",
+      "tm:agility",
+      "tm:amnesia",
+      "tm:attract",
+      "tm:blizzard",
+      "tm:bounce",
+      "tm:brine",
+      "tm:captivate",
+      "tm:charge",
+      "tm:chargebeam",
+      "tm:chillingwater",
+      "tm:confide",
+      "tm:confuseray",
+      "tm:curse",
+      "tm:dazzlinggleam",
+      "tm:dive",
+      "tm:doubleedge",
+      "tm:doubleteam",
+      "tm:eerieimpulse",
+      "tm:electricterrain",
+      "tm:electroball",
+      "tm:electroweb",
+      "tm:endure",
+      "tm:facade",
+      "tm:flash",
+      "tm:flipturn",
+      "tm:frustration",
+      "tm:gigaimpact",
+      "tm:hail",
+      "tm:hiddenpower",
+      "tm:hydropump",
+      "tm:hyperbeam",
+      "tm:icebeam",
+      "tm:icywind",
+      "tm:liquidation",
+      "tm:muddywater",
+      "tm:naturalgift",
+      "tm:protect",
+      "tm:psybeam",
+      "tm:raindance",
+      "tm:rest",
+      "tm:return",
+      "tm:round",
+      "tm:scald",
+      "tm:screech",
+      "tm:secretpower",
+      "tm:shockwave",
+      "tm:sleeptalk",
+      "tm:snore",
+      "tm:substitute",
+      "tm:surf",
+      "tm:swagger",
+      "tm:takedown",
+      "tm:terablast",
+      "tm:thunder",
+      "tm:thunderbolt",
+      "tm:thunderwave",
+      "tm:toxic",
+      "tm:voltswitch",
+      "tm:waterfall",
+      "tm:waterpulse",
+      "tm:whirlpool",
+      "tm:wildcharge",
+      "tutor:aquatail",
+      "tutor:attract",
+      "tutor:bounce",
+      "tutor:bubble",
+      "tutor:confuseray",
+      "tutor:curse",
+      "tutor:dive",
+      "tutor:doubleedge",
+      "tutor:doubleteam",
+      "tutor:endure",
+      "tutor:flail",
+      "tutor:flash",
+      "tutor:frustration",
+      "tutor:healbell",
+      "tutor:hiddenpower",
+      "tutor:hydropump",
+      "tutor:hyperbeam",
+      "tutor:icywind",
+      "tutor:mimic",
+      "tutor:protect",
+      "tutor:raindance",
+      "tutor:rest",
+      "tutor:return",
+      "tutor:risingvoltage",
+      "tutor:shockwave",
+      "tutor:signalbeam",
+      "tutor:sleeptalk",
+      "tutor:snore",
+      "tutor:spark",
+      "tutor:substitute",
+      "tutor:suckerpunch",
+      "tutor:supersonic",
+      "tutor:surf",
+      "tutor:swagger",
+      "tutor:takedown",
+      "tutor:thunder",
+      "tutor:thunderwave",
+      "tutor:toxic",
+      "tutor:waterfall",
+      "tutor:watergun",
+      "tutor:waterpulse",
+      "tutor:whirlpool",
+      "tutor:zapcannon"
+      ],
+      "abilities": [
+        "lightningrod",
+        "raindish",
+        "h:stormdrain"
+      ],
+
+
+        "baseScale": 1.9,
+"hitbox": {
+  "width": 1.4,
+  "height": 1.5,
+  "fixed": false
+},
+"drops": {
+  "amount": 5,
+  "entries": [
+    {
+      "item": "minecraft:prismarine_crystals",
+      "quantityRange": "0-3"
+    },
+    {
+      "item": "cobblemon:deep_sea_scale",
+      "percentage": 10.0
+    },
+    {
+      "item": "cobblemon:persim_berry",
+      "percentage": 10.0
+    }
+  ]
+},
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "canJump": false,
+        "canSprint": false,
+        "stats": {
+          "ACCELERATION": "10-40",
+          "JUMP": "10-40",
+          "SKILL": "80-100",
+          "SPEED": "10-40",
+          "STAMINA": "10-40"
+        }
+      },
+      "LIQUID": {
+        "key": "cobblemon:liquid/submarine",
+        "hitboxBreachPercentage": 0.9,
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "25-40",
+          "JUMP": "50-75",
+          "SKILL": "40-80",
+          "SPEED": "15-35",
+          "STAMINA": "50-90"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": -0.48058435,
+              "y": -0.27500024,
+              "z": 0.14605118
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.48242062,
+              "y": -1.3168869,
+              "z": 0.053928375
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.044194173,
+              "y": -1.3188695,
+              "z": 0.16690472
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.044194173,
+              "y": -1.3188695,
+              "z": 0.16690472
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.044194173,
+              "y": -1.3188695,
+              "z": 0.16690472
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.021463323,
+              "y": -1.3135426,
+              "z": 0.1828245
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.044194173,
+              "y": -1.3188695,
+              "z": 0.16690472
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      },
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": -0.48058435,
+              "y": -0.27500024,
+              "z": 0.14605118
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.48242062,
+              "y": -1.3168869,
+              "z": 0.053928375
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.044194173,
+              "y": -1.3188695,
+              "z": 0.16690472
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.044194173,
+              "y": -1.3188695,
+              "z": 0.16690472
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.044194173,
+              "y": -1.3188695,
+              "z": 0.16690472
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.021463323,
+              "y": -1.3135426,
+              "z": 0.1828245
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.044194173,
+              "y": -1.3188695,
+              "z": 0.16690472
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+"behaviour": {
+  "moving": {
+    "canLook": true,
+    "fly": {
+      "canFly": false
+    },          
+    "walk": {
+      "canWalk": true,
+      "walkSpeed": 0.26,
+        "avoidsLand": true
+    },
+    "swim": {
+      "swimSpeed": 0.2,
+      "canSwimInWater": true,
+      "canBreatheUnderwater": true
+    }
+  },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+        "herd": {
+      "maxSize": "9"
+        }
+    },
+"lightingData": {
+"lightLevel": 15,
+"liquidGlowMode": "BOTH"
+}
+}

@@ -1,0 +1,399 @@
+{
+    "target": "cobblemon:tropius",
+    "features": ["sanrosan"],
+    "forms": [
+      {
+        "name": "Sanrosa",
+        "primaryType": "grass",
+        "abilities": [
+          "filter",
+          "h:grassysurge"
+        ],
+        
+        "labels": [ "custom" ],
+        "baseStats": {
+          "hp": 140,
+          "attack": 75,
+          "defence": 110,
+          "special_attack": 40,
+          "special_defence": 90,
+          "speed": 5
+        },
+        "behaviour": {
+    "herd": {
+      "maxSize": "8",
+      "toleratedLeaders": [
+        {
+          "pokemon": "tropius sanrosan",
+          "tier": 1
+        }
+      ]
+    },
+          "moving": {
+            "fly": {
+              "canFly": false
+            },
+            "swim": {
+              "avoidsWater": true
+            },
+            "walk": {
+              "walkSpeed":0.294
+            }
+          },
+    "resting": {
+      "canSleep": true,
+      "drowsyChance": 0.0333,
+      "light": "0-4",
+      "rouseChance": 0.0042
+    },
+    "combat": {
+      "willDefendOwner": true,
+      "willDefendSelf": true,
+      "willFlee": false
+    }
+},
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "canJump": false,
+        "stats": {
+          "ACCELERATION": "15-25",
+          "JUMP": "0-0",
+          "SKILL": "20-40",
+          "SPEED": "30-50",
+          "STAMINA": "85-100"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.71875,
+              "z": 0.2625
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0039696433,
+              "y": -1.6745994,
+              "z": 0.26254645
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.71875,
+              "z": 0.2625
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.71875,
+              "z": 0.2625
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.71875,
+              "z": 0.2625
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0039696433,
+              "y": -1.6745994,
+              "z": 0.26254645
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.71875,
+              "z": 0.2625
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      },
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.71875,
+              "z": 0.2625
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0039696433,
+              "y": -1.6745994,
+              "z": 0.26254645
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.71875,
+              "z": 0.2625
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.71875,
+              "z": 0.2625
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.71875,
+              "z": 0.2625
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0039696433,
+              "y": -1.6745994,
+              "z": 0.26254645
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.71875,
+              "z": 0.2625
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+        "moves": [
+    "1:leer",
+    "1:bulldoze",
+    "1:growth",
+    "1:razorleaf",
+    "1:leafstorm",
+    "1:bestow",
+    "6:sweetscent",
+    "10:stomp",
+    "16:magicalleaf",
+    "21:ingrain",
+    "30:wideguard",
+    "36:woodhammer",
+    "41:bodyslam",
+    "46:outrage",
+    "50:synthesis",
+    "56:solarblade",
+
+    "egg:curse",
+    "egg:dragondance",
+    "egg:dragonhammer",
+    "egg:headbutt",
+    "egg:leafblade",
+    "egg:leechseed",
+    "egg:naturalgift",
+    "egg:highhorsepower",
+    "egg:slam",
+    "tm:brickbreak",
+    "tm:earthpower",
+    "tm:leafblade",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:curse",
+    "tm:cut",
+    "tm:strengthsap",
+    "tm:doubleedge",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:leafblade",
+    "tm:leafstorm",
+    "tm:leaftornado",
+    "tm:magicalleaf",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:outrage",
+    "tm:petalblizzard",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:roost",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:spite",
+    "tm:steelwing",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:uturn",
+    "tm:worryseed",
+    "tm:zenheadbutt",
+
+    "tutor:brickbreak",
+    "tutor:earthpower",
+    "tutor:bulldoze",
+    "tutor:calmmind",
+    "tutor:strengthsap",
+    "tutor:dragonpulse",
+    "tutor:energyball",
+    "tutor:furycutter",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:magicalleaf",
+    "tutor:ominouswind",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rocksmash",
+    "tutor:roost",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:stompingtantrum",
+    "tutor:synthesis",
+    "tutor:twister",
+    "tutor:worryseed",
+    "tutor:zenheadbutt",
+    
+    "legacy:attract",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+        ],
+        "pokedex": [
+          "cobblemon.species.tropiussanrosa.desc1"
+        ],
+        "evolutions": [],
+        "baseScale": 2,
+        "hitbox": {
+          "width": 2.05,
+          "height": 9,
+          "fixed": false
+        },
+        "evYield": {
+          "hp": 2,
+          "attack": 0,
+          "defence": 0,
+          "special_attack": 0,
+          "special_defence": 0,
+          "speed": 0
+        },
+          "height": 50,
+          "weight": 7500,
+        "drops": {
+          "amount": 4,
+          "entries": [
+            {
+              "item": "cobblemon:spruce_log",
+              "quantityRange": "0-2"
+            },
+            {
+              "item": "cobblemon:spruce_leaves",
+              "quantityRange": "0-2"
+            }
+          ]
+        },
+    "aspects": ["sanrosan"]
+      }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+	"display": {
+		"icon": {
+			"id": "cobblemon:pokemon_model",
+	"components": {
+        "cobblemon:pokemon_item": {"species":"cobblemon:budabon","aspects":["sanrosan"]}
+      }
+		},
+		"title": {
+			"translate": "advancements.cobblemon.catch_all_budabon_including_fakemon"
+		},
+		"description": {
+			"translate": "advancements.cobblemon.catch_all_budabon_including_fakemon.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "cobblemon:catch_all_budabon",
+	"criteria": {
+		"kantonian": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["kantonian"]
+			}
+		},
+		"johtonian": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["johtonian"]
+			}
+		},
+		"hoennian": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["hoennian"]
+			}
+		},
+		"sinnohan": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["sinnohan"]
+			}
+		},
+		"unovan": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["unovan"]
+			}
+		},
+		"kalosian": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["kalosian"]
+			}
+		},
+		"alolan": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["alolan"]
+			}
+		},
+		"galarian": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["galarian"]
+			}
+		},
+		"hisuian": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["hisuian"]
+			}
+		},
+		"paldean": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["paldean"]
+			}
+		},
+		"sanrosan": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["sanrosan"]
+			}
+		},
+		"laser": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["lush"]
+			}
+		},
+		"alatian": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["alatian"]
+			}
+		},
+		"lumoran": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["lumoran"]
+			}
+		},
+		"jetian": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"species": "cobblemon:budabon",
+				"aspects": ["jetian"]
+			}
+		}
+	},
+	"requirements": [
+		["kantonian"],
+		["johtonian"],
+		["hoennian"],
+		["sinnohan"],
+		["unovan"],
+		["kalosian"],
+		["alolan"],
+		["galarian"],
+		["hisuian"],
+		["paldean"],
+		["sanrosan"],
+		["laser"],
+		["alatian"],
+		["lumoran"],
+		["jetian"]
+	],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": false
+}
+

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:mamolint",
+  "speciesId": "cobblemon:mamolint",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

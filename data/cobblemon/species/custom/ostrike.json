@@ -1,0 +1,376 @@
+{
+    "implemented": true,
+"name": "ostrike",
+"nationalPokedexNumber": 19,
+"labels": [ "custom" ],
+"pokedex": [
+  "cobblemon.species.ostrike.desc1"
+],
+"height": 18,
+"weight": 852,
+
+"preEvolution": "voltite",
+
+"primaryType": "fighting",
+"secondaryType": "electric",
+
+  "baseStats": {
+    "hp": 67,
+    "attack": 49,
+    "defence": 65,
+    "special_attack": 120,
+    "special_defence": 68,
+    "speed": 130
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 119,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 15,
+  "eggGroups": [
+    "flying"
+  ],
+  "baseFriendship": 50,
+  "evYield": {
+    "speed": 3
+  },
+  "moves": [
+
+    "1:tackle",
+    "1:vacuumwave",
+    "1:peck",
+    "1:sandattack",
+    "1:gust",
+    "5:quickattack",
+    "13:chargebeam",
+    "17:wingattack",
+    "21:roost",
+    "25:electroball",
+    "29:thunderbolt",
+    "33:aurasphere",
+    "37:tailwind",
+    "41:earthpower",
+    "45:thunder", 
+    "49:focusblast",
+    "53:iondeluge",
+    "56:hypervoice",
+    "61:risingvoltage",
+
+    "tm:thunder",
+    "tm:focusblast",
+    "tm:iondeluge",
+    "tm:hypervoice",
+    "tm:risingvoltage",
+    "tm:chargebeam",
+    "tutor:iondeluge",
+    "tutor:hypervoice",
+    "tutor:risingvoltage",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:attract",
+    "tm:bravebird",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:confide",
+    "tm:confuseray",
+    "tm:drillpeck",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:rest",
+    "tm:embargo",
+    "tm:endure",
+    "tm:facade",
+    "tm:fly",
+    "tm:playrough",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:heatwave",
+    "tm:rocktomb",
+    "tm:hiddenpower",
+    "tm:hurricane",
+    "tm:hyperbeam",
+    "tm:volttackle",
+    "tm:protect",
+    "tm:astonish",
+    "tm:babydolleyes",
+    "tm:secretpower",
+    "tm:electroball",
+    "tm:sleeptalk",
+    "tm:fling",
+    "tm:snatch",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:uproar",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:explosion",
+    "tm:toxic",
+    "tm:closecombat",
+    "tm:drainpunch",
+    "tm:poweruppunch",
+    "tm:rollingkick",
+    "tm:highjumpkick",
+    "tm:machpunch",
+    "tm:lowsweep",
+    "tm:triplekick",
+    "tm:skyuppercut",
+    
+    "tutor:skyuppercut",
+    "tutor:aircutter",
+    "tutor:captivate",
+    "tutor:defog",
+    "tutor:endure",
+    "tutor:closecombat",
+    "tutor:naturalgift",
+    "tutor:uturn",
+    "tutor:secretpower",
+    "tutor:snore",
+    "tutor:steelwing",
+    "tutor:twister"
+  ],
+  "abilities": [
+    "speedboost",
+    "h:noguard"
+  ],
+
+  "baseScale": 1,
+"hitbox": {
+  "width": 0.6,
+  "height": 2.8,
+  "fixed": false
+},
+"drops": {
+"amount": "4",
+  "entries": [
+    {
+      "item": "minecraft:chicken"
+    },
+    {
+      "item": "minecraft:feather",
+      "quantityRange": "1-3",
+      "percentage": 100
+    }
+]
+},
+"behaviour": {
+  "moving": {
+    "canLook": true,
+    "fly": {
+      "canFly": false
+    },          
+    "walk": {
+      "canWalk": true,
+      "avoidsLand": false,
+      "walkSpeed":0.65
+    },
+    
+    "swim": {
+      "swimSpeed": 0.1,
+      "canSwimInWater": true,
+      "canBreatheUnderwater": false
+    }
+  },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "ostrike",
+          "tier": 1
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+    "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "0-5",
+          "JUMP": "15-20",
+          "SKILL": "50-60",
+          "SPEED": "70-85",
+          "STAMINA": "20-40"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.69399905,
+              "z": 0.15316631
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.68929356,
+              "z": 0.122654416
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.69399905,
+              "z": 0.15316631
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.69399905,
+              "z": 0.15316631
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.69399905,
+              "z": 0.15316631
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.69399905,
+              "z": 0.15316631
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.69399905,
+              "z": 0.15316631
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      },
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.76289266,
+              "z": 0.80579007
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.751366,
+              "z": 0.77596223
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.76289266,
+              "z": 0.80579007
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.76289266,
+              "z": 0.80579007
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.76289266,
+              "z": 0.80579007
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.76289266,
+              "z": 0.80579007
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.76289266,
+              "z": 0.80579007
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

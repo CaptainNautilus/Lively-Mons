@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:voltite",
+  "speciesId": "cobblemon:voltite",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

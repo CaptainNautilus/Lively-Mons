@@ -1,0 +1,487 @@
+{
+    "implemented": true,
+    "name": "mamolint",
+    "nationalPokedexNumber": 48,
+    "primaryType": "fairy",
+    "secondaryType": "ground",
+    "abilities": [
+      "cottondown",
+      "h:fluffy"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "attack": 70,
+      "defence": 90,
+      "special_attack": 130,
+      "special_defence": 70,
+      "speed": 70
+    },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "30-40",
+          "JUMP": "50-70",
+          "SKILL": "20-30",
+          "SPEED": "20-35",
+          "STAMINA": "40-60"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 2.4365345e-18,
+              "y": -3.493299,
+              "z": -1.1497737
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.084058926,
+              "y": -3.468555,
+              "z": -1.1179147
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 2.4365345e-18,
+              "y": -3.493299,
+              "z": -1.1497737
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 2.4365345e-18,
+              "y": -3.493299,
+              "z": -1.1497737
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 2.4365345e-18,
+              "y": -3.493299,
+              "z": -1.1497737
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.084058926,
+              "y": -3.468555,
+              "z": -1.1179147
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 2.4365345e-18,
+              "y": -3.493299,
+              "z": -1.1497737
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      },
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": -0.56249994,
+              "y": -3.443131,
+              "z": 0.28685042
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.5277365,
+              "y": -3.405798,
+              "z": 0.2979174
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.56249994,
+              "y": -3.443131,
+              "z": 0.28685042
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.56249994,
+              "y": -3.443131,
+              "z": 0.28685042
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.56249994,
+              "y": -3.443131,
+              "z": 0.28685042
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.5277365,
+              "y": -3.405798,
+              "z": 0.2979174
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.56249994,
+              "y": -3.443131,
+              "z": 0.28685042
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      },
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.56249994,
+              "y": -3.443131,
+              "z": 0.28685042
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.5965877,
+              "y": -3.4074812,
+              "z": 0.33686945
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.56249994,
+              "y": -3.443131,
+              "z": 0.28685042
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.56249994,
+              "y": -3.443131,
+              "z": 0.28685042
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.56249994,
+              "y": -3.443131,
+              "z": 0.28685042
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.5965877,
+              "y": -3.4074812,
+              "z": 0.33686945
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.56249994,
+              "y": -3.443131,
+              "z": 0.28685042
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,
+        "light": "0-4",
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+      },
+          "herd": {
+      "maxSize": "8",
+      "toleratedLeaders": [
+        {
+          "pokemon": "mamolint",
+          "tier": 1
+        }
+      ]
+    },
+      "moving": {
+        "walk": {
+          "walkSpeed": 0.18
+          }
+        },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+    },
+    "catchRate": 50,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 239,
+    "experienceGroup": "slow",
+    "eggCycles": 20,
+    "eggGroups": [
+      "mineral",
+      "fairy"
+    ],
+    "drops": {
+        "amount": 10,
+        "entries": [
+          {
+            "item": "minecraft:gravel",
+          "quantityRange": "2-4"
+          },
+          {
+            "item": "minecraft:dirt",
+          "quantityRange": "2-4"
+          },
+          {
+            "item": "cobblemon:fairy_feather",
+            "percentage": 10.0
+          },
+          {
+            "item": "cobblemon:roseli_berry",
+            "percentage": 10.0
+          }
+        ]
+      },
+    "moves": [
+      "1:takedown",
+      "1:craftyshield",
+      "1:furyattack",
+      "1:hornattack",
+      "1:mudslap",
+      "1:mudsport",
+      "1:odorsleuth",
+      "1:peck",
+      "1:fairywind",
+      "1:rollout",
+      "15:drainingkiss",
+      "18:mudbomb",
+      "20:charm",
+      "24:alluringvoice",
+      "25:endure",
+      "30:dazzlinggleam",
+      "37:amnesia",
+      "44:ancientpower",
+      "51:earthpower",
+      "58:moonblast",
+      "65:thrash",
+
+      "tm:amnesia",
+      "tm:attract",
+      "tm:playrough",
+      "tm:moonblast",
+      "tm:bodyslam",
+      "tm:bulldoze",
+      "tm:captivate",
+      "tm:charm",
+      "tm:confide",
+      "tm:curse",
+      "tm:dig",
+      "tm:doubleedge",
+      "tm:doubleteam",
+      "tm:earthquake",
+      "tm:earthpower",
+      "tm:endeavor",
+      "tm:endure",
+      "tm:facade",
+      "tm:frustration",
+      "tm:gigaimpact",
+      "tm:mistyterrain",
+      "tm:haze",
+      "tm:hiddenpower",
+      "tm:highhorsepower",
+      "tm:hyperbeam",
+      "tm:mistyexplosion",
+      "tm:alluringvoice",
+      "tm:dazzlinggleam",
+      "tm:lightscreen",
+      "tm:mudshot",
+      "tm:mudslap",
+      "tm:naturalgift",
+      "tm:protect",
+      "tm:raindance",
+      "tm:reflect",
+      "tm:rest",
+      "tm:return",
+      "tm:reversal",
+      "tm:roar",
+      "tm:rockslide",
+      "tm:rocksmash",
+      "tm:rocktomb",
+      "tm:round",
+      "tm:sandstorm",
+      "tm:sandtomb",
+      "tm:scaryface",
+      "tm:secretpower",
+      "tm:sleeptalk",
+      "tm:smackdown",
+      "tm:snore",
+      "tm:stealthrock",
+      "tm:stompingtantrum",
+      "tm:stoneedge",
+      "tm:strength",
+      "tm:substitute",
+      "tm:superpower",
+      "tm:swagger",
+      "tm:takedown",
+      "tm:terablast",
+      "tm:throatchop",
+      "tm:toxic",
+      "tm:trailblaze",
+
+      "tutor:amnesia",
+      "tutor:ancientpower",
+      "tutor:attract",
+      "tutor:moonblast",
+      "tutor:bodyslam",
+      "tutor:curse",
+      "tutor:defensecurl",
+      "tutor:detect",
+      "tutor:doubleedge",
+      "tutor:doubleteam",
+      "tutor:earthquake",
+      "tutor:earthpower",
+      "tutor:endeavor",
+      "tutor:endure",
+      "tutor:frustration",
+      "tutor:furyattack",
+      "tutor:headbutt",
+      "tutor:hiddenpower",
+      "tutor:hyperbeam",
+      "tutor:dazzlinggleam",
+      "tutor:mimic",
+      "tutor:charm",
+      "tutor:mudslap",
+      "tutor:fairywind",
+      "tutor:protect",
+      "tutor:raindance",
+      "tutor:rest",
+      "tutor:return",
+      "tutor:roar",
+      "tutor:rockslide",
+      "tutor:rocksmash",
+      "tutor:sleeptalk",
+      "tutor:snore",
+      "tutor:stealthrock",
+      "tutor:stompingtantrum",
+      "tutor:strength",
+      "tutor:substitute",
+      "tutor:superpower",
+      "tutor:swagger",
+      "tutor:takedown",
+      "tutor:toxic"
+    ],
+    "labels": [
+      "custom"
+    ],
+    "pokedex": [
+      "cobblemon.species.mamolint.desc1"
+    ],
+    "preEvolution": "pilolint",
+    "evolutions": [],
+    "baseScale": 1,
+    "hitbox": {
+      "width": 2.7,
+      "height": 3.5,  
+      "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 3,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "height": 25,
+    "weight": 1905,  
+    "aspects": [],
+    "cannotDynamax": false
+  }

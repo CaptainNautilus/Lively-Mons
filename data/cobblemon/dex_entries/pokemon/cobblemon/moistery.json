@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:moistery",
+  "speciesId": "cobblemon:moistery",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

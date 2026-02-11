@@ -1,0 +1,51 @@
+{
+  "id": "cobblemon:palobod",
+  "speciesId": "cobblemon:palobod",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    },
+    {
+      "displayForm": "Prideful",
+      "unlockForms": [
+        "Prideful"
+      ]
+    },
+    {
+      "displayForm": "Mighty",
+      "unlockForms": [
+        "Mighty"
+      ]
+    },
+    {
+      "displayForm": "Nerdy",
+      "unlockForms": [
+        "Nerdy"
+      ]
+    },
+    {
+      "displayForm": "Spiral",
+      "unlockForms": [
+        "Spiral"
+      ]
+    },
+    {
+      "displayForm": "Thinker",
+      "unlockForms": [
+        "Thinker"
+      ]
+    },
+    {
+      "displayForm": "Striking",
+      "unlockForms": [
+        "Striking"
+      ]
+    }
+  ],
+  "variations": []
+}

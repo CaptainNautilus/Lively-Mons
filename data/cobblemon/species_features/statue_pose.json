@@ -1,0 +1,18 @@
+{
+  "type": "choice",
+  "keys": [
+    "statue_pose"
+  ],
+  "default": "natural",
+  "choices": [
+    "natural",
+    "prideful",
+    "mighty",
+    "nerdy",
+    "spiral",
+    "thinker",
+    "striking"
+  ],
+  "isAspect": true,
+  "aspectFormat": "{{choice}}-pose"
+}

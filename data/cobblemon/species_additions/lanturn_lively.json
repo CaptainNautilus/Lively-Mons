@@ -1,0 +1,63 @@
+{
+  "target": "cobblemon:lanturn",
+"evolutions": [
+    {
+      "id": "lanturn_anglerine_lvl",
+      "variant": "level_up",
+      "result": "anglerine",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#minecraft:is_deep_ocean"
+        }
+      ]
+    }
+  ],
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.26,
+        "avoidsLand": true
+      },
+      "swim": {
+        "canBreatheUnderwater": true,
+        "swimSpeed": "0.2"
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "lanturn",
+          "tier": 1
+        },
+        {
+          "pokemon": "anglerine",
+          "tier": 2
+        },
+        {
+          "pokemon": "manaphy",
+          "tier": 3
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  }
+}

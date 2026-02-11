@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:sandygastsanrosa",
+    "speciesId": "cobblemon:sandygast",
+    "displayAspects": ["Sanrosa"],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Sanrosa",
+        "unlockForms": [
+          "Sanrosa"
+        ]
+      }
+    ],
+    "variations": []
+}

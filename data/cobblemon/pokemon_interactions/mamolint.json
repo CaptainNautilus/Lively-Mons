@@ -1,0 +1,39 @@
+{
+  "requirements": [
+    {
+      "variant": "properties",
+      "target": "mamolint"
+    }
+  ],
+  "interactions": [
+    {
+      "grouping": "cobblemon:brush",
+      "cooldown": "0",
+      "requirements": [
+        {
+          "variant": "owner_held_item",
+          "itemCondition": "#c:tools/brushes"
+        }
+      ],
+      "effects": [
+        {
+          "variant": "shrink_item",
+          "amount": 8
+        },
+        {
+          "variant": "drop_item",
+          "item": "minecraft:gravel",
+          "amount": "2-2"
+        },
+        {
+          "variant": "drop_item",
+          "item": "minecraft:dirt"
+        },
+        {
+          "variant": "play_sound",
+          "sound": "minecraft:item.brush.brushing.generic"
+        }
+      ]
+    }
+  ]
+}

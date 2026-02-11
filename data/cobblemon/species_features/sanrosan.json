@@ -1,0 +1,6 @@
+{
+    "keys": ["sanrosan"],
+    "type": "flag",
+    "isAspect": true,
+    "default": false
+  }

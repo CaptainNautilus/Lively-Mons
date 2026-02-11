@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "levilord-1",
+            "pokemon": "levilord",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "40-50",
+            "weight": 2.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": ["#cobblemon:is_peak"
+                ]
+            }
+        }
+    ]
+}

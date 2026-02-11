@@ -1,0 +1,230 @@
+  {
+    "implemented": true,
+    "name": "pillosinge",
+    "nationalPokedexNumber": 5,
+    "primaryType": "fire",
+    "secondaryType":"ice",
+    "abilities": [
+      "blaze",
+      "h:fluffy"
+    ],
+    "preEvolution":"infernito",
+    "baseStats": {
+      "hp": 60,
+      "attack": 85,
+      "defence": 85,
+      "special_attack": 65,
+      "special_defence": 60,
+      "speed": 50
+    },
+    "behaviour": {
+      "moving": {
+        "walk": {
+          "walkSpeed": 0.3
+        }
+      },
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "3",
+      "toleratedLeaders": [
+        {
+          "pokemon": "pillosinge",
+          "tier": 1
+        },
+        {
+          "pokemon": "slacho",
+          "tier": 2
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+    },
+    "catchRate": 45,
+    "maleRatio": 0.875,
+    "shoulderMountable": false,
+    "baseExperienceYield": 142,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 20,
+    "eggGroups": [
+      "monster"
+    ],
+    "drops": {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "minecraft:white_wool",
+          "quantityRange": "0-2"
+        },
+        {
+          "item": "cobblemon:charcoal_stick",
+          "percentage": 10.0
+        }
+      ]
+    },
+    "moves": [
+      "1:growl",
+      "1:scratch",
+      "3:ember",
+      "6:doubleslap",
+      "9:flamecharge",
+      "12:haze",
+      "14:rocksmash",
+      "15:babydolleyes",
+      "20:assurance",
+      "21:firespin",
+      "23:iceshard",
+      "26:dig",
+      "29:focusenergy",
+      "30:heatcrash",
+      "32:bellydrum",
+      "35:chillyreception",
+      "38:icespinner",
+      "41:flareblitz",
+      "43:avalanche",
+      "47:bulkup",
+      "51:flareblitz",
+      "55:closecombat",
+      "60:iceburn",  
+
+      "tm:assurance",
+      "tm:agility",
+      "tm:assurance",
+      "tm:attract",
+      "tm:batonpass",
+      "tm:bodyslam",
+      "tm:dig",
+      "tm:captivate",
+      "tm:confide",
+      "tm:curse",
+      "tm:cut",
+      "tm:dig",
+      "tm:doubleedge",
+      "tm:doubleteam",
+      "tm:echoedvoice",
+      "tm:endure",
+      "tm:facade",
+      "tm:chillyreception",
+      "tm:fireblast",
+      "tm:firepledge",
+      "tm:firespin",
+      "tm:flamecharge",
+      "tm:flamethrower",
+      "tm:flareblitz",
+      "tm:focusenergy",
+      "tm:frustration",
+      "tm:heatwave",
+      "tm:helpinghand",
+      "tm:hiddenpower",
+      "tm:honeclaws",
+      "tm:incinerate",
+      "tm:lowkick",
+      "tm:megakick",
+      "tm:megapunch",
+      "tm:naturalgift",
+      "tm:overheat",
+      "tm:protect",
+      "tm:rest",
+      "tm:return",
+      "tm:icespinner",
+      "tm:rockslide",
+      "tm:rocksmash",
+      "tm:rocktomb",
+      "tm:round",
+      "tm:secretpower",
+      "tm:shadowclaw",
+      "tm:sleeptalk",
+      "tm:snore",
+      "tm:strength",
+      "tm:substitute",
+      "tm:sunnyday",
+      "tm:swagger",
+      "tm:swift",
+      "tm:swordsdance",
+      "tm:takedown",
+      "tm:temperflare",
+      "tm:terablast",
+      "tm:toxic",
+      "tm:uproar",
+      "tm:willowisp",
+      "tm:workup",
+
+      "tutor:bodyslam",
+      "tutor:dig",
+      "tutor:counter",
+      "tutor:defog",
+      "tutor:doubleedge",
+      "tutor:ember",
+      "tutor:endure",
+      "tutor:firepledge",
+      "tutor:focusenergy",
+      "tutor:growl",
+      "tutor:headbutt",
+      "tutor:heatwave",
+      "tutor:helpinghand",
+      "tutor:lastresort",
+      "tutor:lowkick",
+      "tutor:megakick",
+      "tutor:megapunch",
+      "tutor:mimic",
+      "tutor:mudslap",
+      "tutor:rockslide",
+      "tutor:scratch",
+      "tutor:seismictoss",
+      "tutor:sleeptalk",
+      "tutor:snore",
+      "tutor:substitute",
+      "tutor:swagger",
+      "tutor:swift",
+      "tutor:swordsdance"  
+    ],
+    "labels": [
+      "custom"
+    ],
+    "pokedex": [
+      "cobblemon.species.pillosinge.desc1"
+    ],
+    "evolutions": [
+      {
+        "id": "pillosinge_slacho",
+        "variant": "level_up",
+        "result": "slacho",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 36
+          }
+        ]
+      }
+    ],
+    "baseScale": 0.85,
+    "hitbox": {
+      "width": 1.2,
+      "height": 2.1,
+      "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 2,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "height": 12,
+    "weight": 588,
+    "aspects": [],
+    "cannotDynamax": false
+  }
+  

@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:sandilelively",
+    "speciesId": "cobblemon:sandile",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Lively",
+        "unlockForms": [
+          "Lively"
+        ]
+      }
+    ],
+    "variations": []
+  }

@@ -1,0 +1,128 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+        "id": "petrolisk-1",
+        "pokemon": "petrolisk",
+        "presets": [
+          "water"
+      ],
+        "type": "pokemon",
+        "spawnablePositionType": "submerged",
+        "bucket": "common",
+        "level": "33-45",
+        "weight": 0.5,
+        "condition": {
+          "canSeeSky": false
+        }
+      },
+      {
+        "id": "petrolisk-1",
+        "pokemon": "petrolisk",
+        "presets": [
+          "water"
+      ],
+        "type": "pokemon",
+        "spawnablePositionType": "submerged",
+        "bucket": "common",
+        "level": "33-45",
+        "weight": 0.5,
+        "weightMultiplier": {
+          "multiplier": 1.2,
+          "condition": {
+            "biomes": [
+              "#cobblemon:is_lush"
+            ]
+          }
+        },
+        "condition": {
+          "canSeeSky": false,
+          "minSkyLight": 0,
+          "maxSkyLight": 7,
+          "biomes": [
+              "#cobblemon:is_overworld"
+          ],
+          "maxY": 48
+        },
+        "anticondition": {
+          "structures": [
+              "#cobblemon:shipwreck_cove"
+          ]
+        }
+      },
+        {
+            "id": "petrolisk-2",
+            "pokemon": "petrolisk",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "33-45",
+            "weight": 0.6,
+            "weightMultiplier": {
+                "multiplier": 0.6,
+                "condition": {
+                    "minLureLevel": "0",
+                    "maxLureLevel": "1"
+                }
+            },
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "structures": [
+                    "#cobblemon:shipwreck_cove"
+                ]
+            }
+        },
+        {
+            "id": "petrolisk-3",
+            "pokemon": "petrolisk",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "33-45",
+            "weight": 0.6,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        },
+        {
+            "id": "petrolisk-4",
+            "pokemon": "petrolisk",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "33-45",
+            "weight": 0.6,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                ],
+                "minY": -60,
+                "maxY": 13
+            }
+        }
+    ]
+}

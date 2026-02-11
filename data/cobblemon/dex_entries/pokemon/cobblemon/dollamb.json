@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dollamb",
+  "speciesId": "cobblemon:dollamb",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

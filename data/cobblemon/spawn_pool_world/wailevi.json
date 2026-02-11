@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "wailevi-1",
+            "pokemon": "wailevi",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "15-40",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": ["#cobblemon:is_peak"
+                ]
+            }
+        }
+    ]
+}

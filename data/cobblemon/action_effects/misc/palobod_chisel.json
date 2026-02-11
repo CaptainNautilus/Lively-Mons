@@ -1,0 +1,60 @@
+{
+  "timeline": [
+    {
+      "type": "add_holds",
+      "holds": ["effects"]
+    },
+    {
+      "type": "molang",
+      "expressions": "v.pose = math.floor(math.random(1,7));"
+    },
+    {
+      "type": "molang",
+      "expressions": "q.pokemon.spawn_bedrock_particles('cobblemon:poodle_hair_white', 'middle') : 0"
+    },
+    {
+      "type": "pause",
+      "pause": 0.2
+    },
+    {
+      "type": "molang",
+      "expressions": "q.pokemon.spawn_bedrock_particles('cobblemon:poodle_hair_white', 'middle') : 0"
+    },
+    {
+      "type": "pause",
+      "pause": 0.5
+    },
+    {
+      "type": "molang",
+      "expressions": "v.pose == 1 ? (q.pokemon.apply('statue_pose=natural') + q.pokemon.spawn_bedrock_particles('cobblemon:poodle_hair_white', 'middle')) : 0"
+    },
+    {
+      "type": "molang",
+      "expressions": "v.pose == 2 ? (q.pokemon.apply('statue_pose=prideful') + q.pokemon.spawn_bedrock_particles('cobblemon:poodle_hair_white', 'middle')) : 0"
+    },
+    {
+      "type": "molang",
+      "expressions": "v.pose == 3 ? (q.pokemon.apply('statue_pose=mighty') + q.pokemon.spawn_bedrock_particles('cobblemon:poodle_hair_white', 'middle')) : 0"
+    },
+    {
+      "type": "molang",
+      "expressions": "v.pose == 4 ? (q.pokemon.apply('statue_pose=nerdy') + q.pokemon.spawn_bedrock_particles('cobblemon:poodle_hair_white', 'middle')) : 0"
+    },
+    {
+      "type": "molang",
+      "expressions": "v.pose == 5 ? (q.pokemon.apply('statue_pose=spiral') + q.pokemon.spawn_bedrock_particles('cobblemon:poodle_hair_white', 'middle')) : 0"
+    },
+    {
+      "type": "molang",
+      "expressions": "v.pose == 6 ? (q.pokemon.apply('statue_pose=thinker') + q.pokemon.spawn_bedrock_particles('cobblemon:poodle_hair_white', 'middle')) : 0"
+    },
+    {
+      "type": "molang",
+      "expressions": "v.pose == 7 ? (q.pokemon.apply('statue_pose=striking') + q.pokemon.spawn_bedrock_particles('cobblemon:poodle_hair_white', 'middle')) : 0"
+    },
+    {
+      "type": "remove_holds",
+      "holds": ["effects"]
+    }
+  ]
+}

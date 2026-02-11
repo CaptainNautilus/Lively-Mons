@@ -1,0 +1,371 @@
+{
+    "implemented": true,
+    "name": "wailevi",
+    "nationalPokedexNumber": 63,
+    "primaryType": "flying",
+    "secondaryType":"ice",
+    "labels":["custom"],
+
+    "abilities": [
+      "cumulonimbus",
+      "cloudnine",
+      "h:snowwarning"
+    ],
+    "baseStats": {
+      "hp": 105,
+      "attack": 30,
+      "defence": 75,
+      "special_attack": 90,
+      "special_defence": 50,
+      "speed": 50
+    },
+  "riding": {
+    "behaviours": {
+      "AIR": {
+        "key": "cobblemon:air/hover",
+        "rideSounds": [
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.wind",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          },
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.pow(math.min(math.max(0.5,(q.ride_velocity()*0.5 / 1.5) + 0.5), 1.0),2)",
+            "playForNonPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.saucer",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          }
+        ],
+        "stats": {
+          "ACCELERATION": "45-65",
+          "JUMP": "45-65",
+          "SKILL": "35-50",
+          "SPEED": "15-30",
+          "STAMINA": "5-15"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.019022975,
+              "y": -1.2183496,
+              "z": 0.24997671
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.023236014,
+              "y": -1.2679962,
+              "z": 0.12823626
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.019022975,
+              "y": -1.2183496,
+              "z": 0.24997671
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.023236014,
+              "y": -1.2679962,
+              "z": 0.12823626
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.019022975,
+              "y": -1.2183496,
+              "z": 0.24997671
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.023236014,
+              "y": -1.2679962,
+              "z": 0.12823626
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.019022975,
+              "y": -1.2183496,
+              "z": 0.24997671
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+    "behaviour": {
+      "moving": {
+        "canLook": true,
+        "fly": {
+            "canFly": true
+          },          
+        "swim": {
+          "swimSpeed": 0.1,
+          "canSwimInWater": true,
+          "canBreatheUnderwater": false,
+          "canWalkOnWater": true
+        },
+        "walk": {
+          "canWalk": false
+        }
+      },
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+        },
+    "combat": {
+      "willDefendOwner": true
+    },
+    "herd": {
+      "maxSize": "8",
+      "toleratedLeaders": [
+        {
+          "pokemon": "wailevi",
+          "tier": 1
+        },
+        {
+          "pokemon": "levilord",
+          "tier": 2
+        }
+      ]
+    }
+      },
+    "catchRate": 125,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 80,
+    "experienceGroup": "fluctuating",
+    "eggCycles": 40,
+    "eggGroups": [
+      "amorphous"
+    ],
+    "drops": {
+      "amount": 2,
+      "entries": [
+        {
+          "item": "minecraft:wind_charge",
+          "quantityRange": "0-1"
+        },
+        {
+          "item": "cobblemon:coba_berry",
+          "percentage": 2.5
+        }
+      ]
+    },
+    "moves": [
+      "1:gust",
+      "3:powdersnow",
+      "6:lick",
+      "10:clearsmog",
+      "12:twister",
+      "15:skydrop",
+      "18:aircutter",
+      "21:icywind",
+      "24:weatherball",
+      "27:bodypress",
+      "30:airslash",
+      "33:frostbreath",
+      "36:hail",
+      "39:rest",
+      "42:hurricane",
+      "45:blizzard",
+      "48:aeroblast",
+
+      "tm:gust",
+      "tm:powdersnow",
+      "tm:lick",
+      "tm:clearsmog",
+      "tm:twister",
+      "tm:skydrop",
+      "tm:aircutter",
+      "tm:raindance",
+      "tm:weatherball",
+      "tm:bodypress",
+      "tm:airslash",
+      "tm:icywind",
+      "tm:hail",
+      "tm:rest",
+      "tm:hurricane",
+      "tm:blizzard",
+      "tm:aeroblast",
+      "tutor:gust",
+      "tutor:powdersnow",
+      "tutor:lick",
+      "tutor:clearsmog",
+      "tutor:twister",
+      "tutor:skydrop",
+      "tutor:aircutter",
+      "tutor:raindance",
+      "tutor:weatherball",
+      "tutor:bodypress",
+      "tutor:airslash",
+      "tutor:icywind",
+      "tutor:hail",
+      "tutor:rest",
+      "tutor:hurricane",
+      "tutor:blizzard",
+      "tutor:aeroblast",
+      "egg:aquaring",
+      "egg:bodyslam",
+      "egg:clearsmog",
+      "egg:curse",
+      "egg:defensecurl",
+      "egg:doubleedge",
+      "egg:fissure",
+      "egg:rollout",
+      "egg:sleeptalk",
+      "egg:snore",
+      "egg:soak",
+      "egg:swagger",
+      "egg:thrash",
+      "egg:tickle",
+      "egg:zenheadbutt",
+      "tm:amnesia",
+      "tm:attract",
+      "tm:avalanche",
+      "tm:blizzard",
+      "tm:bodypress",
+      "tm:bodyslam",
+      "tm:bounce",
+      "tm:brine",
+      "tm:bulldoze",
+      "tm:captivate",
+      "tm:confide",
+      "tm:dive",
+      "tm:doubleteam",
+      "tm:earthquake",
+      "tm:echoedvoice",
+      "tm:endure",
+      "tm:facade",
+      "tm:frustration",
+      "tm:hail",
+      "tm:heavyslam",
+      "tm:hiddenpower",
+      "tm:hydropump",
+      "tm:hypervoice",
+      "tm:icebeam",
+      "tm:icywind",
+      "tm:naturalgift",
+      "tm:protect",
+      "tm:raindance",
+      "tm:rest",
+      "tm:return",
+      "tm:roar",
+      "tm:rocksmash",
+      "tm:rocktomb",
+      "tm:round",
+      "tm:scald",
+      "tm:secretpower",
+      "tm:selfdestruct",
+      "tm:sleeptalk",
+      "tm:snore",
+      "tm:strength",
+      "tm:substitute",
+      "tm:surf",
+      "tm:swagger",
+      "tm:toxic",
+      "tm:waterfall",
+      "tm:waterpulse",
+      "tm:weatherball",
+      "tm:whirlpool",
+      "tm:zenheadbutt",
+      "tutor:bodyslam",
+      "tutor:bounce",
+      "tutor:defensecurl",
+      "tutor:dive",
+      "tutor:doubleedge",
+      "tutor:endure",
+      "tutor:headbutt",
+      "tutor:hypervoice",
+      "tutor:icywind",
+      "tutor:mimic",
+      "tutor:rollout",
+      "tutor:selfdestruct",
+      "tutor:sleeptalk",
+      "tutor:snore",
+      "tutor:steelroller",
+      "tutor:substitute",
+      "tutor:swagger",
+      "tutor:watergun",
+      "tutor:waterpulse",
+      "tutor:zenheadbutt"
+    ],
+    "pokedex": [
+      "cobblemon.species.wailevi.desc1"
+    ],
+    "evolutions": [
+      {
+        "id": "wailevi_levilord",
+        "variant": "level_up",
+        "result": "levilord",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 40
+          }
+        ]
+      }
+    ],
+    "baseScale": 1.8,
+    "hitbox": {
+      "width": 1.2,
+      "height": 1.6,
+      "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 1,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "height": 20,
+    "weight": 1,
+    "aspects": [],
+    "cannotDynamax": false
+    
+  }
+  

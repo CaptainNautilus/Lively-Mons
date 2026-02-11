@@ -1,0 +1,271 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 34,
+  "name": "Grubbee",
+  "primaryType": "normal",
+  "secondaryType": "bug",
+  "maleRatio": 0.5,
+  "height": 5,
+  "weight": 85,
+  "pokedex": [
+    "cobblemon.species.grubbee.desc1"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "abilities": [
+    "honeypot",
+    "h:honeypot"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 55,
+    "defence": 55,
+    "special_attack": 30,
+    "special_defence": 65,
+    "speed": 15
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_fast",
+  "catchRate": 120,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 0.65,
+    "height": 0.9,
+    "fixed": false
+  },
+  "behaviour": {
+   "resting": {
+      "canSleep": true,
+      "depth": "comatose",
+      "light": "0-15",
+      "times": ["any"],
+      "drowsyChance": 0.0167,
+      "rouseChance": 0.0009
+    },
+    "herd": {
+      "maxSize": "2",
+      "toleratedLeaders": [
+        {
+          "pokemon": "teddiursa",
+          "tier": 1
+        },
+        {
+          "pokemon": "cubchoo",
+          "tier": 1
+        },
+        {
+          "pokemon": "grubbee",
+          "tier": 2
+        },
+        {
+          "pokemon": "ursaring",
+          "tier": 3
+        },
+        {
+          "pokemon": "beartic",
+          "tier": 3
+        },
+        {
+          "pokemon": "ursaluna bloodmoon=false",
+          "tier": 4
+        },
+        {
+          "pokemon": "ursaluna bloodmoon",
+          "tier": 5
+        },
+        {
+          "pokemon": "mielador",
+          "tier": 6
+        },
+        {
+          "pokemon": "combee",
+          "tier": 7
+        },
+        {
+          "pokemon": "vespiquen",
+          "tier": 8
+        }
+      ]
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  },
+  "drops": {
+    "amount": 4,
+    "entries": [
+     {
+        "item": "minecraft:honey_bottle",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:honeycomb",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:bee_nest",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:charti_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:furycutter",
+    "1:growl",
+    "1:infestation",
+    "3:endure",
+    "6:furyswipes",
+    "9:pounce",
+    "12:playnice",
+    "15:flail",
+    "18:skittersmack",
+    "21:slash",
+    "24:rollout",
+    "27:yawn",
+    "30:playrough",
+    "33:thrash",
+    "36:rest",
+    "39:firstimpression",
+    "42:gigaimpact",
+
+    "egg:focuspunch",
+    "egg:nightslash",
+    "egg:yawn",
+
+    "tm:aerialace",
+    "tm:acrobatics",
+    "tm:assurance",
+    "tm:doubleedge",
+    "tm:firstimpression",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:playrough",
+    "tm:bulldoze",
+    "tm:yawn",
+    "tm:facade",
+    "tm:covet",
+    "tm:crunch",
+    "tm:cut",
+    "tm:dig",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:skittersmack",
+    "tm:grassknot",
+    "tm:hail",
+    "tm:heavyslam",
+    "tm:honeclaws",
+    "tm:uturn",
+    "tm:pollenpuff",
+    "tm:fellstinger",
+    "tm:ragepowder",
+    "tm:pounce",
+    "tm:quiverdance",
+    "tm:lowkick",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metalclaw",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:grassyterrain",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:leechlife",
+    "tm:strength",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:xscissor",
+
+    "tutor:aerialace",
+    "tutor:bulldoze",
+    "tutor:covet",
+    "tutor:endeavor",
+    "tutor:focuspunch",
+    "tutor:uturn",
+    "tutor:pollenpuff",
+    "tutor:fellstinger",
+    "tutor:pounce",
+    "tutor:quiverdance",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:snarl",
+    "tutor:superpower",
+    "tutor:xscissor",
+
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+  ],
+  "evolutions": [
+    {
+      "id": "grubbee_mielador",
+      "variant": "level_up",
+      "result": "mielador",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "attackorder",
+        "defendorder"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cyclopod",
+  "speciesId": "cobblemon:cyclopod",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

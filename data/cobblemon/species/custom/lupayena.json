@@ -1,0 +1,216 @@
+{
+  "implemented": true,
+  "name": "lupayena",
+  "nationalPokedexNumber": 93,
+  "primaryType": "dark",
+  "abilities": [
+    "intimidate",
+    "supremeoverlord",
+    "h:moxie"
+  ],
+  "preEvolution":"mightyena",
+  "baseStats": {
+    "hp": 72,
+    "attack": 115,
+    "defence": 110,
+    "special_attack": 72,
+    "special_defence": 76,
+    "speed": 90
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.25
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0033,
+      "rouseChance": 0.0042
+    },
+    "entityInteract": {
+      "avoidedBySkeleton": true
+    },
+    "herd": {
+      "maxSize": "9"
+    },
+        "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 268,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 15,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "minecraft:rotten_flesh",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 10.0
+      }
+    ]
+  },
+  "moves": [
+    "1:bite",
+    "1:crunch",
+    "1:firefang",
+    "1:howl",
+    "1:icefang",
+    "1:sandattack",
+    "1:snarl",
+    "1:tackle",
+    "1:thief",
+    "1:thunderfang",
+    "1:howl",
+    "11:leer",
+    "11:odorsleuth",
+    "14:roar",
+    "20:swagger",
+    "24:assurance",
+    "28:scaryface",
+    "32:embargo",
+    "36:taunt",
+    "44:yawn",
+    "48:takedown",
+    "52:suckerpunch",
+    "56:playrough",
+
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:captivate",
+    "tm:charm",
+    "tm:confide",
+    "tm:crunch",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:doubleteam",
+    "tm:embargo",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:foulplay",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icefang",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:lashout",
+    "tm:mudslap",
+    "tm:nastyplot",
+    "tm:naturalgift",
+    "tm:payback",
+    "tm:playrough",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:return",
+    "tm:roar",
+    "tm:rocksmash",
+    "tm:round",
+    "tm:scaryface",
+    "tm:secretpower",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:spite",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:thunderfang",
+    "tm:torment",
+    "tm:toxic",
+    "tm:trailblaze",
+    "tm:uproar",
+
+    "tutor:bodyslam",
+    "tutor:counter",
+    "tutor:covet",
+    "tutor:crunch",
+    "tutor:darkpulse",
+    "tutor:doubleedge",
+    "tutor:endure",
+    "tutor:firefang",
+    "tutor:foulplay",
+    "tutor:headbutt",
+    "tutor:hypervoice",
+    "tutor:icefang",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:mimic",
+    "tutor:mudslap",
+    "tutor:psychup",
+    "tutor:sleeptalk",
+    "tutor:snatch",
+    "tutor:snore",
+    "tutor:spite",
+    "tutor:substitute",
+    "tutor:suckerpunch",
+    "tutor:superfang",
+    "tutor:swagger",
+    "tutor:throatchop",
+    "tutor:thunderfang",
+    "tutor:uproar"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.lupayena.desc1"
+  ],
+
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1.7,
+    "height": 2.05,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 1240,
+  "aspects": [],
+  "cannotDynamax": false
+}

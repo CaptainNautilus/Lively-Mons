@@ -1,0 +1,607 @@
+{
+    "implemented": true,
+"name": "xenoster",
+"nationalPokedexNumber": 55,
+"labels": [ "custom" ],
+"pokedex": [
+  "cobblemon.species.xenoster.desc1"
+],
+"height": 25,
+"weight": 2550,
+
+"shoulderMountable": false,
+"shoulderEffects": [ "slow_fall" ],
+
+"preEvolution": "orbiclad",
+
+"primaryType": "psychic",
+"secondaryType":"water",
+  "baseStats": {
+    "hp": 70,
+    "attack": 75,
+    "defence": 135,
+    "special_attack": 115,
+    "special_defence": 85,
+    "speed": 30
+  },
+  "catchRate": 45,
+  "maleRatio": -1,
+  "baseExperienceYield": 253,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseFriendship": 50,
+  "evYield": {
+    "defence": 2,
+    "special_defence": 1
+  },
+  "moves": [
+    "1:withdraw",
+    "1:tackle",
+    "1:watergun",
+    "1:hypnosis",
+    "1:whirlpool",
+    "3:confusion",
+    "5:bubblebeam",
+    "8:gyroball",
+    "13:psybeam",
+    "17:bubblebeam",
+    "24:metalsound",
+    "28:skittersmack",
+    "34:flashcannon",
+    "39:brine",
+    "42:psychic",
+    "45:recover",
+    "49:stoneedge",
+    "54:hydropump",
+    "57:steelbeam",
+  
+    "tm:blizzard",
+    "tm:brine",
+    "tm:confide",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:dive",
+    "tm:doubleteam",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:frustration",
+    "tm:gyroball",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:lightscreen",
+    "tm:naturalgift",
+    "tm:powergem",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:scald",
+    "tm:secretpower",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swagger",
+    "tm:swift",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tm:swagger",
+    "tm:tailwind",
+    "tm:takedown",
+    "tm:uproar",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:explosion",
+    "tm:toxic",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:stealthrock",
+    "tm:skillswap",
+    "tm:steelbeam",
+    "tm:terablast",
+  
+    "tutor:blizzard",
+    "tutor:brine",
+    "tutor:confide",
+    "tutor:cosmicpower",
+    "tutor:dazzlinggleam",
+    "tutor:dive",
+    "tutor:doubleteam",
+    "tutor:endure",
+    "tutor:facade",
+    "tutor:flash",
+    "tutor:flashcannon",
+    "tutor:frustration",
+    "tutor:gyroball",
+    "tutor:hail",
+    "tutor:hiddenpower",
+    "tutor:hydropump",
+    "tutor:icebeam",
+    "tutor:icywind",
+    "tutor:lightscreen",
+    "tutor:naturalgift",
+    "tutor:powergem",
+    "tutor:protect",
+    "tutor:psychic",
+    "tutor:psychup",
+    "tutor:raindance",
+    "tutor:recycle",
+    "tutor:reflect",
+    "tutor:rest",
+    "tutor:return",
+    "tutor:round",
+    "tutor:scald",
+    "tutor:secretpower",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:substitute",
+    "tutor:surf",
+    "tutor:swagger",
+    "tutor:swift",
+    "tutor:thunder",
+    "tutor:thunderbolt",
+    "tutor:thunderwave",
+    "tutor:toxic",
+    "tutor:triattack",
+    "tutor:waterfall",
+    "tutor:waterpulse",
+    "tutor:whirlpool",
+    "tutor:swagger",
+    "tutor:tailwind",
+    "tutor:takedown",
+    "tutor:uproar",
+    "tutor:terablast",
+    "tutor:thief",
+    "tutor:thunderwave",
+    "tutor:explosion",
+    "tutor:toxic",
+    "tutor:rockslide",
+    "tutor:rocktomb",
+    "tutor:stealthrock",
+    "tutor:skillswap",
+    "tutor:steelbeam",
+    "tutor:terablast"
+  ],
+  "abilities": [
+    "compoundeyes",
+    "steelworker",
+    "h:shellarmor"
+  ],
+  "riding": {
+    "behaviours": {
+      "AIR": {
+        "key": "cobblemon:air/hover",
+        "rideSounds": [
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.wind",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          },
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.pow(math.min(math.max(0.5,(q.ride_velocity()*0.5 / 1.5) + 0.5), 1.0),2)",
+            "playForNonPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.saucer",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          }
+        ],
+        "stats": {
+          "ACCELERATION": "60-75",
+          "JUMP": "30-50",
+          "SKILL": "20-35",
+          "SPEED": "50-75",
+          "STAMINA": "10-25"
+        }
+      },
+      "LIQUID": {
+        "key": "cobblemon:liquid/submarine",
+        "hitboxBreachPercentage": 0.9,
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "25-40",
+          "JUMP": "50-75",
+          "SKILL": "20-40",
+          "SPEED": "55-85",
+          "STAMINA": "50-90"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": -0.0007805396,
+              "y": -1.2943133,
+              "z": -0.40744212
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.03168701,
+              "y": -1.443021,
+              "z": -0.38566333
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0007733833,
+              "y": -1.4106412,
+              "z": -0.3683446
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0007733833,
+              "y": -1.4106412,
+              "z": -0.4224712
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0007733833,
+              "y": -1.4106412,
+              "z": -0.3683446
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0007733833,
+              "y": -1.4106412,
+              "z": -0.4224712
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0007733833,
+              "y": -1.4106412,
+              "z": -0.3683446
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      },
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.37363234,
+              "y": -1.3079666,
+              "z": -0.03210418
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.4100101,
+              "y": -1.4489274,
+              "z": -0.014063157
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.37576288,
+              "y": -1.4043188,
+              "z": 0.0066125556
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.37576288,
+              "y": -1.4043188,
+              "z": -0.04751403
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.37576288,
+              "y": -1.4043188,
+              "z": 0.0066125556
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.37576288,
+              "y": -1.4043188,
+              "z": -0.04751403
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.37576288,
+              "y": -1.4043188,
+              "z": 0.0066125556
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      },
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": -0.3763659,
+              "y": -1.3068329,
+              "z": -0.033237804
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.33993268,
+              "y": -1.4554721,
+              "z": -0.0075182593
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.3742359,
+              "y": -1.4056278,
+              "z": 0.0066125556
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.3742359,
+              "y": -1.4056278,
+              "z": -0.04751403
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.3742359,
+              "y": -1.4056278,
+              "z": 0.0066125556
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.3742359,
+              "y": -1.4056278,
+              "z": -0.04751403
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.3742359,
+              "y": -1.4056278,
+              "z": 0.0066125556
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      },
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": -0.0019530337,
+              "y": -1.3204862,
+              "z": 0.3421001
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.038390387,
+              "y": -1.4613783,
+              "z": 0.36408192
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.000753602,
+              "y": -1.3993053,
+              "z": 0.38156968
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.000753602,
+              "y": -1.3993053,
+              "z": 0.3274431
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.000753602,
+              "y": -1.3993053,
+              "z": 0.38156968
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.000753602,
+              "y": -1.3993053,
+              "z": 0.3274431
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.000753602,
+              "y": -1.3993053,
+              "z": 0.38156968
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "baseScale": 0.85,
+"hitbox": {
+  "width": 1.5,
+  "height": 5.5,
+  "fixed": false
+},
+"drops": {
+"amount": "4",
+  "entries": [
+    {
+      "item": "minecraft:nautilus_shell"
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "quantityRange": "0-3"
+    }
+]
+},
+"behaviour": {
+  "moving": {
+    "canLook": true,
+    "fly": {
+      "canFly": true,
+      "flySpeed": 0.2
+    },          
+    "swim": {
+      "swimSpeed": 0.2,
+      "canSwimInWater": true,
+      "canBreatheUnderwater": true
+    },
+        "walk": {
+          "canWalk": false
+        }
+  },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "9"
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+    "lightingData": {
+      "lightLevel": 7,
+      "liquidGlowMode": "BOTH"
+    }
+}

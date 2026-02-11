@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:potdary",
+  "speciesId": "cobblemon:potdary",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

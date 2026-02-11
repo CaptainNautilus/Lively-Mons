@@ -1,0 +1,35 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "canjitsu-1",
+            "pokemon": "canjitsu",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "4-33",
+            "weight": 9.0,
+            "condition": {
+                "timeRange": "day",
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "neededNearbyBlocks": [
+                    "minecraft:bamboo"
+                ],
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ]
+            }
+        }
+    ]
+}

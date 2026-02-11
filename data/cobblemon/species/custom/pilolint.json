@@ -1,0 +1,348 @@
+{
+    "implemented": true,
+    "name": "pilolint",
+    "nationalPokedexNumber": 47,
+    "primaryType": "fairy",
+    "secondaryType": "ground",
+    "abilities": [
+      "cottondown",
+      "h:fluffy"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "attack": 65,
+      "defence": 90,
+      "special_attack": 85,
+      "special_defence": 90,
+      "speed": 45
+    },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "30-50",
+          "JUMP": "45-60",
+          "SKILL": "30-45",
+          "SPEED": "10-25",
+          "STAMINA": "25-50"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.3190807,
+              "z": 0.21233678
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.024600144,
+              "y": -1.3374763,
+              "z": 0.22335267
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.3190807,
+              "z": 0.21233678
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.3190807,
+              "z": 0.21233678
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.3190807,
+              "z": 0.21233678
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.3190807,
+              "z": 0.21233678
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.3190807,
+              "z": 0.21233678
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,
+        "light": "0-4",
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+      },
+          "herd": {
+      "maxSize": "7",
+      "toleratedLeaders": [
+        {
+          "pokemon": "pilolint",
+          "tier": 1
+        },
+        {
+          "pokemon": "mamolint",
+          "tier": 2
+        }
+      ]
+    },
+      "moving": {
+        "walk": {
+          "walkSpeed": 0.18
+          }
+        },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+    },
+    "catchRate": 75,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 158,
+    "experienceGroup": "slow",
+    "eggCycles": 20,
+    "eggGroups": [
+      "mineral",
+      "fairy"
+    ],
+    "drops": {
+        "amount": 6,
+        "entries": [
+          {
+            "item": "minecraft:gravel",
+          "quantityRange": "1-2"
+          },
+          {
+            "item": "minecraft:dirt",
+          "quantityRange": "1-2"
+          },
+          {
+            "item": "cobblemon:fairy_feather",
+            "percentage": 5.0
+          },
+          {
+            "item": "cobblemon:roseli_berry",
+            "percentage": 5.0
+          }
+        ]
+      },
+    "moves": [
+      "1:takedown",
+      "1:craftyshield",
+      "1:furyattack",
+      "1:hornattack",
+      "1:mudslap",
+      "1:mudsport",
+      "1:odorsleuth",
+      "1:peck",
+      "1:fairywind",
+      "1:rollout",
+      "15:drainingkiss",
+      "18:mudbomb",
+      "20:charm",
+      "24:alluringvoice",
+      "25:endure",
+      "30:dazzlinggleam",
+      "37:amnesia",
+      "44:ancientpower",
+      "51:earthpower",
+      "58:moonblast",
+      "65:thrash",
+
+      "tm:amnesia",
+      "tm:attract",
+      "tm:playrough",
+      "tm:moonblast",
+      "tm:bodyslam",
+      "tm:bulldoze",
+      "tm:captivate",
+      "tm:charm",
+      "tm:confide",
+      "tm:curse",
+      "tm:dig",
+      "tm:doubleedge",
+      "tm:doubleteam",
+      "tm:earthquake",
+      "tm:earthpower",
+      "tm:endeavor",
+      "tm:endure",
+      "tm:facade",
+      "tm:frustration",
+      "tm:gigaimpact",
+      "tm:mistyterrain",
+      "tm:haze",
+      "tm:hiddenpower",
+      "tm:highhorsepower",
+      "tm:hyperbeam",
+      "tm:mistyexplosion",
+      "tm:alluringvoice",
+      "tm:dazzlinggleam",
+      "tm:lightscreen",
+      "tm:mudshot",
+      "tm:mudslap",
+      "tm:naturalgift",
+      "tm:protect",
+      "tm:raindance",
+      "tm:reflect",
+      "tm:rest",
+      "tm:return",
+      "tm:reversal",
+      "tm:roar",
+      "tm:rockslide",
+      "tm:rocksmash",
+      "tm:rocktomb",
+      "tm:round",
+      "tm:sandstorm",
+      "tm:sandtomb",
+      "tm:scaryface",
+      "tm:secretpower",
+      "tm:sleeptalk",
+      "tm:smackdown",
+      "tm:snore",
+      "tm:stealthrock",
+      "tm:stompingtantrum",
+      "tm:stoneedge",
+      "tm:strength",
+      "tm:substitute",
+      "tm:superpower",
+      "tm:swagger",
+      "tm:takedown",
+      "tm:terablast",
+      "tm:throatchop",
+      "tm:toxic",
+      "tm:trailblaze",
+
+      "tutor:amnesia",
+      "tutor:ancientpower",
+      "tutor:attract",
+      "tutor:moonblast",
+      "tutor:bodyslam",
+      "tutor:curse",
+      "tutor:defensecurl",
+      "tutor:detect",
+      "tutor:doubleedge",
+      "tutor:doubleteam",
+      "tutor:earthquake",
+      "tutor:earthpower",
+      "tutor:endeavor",
+      "tutor:endure",
+      "tutor:frustration",
+      "tutor:furyattack",
+      "tutor:headbutt",
+      "tutor:hiddenpower",
+      "tutor:hyperbeam",
+      "tutor:dazzlinggleam",
+      "tutor:mimic",
+      "tutor:charm",
+      "tutor:mudslap",
+      "tutor:fairywind",
+      "tutor:protect",
+      "tutor:raindance",
+      "tutor:rest",
+      "tutor:return",
+      "tutor:roar",
+      "tutor:rockslide",
+      "tutor:rocksmash",
+      "tutor:sleeptalk",
+      "tutor:snore",
+      "tutor:stealthrock",
+      "tutor:stompingtantrum",
+      "tutor:strength",
+      "tutor:substitute",
+      "tutor:superpower",
+      "tutor:swagger",
+      "tutor:takedown",
+      "tutor:toxic"
+    ],
+    "labels": [
+      "custom"
+    ],
+    "pokedex": [
+      "cobblemon.species.pilolint.desc1"
+    ],
+    "preEvolution": "linub",
+    "evolutions": [
+      {
+        "id": "pilolint_mamolint",
+        "variant": "level_up",
+        "result": "mamolint",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+            "variant": "has_move",
+            "move": "ancientpower"
+          }
+        ]
+      }
+    ],
+    "baseScale": 1,
+    "hitbox": {
+      "width": 1,
+      "height": 1.2,
+      "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 2,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "height": 11,
+    "weight": 186,
+    "aspects": [],
+    "cannotDynamax": false
+  }
+  

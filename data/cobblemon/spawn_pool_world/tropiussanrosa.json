@@ -1,0 +1,64 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "tropius-sanrosan-1",
+            "pokemon": "tropius sanrosan",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "21-46",
+            "weight": 6.0,
+            "weightMultiplier": {
+                "multiplier": 3,
+                "condition": {
+                    "biomes": [
+                        "minecraft:old_growth_pine_taiga",
+                        "minecraft:old_growth_spruce_taiga"
+                    ]
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_taiga"
+                ]
+            }
+        },
+        {
+            "id": "tropius-sanrosan-2",
+            "pokemon": "tropius sanrosan",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "21-46",
+            "weight": 10.0,
+            "weightMultiplier": {
+                "multiplier": 3,
+                "condition": {
+                    "biomes": [
+                        "minecraft:old_growth_pine_taiga",
+                        "minecraft:old_growth_spruce_taiga"
+                    ]
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_taiga"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:spruce_sapling"
+                ]
+            }
+        }
+    ]
+}

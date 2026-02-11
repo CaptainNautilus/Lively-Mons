@@ -1,0 +1,201 @@
+{
+    "implemented": true,
+    "name": "polporos",
+    "nationalPokedexNumber": 99,
+    "primaryType": "rock",
+    "secondaryType": "water",
+    "abilities": [
+      "filter",
+      "swiftswim",
+      "h:regenerator"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 51,
+      "defence": 41,
+      "special_attack": 92,
+      "special_defence": 81,
+      "speed": 46
+    },
+    "catchRate": 45,
+    "maleRatio": 0.875,
+    "shoulderMountable": true,
+    "baseExperienceYield": 71,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 30,
+    "eggGroups": [
+      "water_1",
+      "dragon"
+    ],
+    
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": true,
+      "light": "0-4",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "2",
+      "toleratedLeaders": [
+        {
+          "pokemon": "polporos",
+          "tier": 1
+        },
+        {
+          "pokemon": "spinarift",
+          "tier": 2
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true
+    },
+      "moving": {
+        "swim": {
+          "canSwimInWater": true,
+          "canWalkOnWater": true,
+          "canBreatheUnderwater": true,
+          "swimSpeed": "0.2"
+        },
+        "walk": {
+          "walkSpeed": 0.25
+        }
+      }
+    },
+    "drops": {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "minecraft:brain_coral",
+          "quantityRange": "0-1"
+        },
+        {
+          "item": "minecraft:brain_coral_fan",
+          "quantityRange": "0-1"
+        },
+        {
+          "item": "minecraft:brain_coral_block",
+          "percentage": 25.0
+        }
+      ]
+    },
+    "moves": [
+      "1:scratch",
+      "1:growl",
+      "1:watergun",
+      "5:roar",
+      "7:bite",
+      "10:aquaring",
+      "15:waterpulse",
+      "20:ancientpower",
+      "25:lifedew",
+      "30:brine",
+      "35:chillingwater",
+      "41:powergem",
+      "43:surf",
+      "45:crunch",
+      "50:earthpower",
+      "55:dragonpulse",
+      "60:hydropump",
+
+      "egg:poisonfang",
+      "egg:mist",
+      "egg:banefulbunker",
+      "egg:toxicspikes",
+      "egg:liquidation",
+      "egg:recover",
+
+      "tm:aquaring",
+      "tm:ancientpower",
+      "tm:lifedew",
+      "tm:brine",
+      "tm:chillingwater",
+      "tm:powergem",
+      "tm:surf",
+      "tm:crunch",
+      "tm:earthpower",
+      "tm:dragonpulse",
+      "tm:hydropump",
+      "tm:bodyslam",
+      "tm:brine",
+      "tm:captivate",
+      "tm:confide",
+      "tm:dive",
+      "tm:doubleteam",
+      "tm:earthpower",
+      "tm:endure",
+      "tm:facade",
+      "tm:frustration",
+      "tm:gyroball",
+      "tm:hail",
+      "tm:hiddenpower",
+      "tm:hydropump",
+      "tm:icebeam",
+      "tm:icywind",
+      "tm:irondefense",
+      "tm:round",
+      "tm:sandstorm",
+      "tm:scald",
+      "tm:secretpower",
+      "tm:sleeptalk",
+      "tm:smackdown",
+      "tm:snore",
+      "tm:spikes",
+      "tm:stealthrock",
+      "tm:substitute",
+      "tm:surf",
+      "tm:swagger",
+      "tm:thief",
+      "tm:toxic",
+      "tm:waterfall",
+      "tm:waterpulse",
+      
+      "tutor:meteorbeam",
+      "tutor:whirlpool",
+      "tutor:blizzard",
+      "tutor:dragondance"
+    ],
+
+    "labels": [
+      "custom"
+    ],
+    "pokedex": [
+      "cobblemon.species.polporos.desc1"
+    ],
+    "evolutions": [
+      {
+        "id": "polporos_spinarift",
+        "variant": "level_up",
+        "result": "spinarift",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 38
+          }
+        ]
+      }
+    ],
+    "baseScale": 0.7,
+    "hitbox": {
+      "width": 0.7,
+      "height": 1.15,
+      "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 1,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "height": 5,
+    "weight": 90,
+    "aspects": [],
+    "cannotDynamax": false
+  }  

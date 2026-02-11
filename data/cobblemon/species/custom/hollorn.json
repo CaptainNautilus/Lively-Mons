@@ -1,0 +1,174 @@
+{
+    "implemented": true,
+    "name": "hollorn",
+    "nationalPokedexNumber": 97,
+    "primaryType": "rock",
+    "secondaryType": "ghost",
+    "abilities": [
+      "technician",
+      "soundproof",
+      "h:weakarmor"
+    ],
+    "baseStats": {
+      "hp": 35,
+      "attack": 40,
+      "defence": 68,
+      "special_attack": 73,
+      "special_defence": 102,
+      "speed": 32
+    },
+    "catchRate": 45,
+    "maleRatio": 0.875,
+    "shoulderMountable": false,
+    "baseExperienceYield": 70,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 30,
+    "eggGroups": [
+      "monster"
+    ],
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": true,
+      "light": "0-4",
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+          },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "hollorn",
+          "tier": 1
+        },
+        {
+          "pokemon": "calciopi",
+          "tier": 2
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true
+    },
+      "moving": {
+        "canLook": true,
+        "swim": {
+          "canSwimInWater": false,
+          "canBreatheUnderwater": false
+        },
+        "walk": {
+          "walkSpeed": 0.25
+        }
+      }
+    },
+    "drops": {
+      "amount": 1,
+      "entries": [
+        {
+          "item": "minecraft:bone",
+          "quantityRange": "0-1"          
+        }
+      ]
+    },
+    "moves": [
+      "1:tackle",
+      "1:harden",
+      "1:shadowsneak",
+      "5:rockpolish",
+      "7:echoedvoice",
+      "10:curse",
+      "15:ominouswind",
+      "20:perishsong",
+      "25:ancientpower",
+      "30:uproar",
+      "35:shadowball",
+      "41:hypervoice",
+      "43:powergem",
+      "45:gigadrain",
+      "50:rest",
+      "55:meteorbeam",
+      "60:boomburst",
+
+      "egg:bodyslam",
+      "egg:fissure",
+      "egg:headbutt",
+      "egg:screech",
+      "egg:sing",
+      "egg:sleeptalk",
+
+      "tm:uproar",
+      "tm:shadowball",
+      "tm:hypervoice",
+      "tm:powergem",
+      "tm:gigadrain",
+      "tm:rest",
+      "tm:meteorbeam",
+      "tm:boomburst",
+      "tm:endure",
+      "tm:facade",
+      "tm:fireblast",
+      "tm:flamethrower",
+      "tm:flashcannon",
+      "tm:frustration",
+      "tm:hardpress",
+      "tm:heavyslam",
+      "tm:hiddenpower",
+      "tm:icebeam",
+      "tm:incinerate",
+      "tm:irondefense",
+      "tm:ironhead",
+      "tm:irontail",
+      "tm:metalsound",
+      "tm:mudslap",
+      "tm:naturalgift",
+      "tm:protect",
+      "tm:raindance",
+      "tm:return",
+      "tm:rockblast",  
+      
+      "tutor:roar",
+      "tutor:sandstorm",
+      "tutor:taunt",
+      "tutor:calmmind"
+    ],
+    "labels": [
+      "custom"
+    ],
+    "pokedex": [
+      "cobblemon.species.hollorn.desc1"
+    ],
+    "evolutions": [
+      {
+        "id": "hollorn_calciopi",
+        "variant": "level_up",
+        "result": "calciopi",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+            "variant": "level",
+            "minLevel": 38
+          }
+        ]
+      }
+    ],
+    "baseScale": 0.7,
+    "hitbox": {
+      "width": 0.5,
+      "height": 0.75,
+      "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 1,
+      "speed": 0
+    },
+    "height": 5,
+    "weight": 45,
+    "aspects": [],
+    "cannotDynamax": false
+  }  

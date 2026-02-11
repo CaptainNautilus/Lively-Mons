@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:seibat",
+  "speciesId": "cobblemon:seibat",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

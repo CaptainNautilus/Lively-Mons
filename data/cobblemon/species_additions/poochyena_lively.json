@@ -1,0 +1,55 @@
+{
+    "target": "cobblemon:poochyena",
+  "behaviour": {
+    "entityInteract": {
+      "avoidedBySkeleton": true
+    },
+    "herd": {
+      "maxSize": "6",
+      "toleratedLeaders": [
+        {
+          "pokemon": "poochyena",
+          "tier": 1
+        },
+        {
+          "pokemon": "houndour",
+          "tier": 2
+        },
+        {
+          "pokemon": "mightyena",
+          "tier": 3
+        },
+        {
+          "pokemon": "houndoom mega=false",
+          "tier": 3
+        },
+        {
+          "pokemon": "houndoom mega",
+          "tier": 4
+        },
+        {
+          "pokemon": "lupayena",
+          "tier": 5
+        }
+      ]
+    },
+    "resting": {
+      "willSleepOnBed": true,
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0033,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  }
+}

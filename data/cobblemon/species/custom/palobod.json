@@ -1,0 +1,425 @@
+{
+    "implemented": true,
+    "name": "palobod",
+    "aspects": [
+      "natural-pose"
+    ],
+    "nationalPokedexNumber": 94,
+    "primaryType": "ghost",
+    "secondaryType":"rock",
+    "abilities": [
+      "hugepower",
+      "h:clearbody"
+    ],
+    "preEvolution":"sandygast sanrosan",
+    "baseStats": {
+    "hp": 95,
+    "attack": 60,
+    "defence": 145,
+    "special_attack": 75,
+    "special_defence": 70,
+    "speed": 35
+    },
+    "catchRate": 60,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 168,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 15,
+    "eggGroups": [
+      "amorphous"
+    ], 
+  "behaviour": {
+    "herd": {
+      "maxSize": "3"
+    },
+    "moving": {
+      "swim": {
+        "swimSpeed": "0.1",
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "resting": {
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0033,
+      "rouseChance": 0.0042
+    }
+  },
+    "drops": {
+      "amount": 4,
+      "entries": [
+        {
+          "item": "minecraft:calcite",
+          "quantityRange": "0-2"
+        },
+        {
+          "item": "cobblemon:hard_stone",
+          "percentage": 5.0
+        },
+        {
+          "item": "cobblemon:rindo_berry",
+          "percentage": 5.0
+        }
+      ]
+        },
+    "moves": [
+    "1:harden",
+    "1:absorb",
+    "1:rockpolish",
+    "1:astonish",
+    "1:rollout",
+    "15:megadrain",
+    "20:shadowpunch",
+    "25:smackdown",
+    "30:hypnosis",
+    "35:gigadrain",
+    "40:irondefense",
+    "47:phantomforce",
+    "54:rockslide",
+    "61:shoreup",
+    "68:stoneedge",
+    
+    "egg:ancientpower",
+    "egg:curse",
+    "egg:destinybond",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow",
+    
+    "tm:afteryou",
+    "tm:phantomforce",
+    "tm:amnesia",
+    "tm:ancientpower",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:brine",
+    "tm:bulldoze",
+    "tm:chillingwater",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:embargo",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:fling",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:gravity",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychic",
+    "tm:quash",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:sandstorm",
+    "tm:sandtomb",
+    "tm:scaryface",
+    "tm:scorchingsands",
+    "tm:shadowball",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:spite",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:terablast",
+    "tm:terrainpulse",
+    "tm:trick",
+   
+    "tutor:afteryou",
+    "tutor:ancientpower",
+    "tutor:block",
+    "tutor:bulldoze",
+    "tutor:earthpower",
+    "tutor:energyball",
+    "tutor:flashcannon",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:gravity",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:mudslap",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:roleplay",
+    "tutor:scorchingsands",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:sludgebomb",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:stoneedge",
+    "tutor:terrainpulse",
+    "tutor:trick",
+  
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:toxic"
+    ],
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "canJump": false,
+        "stats": {
+          "ACCELERATION": "0-5",
+          "JUMP": "0-5",
+          "SKILL": "15-30",
+          "SPEED": "5-15",
+          "STAMINA": "60-80"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.69399905,
+              "z": 0.15316631
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.68929356,
+              "z": 0.122654416
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.69399905,
+              "z": 0.15316631
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.69399905,
+              "z": 0.15316631
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.69399905,
+              "z": 0.15316631
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.69399905,
+              "z": 0.15316631
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.69399905,
+              "z": 0.15316631
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+    "labels": [
+      "custom"
+    ],
+    "pokedex": [
+      "cobblemon.species.palobod.desc1"
+    ],
+    "evolutions": [],
+  "baseScale": 1.2,
+    "hitbox": {
+      "width": 0.9,
+      "height": 1.7,
+      "fixed": false
+    },  
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 0,
+      "defence": 2,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "height": 16,
+    "weight": 7500,
+    "cannotDynamax": false,
+    "forms":[
+    {
+      "name": "prideful",
+    "primaryType": "ghost",
+    "secondaryType":"rock",
+      "maleRatio": 0.5,
+      "pokedex": [
+        "cobblemon.species.palobod.desc1"
+      ],
+      "labels": [
+        "custom"
+      ],
+      "aspects": [
+        "prideful-pose"
+      ],
+      "evolutions": [],
+      "battleOnly": false
+    },
+    {
+      "name": "mighty",
+    "primaryType": "ghost",
+    "secondaryType":"rock",
+      "maleRatio": 0.5,
+      "pokedex": [
+        "cobblemon.species.palobod.desc1"
+      ],
+      "labels": [
+        "custom"
+      ],
+      "aspects": [
+        "mighty-pose"
+      ],
+      "evolutions": [],
+      "battleOnly": false
+    },
+    {
+      "name": "nerdy",
+    "primaryType": "ghost",
+    "secondaryType":"rock",
+      "maleRatio": 0.5,
+      "pokedex": [
+        "cobblemon.species.palobod.desc1"
+      ],
+      "labels": [
+        "custom"
+      ],
+      "aspects": [
+        "nerdy-pose"
+      ],
+      "evolutions": [],
+      "battleOnly": false
+    },
+        {
+      "name": "spiral",
+    "primaryType": "ghost",
+    "secondaryType":"rock",
+      "maleRatio": 0.5,
+      "pokedex": [
+        "cobblemon.species.palobod.desc1"
+      ],
+      "labels": [
+        "custom"
+      ],
+      "aspects": [
+        "spiral-pose"
+      ],
+      "evolutions": [],
+      "battleOnly": false
+    },
+        {
+      "name": "thinker",
+    "primaryType": "ghost",
+    "secondaryType":"rock",
+      "maleRatio": 0.5,
+      "pokedex": [
+        "cobblemon.species.palobod.desc1"
+      ],
+      "labels": [
+        "custom"
+      ],
+      "aspects": [
+        "thinker-pose"
+      ],
+      "evolutions": [],
+      "battleOnly": false
+    },
+    {
+      "name": "striking",
+    "primaryType": "ghost",
+    "secondaryType":"rock",
+      "maleRatio": 0.5,
+      "pokedex": [
+        "cobblemon.species.palobod.desc1"
+      ],
+      "labels": [
+        "custom"
+      ],
+      "aspects": [
+        "striking-pose"
+      ],
+      "evolutions": [],
+      "battleOnly": false
+    }
+  ]
+}
+  
