@@ -1,0 +1,16 @@
+{
+    "name": "lively:prehistoric_coral_pool",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "location": "lively:fossils/coral_pool",
+                "element_type": "minecraft:single_pool_element",
+                "override_liquid_settings": "apply_waterlogging",
+                "processors": "lively:fossils/prehistoric_coral_pool",
+                "projection": "rigid"
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "exclusion_zone": {
+            "chunk_count": 7,
+            "other_set": "minecraft:villages"
+        },
+        "spacing": 20,
+        "separation": 10,
+        "salt": 1895720816,
+        "spread_type": "triangular"
+    },
+    "structures": [
+        {
+            "structure": "lively:fossils/prehistoric_dark_tree",
+            "weight": 1
+        },
+        {
+            "structure": "lively:fossils/prehistoric_coral_pool",
+            "weight": 1
+        }
+    ]
+}

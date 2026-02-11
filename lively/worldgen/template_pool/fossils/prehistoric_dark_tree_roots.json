@@ -1,0 +1,16 @@
+{
+  "name": "lively:prehistoric_dark_tree_roots",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "lively:fossils/dark_tree2",
+        "element_type": "minecraft:single_pool_element",
+        "override_liquid_settings": "apply_waterlogging",
+        "processors": "lively:fossils/prehistoric_dark_tree",
+        "projection": "rigid"
+      }
+    }
+  ]
+}
