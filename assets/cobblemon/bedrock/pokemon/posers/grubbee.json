@@ -46,6 +46,26 @@
         "q.bedrock('grubbee', 'sleep')"
       ],
       "transformTicks": 10
+    },
+      "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('grubbee', 'shoulder_left')"
+        ],
+      "quirks": [
+        "q.bedrock_quirk('grubbee', 'blink')"
+      ]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('grubbee', 'shoulder_right')"
+    ],
+      "quirks": [
+        "q.bedrock_quirk('grubbee', 'blink')"
+      ]
     }
   }
 }

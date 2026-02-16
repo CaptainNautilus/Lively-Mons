@@ -78,7 +78,7 @@
             "namedAnimations": {
         "cry": "q.bedrock_stateful('dummy', 'cry')"
       }
-    },    
+    },
       "shoulder_left": {
       "poseTypes": ["SHOULDER_LEFT"],
       "animations": [

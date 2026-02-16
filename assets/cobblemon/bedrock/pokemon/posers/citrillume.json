@@ -45,6 +45,28 @@
       "namedAnimations": {
         "cry": "q.bedrock_stateful('dummy', 'cry')"
       }
+    },
+      "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('citrillume', 'shoulder_left')"
+        ],
+      "quirks": [
+        "q.bedrock_quirk('citrillume', 'blink')",
+        "q.bedrock_quirk('citrillume', 'quirk')"
+      ]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('citrillume', 'shoulder_right')"
+    ],
+      "quirks": [
+        "q.bedrock_quirk('citrillume', 'blink')",
+        "q.bedrock_quirk('citrillume', 'quirk')"
+      ]
     }
   }
 }

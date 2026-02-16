@@ -42,6 +42,22 @@
         "animations": ["q.bedrock('keenai', 'sleep')"],
         "quirks": [
         ]
-      }
+      },
+      "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('keenai', 'shoulder_left')"
+        ],
+      "quirks": ["q.bedrock_quirk('keenai', 'blink')"]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('keenai', 'shoulder_right')"
+    ],
+      "quirks": ["q.bedrock_quirk('keenai', 'blink')"]
+    }
     }
   }  

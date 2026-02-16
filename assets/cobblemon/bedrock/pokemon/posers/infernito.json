@@ -54,6 +54,28 @@
             "namedAnimations": {
         "cry": "q.bedrock_stateful('dummy', 'cry')"
       }
+    },
+      "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('infernito', 'shoulder_left')"
+        ],
+      "quirks": [
+        "q.bedrock_quirk('infernito', 'blink')",
+        "q.bedrock_quirk('infernito', 'quirk')"
+      ]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('infernito', 'shoulder_right')"
+    ],
+      "quirks": [
+        "q.bedrock_quirk('infernito', 'blink')",
+        "q.bedrock_quirk('infernito', 'quirk')"
+      ]
     }
   }
 }

@@ -47,6 +47,22 @@
             "namedAnimations": {
         "cry": "q.bedrock_stateful('dummy', 'cry')"
       }
+    },
+      "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('duskarou', 'shoulder_left')"
+        ],
+      "quirks": ["q.bedrock_quirk('duskarou', 'blink')"]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('duskarou', 'shoulder_right')"
+    ],
+      "quirks": ["q.bedrock_quirk('duskarou', 'blink')"]
     }
   }
 }

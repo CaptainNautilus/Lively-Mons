@@ -13,7 +13,7 @@
     "standing": {
       "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
       "animations": [
-        "q.look('torso')",
+        "q.look('torso', 1, 1, 45, -25, 45, -45)",
         "q.bedrock('piochio', 'ground_idle')",
         "q.bedrock('piochio', 'wind_up')"
       ],
@@ -24,7 +24,7 @@
     "walking": {
       "poseTypes": ["WALK"],
       "animations": [
-        "q.look('torso')",
+        "q.look('torso', 1, 1, 45, -25, 45, -45)",
         "q.bedrock('piochio', 'ground_walk')",
         "q.bedrock('piochio', 'wind_down')"
       ],
@@ -38,6 +38,22 @@
             "namedAnimations": {
         "cry": "q.bedrock_stateful('dummy', 'cry')"
       }
+    },
+      "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.look('torso', 1, 1, 45, -25, 45, -45)",
+        "q.bedrock('piochio', 'shoulder_left')"
+        ],
+      "quirks": []
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('torso', 1, 1, 45, -25, 45, -45)",
+        "q.bedrock('piochio', 'shoulder_right')"
+    ],
+      "quirks": []
     }
   }
 }

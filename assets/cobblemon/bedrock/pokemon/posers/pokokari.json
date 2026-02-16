@@ -30,6 +30,26 @@
       "sleep": {
         "poseTypes": ["SLEEP"],
         "animations": ["q.bedrock('pokokari', 'sleep')"]
-      }
+      },
+      "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('pokokari', 'shoulder_left')"
+        ],
+      "quirks": [
+        "q.bedrock_quirk('pokokari', 'blink')"
+      ]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('pokokari', 'shoulder_right')"
+    ],
+      "quirks": [
+        "q.bedrock_quirk('pokokari', 'blink')"
+      ]
+    }
     }
   }  

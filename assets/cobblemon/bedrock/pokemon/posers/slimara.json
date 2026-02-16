@@ -58,6 +58,22 @@
         "q.bedrock('slimara', 'sleep')"
       ],
       "transformTicks": 10
+    },
+      "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.look('head_ai', 1, 1, 45, -45, 25, -25)",
+        "q.bedrock('slimara', 'shoulder_left')"
+        ],
+      "quirks": ["q.bedrock_quirk('slimara', 'blink')"]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('head_ai', 1, 1, 45, -45, 25, -25)",
+        "q.bedrock('slimara', 'shoulder_right')"
+    ],
+      "quirks": ["q.bedrock_quirk('slimara', 'blink')"]
     }
   }
 }
