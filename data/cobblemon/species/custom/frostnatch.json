@@ -43,7 +43,7 @@
   "catchRate": 255,
   "eggCycles": 15,
   "baseFriendship": 50,
-  "shoulderMountable": false,
+    "shoulderMountable": true,
   "baseScale": 0.95,
 "hitbox": {
   "width": 0.4,

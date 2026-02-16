@@ -12,7 +12,7 @@
 "forms": [
   { "name": "normal" }
 ],
-"shoulderMountable": false,
+    "shoulderMountable": true,
 
 "primaryType": "dark",
   "secondaryType": "flying",

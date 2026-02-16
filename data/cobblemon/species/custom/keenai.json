@@ -9,7 +9,7 @@
 "height": 3,
 "weight": 42,
 
-"shoulderMountable": false,
+    "shoulderMountable": true,
 
 "primaryType": "steel",
   "secondaryType": "fighting",

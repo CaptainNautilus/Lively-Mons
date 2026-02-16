@@ -11,6 +11,7 @@
   
   "primaryType": "fairy",
   "secondaryType":"ghost",
+    "shoulderMountable": true,
   "baseStats": {
     "hp": 43,
     "attack": 30,
