@@ -55,7 +55,6 @@
       "67:hurricane",
       "egg:foresight",
       "egg:freezedry",
-      "egg:futuresight",
       "egg:refresh",
       "egg:tickle",  
       "tm:thief",
@@ -141,7 +140,8 @@
       "tm:calmmind",
       "tm:gravity",
       "tm:trickroom",
-      "tm:wonderroom"
+      "tm:wonderroom",
+      "tm:futuresight"
       ],
       "abilities": [
         "undertow",
