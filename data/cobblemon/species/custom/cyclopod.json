@@ -141,7 +141,20 @@
       "tm:gravity",
       "tm:trickroom",
       "tm:wonderroom",
-      "tm:futuresight"
+      "tm:futuresight",
+      "tm:psyshock",
+      "tm:storedpower",
+      "tm:surf",
+      "tm:whirlpool",
+      "tm:dive",
+      "tm:hydropump",
+      "tm:raindance",
+      "tm:waterpulse",
+      "tm:brine",
+      "tm:razorshell",
+      "tm:liquidation",
+      "tm:flipturn",
+      "tm:chillingwater"
       ],
       "abilities": [
         "undertow",

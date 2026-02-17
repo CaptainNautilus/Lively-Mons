@@ -188,7 +188,21 @@
       "tm:terablast",
       "tm:agility",
       "tm:rest",
-      "tm:zenheadbutt"
+      "tm:zenheadbutt",
+      "tm:psychicfangs",
+      "tm:irontail",
+      "tm:flashcannon",
+      "tm:ironhead",
+      "tm:surf",
+      "tm:waterfall",
+      "tm:dive",
+      "tm:hydropump",
+      "tm:raindance",
+      "tm:waterpulse",
+      "tm:aquatail",
+      "tm:scald",
+      "tm:liquidation",
+      "tm:flipturn"
     ],
     "pokedex": [
       "cobblemon.species.shiboom.desc1"
