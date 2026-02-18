@@ -16,10 +16,10 @@
   "baseStats": {
     "hp": 83,
     "attack": 117,
-    "defence": 94,
+    "defence": 81,
     "special_attack": 65,
-    "special_defence": 81,
-    "speed": 105
+    "special_defence": 94,
+    "speed": 90
   },
   "catchRate": 25,
   "maleRatio": 0.5,
@@ -50,7 +50,7 @@
     "43:gunkshot",
     "48:dragondance",
     "55:wavecrash",
-    "60:headsmash",
+    "60:rockwrecker",
     "egg:memento",
     "egg:destinybond",
     "egg:boneclub",
