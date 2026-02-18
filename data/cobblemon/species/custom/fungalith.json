@@ -6,7 +6,7 @@
   "secondaryType": "grass",
   "labels": [ "custom" ],
   "abilities": [
-    "wonderskin",
+    "sandspit",
     "sandforce",
     "h:gooey"
   ],
@@ -32,7 +32,7 @@
     "defence": 108,
     "special_attack": 68,
     "special_defence": 52,
-    "speed": 52
+    "speed": 42
   },
   "catchRate": 25,
   "maleRatio": 0.5,
@@ -271,15 +271,15 @@
     "tm:smackdown",
     "tm:gyroball",
     "tm:ironhead",
+    "tm:irondefense",
     "tm:heavyslam",
     "tm:surf",
     "tm:raindance",
     "tm:muddywater",
-    "tm:waterpulse",
     "tm:scald",
-    "tm:liquidation",
     "egg:stunspore",
     "egg:poisonpowder",
+    "egg:sleeppowder",
     "egg:rollout",
     "egg:growth",
     "egg:sludge",
