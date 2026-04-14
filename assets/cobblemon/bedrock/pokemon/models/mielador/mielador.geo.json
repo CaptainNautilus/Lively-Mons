@@ -902,7 +902,7 @@
 				},
 				{
 					"name": "locator_top",
-					"parent": "locator_root",
+					"parent": "mielador",
 					"pivot": [0, 33.5, -3.5],
 					"locators": {
 						"top": [0, 33.5, -3.5]
