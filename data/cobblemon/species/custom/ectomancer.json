@@ -14,10 +14,10 @@
   "secondaryType":"ghost",
   "baseStats": {
     "hp": 105,
-    "attack": 70,
+    "attack": 80,
     "defence": 70,
     "special_attack": 110,
-    "special_defence": 140,
+    "special_defence": 130,
     "speed": 45
   },
   "catchRate": 45,
