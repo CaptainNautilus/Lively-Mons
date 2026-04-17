@@ -13,8 +13,8 @@
   "primaryType": "fairy",
   "secondaryType":"ghost",
   "baseStats": {
-    "hp": 115,
-    "attack": 60,
+    "hp": 105,
+    "attack": 70,
     "defence": 70,
     "special_attack": 110,
     "special_defence": 140,
@@ -106,7 +106,6 @@
     "tm:magicroom",
     "tm:mistyterrain",
     "tm:mudshot",
-    "tm:mysticalfire",
     "tm:nastyplot",
     "tm:ominouswind",
     "tm:phantomforce",
