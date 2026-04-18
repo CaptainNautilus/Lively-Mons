@@ -37,8 +37,7 @@
     "fairy"
   ],
   "abilities": [
-    "grassysurge",
-    "h:grassysurge"
+    "grassysurge"
   ],
   "baseStats": {
     "hp": 60,
@@ -80,144 +79,113 @@
   "moves": [
     "1:babydolleyes",
     "1:followme",
-    "1:hyperfang",
-    "1:megadrain",
+    "1:absorb",
+    "1:sunnyday",
     "4:quickattack",
     "6:endeavor",
-    "9:quiverdance",
-    "13:grassyglide",
-    "17:strengthsap",
-    "19:syrupbomb",
-    "21:leechseed",
+    "9:growth",
+    "13:naturalgift",
+    "17:syrupbomb",
+    "19:leechseed",
+    "21:headbutt",
     "25:gigadrain",
-    "29:pollenpuff",
-    "33:synthesis",
+    "29:hyperfang",
+    "33:strengthsap",
     "37:superfang",
-    "41:energyball",
-    "45:leafstorm",
-    "49:powerwhip",
-    "55:chloroblast",
-
-    "egg:babydolleyes",
+    "41:seedbomb",
+    "45:stuffcheeks",
+    "49:solarbeam",
+    "55:ragepowder",
+    "60:victorydance",
     "egg:bestow",
     "egg:bite",
-    "egg:worryseed",
-    "egg:covet",
     "egg:defensecurl",
-    "egg:faketears",
     "egg:flail",
     "egg:flatter",
-    "egg:followme",
     "egg:sleeppowder",
-    "egg:rollout",
     "egg:tailwhip",
-
+    "egg:shellsmash",
+    "tm:acidspray",
     "tm:aerialace",
-    "tm:helpinghand",
     "tm:agility",
-    "tm:alluringvoice",
+    "tm:amnesia",
+    "tm:attract",
     "tm:babydolleyes",
-    "tm:worryseed",
-    "tm:leafblade",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:bulletseed",
     "tm:charm",
+    "tm:confide",
     "tm:covet",
-    "tm:cut",
+    "tm:crunch",
+    "tm:curse",
     "tm:dig",
-    "tm:echoedvoice",
-    "tm:aromatherapy",
-    "tm:grassyterrain",
-    "tm:gigadrain",
-    "tm:stunspore",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:embargo",
     "tm:encore",
     "tm:endeavor",
-    "tm:ingrain",
+    "tm:energyball",
     "tm:facade",
     "tm:faketears",
-    "tm:flash",
     "tm:fling",
+    "tm:foulplay",
+    "tm:gastroacid",
+    "tm:gigadrain",
     "tm:gigaimpact",
     "tm:grassknot",
-    "tm:gunkshot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:gyroball",
     "tm:headbutt",
     "tm:helpinghand",
     "tm:hyperbeam",
-    "tm:irontail",
-    "tm:laserfocus",
+    "tm:infestation",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:lastresort",
     "tm:leafstorm",
-    "tm:lightscreen",
-    "tm:reflect",
-    "tm:mudshot",
-    "tm:mudslap",
-    "tm:playrough",
+    "tm:lowkick",
+    "tm:magicalleaf",
+    "tm:metronome",
+    "tm:nastyplot",
+    "tm:naturepower",
+    "tm:pinmissile",
+    "tm:pollenpuff",
+    "tm:pounce",
     "tm:protect",
     "tm:raindance",
+    "tm:recycle",
     "tm:rest",
-    "tm:grasswhistle",
-    "tm:rollout",
+    "tm:round",
+    "tm:safeguard",
+    "tm:secretpower",
     "tm:seedbomb",
-    "tm:woodhammer",
+    "tm:skittersmack",
     "tm:sleeptalk",
+    "tm:snore",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:stompingtantrum",
     "tm:substitute",
     "tm:sunnyday",
     "tm:superfang",
-    "tm:leechseed",
-    "tm:takedown",
-    "tm:terablast",
-    "tm:thief",
-    "tm:solarblade",
-    "tm:petalblizzard",
-    "tm:magicalleaf",
-    "tm:solarbeam",
+    "tm:swagger",
+    "tm:swift",
+    "tm:swordsdance",
     "tm:synthesis",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:terrainpulse",
+    "tm:thief",
+    "tm:toxicspikes",
     "tm:trailblaze",
-    "tm:uproar",
     "tm:uturn",
-    "tm:petaldance",
-    "tm:crunch",
-
-    "tutor:aerialace",
-    "tutor:babydolleyes",
-    "tutor:leafblade",
-    "tutor:covet",
-    "tutor:stunspore",
-    "tutor:endeavor",
-    "tutor:gigaimpact",
-    "tutor:gunkshot",
-    "tutor:helpinghand",
-    "tutor:hyperbeam",
-    "tutor:irontail",
-    "tutor:laserfocus",
-    "tutor:leafstorm",
-    "tutor:reflect",
-    "tutor:mudslap",
-    "tutor:playrough",
-    "tutor:rest",
-    "tutor:grasswhistle",
-    "tutor:rollout",
-    "tutor:seedbomb",
-    "tutor:woodhammer",
-    "tutor:sleeptalk",
-    "tutor:superfang",
-    "tutor:leechseed",
-    "tutor:petalblizzard",
-    "tutor:magicalleaf",
-    "tutor:solarbeam",
-    "tutor:uproar",
-    "tutor:crunch",
-
-    "legacy:attract",
-    "legacy:captivate",
-    "legacy:confide",
-    "legacy:doubleteam",
-    "legacy:frustration",
-    "legacy:hiddenpower",
-    "legacy:naturalgift",
-    "legacy:return",
-    "legacy:round",
-    "legacy:secretpower",
-    "legacy:snore",
-    "legacy:swagger",
-    "legacy:toxic"
+    "tm:weatherball",
+    "tm:workup",
+    "tm:worryseed",
+    "tm:zenheadbutt"
   ],
   "evolutions": [],
   "behaviour": {
@@ -245,8 +213,7 @@
     "johtonian"
   ],
   "abilities": [
-    "unaware",
-    "h:unaware"
+    "unaware"
   ],
   "baseStats": {
     "hp": 60,
@@ -275,8 +242,7 @@
     "hoennian"
   ],
   "abilities": [
-    "defiant",
-    "h:defiant"
+    "moody"
   ],
   "baseStats": {
     "hp": 60,
@@ -305,8 +271,7 @@
     "sinnohan"
   ],
   "abilities": [
-    "sturdy",
-    "h:sturdy"
+    "sturdy"
   ],
   "baseStats": {
     "hp": 60,
@@ -335,8 +300,7 @@
     "unovan"
   ],
   "abilities": [
-    "prankster",
-    "h:prankster"
+    "quickdraw"
   ],
   "baseStats": {
     "hp": 60,
@@ -365,8 +329,7 @@
     "kalosian"
   ],
   "abilities": [
-    "contrary",
-    "h:contrary"
+    "contrary"
   ],
   "baseStats": {
     "hp": 60,
@@ -395,8 +358,7 @@
     "alolan"
   ],
   "abilities": [
-    "hugepower",
-    "h:hugepower"
+    "drought"
   ],
   "baseStats": {
     "hp": 60,
@@ -425,8 +387,7 @@
     "galarian"
   ],
   "abilities": [
-    "noguard",
-    "h:noguard"
+    "powerspot"
   ],
   "baseStats": {
     "hp": 60,
@@ -455,8 +416,7 @@
     "hisuian"
   ],
   "abilities": [
-    "intimidate",
-    "h:intimidate"
+    "intimidate"
   ],
   "baseStats": {
     "hp": 60,
@@ -485,8 +445,7 @@
     "paldean"
   ],
   "abilities": [
-    "friendguard",
-    "h:friendguard"
+    "friendguard"
   ],
   "baseStats": {
     "hp": 60,
@@ -515,8 +474,7 @@
     "sanrosan"
   ],
   "abilities": [
-    "roughskin",
-    "h:roughskin"
+    "roughskin"
   ],
   "baseStats": {
     "hp": 60,
@@ -545,8 +503,7 @@
     "lumoran"
   ],
   "abilities": [
-    "starlight",
-    "h:starlight"
+    "starlight"
   ],
   "baseStats": {
     "hp": 60,
@@ -575,8 +532,7 @@
     "lush"
   ],
   "abilities": [
-    "magicguard",
-    "h:magicguard"
+    "magicguard"
   ],
   "baseStats": {
     "hp": 60,
@@ -605,8 +561,7 @@
     "alatian"
   ],
   "abilities": [
-    "simple",
-    "h:simple"
+    "simple"
   ],
   "baseStats": {
     "hp": 60,
@@ -635,8 +590,7 @@
     "jetian"
   ],
   "abilities": [
-    "neutralizinggas",
-    "h:neutralizinggas"
+    "neutralizinggas"
   ],
   "baseStats": {
     "hp": 60,
