@@ -1,0 +1,99 @@
+{
+  "nationalPokedexNumber": 12,
+  "name": "Catertiller",
+  "primaryType": "bug",
+  "maleRatio": 0.5,
+  "height": 4,
+  "weight": 80,
+  "pokedex": [
+     "cobblemon.species.catertiller.desc1"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "abilities": [
+    "honeygather",
+    "h:shielddust"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 25,
+    "attack": 25,
+    "defence": 40,
+    "special_attack": 20,
+    "special_defence": 30,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 36,
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:wheat_seeds",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:grassy_seed",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:rindo_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+
+  ],
+  "evolutions": [
+    {
+      "id": "catertiller_chivalrough",
+      "variant": "level_up",
+      "result": "chivalrough",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 10
+        }
+      ]
+    }
+  ],
+  "behaviour": {
+    "resting": {
+      "times": [
+        "day"
+      ],
+      "willSleepOnBed": true,
+      "drowsyChance": 0.0033,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      }
+    }
+  }
+}
