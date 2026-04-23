@@ -16,16 +16,16 @@
   "aspects": [],
   "abilities": [
     "aerilate",
-    "shellarmor",
-    "h:liquidvoice"
+    "regenerator",
+    "h:dancer"
   ],
   "eggGroups": [
     "dragon",
     "monster"
   ],
   "baseStats": {
-    "hp": 95,
-    "attack": 85,
+    "hp": 85,
+    "attack": 95,
     "defence": 130,
     "special_attack": 60,
     "special_defence": 85,
