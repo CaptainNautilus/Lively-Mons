@@ -111,7 +111,7 @@
       "egg:spark",
       "egg:roost",
       "egg:nuzzle",
-      "egg:vaccuumwave",
+      "egg:vacuumwave",
       "egg:detect",      
 
       "tm:electroball",
