@@ -61,6 +61,7 @@
     "egg:spitup",
     "egg:swallow",
     "egg:wringout",
+    "egg:hypnosis",
     "tm:acidspray",
     "tm:alluringvoice",
     "tm:allyswitch",
