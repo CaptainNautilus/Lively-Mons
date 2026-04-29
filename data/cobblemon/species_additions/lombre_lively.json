@@ -6,7 +6,7 @@
         "variant": "item_interact",
         "result": "ludikappa",
         "consumeHeldItem": false,
-        "learnableMoves": [],
+        "learnableMoves": ["partingshot", "sweetscent"],
         "requirements": [],
         "requiredContext": "cobblemon:leaf_stone"
       }
