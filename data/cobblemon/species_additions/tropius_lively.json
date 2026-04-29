@@ -6,18 +6,19 @@
         "name": "Sanrosa",
         "primaryType": "grass",
         "abilities": [
-          "filter",
-          "h:grassysurge"
+          "unaware",
+          "hustle",
+          "h:harvest"
         ],
         
         "labels": [ "custom" ],
         "baseStats": {
           "hp": 140,
-          "attack": 75,
-          "defence": 110,
+          "attack": 95,
+          "defence": 90,
           "special_attack": 40,
-          "special_defence": 90,
-          "speed": 5
+          "special_defence": 80,
+          "speed": 15
         },
         "behaviour": {
     "herd": {
@@ -243,7 +244,7 @@
     "36:woodhammer",
     "41:bodyslam",
     "46:outrage",
-    "50:synthesis",
+    "50:strengthsap",
     "56:solarblade",
 
     "egg:curse",
@@ -253,7 +254,7 @@
     "egg:leafblade",
     "egg:leechseed",
     "egg:naturalgift",
-    "egg:highhorsepower",
+    "egg:rototiller",
     "egg:slam",
     "tm:brickbreak",
     "tm:earthpower",
@@ -266,7 +267,6 @@
     "tm:calmmind",
     "tm:curse",
     "tm:cut",
-    "tm:strengthsap",
     "tm:doubleedge",
     "tm:dragondance",
     "tm:dragonpulse",
@@ -317,12 +317,19 @@
     "tm:uturn",
     "tm:worryseed",
     "tm:zenheadbutt",
-
-    "tutor:brickbreak",
-    "tutor:earthpower",
+    "tm:highhorsepower",
+    "tm:breakingswipe",
+    "tm:grassyglide",
+    "tm:heavyslam",
+    "tm:powerwhip",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:stoneedge",
+    "tm:superpower",
+    "tm:spikes",
+    "tm:ironhead",
     "tutor:bulldoze",
     "tutor:calmmind",
-    "tutor:strengthsap",
     "tutor:dragonpulse",
     "tutor:energyball",
     "tutor:furycutter",
@@ -344,6 +351,7 @@
     "tutor:twister",
     "tutor:worryseed",
     "tutor:zenheadbutt",
+    
     
     "legacy:attract",
     "legacy:captivate",
