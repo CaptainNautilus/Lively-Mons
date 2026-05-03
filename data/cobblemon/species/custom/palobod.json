@@ -14,11 +14,11 @@
     "preEvolution":"sandygast sanrosan",
     "baseStats": {
     "hp": 95,
-    "attack": 60,
+    "attack": 55,
     "defence": 145,
     "special_attack": 75,
-    "special_defence": 70,
-    "speed": 35
+    "special_defence": 65,
+    "speed": 45
     },
     "catchRate": 60,
     "maleRatio": 0.5,
