@@ -6,7 +6,7 @@
     "secondaryType": "ghost",
     "abilities": [
       "technician",
-      "soundproof",
+      "acoustics",
       "h:weakarmor"
     ],
     "baseStats": {

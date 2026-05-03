@@ -167,7 +167,7 @@
     "variant": "level_up",
     "result": "xenoster",
     "consumeHeldItem": false,
-    "learnableMoves": ["cosmicpower"],
+    "learnableMoves": ["cosmicpower", "crashlanding"],
     "requirements": [
       {
         "variant": "level",

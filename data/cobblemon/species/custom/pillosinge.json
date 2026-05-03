@@ -6,7 +6,7 @@
     "secondaryType":"ice",
     "abilities": [
       "blaze",
-      "h:fluffy"
+      "h:forestsguardian"
     ],
     "preEvolution":"infernito",
     "baseStats": {
@@ -221,7 +221,7 @@
         "variant": "level_up",
         "result": "slacho",
         "consumeHeldItem": false,
-        "learnableMoves": ["iceburn"],
+        "learnableMoves": ["hypothermicshock"],
         "requirements": [
           {
             "variant": "level",

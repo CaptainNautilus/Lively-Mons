@@ -6,7 +6,7 @@
     "secondaryType":"rock",
     "abilities": [
       "torrent",
-      "h:rockypayload"
+      "h:tacticalstrike"
     ],
     "preEvolution":"vasaddle",
     "baseStats": {

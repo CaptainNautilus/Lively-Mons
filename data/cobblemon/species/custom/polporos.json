@@ -6,7 +6,7 @@
     "secondaryType": "water",
     "abilities": [
       "stakeout",
-      "noguard",
+      "swiftswim",
       "h:regenerator"
     ],
     "baseStats": {
@@ -219,7 +219,7 @@
         "variant": "level_up",
         "result": "spinarift",
         "consumeHeldItem": false,
-        "learnableMoves": [],
+        "learnableMoves": ["downpour"],
         "requirements": [
           {
             "variant": "level",

@@ -6,7 +6,7 @@
     "secondaryType": "electric",
     "abilities": [
       "overgrow",
-      "h:speedboost"
+      "h:windturbine"
     ],
     "preEvolution":"citrillume",
     "baseStats": {
@@ -200,7 +200,7 @@
         "variant": "level_up",
         "result": "citrisaurid",
         "consumeHeldItem": false,
-        "learnableMoves": ["thunderclap"],
+        "learnableMoves": ["jetstreamlively"],
         "requirements": [
           {
             "variant": "level",

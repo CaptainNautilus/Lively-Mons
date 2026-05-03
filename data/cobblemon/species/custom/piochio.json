@@ -256,7 +256,7 @@
         "variant": "level_up",
         "result": "thunkoo",
         "consumeHeldItem": false,
-        "learnableMoves": [],
+        "learnableMoves": ["wakeupcall"],
         "requirements": [
           {
             "variant": "level",

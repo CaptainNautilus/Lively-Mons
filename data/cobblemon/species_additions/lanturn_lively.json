@@ -6,7 +6,7 @@
       "variant": "level_up",
       "result": "anglerine",
       "consumeHeldItem": false,
-      "learnableMoves": [],
+      "learnableMoves": ["lightninglure"],
       "requirements": [
         {
           "variant": "level",

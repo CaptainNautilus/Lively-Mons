@@ -13,10 +13,10 @@
     "baseStats": {
       "hp": 71,
       "attack": 70,
-      "defence": 59,
+      "defence": 69,
       "special_attack": 121,
       "special_defence": 118,
-      "speed": 82
+      "speed": 72
     },
     "catchRate": 45,
     "maleRatio": 0.875,
@@ -391,6 +391,7 @@
       "tm:irondefense",
       "tm:ironhead",
       "tm:surf",
+      "tm:scald",
       "tm:waterfall",
       "tm:whirlpool",
       "tm:dive",
@@ -402,7 +403,8 @@
       "tm:razorshell",
       "tm:liquidation",
       "tm:flipturn",
-      "tm:chillingwater"
+      "tm:chillingwater",
+      "tm:flamethrower"
     ],
     "labels": [
       "custom"

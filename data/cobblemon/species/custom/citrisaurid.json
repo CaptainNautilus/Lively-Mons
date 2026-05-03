@@ -6,7 +6,7 @@
     "secondaryType": "electric",
     "abilities": [
       "overgrow",
-      "h:speedboost"
+      "h:windturbine"
     ],
     "preEvolution":"limonzal",
     "baseStats": {

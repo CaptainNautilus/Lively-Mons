@@ -17,12 +17,12 @@
 "primaryType": "electric",
   "secondaryType": "water",
   "baseStats": {
-    "hp": 125,
-    "attack": 60,
-    "defence": 110,
-    "special_attack": 125,
-    "special_defence": 95,
-    "speed": 35
+    "hp": 135,
+    "attack": 68,
+    "defence": 83,
+    "special_attack": 116,
+    "special_defence": 91,
+    "speed": 47
   },
   "catchRate": 25,
   "maleRatio": 0.5,

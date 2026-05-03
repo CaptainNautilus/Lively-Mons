@@ -5,7 +5,7 @@
     "primaryType": "fire",
     "abilities": [
       "blaze",
-      "h:fluffy"
+      "h:forestsguardian"
     ],
     "baseStats": {
       "hp": 40,

@@ -183,7 +183,7 @@
         "variant": "level_up",
         "result": "pungudua",
         "consumeHeldItem": false,
-        "learnableMoves": [],
+        "learnableMoves": ["oxidizingagent"],
         "requirements": [
           {
             "variant": "level",

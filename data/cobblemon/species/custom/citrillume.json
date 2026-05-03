@@ -6,7 +6,7 @@
     "secondaryType": "flying",
     "abilities": [
       "overgrow",
-      "h:speedboost"
+      "h:windturbine"
     ],
     "baseStats": {
       "hp": 53,

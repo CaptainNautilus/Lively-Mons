@@ -164,7 +164,7 @@
     "variant": "level_up",
     "result": "sajonin",
     "consumeHeldItem": false,
-    "learnableMoves": [],
+    "learnableMoves": ["knifestorm"],
     "requirements": [
       {
         "variant": "level",
