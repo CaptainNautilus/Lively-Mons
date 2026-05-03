@@ -220,7 +220,7 @@
         "result": "stagrion",
         "consumeHeldItem": false,
         "learnableMoves": [
-         "shadowclaw"
+         "shadowclaw", "extremespeed"
         ],
         "requirements": [
           {
