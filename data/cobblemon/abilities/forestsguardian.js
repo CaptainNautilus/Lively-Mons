@@ -7,5 +7,5 @@
     },
     name: "Forest's Guardian",
     flags: { breakable: 1 },
-    rating: 0,
+    rating: 0
 }

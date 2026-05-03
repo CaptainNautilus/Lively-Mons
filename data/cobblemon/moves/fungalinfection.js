@@ -13,5 +13,5 @@
     },
 	target: "normal",
 	type: "Grass",
-	contestType: "Tough",
+	contestType: "Tough"
 }

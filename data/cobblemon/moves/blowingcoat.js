@@ -15,5 +15,5 @@
     },
     target: "allAdjacentFoes",
 	type: "Ground",
-	contestType: "Cute",
+	contestType: "Cute"
 }
