@@ -9,6 +9,6 @@
 	flags: {protect: 1, mirror: 1, metronome: 1, noparentalbond: 1, bullet: 1},
 	multihit: 2,
 	target: "normal",
-	type: "Ground",
+	type: "Rock",
 	contestType: "Clever",
 }
