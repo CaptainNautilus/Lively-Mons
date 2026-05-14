@@ -296,7 +296,7 @@
         "variant": "level_up",
         "result": "levilord",
         "consumeHeldItem": false,
-        "learnableMoves": [],
+        "learnableMoves": ["aeroblast"],
         "requirements": [
           {
             "variant": "level",
