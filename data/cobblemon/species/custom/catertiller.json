@@ -64,7 +64,20 @@
     ]
   },
   "moves": [
-
+  "1:tackle",
+  "1:sweetscent",
+  "1:stringshot",
+  "5:bugbite",
+  "12:faketears",
+  "16:playrough",
+  "tm:strugglebug",
+  "tm:pounce",
+  "tm:terablast",
+  "tm:bugbite",
+  "tm:infestation",
+  "tm:playrough",
+  "egg:powder",
+  "egg:stickyweb"
   ],
   "evolutions": [
     {
@@ -72,7 +85,7 @@
       "variant": "level_up",
       "result": "chivalrough",
       "consumeHeldItem": false,
-      "learnableMoves": [],
+      "learnableMoves": ["irondefense"],
       "requirements": [
         {
           "variant": "level",

@@ -64,7 +64,20 @@
     ]
   },
   "moves": [
-
+    "1:protect",
+    "1:tackle",
+    "1:sweetscent",
+    "1:stringshot",
+    "tm:strugglebug",
+    "tm:pounce",
+    "tm:terablast",
+    "tm:bugbite",
+    "tm:infestation",
+    "tm:playrough",
+    "tm:irondefense",
+    "tm:protect",
+    "egg:powder",
+    "egg:stickyweb"
   ],
   "preEvolution": "catertiller",
   "evolutions": [
