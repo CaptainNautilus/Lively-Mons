@@ -81,11 +81,15 @@
     }
   },
   "drops": {
-    "amount": 3,
+    "amount": 4,
     "entries": [
       {
         "item": "minecraft:beef",
         "quantityRange": "1-2"
+      },
+      {
+        "item": "minecraft:peony",
+        "quantityRange": "0-1"
       },
       {
         "item": "cobblemon:pecha_berry",

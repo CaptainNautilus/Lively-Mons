@@ -48,6 +48,32 @@
     "fixed": false,
     "width": 1.65
   },
+"riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "30-40",
+          "JUMP": "5-15",
+          "SKILL": "10-20",
+          "SPEED": "20-35",
+          "STAMINA": "70-100"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      },
+      {
+        "locator": "seat_2"
+      },
+      {
+        "locator": "seat_3"
+      }
+    ]
+  },
   "behaviour": {
     "combat": {
       "willDefendOwner": true
@@ -77,11 +103,15 @@
     }
   },
   "drops": {
-    "amount": 4,
+    "amount": 6,
     "entries": [
       {
         "item": "minecraft:beef",
         "quantityRange": "1-3"
+      },
+      {
+        "item": "minecraft:peony",
+        "quantityRange": "1-2"
       },
       {
         "item": "cobblemon:pecha_berry",
