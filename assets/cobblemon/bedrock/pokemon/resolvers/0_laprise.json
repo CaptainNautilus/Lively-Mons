@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:laprise",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:laprise",
+        "model": "cobblemon:laprise.geo",
+        "texture": "cobblemon:textures/pokemon/laprise/laprise.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/laprise/laprise_shiny.png"
+      }
+    ]
+  }

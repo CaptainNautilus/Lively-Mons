@@ -1,0 +1,65 @@
+{
+      "portraitScale": 2.9,
+      "portraitTranslation": [-0.35, -0.5, 0],
+      "profileScale": 1,
+      "profileTranslation": [0, 0.325, 0],
+  "rootBone": "sugareign",
+  "animations": {
+    "faint": "q.bedrock_primary('sugareign', 'faint_female', q.curve('one'))",
+    "cry": "q.bedrock_stateful('sugareign', 'cry')",
+    "recoil": "q.bedrock_stateful('sugareign', 'female_recoil')",
+    "status": "q.bedrock_primary('sugareign', 'female_battle_cry', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+        "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.pitch_tilt('body')", 
+        "q.look('head')",
+        "q.bedrock('sugareign', 'battle_idle_female')"],
+      "quirks": [
+        "q.bedrock_quirk('sugareign', 'blink')"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('sugareign', 'female_battle_cry')"
+      }
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "HOVER"],
+      "isBattle": false,
+      "animations": ["q.pitch_tilt('body')", 
+        "q.look('head')",
+        "q.bedrock('sugareign', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('sugareign', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "FLY"],
+      "animations": ["q.pitch_tilt('body')", 
+        "q.look('head')",
+        "q.bedrock('sugareign', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('sugareign', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+       "condition": "!q.is_flying",
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+      "animations": ["q.bedrock('sugareign', 'sleep')"]
+    },
+    "air-sleep": {
+      "poseTypes": ["SLEEP"],
+       "condition": "q.is_flying",
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+      "animations": ["q.bedrock('sugareign', 'air_sleep')"]
+    }
+  }
+}

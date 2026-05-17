@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:sugareign",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": ["female"],
+      "poser": "cobblemon:sugareign_female",
+      "model": "cobblemon:sugareign_female.geo",
+      "texture": "cobblemon:textures/pokemon/sugareign/sugareign_female.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/sugareign/sugareign_female_shiny.png"
+    }
+  ]
+}

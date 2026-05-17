@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:lactarine",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:lactarine",
+        "model": "cobblemon:lactarine.geo",
+        "texture": "cobblemon:textures/pokemon/lactarine/lactarine.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/lactarine/lactarine_shiny.png"
+      }
+    ]
+  }

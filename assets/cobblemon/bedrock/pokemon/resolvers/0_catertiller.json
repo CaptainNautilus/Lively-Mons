@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:catertiller",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:catertiller",
+        "model": "cobblemon:catertiller.geo",
+        "texture": "cobblemon:textures/pokemon/catertiller/catertiller.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/catertiller/catertiller_shiny.png"
+      }
+    ]
+  }
