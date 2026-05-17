@@ -64,6 +64,8 @@
     ]
   },
   "moves": [
+    "1:bugbite",
+    "1:irondefense",
     "1:protect",
     "1:tackle",
     "1:sweetscent",
@@ -82,9 +84,9 @@
   "preEvolution": "catertiller",
   "evolutions": [
     {
-      "id": "chivalrough_nectarch",
+      "id": "chivalrough_sugareign",
       "variant": "level_up",
-      "result": "nectarch",
+      "result": "sugareign",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

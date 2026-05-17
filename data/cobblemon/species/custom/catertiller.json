@@ -85,7 +85,9 @@
       "variant": "level_up",
       "result": "chivalrough",
       "consumeHeldItem": false,
-      "learnableMoves": ["irondefense"],
+      "learnableMoves": [
+        "irondefense"
+      ],
       "requirements": [
         {
           "variant": "level",

@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:calfresh",
+    "speciesId": "cobblemon:calfresh",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }

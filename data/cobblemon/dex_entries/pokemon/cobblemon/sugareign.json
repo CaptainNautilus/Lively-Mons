@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:sugareign",
+    "speciesId": "cobblemon:sugareign",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }

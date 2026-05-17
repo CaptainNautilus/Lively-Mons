@@ -108,7 +108,7 @@
     "cobblemon.species.polporos.desc1": "This ancient Pokémon hunted prehistoric Mareanie to protect the coral reefs it lived in. Polporos are very friendly compared to most Pokémon who lived in the distant past.",
 
     "cobblemon.species.spinarift.name": "Spinarift",
-    "cobblemon.species.spinarift.desc1": "This ancient Pokémon got into massive brawls with swarms of prehistoric Toxapex in an effort to protect its nest. Spinarift control the temperatures around its nest to help the growth of coral around it. The coral helps protect the nest from predators.",
+    "cobblemon.species.spinarift.desc1": "This ancient Pokémon got into massive brawls with swarms of prehistoric toxapex in an effort to protect its nest. Spinarift control the temperatures around its nest to help the growth of coral around it. The coral helps protect the nest from predators.",
 
     "cobblemon.species.hollorn.name": "Hollorn",
     "cobblemon.species.hollorn.desc1": "This ancient Pokémon can make a wide variety of sounds using the holes on its horn and body. Because the bodies of Hollorn are entierly made out of bones, Scientists originally thought they made a mistake when resurrecting it.",
@@ -160,8 +160,6 @@
 
     "cobblemon.species.duskarou.name": "Duskarou",
     "cobblemon.species.duskarou.desc1": "Duskarou prance around forests, sucking the dreams from sleeping Pokémon with their teeth. Duskarou and Deerling have a striking resemblance to each other though scientists can find no other connection between the two.",
-
-
     
     "cobblemon.species.stagrion.name": "Stagrion",
     "cobblemon.species.stagrion.desc1": "Stagrion have immense strength, speed, and senses, which they use to hunt down sleeping Pokémon. Some believe that Stagrion is created from the souls of hunted Deerling.",
@@ -172,11 +170,11 @@
     "cobblemon.species.mielador.name": "Mielador",
     "cobblemon.species.mielador.desc1": "With its newfound wings, Mielador take to the skies with an air of laziness, so much laziness that all Mielador refuse to walk, and only get around by flapping their wings. Mielador don't even have to move to get food, eating from the stored honey inside the hive it lives in.",
 
-    "cobblemon.species.sandilelively.desc1": "This form of Sandile can only be found near ancient civilized ruins. Scientists theorize that they still guard the remains of a civilization of warriors which domesticated them, even though their empire has long since fallen.",
+    "cobblemon.species.sandilelively.desc1": "Sanrosan Sandile can commonly be found near ancient ruins. Because of this, historians believe an ancient empire commonly used Sanrosan Sandile. It is believed that all Sandile looked like this at the time of this ancient civilization.",
 
-    "cobblemon.species.krokoroklively.desc1": "The thick skin of Sanrosan Krokorok has a similar strength to steel. They employ gladiatorial tactics in combat, but honorably yield once an ennemy surrenders or falls prone.",
+    "cobblemon.species.krokoroklively.desc1": "The thick skin of Sanrosan Krokorok has a similar strength to steel. Historians believe a powerful ancient empire used this tough skin to help in their vast army.",
 
-    "cobblemon.species.krookodilelively.desc1": "Sanrosan Krookodile's scales shed often, and can then be refined into incredibly sharp and resilient tools. Historians believe that monarchs and warlords of old used these Pokémon as personal bodyguards.",
+    "cobblemon.species.krookodilelively.desc1": "Sanrosan Krookodile's scales can be shed and when they do they can be used to make incredibly sharp tools. Historians believe that Sanrosan Krookodile was a popular Pokémon for high ranking army members of an ancient civilization.",
 
     "cobblemon.species.shucklegalar.desc1": "Sanrosan Shuckle is incredibly different from the more common form seen in most parts of the world. Instead of having a hard shell, its shell is made out of brittle ice but it can extend a massive appendage resembling a cannon that retracts from its shell to fight predators. This cannon shoots delicious sweet ice cream from it, similar to how Johtonian Shuckle's shell produces sweet berry juice from its shell.",
 
@@ -193,10 +191,10 @@
     "cobblemon.species.catertiller.desc1": "Catertiller are very proficient farmers, being able to plant and harvest seeds from even nutrient poor ground. They also have a knack for ranching, taking care of wild Calfresh in return for their sweet nectar. The highest quality food produced by Catertiller go to whomever they perceive as their leader.",
 
     "cobblemon.species.chivalrough.name": "Chivalrough",
-    "cobblemon.species.chivalrough.desc1": "Unlike the frail Catertiller, Chivalrough have a tough shell to protect them from attacks. They use this shell to protect their community from harm. Chivalrough have a virtuous heart, and will fight endlessly to protect the things it loves.",
+    "cobblemon.species.chivalrough.desc1": "If a Catertiller gathers enough nectar, it can use specialized chemicals in its saliva to turn sugar into a tough shell, allowing it to evolve into a Chivalrough. Chivalrough use their sugary shell to protect Catertillers from harm, and will fight endlessly to ensure their safety.",
 
-    "cobblemon.species.nectarch.name": "Nectarch",
-    "cobblemon.species.nectarch.desc1": "Emerging from the tough shell of a Chivalrough, Nectarch are known for their beautiful wings and stunning eyes. It is said that just by looking into a Nectarch's eyes can make you inclined to do its bidding. Nectarch tend to rule over small groups of Catertiller and Chivalrough although there are stories of Nectarch ruling over entire nations of humans. Nectarch love the sweet nectar of Lactarine, and make their subjects collect copius amounts of the sweet substance for them.",
+    "cobblemon.species.sugareign.name": "Sugareign",
+    "cobblemon.species.sugareign.desc1": "It is said that looking into a Sugareign's eyes can make you inclined to do its bidding. Sugareign tend to rule over small groups of Catertiller and Chivalrough although there are stories of some Sugareign ruling over entire nations of humans. Sugareign love the sweet nectar of Lactarine, and make their subjects collect copius amounts of the sweet substance for them.",
 
     "cobblemon.species.calfresh.name": "Calfresh",
     "cobblemon.species.calfresh.desc1": "Calfresh are docile creatures, living a quiet life of grazing and following its herd. If it finds any kind of injured creature, it will attempt to heal it with the sweet nectar produced from the flowers on its head.",
@@ -205,7 +203,7 @@
     "cobblemon.species.lactarine.desc1": "Lactarine live nomadic lives, traveling long distances to find calm pastures and fresh grass. Lactarine are able to produce a sweet nectar from the flowers on its head, which is coveted by all kinds of Nectarch for its healing properties and delectable taste.",
 
     "cobblemon.species.laprise.name": "Laprise",
-    "cobblemon.species.laprise.desc1": "While Laprise holds a close resemblance to the aquatic Pokémon Lapras, it is much more closely related to ancient bird Pokémon like Archen and Archeops. Essentialy a Living Fossil, Laprise has evolved very little for millions of years due to its absolute domination of jungle canopies, leaving it with no natural predators.",
+    "cobblemon.species.laprise.desc1": "While Laprise hold a close resemblance to the aquatic Pokémon Lapras, they are much more closely related to ancient bird Pokémon like Archen and Archeops. Essentialy a Living Fossil, Laprise have evolved very little for millions of years due to their absolute domination of jungle canopies, leaving them with no natural predators.",
 
 
     "cobblemon.species.budabon.name": "Budabon",
@@ -257,71 +255,8 @@
     "cobblemon.ability.magicdrain": "Magic Drain",
     "cobblemon.ability.magicdrain.desc": "This Pokémon's drains the magical power of its foes, lowering their Special Attack every turn.",
 
-    "cobblemon.ability.acoustics": "Acoustics",
-    "cobblemon.ability.acoustics.desc": "Opponents that use sound moves against the Pokémon or its allies fail, and the Pokémon's Sp. Atk is boosted instead.",
-
-    "cobblemon.ability.blowout": "Blowout",
-    "cobblemon.ability.blowout.desc": "If the Pokémon faints due to a Physical attack, it sets up Tailwind on its side of the field.",
-
-    "cobblemon.ability.burningpassion": "Burning Passion",
-    "cobblemon.ability.burningpassion.desc": "The Pokémon's Attack stat is increased for each burned Pokémon on the field.",
-
-    "cobblemon.ability.forestsguardian": "Forest's Guardian",
-    "cobblemon.ability.forestsguardian.desc": "The Pokémon and its allies take half as much damage from multitarget moves.",
-
-    "cobblemon.ability.tacticalstrike": "Tactical Strike",
-    "cobblemon.ability.tacticalstrike.desc": "The power of ball and bomb moves used by the Pokémon is boosted by 50%.",
-
-    "cobblemon.ability.thickskin": "Thick Skin",
-    "cobblemon.ability.thickskin.desc": "Rigid skin gives the Pokémon full immunity to all slicing moves.",
-
-    "cobblemon.ability.windturbine": "Wind Turbine",
-    "cobblemon.ability.windturbine.desc": "Using an attack with priority charges the Pokémon.",
-
-    "cobblemon.move.aerialdance": "Aerial Dance",
-    "cobblemon.move.aerialdance.desc": "Riding the winds, the user attacks the target by dancing and flapping its wings. This may also boost the user's Atk stat.",
-
-    "cobblemon.move.blowingcoat": "Blowing Coat",
-    "cobblemon.move.blowingcoat.desc": "The user attacks by shedding large amounts of dust and lint from its body at opposing Pokémon. This move boosts the user's Speed stat but lowers its Defense stat.",
-    
-    "cobblemon.move.crashlanding": "Crash Landing",
-    "cobblemon.move.crashlanding.desc": "The user crashes its UFO-like body cloaked in mysterious power into the target. This move's power is boosted by 50% if the user is on Psychic Terrain.",
-
-    "cobblemon.move.downpour": "Downpour",
-    "cobblemon.move.downpour.desc": "The user attacks by pelting opposing Pokémon with strong, flowing water from above. When the user knocks out a target with this move, rain is summoned.",
-    
-    "cobblemon.move.fungalinfection": "Fungal Infection",
-    "cobblemon.move.fungalinfection.desc": "The user contaminates the target with its spores. If the targer was suffering from a non-volatile status condition, it is replaced with sleep.",
-
-    "cobblemon.move.huntinghour": "Hunting Hour",
-    "cobblemon.move.huntinghour.desc": "The user coordinates a hunting party to tactically take down prey. This boosts their Special Attack stats. This move usually goes first.",
-
-    "cobblemon.move.hypothermicshock": "Hypothermic Shock",
-    "cobblemon.move.hypothermicshock.desc": "The user flash freezes the target with a mere touch, causing its skin to sear. This may also leave the target with a burn.",
-
-    "cobblemon.move.jetstreamlively": "Jet Stream",
-    "cobblemon.move.jetstreamlively.desc": "The user rides an updraft and swoops down violently at the target. This move usually goes first, and inflicts Attack or Sp. Atk damage—whichever stat is higher for the user.",
-
-    "cobblemon.move.knifestorm": "Knife Storm",
-    "cobblemon.move.knifestorm.desc": "The user attacks by throwing a flurry of razor-sharp feathers at the target. This move hits two to five times in a row.",
-
-    "cobblemon.move.lightninglure": "Lightning Lure",
-    "cobblemon.move.lightninglure.desc": "The user ambushes the target by luring it in using a flashing electrical light. This move usually goes first, and makes the user become the center of attention.",
-
-    "cobblemon.move.mortarshot": "Mortar Shot",
-    "cobblemon.move.mortarshot.desc": "The user attacks twice by lobbing boulders from the cannon on its back. If there are two opposing Pokémon, this move hits each of them once.",
-
-    "cobblemon.move.nuclearbleat": "Nuclear Bleat",
-    "cobblemon.move.nuclearbleat.desc": "The user yells loudly at opposing Pokémon and expels streams of radioactivity from its mouth. This also lowers their Defence stats.",
-
-    "cobblemon.move.oxidizingagent": "Oxidizing Agent",
-    "cobblemon.move.oxidizingagent.desc": "The user corrodes the target with acidic goo. This may also leave the target badly poisoned. This move is super effective on Steel types.",
-
-    "cobblemon.move.wakeupcall": "Wake-Up Call",
-    "cobblemon.move.wakeupcall.desc": "The user's clock malfunctions, making it explode in a time-distorting blast. The user faints upon using this move. This also summons a bizarre area in which slower Pokémon get to move first.",
-    
     "wallpaper.mielador": "Smokey the Bear",
-    "wallpaper.polporos": "Ancient Sunset", 
+    "wallpaper.polporos": "Ancient Sunset",
     "wallpaper.seibat": "Seibat",
 
     "cobblemon.ui.pokedex.info.form.lively": "Sanrosan",

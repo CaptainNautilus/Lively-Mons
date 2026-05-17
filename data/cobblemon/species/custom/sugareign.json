@@ -1,13 +1,13 @@
 {
   "nationalPokedexNumber": 14,
-  "name": "Nectarch",
+  "name": "Sugareign",
   "primaryType": "bug",
   "secondaryType": "fairy",
   "maleRatio": 1,
   "height": 4,
   "weight": 408,
   "pokedex": [
-    "cobblemon.species.nectarch.desc1"
+    "cobblemon.species.sugareign.desc1"
   ],
   "labels": [
     "custom"
@@ -192,9 +192,6 @@
       "maleRatio": 0,
       "height": 4,
       "weight": 408,
-      "pokedex": [
-        "cobblemon.species.nectarch-f.desc"
-      ],
       "labels": [
         "custom"
       ],
