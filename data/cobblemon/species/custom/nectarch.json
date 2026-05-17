@@ -209,14 +209,14 @@
         "hp": 60,
         "attack": 45,
         "defence": 80,
-        "special_attack": 105,
-        "special_defence": 90,
-        "speed": 125
+        "special_attack": 95,
+        "special_defence": 110,
+        "speed": 115
       },
       "moves": [
         "1:lifedew",
-        "1:recover",
-        "1:quiverdance",
+        "1:followme",
+        "1:sleeppowder",
         "1:fairywind",
         "10:bugbite",
         "13:faketears",
