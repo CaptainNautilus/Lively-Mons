@@ -98,6 +98,19 @@
     }
   ],
   "behaviour": {
+    "herd": {
+      "maxSize": "2",
+      "toleratedLeaders": [
+        {
+          "pokemon": "chivalrough",
+          "tier": 1
+        },
+        {
+          "pokemon": "sugareign",
+          "tier": 2
+        }
+      ]
+    },
     "resting": {
       "times": [
         "day"

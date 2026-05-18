@@ -1,11 +1,12 @@
 {
+  "implemented": true,
   "nationalPokedexNumber": 14,
   "name": "Sugareign",
   "primaryType": "bug",
   "secondaryType": "fairy",
   "maleRatio": 1,
-  "height": 4,
-  "weight": 408,
+  "height": 12,
+  "weight": 570,
   "pokedex": [
     "cobblemon.species.sugareign.desc1"
   ],
@@ -33,10 +34,10 @@
   "evYield": {
     "hp": 0,
     "attack": 0,
-    "defence": 0,
+    "defence": 3,
     "special_attack": 0,
     "special_defence": 0,
-    "speed": 3
+    "speed": 0
   },
   "baseExperienceYield": 253,
   "experienceGroup": "medium_fast",
@@ -48,6 +49,36 @@
     "width": 0.7,
     "height": 2.1,
     "fixed": false
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "10",
+      "toleratedLeaders": []
+    },
+    "resting": {
+      "times": [
+        "day"
+      ],
+      "willSleepOnBed": false,
+      "drowsyChance": 0.0033,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      },
+      "fly": {
+        "canFly": true
+      },
+      "walk": {
+        "canWalk": false
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
   },
   "drops": {
     "amount": 4,
@@ -183,8 +214,8 @@
       "primaryType": "bug",
       "secondaryType": "fairy",
       "maleRatio": 0,
-      "height": 4,
-      "weight": 408,
+      "height": 12,
+      "weight": 570,
      "pokedex": [
         "cobblemon.species.sugareign.desc1"
       ],
@@ -318,33 +349,10 @@
         "tm:zenheadbutt",
         "egg:powder",
         "egg:stickyweb"
-      ]
-    }
-  ],
-  "behaviour": {
-    "resting": {
-      "times": [
-        "day"
       ],
-      "willSleepOnBed": false,
-      "drowsyChance": 0.0033,
-      "rouseChance": 0.0042
-    },
-    "moving": {
-      "swim": {
-        "avoidsWater": true
-      },
-      "fly": {
-        "canFly": true
-      },
-      "walk": {
-        "canWalk": false
-      }
-    },
-    "combat": {
-      "willDefendSelf": true,
-      "willDefendOwner": true,
-      "willFlee": false
+      "preEvolution": "chivalrough",
+      "evolutions": [],
+      "battleOnly": false
     }
-  }
+  ]
 }

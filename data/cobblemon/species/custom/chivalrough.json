@@ -94,6 +94,15 @@
     }
   ],
   "behaviour": {
+    "herd": {
+      "maxSize": "7",
+      "toleratedLeaders": [
+        {
+          "pokemon": "chivalrough",
+          "tier": 1
+        }
+      ]
+    },
     "moving": {
       "swim": {
         "avoidsWater": true
