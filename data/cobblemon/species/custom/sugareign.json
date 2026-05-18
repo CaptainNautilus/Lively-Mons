@@ -213,7 +213,7 @@
   "evolutions": [],
   "forms": [
     {
-      "name": "F",
+      "name": "Female",
       "primaryType": "bug",
       "secondaryType": "fairy",
       "maleRatio": 0,
