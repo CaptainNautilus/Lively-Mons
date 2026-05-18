@@ -13,11 +13,11 @@
     "preEvolution":"wickarus",
   "baseStats": {
     "hp": 70,
-    "attack": 95,
+    "attack": 93,
     "defence": 88,
-    "special_attack": 57,
-    "special_defence": 55,
-    "speed": 135
+    "special_attack": 54,
+    "special_defence": 63,
+    "speed": 132
   },
   "behaviour": {
       "moving": {
@@ -69,7 +69,7 @@
   },
   "moves": [
     "1:flamecharge",
-    "1:fierydance",
+    "1:conflagration",
     "1:bugbite",
     "1:leer",
     "1:powder",

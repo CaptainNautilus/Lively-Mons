@@ -17,19 +17,19 @@
     "male"
   ],
   "abilities": [
-    "multiscale",
+    "mirrorarmor",
     "h:pixilate"
   ],
   "eggGroups": [
     "bug"
   ],
   "baseStats": {
-    "hp": 60,
+    "hp": 80,
     "attack": 100,
-    "defence": 120,
+    "defence": 110,
     "special_attack": 45,
-    "special_defence": 90,
-    "speed": 90
+    "special_defence": 70,
+    "speed": 80
   },
   "evYield": {
     "hp": 0,
@@ -113,7 +113,6 @@
     "54:sparklyswirl",
     "tm:acrobatics",
     "tm:aerialace",
-    "tm:afteryou",
     "tm:agility",
     "tm:aircutter",
     "tm:airslash",
@@ -126,7 +125,6 @@
     "tm:bugbite",
     "tm:bugbuzz",
     "tm:charm",
-    "tm:closecombat",
     "tm:confide",
     "tm:covet",
     "tm:dazzlinggleam",
@@ -204,7 +202,6 @@
     "tm:trick",
     "tm:twister",
     "tm:uturn",
-    "tm:vacuumwave",
     "tm:zenheadbutt",
     "egg:powder",
     "egg:stickyweb"
@@ -233,17 +230,17 @@
         "h:pixilate"
       ],
       "baseStats": {
-        "hp": 60,
+        "hp": 80,
         "attack": 45,
-        "defence": 80,
-        "special_attack": 95,
-        "special_defence": 110,
-        "speed": 115
+        "defence": 110,
+        "special_attack": 105,
+        "special_defence": 60,
+        "speed": 105
       },
       "moves": [
         "1:lifedew",
         "1:followme",
-        "1:sleeppowder",
+        "1:hypnosis",
         "1:fairywind",
         "10:bugbite",
         "13:faketears",
@@ -260,7 +257,6 @@
         "54:sparklyswirl",
         "tm:acrobatics",
         "tm:aerialace",
-        "tm:afteryou",
         "tm:agility",
         "tm:aircutter",
         "tm:airslash",
@@ -273,7 +269,6 @@
         "tm:bugbite",
         "tm:bugbuzz",
         "tm:charm",
-        "tm:closecombat",
         "tm:confide",
         "tm:covet",
         "tm:dazzlinggleam",
@@ -351,7 +346,6 @@
         "tm:trick",
         "tm:twister",
         "tm:uturn",
-        "tm:vacuumwave",
         "tm:zenheadbutt",
         "egg:powder",
         "egg:stickyweb"
