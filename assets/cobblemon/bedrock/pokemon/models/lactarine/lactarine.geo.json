@@ -285,8 +285,20 @@
 					]
 				},
 				{
-					"name": "head",
+					"name": "head_rotation",
 					"parent": "neck",
+					"pivot": [0, 9, -12.5],
+					"rotation": [42.5, 0, 0]
+				},
+				{
+					"name": "head_ai",
+					"parent": "head_rotation",
+					"pivot": [0, 9, -12.5],
+					"rotation": [-42.5, 0, 0]
+				},
+				{
+					"name": "head",
+					"parent": "head_ai",
 					"pivot": [0, 9, -12.5],
 					"rotation": [42.5, 0, 0],
 					"cubes": [
@@ -573,7 +585,6 @@
 					"name": "jaw",
 					"parent": "muzzle",
 					"pivot": [0, 5, -18.5],
-					"rotation": [67.5, 0, 0],
 					"cubes": [
 						{"origin": [-3.5, 4, -20.48], "size": [7, 1, 2], "inflate": -0.01, "uv": [56, 167]}
 					]
@@ -589,9 +600,10 @@
 				{
 					"name": "locator_item",
 					"parent": "jaw",
-					"pivot": [0, 5, -20.475],
+					"pivot": [0, 4.6, -20.475],
+					"rotation": [7.5, 0, 0],
 					"locators": {
-						"item": [0, 5, -20.475]
+						"item": [0, 4.6, -20.475]
 					}
 				},
 				{

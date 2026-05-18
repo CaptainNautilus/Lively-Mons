@@ -26,6 +26,14 @@
     "recoil": "q.bedrock_stateful('laprise', 'recoil')"
   },
   "poses": {
+    "in-air": {
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": false,
+      "condition": "q.in_air && q.is_ridden && q.has_entity",
+      "animations": ["q.look('head')", "q.bedrock('laprise', 'ride_ground_jump')"],
+      "transformTicks": 4,
+      "transformToTicks": 4
+    },
     "battle-standing": {
       "poseTypes": ["STAND"],
       "isBattle": true,
@@ -54,6 +62,7 @@
     },
     "standing": {
       "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "condition": "q.has_entity ? !q.in_air : 1.0",
       "isBattle": false,
       "animations": [
         "q.look('head')",
@@ -70,6 +79,7 @@
     },
     "walking": {
       "poseTypes": ["WALK"],
+      "condition": "q.has_entity ? !q.in_air : 1.0",
       "animations": [
         "q.look('head')",
         "q.bedrock('laprise', 'ground_walk')",
@@ -80,16 +90,6 @@
       ],
       "quirks": ["q.bedrock_quirk('laprise', 'blink')"]
     },
-    "ride-jump": {
-      "poseTypes": ["STAND", "WALK"],
-      "condition": "q.in_air",
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('laprise', 'ride_ground_jump')"
-      ],
-      "transformTicks": 3,
-      "transformToTicks": 3
-    },
     "hover": {
       "poseTypes": ["HOVER", "FLOAT"],
       "animations": [
@@ -97,7 +97,7 @@
         "q.bedrock('laprise', 'air_idle')",
         {
           "condition": "q.is_ridden",
-          "animation": "q.bedrock('laprise', 'ride_surfacewater_swim')"
+          "animation": "q.bedrock('laprise', 'ride_air_fly')"
         }
       ],
       "quirks": [

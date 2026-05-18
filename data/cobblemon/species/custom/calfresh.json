@@ -4,8 +4,8 @@
   "name": "Calfresh",
   "primaryType": "grass",
   "maleRatio": 0.5,
-  "height": 9,
-  "weight": 310,
+  "height": 6,
+  "weight": 250,
   "pokedex": [
     "cobblemon.species.calfresh.desc1"
   ],
@@ -44,9 +44,9 @@
   "baseFriendship": 50,
   "baseScale": 1,
   "hitbox": {
-    "height": 1.25,
+    "height": 1,
     "fixed": false,
-    "width": 0.9
+    "width": 0.6
   },
   "behaviour": {
     "combat": {

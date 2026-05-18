@@ -4,8 +4,8 @@
   "name": "Lactarine",
   "primaryType": "grass",
   "maleRatio": 0.5,
-  "height": 17,
-  "weight": 910,
+  "height": 21,
+  "weight": 4600,
   "pokedex": [
     "cobblemon.species.lactarine.desc1"
   ],
@@ -42,12 +42,14 @@
   "catchRate": 45,
   "eggCycles": 20,
   "baseFriendship": 50,
-  "baseScale": 1,
+  "baseScale": 1.2,
   "hitbox": {
-    "height": 2.35,
+    "height": 2.45,
     "fixed": false,
-    "width": 1.65
+    "width": 2
   },
+  "standingEyeHeight": 0.3,
+  "swimmingEyeHeight": 0.3,
 "riding": {
     "behaviours": {
       "LAND": {

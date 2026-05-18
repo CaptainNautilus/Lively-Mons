@@ -43,25 +43,21 @@
   "catchRate": 45,
   "eggCycles": 15,
   "baseFriendship": 50,
-  "baseScale": 1,
+  "baseScale": 0.6,
   "hitbox": {
-    "width": 1,
-    "height": 1,
+    "width": 0.7,
+    "height": 2.1,
     "fixed": false
   },
   "drops": {
-    "amount": 5,
+    "amount": 4,
     "entries": [
       {
-        "item": "minecraft:wheat_seeds",
+        "item": "minecraft:sugar",
         "quantityRange": "0-3"
       },
       {
-        "item": "cobblemon:grassy_seed",
-        "percentage": 10.0
-      },
-      {
-        "item": "cobblemon:rindo_berry",
+        "item": "cobblemon:roseli_berry",
         "percentage": 10.0
       }
     ]
@@ -192,6 +188,9 @@
       "maleRatio": 0,
       "height": 4,
       "weight": 408,
+     "pokedex": [
+        "cobblemon.species.sugareign.desc1"
+      ],
       "labels": [
         "custom"
       ],

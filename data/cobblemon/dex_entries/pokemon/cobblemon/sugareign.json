@@ -1,15 +1,21 @@
 {
-    "id": "cobblemon:sugareign",
-    "speciesId": "cobblemon:sugareign",
-    "displayAspects": [],
-    "conditionAspects": [],
-    "forms": [
-      {
-        "displayForm": "Normal",
-        "unlockForms": [
-          "Normal"
-        ]
-      }
-    ],
-    "variations": []
-  }
+  "id": "cobblemon:sugareign",
+  "speciesId": "cobblemon:sugareign",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    },
+    {
+      "displayForm": "F",
+      "unlockForms": [
+        "F"
+      ]
+    }
+  ],
+  "variations": []
+}

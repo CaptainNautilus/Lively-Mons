@@ -40,9 +40,10 @@
   "catchRate": 255,
   "eggCycles": 15,
   "baseFriendship": 50,
-  "baseScale": 1,
+  "shoulderMountable": true,
+  "baseScale": 0.65,
   "hitbox": {
-    "width": 1,
+    "width": 0.6,
     "height": 1,
     "fixed": false
   },
@@ -58,7 +59,7 @@
         "percentage": 2.5
       },
       {
-        "item": "cobblemon:rindo_berry",
+        "item": "cobblemon:roseli_berry",
         "percentage": 2.5
       }
     ]

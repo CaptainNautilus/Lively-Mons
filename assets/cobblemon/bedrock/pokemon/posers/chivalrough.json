@@ -1,8 +1,8 @@
 {
-      "portraitScale": 2.5,
-      "portraitTranslation": [0.2, -1.65, 0],
-      "profileScale": 0.8,
-      "profileTranslation": [0, 0.5, 0],
+      "portraitScale": 1.75,
+      "portraitTranslation": [-0.3, -0.6, 0],
+      "profileScale": 0.75,
+      "profileTranslation": [0, 0.6, 0],
   "rootBone": "chivalrough",
   "animations": {
     "faint": "q.bedrock_primary('chivalrough', 'faint', q.curve('symmetrical'))",
@@ -12,10 +12,10 @@
   "poses": {
     "battle-standing": {
       "poseName": "standing",
-      "poseTypes": ["STAND","FLOAT","PROFILE","PORTRAIT"],
+      "poseTypes": ["STAND","FLOAT"],
       "isBattle": true,
       "animations": [
-        "q.look('head')",
+        "q.look('chest')",
         "q.bedrock('chivalrough', 'battle_idle')"
       ],
       "transformTicks": 10,
@@ -25,10 +25,10 @@
     },
     "standing": {
       "poseName": "standing",
-      "poseTypes": ["STAND","FLOAT","NONE"],
+      "poseTypes": ["STAND","FLOAT","NONE","PROFILE","PORTRAIT"],
       "isBattle": false,
       "animations": [
-        "q.look('head')",
+        "q.look('chest')",
         "q.bedrock('chivalrough', 'ground_idle')"
       ],
       "transformTicks": 10,
@@ -40,7 +40,7 @@
       "poseName": "walking",
       "poseTypes": ["WALK","SWIM"],
       "animations": [
-        "q.look('head')",
+        "q.look('chest')",
         "q.bedrock('chivalrough', 'ground_walk')"
       ],
       "transformTicks": 10,

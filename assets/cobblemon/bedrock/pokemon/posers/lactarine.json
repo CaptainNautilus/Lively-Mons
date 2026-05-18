@@ -1,8 +1,8 @@
 {
-      "portraitScale": 2.5,
-      "portraitTranslation": [0.2, -1.65, 0],
-      "profileScale": 0.8,
-      "profileTranslation": [0, 0.5, 0],
+      "portraitScale": 1.8,
+      "portraitTranslation": [-0.8, -0.6, 0],
+      "profileScale": 0.48,
+      "profileTranslation": [0, 1, 0],
   "rootBone": "lactarine",
   "firstPersonCameraOffset": {
     "seat_1": [0, 0.45, 0],
@@ -34,13 +34,13 @@
     "battle-standing": {
       "poseTypes": ["STAND"],
       "isBattle": true,
-      "animations": ["q.look('head')", "q.bedrock('lactarine', 'battle_idle')"]
+      "animations": ["q.look('head_ai', 1, 1, 25, -25, 15, -15)", "q.bedrock('lactarine', 'battle_idle')"]
     },
     "in-air": {
       "poseTypes": ["STAND", "WALK", "FLOAT"],
       "isBattle": false,
       "condition": "q.in_air && q.is_ridden && q.has_entity",
-      "animations": ["q.look('head')", "q.bedrock('lactarine', 'ride_jump')"],
+      "animations": ["q.look('head_ai', 1, 1, 25, -25, 15, -15)", "q.bedrock('lactarine', 'ride_jump')"],
       "transformTicks": 2,
       "transformToTicks": 2
     },
@@ -48,13 +48,13 @@
       "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
       "isBattle": false,
       "condition": "q.has_entity ? !q.in_air : 1.0",
-      "animations": ["q.look('head')", "q.bedrock('lactarine', 'ground_idle')"]
+      "animations": ["q.look('head_ai', 1, 1, 25, -25, 15, -15)", "q.bedrock('lactarine', 'ground_idle')"]
     },
     "walking": {
       "poseTypes": ["WALK", "SWIM"],
       "condition": "!q.in_air && !q.is_sprinting",
       "animations": [
-        "q.look('head')",
+        "q.look('head_ai', 1, 1, 25, -25, 15, -15)", 
         "q.bedrock('lactarine', 'ground_walk')",
         {
           "condition": "q.is_ridden",
@@ -66,7 +66,7 @@
       "poseTypes": ["WALK"],
       "condition": "!q.in_air && q.is_sprinting",
       "animations": [
-        "q.look('head')",
+        "q.look('head_ai', 1, 1, 25, -25, 15, -15)", 
         "q.bedrock('lactarine', 'ground_run')",
         {
           "condition": "q.is_ridden",
