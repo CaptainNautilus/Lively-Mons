@@ -8,7 +8,7 @@
     "faint": "q.bedrock_primary('sugareign', 'faint_male', q.curve('one'))",
     "cry": "q.bedrock_stateful('sugareign', 'cry')",
     "recoil": "q.bedrock_stateful('sugareign', 'male_recoil')",
-    "status": "q.bedrock_primary('sugareign', 'male_battle_cry', q.curve('symmetrical_wide'))"
+    "status": "q.bedrock_stateful('sugareign', 'male_battle_cry', q.curve('symmetrical_wide'))"
   },
   "poses": {
         "battle-standing": {

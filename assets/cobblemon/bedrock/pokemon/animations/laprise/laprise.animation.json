@@ -2812,7 +2812,7 @@
 			},
 			"sound_effects": {
 				"0.4583": {
-					"effect": "pokemon.lapras.cry"
+					"effect": "pokemon.laprise.cry"
 				}
 			}
 		},
@@ -8784,6 +8784,11 @@
 						"2.4167": ["15+math.sin(q.anim_time*90*4-60)*8", "math.sin(q.anim_time*90*4-210)*14", 0]
 					}
 				}
+			},
+			"sound_effects": {
+				"1.0833": {
+					"effect": "pokemon.laprise.cry"
+				}
 			}
 		},
 		"animation.laprise.air_status": {
@@ -9315,27 +9320,15 @@
 				"eyelid_left": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"0.1667": {
-							"pre": [0, 0, 0],
-							"post": [0.1, 0, 0]
-						},
-						"1.25": {
-							"pre": [0.1, 0, 0],
-							"post": [0, 0, 0]
-						}
+						"0.1667": {"pre": [0, 0, 0], "post": [0.1, 0, 0]},
+						"1.25": {"pre": [0.1, 0, 0], "post": [0, 0, 0]}
 					}
 				},
 				"eyelid_right": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"0.1667": {
-							"pre": [0, 0, 0],
-							"post": [-0.1, 0, 0]
-						},
-						"1.25": {
-							"pre": [-0.1, 0, 0],
-							"post": [0, 0, 0]
-						}
+						"0.1667": {"pre": [0, 0, 0], "post": [-0.1, 0, 0]},
+						"1.25": {"pre": [-0.1, 0, 0], "post": [0, 0, 0]}
 					}
 				},
 				"tongue": {
@@ -9530,6 +9523,11 @@
 				},
 				"tail7": {
 					"rotation": ["-15+math.sin(q.anim_time*90*8-60)*8", "math.cos(q.anim_time*90*8-210)*14", 0]
+				}
+			},
+			"sound_effects": {
+				"1.0833": {
+					"effect": "pokemon.laprise.cry"
 				}
 			},
 			"timeline": {

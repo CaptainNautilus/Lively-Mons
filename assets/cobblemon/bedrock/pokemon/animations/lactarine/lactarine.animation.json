@@ -2406,7 +2406,7 @@
 							"post": [-2.35, 0, 0],
 							"lerp_mode": "catmullrom"
 						},
-						"1.7083": {
+						"1.9583": {
 							"post": [0, 0, 0],
 							"lerp_mode": "catmullrom"
 						}
@@ -2492,27 +2492,15 @@
 				"eyelid_left": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"0.0833": {
-							"pre": [0, 0, 0],
-							"post": [0.1, 0, -0.1]
-						},
-						"0.625": {
-							"pre": [0.1, 0, -0.1],
-							"post": [0, 0, 0]
-						}
+						"0.0833": {"pre": [0, 0, 0], "post": [0.1, 0, -0.1]},
+						"0.625": {"pre": [0.1, 0, -0.1], "post": [0, 0, 0]}
 					}
 				},
 				"eyelid_right": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"0.0833": {
-							"pre": [0, 0, 0],
-							"post": [-0.1, 0, -0.1]
-						},
-						"0.625": {
-							"pre": [-0.1, 0, -0.1],
-							"post": [0, 0, 0]
-						}
+						"0.0833": {"pre": [0, 0, 0], "post": [-0.1, 0, -0.1]},
+						"0.625": {"pre": [-0.1, 0, -0.1], "post": [0, 0, 0]}
 					}
 				},
 				"jaw": {
@@ -2526,20 +2514,37 @@
 							"post": [35, 0, 0],
 							"lerp_mode": "catmullrom"
 						},
-						"1.4167": {
-							"post": [35, 0, 0],
+						"1.5833": {
+							"post": [80, 0, 0],
 							"lerp_mode": "catmullrom"
 						},
-						"1.7917": {
+						"1.9583": {
 							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"nose": {
+					"scale": {
+						"0.5417": {
+							"pre": [1, 1, 1],
+							"post": [1, 1, 1],
+							"lerp_mode": "catmullrom"
+						},
+						"0.7083": {
+							"post": [1.1, 1.1, 1.1],
+							"lerp_mode": "catmullrom"
+						},
+						"0.9583": {
+							"post": [1, 1, 1],
 							"lerp_mode": "catmullrom"
 						}
 					}
 				}
 			},
 			"sound_effects": {
-				"0.625": {
-					"effect": "pokemon.bouffalant.cry"
+				"0.5417": {
+					"effect": "pokemon.lactarine.cry"
 				}
 			}
 		},

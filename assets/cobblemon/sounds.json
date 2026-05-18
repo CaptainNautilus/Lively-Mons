@@ -272,5 +272,23 @@
     },
         "pokemon.palobod.impact": {
             "sounds": ["cobblemon:pokemon/palobod/palobod_impact"]
-        }
+        },
+    "pokemon.catertiller.cry": {
+        "sounds": ["cobblemon:pokemon/catertiller/catertiller_cry"]
+    },
+    "pokemon.chivalrough.cry": {
+        "sounds": ["cobblemon:pokemon/chivalrough/chivalrough_cry"]
+    },
+    "pokemon.sugareign.cry": {
+        "sounds": ["cobblemon:pokemon/sugareign/sugareign_cry"]
+    },
+    "pokemon.calfresh.cry": {
+        "sounds": ["cobblemon:pokemon/calfresh/calfresh_cry"]
+    },
+    "pokemon.lactarine.cry": {
+        "sounds": ["cobblemon:pokemon/lactarine/lactarine_cry"]
+    },
+    "pokemon.laprise.cry": {
+        "sounds": ["cobblemon:pokemon/laprise/laprise_cry"]
+    }
  }
