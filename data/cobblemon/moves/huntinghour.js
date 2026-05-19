@@ -8,7 +8,8 @@
     priority: 1,
     flags: { snatch: 1, sound: 1, metronome: 1 },
     boosts: {
-      spa: 1
+      spa: 1,
+      spd: 1
     },
     secondary: null,
     target: "allies",

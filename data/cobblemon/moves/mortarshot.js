@@ -8,6 +8,7 @@
 	priority: 0,
 	flags: {protect: 1, mirror: 1, metronome: 1, noparentalbond: 1, bullet: 1},
 	multihit: 2,
+    smartTarget: true,
 	target: "normal",
 	type: "Rock",
 	contestType: "Clever",

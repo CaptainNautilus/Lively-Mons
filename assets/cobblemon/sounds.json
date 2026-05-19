@@ -293,5 +293,18 @@
     },
     "pokemon.laprise.cry": {
         "sounds": ["cobblemon:pokemon/laprise/laprise_cry"]
+    },
+
+    "move.mist.actor.shroud": {
+        "sounds": ["cobblemon:move/fallout/fallout_actorshroud"]
+    },
+    "move.knifestorm.actor_1": {
+        "sounds": ["cobblemon:move/knifestorm/knifestorm_actor_1"]
+    },
+    "move.knifestorm.actor_2": {
+        "sounds": ["cobblemon:move/knifestorm/knifestorm_actor_2"]
+    },
+    "move.knifestorm.target": {
+        "sounds": ["cobblemon:move/knifestorm/knifestorm_target"]
     }
  }
