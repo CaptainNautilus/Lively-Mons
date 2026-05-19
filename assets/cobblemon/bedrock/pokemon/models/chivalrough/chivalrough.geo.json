@@ -153,14 +153,6 @@
 					]
 				},
 				{
-					"name": "locator_item_hat",
-					"parent": "helmet",
-					"pivot": [0, 19.5, -6.25],
-					"locators": {
-						"item_hat": [0, 19.5, -6.25]
-					}
-				},
-				{
 					"name": "eye_left",
 					"parent": "chest",
 					"pivot": [2, 11, -4.51],
@@ -235,6 +227,14 @@
 						{"origin": [1.25, 10.25, -4.49], "size": [1, 1, 0], "pivot": [2.5, 10.75, -4.51], "rotation": [0, 0, -7.5], "uv": [124, 76], "mirror": true},
 						{"origin": [2.75, 10.25, -4.49], "size": [1, 1, 0], "pivot": [2.5, 10.75, -4.51], "rotation": [0, 0, -7.5], "uv": [118, 76], "mirror": true}
 					]
+				},
+				{
+					"name": "locator_item_hat",
+					"parent": "chest",
+					"pivot": [0, 22, -3.5],
+					"locators": {
+						"item_hat": [0, 22, -3.5]
+					}
 				},
 				{
 					"name": "locator_head",

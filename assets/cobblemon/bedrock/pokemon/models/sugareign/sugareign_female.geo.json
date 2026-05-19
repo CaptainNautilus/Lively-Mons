@@ -430,7 +430,10 @@
 					"pivot": [0, 11, -4.85],
 					"locators": {
 						"mouth": [0, 11, -4.85],
-						"item": [0, 11, -4.85],
+						"item": {
+							"offset": [0, 8, -4.85],
+							"rotation": [90, 0, 0]
+						},
 						"special": [0, 11, -4.85]
 					}
 				},
@@ -500,9 +503,9 @@
 				{
 					"name": "locator_item_hat",
 					"parent": "helmet2",
-					"pivot": [0, 19.25, -3],
+					"pivot": [0, 22.25, -3],
 					"locators": {
-						"item_hat": [0, 19.25, -3]
+						"item_hat": [0, 22.25, -3]
 					}
 				},
 				{

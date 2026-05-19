@@ -282,6 +282,9 @@
     "pokemon.sugareign.cry": {
         "sounds": ["cobblemon:pokemon/sugareign/sugareign_cry"]
     },
+    "pokemon.sugareign.battle.cry": {
+        "sounds": ["cobblemon:pokemon/sugareign/sugareign_battle_cry"]
+    },
     "pokemon.calfresh.cry": {
         "sounds": ["cobblemon:pokemon/calfresh/calfresh_cry"]
     },
