@@ -19,7 +19,7 @@
 				"type": "linear",
 				"input": "v.particle_age",
 				"horizontal_range": "v.particle_lifetime",
-				"nodes": [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+				"nodes": [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
 			},
 			"variable.knifearc": {
 				"type": "linear",

@@ -220,7 +220,7 @@
         "variant": "level_up",
         "result": "folly",
         "consumeHeldItem": false,
-        "learnableMoves": ["nuclearbleat"],
+        "learnableMoves": ["fallout"],
         "requirements": [
           {
             "variant": "level",

@@ -241,19 +241,19 @@
     "cobblemon.ability.starlight.desc": "This Pokémon and its allies can never miss a damaging attack. This does not effect one-hit knockout moves.",
 
     "cobblemon.ability.apexpredator": "Apex Predator",
-    "cobblemon.ability.apexpredator.desc": "When the Pokémon enters a battle, it uses its expert hunting skills to lower the opposing Pokémon's Defence stats.",
+    "cobblemon.ability.apexpredator.desc": "When this Pokémon enters a battle, it uses its expert hunting skills to lower the opposing Pokémon's Defence stats.",
 
     "cobblemon.ability.cumulonimbus": "Cumulonimbus",
     "cobblemon.ability.cumulonimbus.desc": "This Pokémon's moves do 50% more damage if there is weather on the field.",
 
     "cobblemon.ability.linkedminds": "Linked Minds",
-    "cobblemon.ability.linkedminds.desc": "This Pokémon is made up of two linked minds that attack synchronously.",
+    "cobblemon.ability.linkedminds.desc": "This Pokémon is made up of two linked minds that attack together. After the first attacks, the second will attack again with the same move at 50% Power.",
 
     "cobblemon.ability.undertow": "Undertow",
     "cobblemon.ability.undertow.desc": "This Pokémon's moves will always target all opposing Pokémon on the field.",
 
     "cobblemon.ability.magicdrain": "Magic Drain",
-    "cobblemon.ability.magicdrain.desc": "This Pokémon's drains the magical power of its foes, lowering their Special Attack every turn.",
+    "cobblemon.ability.magicdrain.desc": "This Pokémon drains the magical power of its foes, lowering their Special Attack every turn.",
 
      "cobblemon.ability.acoustics": "Acoustics",
     "cobblemon.ability.acoustics.desc": "Opponents that use sound moves against the Pokémon or its allies fail, and the Pokémon's Sp. Atk is boosted instead.",
@@ -292,7 +292,7 @@
     "cobblemon.move.fungalinfection.desc": "The user contaminates the target with its spores. If the targer was suffering from a non-volatile status condition, it is replaced with sleep.",
 
     "cobblemon.move.huntinghour": "Hunting Hour",
-    "cobblemon.move.huntinghour.desc": "The user coordinates a hunting party to tactically take down prey. This boosts their Special Attack stats. This move usually goes first.",
+    "cobblemon.move.huntinghour.desc": "The user rallies its ally to join its hunt. The target's Special Attack, Special Defence, and Critical Hit Chance are all raised. This move usually goes first.",
 
     "cobblemon.move.hypothermicshock": "Hypothermic Shock",
     "cobblemon.move.hypothermicshock.desc": "The user flash freezes the target with a mere touch, causing its skin to sear. This may also leave the target with a burn.",

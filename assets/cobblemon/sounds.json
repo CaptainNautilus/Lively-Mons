@@ -298,6 +298,7 @@
     "move.mist.actor.shroud": {
         "sounds": ["cobblemon:move/fallout/fallout_actorshroud"]
     },
+
     "move.knifestorm.actor_1": {
         "sounds": ["cobblemon:move/knifestorm/knifestorm_actor_1"]
     },
@@ -306,5 +307,15 @@
     },
     "move.knifestorm.target": {
         "sounds": ["cobblemon:move/knifestorm/knifestorm_target"]
+    },
+
+    "move.billowingcoat.actor_1": {
+        "sounds": ["cobblemon:move/billowingcoat/billowingcoat_actor_1"]
+    },
+    "move.billowingcoat.actor_2": {
+        "sounds": ["cobblemon:move/billowingcoat/billowingcoat_actor_2"]
+    },
+    "move.billowingcoat.target": {
+        "sounds": ["cobblemon:move/billowingcoat/billowingcoat_target"]
     }
  }
