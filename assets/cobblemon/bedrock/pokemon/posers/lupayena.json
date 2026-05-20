@@ -20,8 +20,7 @@
         "q.bedrock('lupayena', 'battle_idle')"
       ],
       "quirks": [
-        "q.bedrock_quirk('lupayena', 'blink')",
-        "q.bedrock_quirk('lupayena', 'quirk')"
+        "q.bedrock_quirk('lupayena', 'blink')"
       ]
     },
     "standing": {

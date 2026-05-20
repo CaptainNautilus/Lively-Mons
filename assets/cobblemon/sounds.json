@@ -317,5 +317,12 @@
     },
     "move.billowingcoat.target": {
         "sounds": ["cobblemon:move/billowingcoat/billowingcoat_target"]
+    },
+
+    "move.huntinghour.actor": {
+        "sounds": ["cobblemon:move/huntinghour/huntinghour_actor"]
+    },
+    "move.huntinghour.target": {
+        "sounds": ["cobblemon:move/huntinghour/huntinghour_target"]
     }
  }
