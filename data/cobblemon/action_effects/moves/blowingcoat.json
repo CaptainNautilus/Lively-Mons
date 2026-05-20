@@ -23,6 +23,12 @@
     },
     {
       "type": "entity_particles",
+      "effect": "cobblemon:blowingcoat_powder_actor",
+      "locators": ["root"],
+      "targetLocators": ["target"]
+    },
+    {
+      "type": "entity_particles",
       "effect": "cobblemon:blowingcoat_actorexcess",
       "locators": ["middle"]
     },
@@ -69,8 +75,19 @@
       "type": "entity_particles",
       "entityCondition": "q.entity.is_user == false && q.missed(q.entity.uuid) == false",
       "effect": "cobblemon:blowingcoat_dust_target",
-      "locators": ["root"],
-      "targetLocators": ["top"]
+      "locators": ["middle"]
+    },
+    {
+      "type": "entity_particles",
+      "entityCondition": "q.entity.is_user == false && q.missed(q.entity.uuid) == false",
+      "effect": "cobblemon:blowingcoat_fur_target",
+      "locators": ["middle"]
+    },
+    {
+      "type": "entity_particles",
+      "entityCondition": "q.entity.is_user == false && q.missed(q.entity.uuid) == false",
+      "effect": "cobblemon:blowingcoat_powder_target",
+      "locators": ["middle"]
     },
     {
       "type": "remove_holds",
