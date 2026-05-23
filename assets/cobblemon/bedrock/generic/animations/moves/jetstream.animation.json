@@ -1,0 +1,73 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.jetstream.actor": {
+			"animation_length": 2.5833,
+			"bones": {
+				"root_part": {
+					"position": {
+						"1.0417": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.125": {
+							"post": [0, 0, -10],
+							"lerp_mode": "catmullrom"
+						},
+						"1.2083": {
+							"post": [0, 0, -35],
+							"lerp_mode": "catmullrom"
+						},
+						"1.375": {
+							"post": [0, 0, -40],
+							"lerp_mode": "catmullrom"
+						},
+						"1.4583": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5417": {
+							"post": [0, 0, -10],
+							"lerp_mode": "catmullrom"
+						},
+						"1.75": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"scale": {
+						"1.0833": [1, 1, 1],
+						"1.125": {"pre": [1, 1, 1], "post": [0, 0, 0]},
+						"1.1667": {"pre": [0, 0, 0], "post": [1, 1, 1]},
+						"1.2083": {"pre": [1, 1, 1.8], "post": [0, 0, 0]},
+						"1.6667": {"pre": [0, 0, 0], "post": [1, 1, 1]}
+					}
+				}
+			},
+			"sound_effects": {
+				"0": {
+					"effect": "move.jetstream.actor"
+				}
+			},
+			"particle_effects": {
+				"0.1": {
+					"effect": "cobblemon:jetstream_charge",
+					"locator": "middle"
+				},
+				"0.87": {
+					"effect": "cobblemon:jetstream_dust",
+					"locator": "middle"
+				},
+				"0.875": {
+					"effect": "cobblemon:jetstream_dashlines",
+					"locator": "middle"
+				},
+				"1.6667": {
+					"effect": "cobblemon:jetstream_burst",
+					"locator": "middle"
+				}
+			}
+		}
+	}
+}

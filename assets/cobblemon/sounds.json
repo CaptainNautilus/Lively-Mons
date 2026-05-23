@@ -324,5 +324,9 @@
     },
     "move.huntinghour.target": {
         "sounds": ["cobblemon:move/huntinghour/huntinghour_target"]
+    },
+
+    "move.jetstream.actor": {
+        "sounds": ["cobblemon:move/jetstream/jetstream_actor"]
     }
  }
