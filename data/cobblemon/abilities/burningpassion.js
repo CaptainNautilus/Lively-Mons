@@ -3,7 +3,7 @@
     onModifyAtk(atk, pokemon) {
         let burnedPkmn = 0;
         for (const pokemon of this.getAllActive()) {
-            if (pokemon.status = 'brn') {
+            if (pokemon.status === 'brn') {
                 burnedPkmn++
             }
         }
