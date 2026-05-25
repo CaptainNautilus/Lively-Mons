@@ -1,0 +1,104 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "cobblemon:downpour_actor",
+			"basic_render_parameters": {
+				"material": "particles_alpha",
+				"texture": "textures/particles/moves/downpour"
+			}
+		},
+		"curves": {
+			"variable.fun": {
+				"type": "linear",
+				"input": "v.particle_age",
+				"horizontal_range": "v.particle_lifetime",
+				"nodes": [1, 1, 1, 1, 0.99, 0.97, 0.91, 0.77, 0.54, -0.1]
+			}
+		},
+		"events": {
+			"erupt": {
+				"particle_effect": {
+					"effect": "cobblemon:downpour_actorsputter",
+					"type": "emitter"
+				}
+			},
+			"water": {
+				"particle_effect": {
+					"effect": "cobblemon:downpour_actorwater",
+					"type": "emitter"
+				}
+			},
+			"mist": {
+				"particle_effect": {
+					"effect": "cobblemon:downpour_targetmist",
+					"type": "particle"
+				}
+			},
+			"burst": {
+				"particle_effect": {
+					"effect": "cobblemon:downpour_actorburst",
+					"type": "particle"
+				}
+			}
+		},
+		"components": {
+			"minecraft:emitter_initialization": {
+				"creation_expression": "v.target_deltaz=5;v.target_deltax=0;v.target_deltay=0;"
+			},
+			"minecraft:emitter_rate_steady": {
+				"spawn_rate": 240,
+				"max_particles": 1000
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 1
+			},
+			"minecraft:emitter_lifetime_events": {
+				"creation_event": ["erupt", "water", "mist", "burst"]
+			},
+			"minecraft:emitter_shape_disc": {
+				"offset": [0, -0.25, 0],
+				"radius": 0.2,
+				"direction": ["(((v.particle_random_1-0.5)*1.05))+(math.sin(v.emitter_age*720)*0.25)", 5, "(((v.particle_random_3-0.5)*1.05))+(math.sin(v.emitter_age*720)*0.25)"]
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": "math.random(0.65,1.0)*1.4"
+			},
+			"minecraft:particle_initial_spin": {
+				"rotation": "math.round(v.particle_random_4*3)*90"
+			},
+			"minecraft:particle_initial_speed": "(8*math.random(0.65,2.05))*2.25",
+			"minecraft:particle_motion_dynamic": {
+				"linear_acceleration": ["(v.particle_random_1-0.5)*4", "4+(v.particle_random_2-0.5)*2-v.particle_age*25", "(v.particle_random_3-0.5)*1"],
+				"linear_drag_coefficient": 3.5
+			},
+			"minecraft:particle_appearance_billboard": {
+				"size": ["(0.5-(v.particle_random_4*0.15))*v.fun", "(0.5-(v.particle_random_4*0.15))*v.fun"],
+				"facing_camera_mode": "rotate_xyz",
+				"uv": {
+					"texture_width": 12,
+					"texture_height": 120,
+					"flipbook": {
+						"base_UV": [0, 0],
+						"size_UV": [12, 12],
+						"step_UV": [0, 12],
+						"frames_per_second": 9,
+						"max_frame": 10
+					}
+				}
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "v.particle_age / v.particle_lifetime",
+					"gradient": {
+						"0.0": "#FF1d368a",
+						"0.19": "#FF51a5ff",
+						"0.45": "#78b7ffff",
+						"0.85": "#78b7ffff",
+						"1.0": "#36FFFFFF"
+					}
+				}
+			}
+		}
+	}
+}

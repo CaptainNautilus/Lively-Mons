@@ -328,5 +328,12 @@
 
     "move.jetstream.actor": {
         "sounds": ["cobblemon:move/jetstream/jetstream_actor"]
+    },
+
+    "move.downpour.actor": {
+        "sounds": ["cobblemon:move/downpour/downpour_actor"]
+    },
+    "move.downpour.target": {
+        "sounds": ["cobblemon:move/downpour/downpour_target"]
     }
  }
