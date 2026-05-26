@@ -10,11 +10,11 @@
       "h:weakarmor"
     ],
     "baseStats": {
-      "hp": 45,
+      "hp": 75,
       "attack": 40,
-      "defence": 68,
+      "defence": 58,
       "special_attack": 83,
-      "special_defence": 62,
+      "special_defence": 42,
       "speed": 32
     },
     "catchRate": 45,
