@@ -2,7 +2,7 @@
 	num: 9998,
 	accuracy: 100,
     basePower: 250,
-    category: "Physical",
+    category: "Special",
     name: "Wake-Up Call",
     pp: 5,
     priority: 0,
