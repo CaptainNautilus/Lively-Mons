@@ -23,9 +23,9 @@
 			}
 		},
 		"events": {
-			"flame": {
+			"gush": {
 				"particle_effect": {
-					"effect": "cobblemon:downpour_targetflame",
+					"effect": "cobblemon:downpour_targetgush",
 					"type": "particle"
 				}
 			},
@@ -64,18 +64,18 @@
 			"minecraft:particle_lifetime_events": {
 				"expiration_event": "burst",
 				"timeline": {
-					"0.05": "flame",
-					"0.10": "flame",
-					"0.15": "flame",
-					"0.20": "flame",
-					"0.25": "flame",
-					"0.30": "flame",
-					"0.35": "flame",
-					"0.40": "flame",
-					"0.45": "flame",
-					"0.50": "flame",
-					"0.55": "flame",
-					"0.60": "flame"
+					"0.05": "gush",
+					"0.10": "gush",
+					"0.15": "gush",
+					"0.20": "gush",
+					"0.25": "gush",
+					"0.30": "gush",
+					"0.35": "gush",
+					"0.40": "gush",
+					"0.45": "gush",
+					"0.50": "gush",
+					"0.55": "gush",
+					"0.60": "gush"
 				}
 			},
 			"minecraft:particle_initial_spin": {

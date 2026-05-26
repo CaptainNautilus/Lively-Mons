@@ -2,7 +2,7 @@
 	"format_version": "1.10.0",
 	"particle_effect": {
 		"description": {
-			"identifier": "cobblemon:downpour_targetflame",
+			"identifier": "cobblemon:downpour_targetgush",
 			"basic_render_parameters": {
 				"material": "particles_alpha",
 				"texture": "textures/particles/moves/downpour"
@@ -16,12 +16,23 @@
 				"nodes": [1, 1, 1, 1, 1, 0.95, 0.75, 0]
 			}
 		},
+		"events": {
+			"mist": {
+				"particle_effect": {
+					"effect": "cobblemon:downpour_actormist",
+					"type": "emitter"
+				}
+			}
+		},
 		"components": {
 			"minecraft:emitter_rate_instant": {
 				"num_particles": 1
 			},
 			"minecraft:emitter_lifetime_once": {
 				"active_time": 0.4
+			},
+			"minecraft:particle_lifetime_events": {
+				"expiration_event": "mist"
 			},
 			"minecraft:emitter_shape_point": {
 				"offset": [0, 0, 0],
@@ -39,7 +50,7 @@
 				"linear_drag_coefficient": 3
 			},
 			"minecraft:particle_appearance_billboard": {
-				"size": ["(0.5-(v.particle_random_4*0.15))*v.fun", "(0.5-(v.particle_random_4*0.15))*v.fun"],
+				"size": ["(0.35-(v.particle_random_4*0.15))*v.fun", "(0.35-(v.particle_random_4*0.15))*v.fun"],
 				"facing_camera_mode": "rotate_xyz",
 				"uv": {
 					"texture_width": 12,
