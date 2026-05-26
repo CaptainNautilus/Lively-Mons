@@ -6,17 +6,17 @@
     "secondaryType": "water",
     "abilities": [
       "stakeout",
-      "noguard",
+      "multiscale",
       "h:regenerator"
     ],
     "preEvolution":"polporos",
     "baseStats": {
-      "hp": 71,
-      "attack": 70,
+      "hp": 81,
+      "attack": 60,
       "defence": 69,
       "special_attack": 121,
-      "special_defence": 118,
-      "speed": 72
+      "special_defence": 108,
+      "speed": 82
     },
     "catchRate": 45,
     "maleRatio": 0.875,
