@@ -11,12 +11,12 @@
     ],
     "preEvolution":"hollorn",
     "baseStats": {
-      "hp": 80,
+      "hp": 112,
       "attack": 60,
-      "defence": 100,
-      "special_attack": 108,
-      "special_defence": 132,
-      "speed": 32
+      "defence": 91,
+      "special_attack": 134,
+      "special_defence": 77,
+      "speed": 47
     },
     "catchRate": 45,
     "maleRatio": 0.875,
