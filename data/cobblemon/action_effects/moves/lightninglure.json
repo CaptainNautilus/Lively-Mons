@@ -64,6 +64,16 @@
       "locators": ["target"]
     },
     {
+      "type": "entity_particles",
+      "effect": "cobblemon:lightninglure_actorexcess",
+      "locators": ["middle"]
+    },
+    {
+        "type": "entity_molang",
+        "entityCondition": "q.entity.is_user == true",
+        "expressions": ["q.sound('move.stunspore.target');"]
+    },
+    {
       "type": "remove_holds",
       "holds": ["effects"]
     },

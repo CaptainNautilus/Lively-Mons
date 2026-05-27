@@ -335,5 +335,9 @@
     },
     "move.downpour.target": {
         "sounds": ["cobblemon:move/downpour/downpour_target"]
+    },
+
+    "move.fungalinfection": {
+        "sounds": ["cobblemon:move/fungalinfection/fungalinfection"]
     }
  }
