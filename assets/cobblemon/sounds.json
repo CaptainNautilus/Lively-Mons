@@ -339,5 +339,9 @@
 
     "move.fungalinfection": {
         "sounds": ["cobblemon:move/fungalinfection/fungalinfection"]
+    },
+
+    "move.mortarshot.gleam": {
+        "sounds": ["cobblemon:move/mortarshot/mortarshot_gleam"]
     }
  }

@@ -13,6 +13,18 @@
 				"sound_effect": {
 					"event_name": "cobblemon:move.fungalinfection"
 				}
+			},
+			"burst": {
+				"particle_effect": {
+					"effect": "cobblemon:fungalinfection_targetexcess",
+					"type": "particle"
+				}
+			},
+			"spore": {
+				"particle_effect": {
+					"effect": "cobblemon:fungalinfection_target",
+					"type": "particle"
+				}
 			}
 		},
 		"components": {
@@ -23,6 +35,7 @@
 				"active_time": 1
 			},
 			"minecraft:emitter_lifetime_events": {
+				"expiration_event": ["burst", "spore"],
 				"timeline": {
 					"0": "event_sound"
 				}

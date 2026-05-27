@@ -1,0 +1,86 @@
+{
+  "timeline": [
+    {
+      "type": "add_holds",
+      "holds": ["effects"]
+    },
+    {
+      "type": "animation",
+      "animation": ["mortarshot", "rock", "special"],
+      "delay": 1.17
+    },
+    {
+      "type": "entity_particles",
+      "effect": "cobblemon:mortarshot_actor",
+      "locators": ["cannon1", "special1"],
+      "targetLocators": ["root"]
+    },
+    {
+      "type": "pause",
+      "pause": 0.08
+    },
+    {
+      "type": "entity_particles",
+      "effect": "cobblemon:mortarshot_actor",
+      "locators": ["cannon2", "special2"],
+      "targetLocators": ["root"]
+    },
+    {
+      "type": "pause",
+      "pause": 0.08
+    },
+    {
+      "type": "entity_particles",
+      "effect": "cobblemon:mortarshot_actor",
+      "locators": ["cannon3", "special3"],
+      "targetLocators": ["root"]
+    },
+    {
+      "type": "pause",
+      "pause": 0.85
+    },
+    {
+      "type": "entity_particles",
+      "entityCondition": "q.entity.is_user == false && q.missed(q.entity.uuid) == false",
+      "effect": "cobblemon:mortarshot_gleam",
+      "locators": ["top"]
+    },
+    {
+      "type": "pause",
+      "pause": 0.08
+    },
+    {
+      "type": "entity_particles",
+      "entityCondition": "q.entity.is_user == false && q.missed(q.entity.uuid) == false",
+      "effect": "cobblemon:mortarshot_gleam",
+      "locators": ["top"]
+    },
+    {
+      "type": "pause",
+      "pause": 0.08
+    },
+    {
+      "type": "entity_particles",
+      "entityCondition": "q.entity.is_user == false && q.missed(q.entity.uuid) == false",
+      "effect": "cobblemon:mortarshot_gleam",
+      "locators": ["top"]
+    },
+    {
+      "type": "entity_molang",
+      "entityCondition": "q.entity.is_user == false && q.missed(q.entity.uuid) == false",
+      "expressions": ["q.sound('move.eruption.target');"]
+    },
+    {
+      "type": "pause",
+      "pause": 0.5
+    },
+    {
+      "type": "remove_holds",
+      "holds": ["effects"]
+    },
+    {
+      "type": "pause",
+      "pause": 1.8
+    }
+  ]
+}

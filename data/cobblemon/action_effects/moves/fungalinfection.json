@@ -35,12 +35,11 @@
       "type": "entity_particles",
       "entityCondition": "q.entity.is_user == false && q.missed(q.entity.uuid) == false",
       "effect": "cobblemon:fungalinfection_shroombig",
-      "locators": ["item_hat"],
-      "delay": 1
+      "locators": ["item_hat"]
     },
     {
       "type": "pause",
-      "pause": 1
+      "pause": 1.3
     },
     {
       "type": "remove_holds",

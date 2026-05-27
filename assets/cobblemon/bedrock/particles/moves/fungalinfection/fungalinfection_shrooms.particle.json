@@ -13,12 +13,24 @@
                 "sound_effect": {
                     "event_name": "cobblemon:move.spore.mushroom"
                 }
-            }
+            },
+			"spore": {
+				"particle_effect": {
+					"effect": "cobblemon:fungalinfection_target",
+					"type": "particle"
+				}
+			},
+			"landcloud": {
+				"particle_effect": {
+					"effect": "cobblemon:fungalinfection_landcloudshort",
+					"type": "particle"
+				}
+			}
         },
         "components": {
             "minecraft:emitter_rate_steady": {
-                "spawn_rate": "math.random_integer(2,4)+math.round(v.entity_width/2)",
-                "max_particles": "3+math.round(v.entity_width/2)"
+                "spawn_rate": "math.random_integer(2,4)+math.round(v.entity_width)",
+                "max_particles": "3+math.round(v.entity_width)"
             },
             "minecraft:emitter_lifetime_once": {
                 "active_time": 1
@@ -31,6 +43,9 @@
                     "0.55": "event_sound"
                 }
             },
+			"minecraft:particle_lifetime_events": {
+				"expiration_event": ["spore", "landcloud"]
+			},
             "minecraft:emitter_shape_disc": {
                 "offset": [
                     "math.sin(v.emitter_age/v.emitter_lifetime*90*9+v.emitter_random_1*360)",
