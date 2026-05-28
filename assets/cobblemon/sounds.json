@@ -356,5 +356,9 @@
     },
     "move.hypothermicblow.actor_2": {
         "sounds": ["cobblemon:move/hypothermicblow/hypothermicblow_actor_2"]
+    },
+
+    "move.morningprep.actor": {
+        "sounds": ["cobblemon:move/morningprep/morningprep_actor"]
     }
  }

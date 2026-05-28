@@ -1,0 +1,69 @@
+{
+  "timeline": [
+    {
+      "type": "add_holds",
+      "holds": ["effects"]
+    },
+    {
+      "type": "animation",
+      "animation": ["morningprep", "grass", "status"],
+      "delay": 1.2
+    },
+    {
+      "type": "entity_particles",
+      "effect": "cobblemon:morningprep_sunlight",
+      "locators": ["middle"]
+    },
+    {
+      "type": "entity_particles",
+      "effect": "cobblemon:morningprep_accretion",
+      "locators": ["middle"]
+    },
+    {
+      "type": "entity_molang",
+      "entityCondition": "q.entity.is_user == true",
+      "expressions": ["q.sound('move.morningprep.actor');"]
+    },
+    {
+      "type": "pause",
+      "pause": 1
+    },
+    {
+      "type": "entity_particles",
+      "effect": "cobblemon:watersport_actor",
+      "locators": ["root"]
+    },
+    {
+      "type": "pause",
+      "pause": 0.45
+    },
+    {
+      "type": "entity_particles",
+      "effect": "cobblemon:watersport_targetrain",
+      "locators": ["root"],
+      "delay": 1.75
+    },
+    {
+      "type": "entity_particles",
+      "effect": "cobblemon:morningprep_actor",
+      "locators": ["middle"]
+    },
+    {
+      "type": "entity_molang",
+      "entityCondition": "q.entity.is_user == true",
+      "expressions": ["q.sound('move.leechseed.actor');"]
+    },
+    {
+      "type": "pause",
+      "pause": 1.5
+    },
+    {
+      "type": "remove_holds",
+      "holds": ["effects"]
+    },
+    {
+      "type": "pause",
+      "pause": 1.95
+    }
+  ]
+}
