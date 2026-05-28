@@ -3,7 +3,7 @@
 	accuracy: 100,
     basePower: 80,
     category: "Physical",
-    name: "Hypothermic Shock",
+    name: "Hypothermic Blow",
     pp: 15,
     priority: 0,
     flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },

@@ -343,5 +343,18 @@
 
     "move.mortarshot.gleam": {
         "sounds": ["cobblemon:move/mortarshot/mortarshot_gleam"]
+    },
+
+    "move.hypothermicblow.targetice": {
+        "sounds": ["cobblemon:move/hypothermicblow/hypothermicblow_targetice"]
+    },
+    "move.hypothermicblow.targetfire": {
+        "sounds": ["cobblemon:move/hypothermicblow/hypothermicblow_targetfire"]
+    },
+    "move.hypothermicblow.actor_1": {
+        "sounds": ["cobblemon:move/hypothermicblow/hypothermicblow_actor_1"]
+    },
+    "move.hypothermicblow.actor_2": {
+        "sounds": ["cobblemon:move/hypothermicblow/hypothermicblow_actor_2"]
     }
  }

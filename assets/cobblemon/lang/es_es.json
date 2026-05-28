@@ -294,8 +294,8 @@
     "cobblemon.move.huntinghour": "Hunting Hour",
     "cobblemon.move.huntinghour.desc": "The user rallies its ally to join its hunt. The target's Special Attack, Special Defence, and Critical Hit Chance are all raised. This move usually goes first.",
 
-    "cobblemon.move.hypothermicshock": "Hypothermic Shock",
-    "cobblemon.move.hypothermicshock.desc": "The user flash freezes the target with a mere touch, causing its skin to sear. This may also leave the target with a burn.",
+    "cobblemon.move.hypothermicblow": "Hypothermic Blow",
+    "cobblemon.move.hypothermicblow.desc": "The user flash freezes the target with a mere touch, causing its skin to sear. This may also leave the target with a burn.",
 
     "cobblemon.move.jetstreamlively": "Jet Stream",
     "cobblemon.move.jetstreamlively.desc": "The user rides an updraft and swoops down violently at the target. This move usually goes first, and inflicts Attack or Sp. Atk damage—whichever stat is higher for the user.",

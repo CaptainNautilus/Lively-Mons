@@ -221,7 +221,7 @@
         "variant": "level_up",
         "result": "slacho",
         "consumeHeldItem": false,
-        "learnableMoves": ["hypothermicshock"],
+        "learnableMoves": ["hypothermicblow"],
         "requirements": [
           {
             "variant": "level",
