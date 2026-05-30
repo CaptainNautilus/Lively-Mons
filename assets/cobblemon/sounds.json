@@ -360,5 +360,12 @@
 
     "move.morningprep.actor": {
         "sounds": ["cobblemon:move/morningprep/morningprep_actor"]
+    },
+
+    "move.conflagration.actor": {
+        "sounds": ["cobblemon:move/conflagration/conflagration_actor"]
+    },
+    "move.conflagration.target": {
+        "sounds": ["cobblemon:move/conflagration/conflagration_target"]
     }
  }
