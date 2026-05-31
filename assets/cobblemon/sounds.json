@@ -367,5 +367,12 @@
     },
     "move.conflagration.target": {
         "sounds": ["cobblemon:move/conflagration/conflagration_target"]
+    },
+
+    "move.aerialdance.actor": {
+        "sounds": ["cobblemon:move/aerialdance/aerialdance_actor"]
+    },
+    "move.aerialdance.target": {
+        "sounds": ["cobblemon:move/aerialdance/aerialdance_target"]
     }
  }
