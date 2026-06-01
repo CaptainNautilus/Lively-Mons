@@ -12,11 +12,11 @@
     "preEvolution": "duskarou",
     "baseStats": {
       "hp": 85,
-      "attack": 100,
-      "defence": 55,
-      "special_attack": 45,
+      "attack": 105,
+      "defence": 65,
+      "special_attack": 35,
       "special_defence": 105,
-      "speed": 90
+      "speed": 95
     },
     "behaviour": {
       "moving": {
@@ -113,6 +113,7 @@
     "tm:drainingkiss",
     "tm:dreameater",
     "tm:echoedvoice",
+    "tm:encore",
     "tm:energyball",
     "tm:facade",
     "tm:faketears",
