@@ -1,0 +1,107 @@
+{
+  "timeline": [
+    {
+      "type": "add_holds",
+      "holds": ["effects"]
+    },
+    {
+      "type": "entity_molang",
+      "expressions": ["q.play_animation(q.bedrock_stateful('explosion', 'actor'))"]
+    },
+    {
+      "type": "animation",
+      "animation": ["wakeupcall", "explosion", "status", "special"]
+    },
+    {
+      "type": "entity_molang",
+      "entityCondition": "q.entity.is_user == true",
+      "expressions": ["q.sound('move.wakeupcall.actor_1');"]
+    },
+    {
+      "type": "entity_particles",
+      "entityCondition": "q.entity.is_user == true",
+      "effect": "cobblemon:wakeupcall_actororbs",
+      "locators": ["middle"]
+    },
+    {
+      "type": "pause",
+      "pause": 1.5
+    },
+    {
+      "type": "entity_particles",
+      "entityCondition": "q.entity.is_user == true",
+      "effect": "cobblemon:wakeupcall_charge_accretion",
+      "locators": ["middle"]
+    },
+    {
+      "type": "entity_particles",
+      "entityCondition": "q.entity.is_user == true",
+      "effect": "cobblemon:wakeupcall_charge_light",
+      "locators": ["middle"]
+    },
+    {
+      "type": "pause",
+      "pause": 1.25
+    },
+    {
+      "type": "sequence",
+      "keyframes": [
+        {
+          "type": "entity_particles",
+          "entityCondition": "q.entity.is_user == true",
+          "effect": "cobblemon:wakeupcall_actorboom",
+          "locators": ["middle"]
+        },
+        {
+          "type": "entity_particles",
+          "entityCondition": "q.entity.is_user == true",
+          "effect": "cobblemon:wakeupcall_actorfire",
+          "locators": ["root"]
+        },
+        {
+          "type": "entity_particles",
+          "entityCondition": "q.entity.is_user == true",
+          "effect": "cobblemon:wakeupcall_actorswirl",
+          "locators": ["root"]
+        },
+        {
+          "type": "entity_molang",
+          "expressions": ["q.play_animation(q.bedrock_stateful('faint', 'actor'))"]
+        },
+        {
+          "type": "entity_molang",
+          "entityCondition": "q.entity.is_user == true",
+          "expressions": [
+            "q.sound('move.wakeupcall.actor_2');"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "entity_particles",
+      "entityCondition": "q.entity.is_user == true",
+      "effect": "cobblemon:wakeupcall_actorbigring",
+      "locators": ["root"]
+    },
+    {
+      "type": "pause",
+      "pause": 0.05
+    },
+    {
+      "type": "entity_particles",
+      "entityCondition": "q.entity.is_user == true && q.entity.is_on_ground == true",
+      "effect": "cobblemon:wakeupcall_actorfloorscorch",
+      "locators": ["middle"]
+    },
+    {
+      "type": "entity_particles",
+      "entityCondition": "q.entity.is_user == false && q.missed(q.entity.uuid) == false",
+      "effect": "cobblemon:wakeupcall_target",
+      "locators": ["middle"]
+    },
+    {
+      "type": "remove_holds",
+      "holds": ["effects"]
+    }
+  ]
+}

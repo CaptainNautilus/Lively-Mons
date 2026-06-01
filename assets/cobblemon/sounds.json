@@ -374,5 +374,12 @@
     },
     "move.aerialdance.target": {
         "sounds": ["cobblemon:move/aerialdance/aerialdance_target"]
+    },
+
+    "move.wakeupcall.actor_1": {
+        "sounds": ["cobblemon:move/wakeupcall/wakeupcall_actor_1"]
+    },
+    "move.wakeupcall.actor_2": {
+        "sounds": ["cobblemon:move/wakeupcall/wakeupcall_actor_2"]
     }
  }

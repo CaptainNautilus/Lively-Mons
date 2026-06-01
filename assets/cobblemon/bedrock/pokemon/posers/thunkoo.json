@@ -7,7 +7,8 @@
   "animations": {
     "faint": "q.bedrock_primary('thunkoo', 'faint', q.curve('one'))",
     "cry": "q.bedrock_stateful('thunkoo', 'cry')",
-    "recoil": "q.bedrock_stateful('thunkoo', 'recoil')"
+    "recoil": "q.bedrock_stateful('thunkoo', 'recoil')",
+    "status": "q.bedrock_stateful('thunkoo', 'cry')"
   },
   "poses": {
     "standing": {
