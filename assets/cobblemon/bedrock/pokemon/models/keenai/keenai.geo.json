@@ -47,8 +47,20 @@
 					]
 				},
 				{
-					"name": "head",
+					"name": "head_rotate",
 					"parent": "neck2",
+					"pivot": [0, 6.5, -10.75],
+					"rotation": [-90, 0, 0]
+				},
+				{
+					"name": "head_ai",
+					"parent": "head_rotate",
+					"pivot": [0, 6.5, -10.75],
+					"rotation": [90, 0, 0]
+				},
+				{
+					"name": "head",
+					"parent": "head_ai",
 					"pivot": [0, 6.5, -10.75],
 					"rotation": [90, 0, 0],
 					"cubes": [

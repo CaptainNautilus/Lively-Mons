@@ -1,0 +1,65 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "calfresh-1",
+            "pokemon": "calfresh",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "2-30",
+            "weight": 4.5,
+            "weightMultiplier": {
+                "multiplier": 2,
+                "condition": {
+                  "neededNearbyBlocks": [
+                      "#cobblemon:flowers"
+                    ]
+                }
+            },
+            "condition": {
+                "timeRange": "day",
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_plains"
+                ]
+            }
+        },
+        {
+            "id": "calfresh-2",
+            "pokemon": "calfresh",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "2-30",
+            "weight": 4.5,
+            "weightMultiplier": {
+                "multiplier": 2,
+                "condition": {
+                  "neededNearbyBlocks": [
+                      "#cobblemon:flowers"
+                    ]
+                }
+            },
+            "condition": {
+                "timeRange": "day",
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "aether:skyroot_grove",
+                    "aether:skyroot_meadow"
+                ]
+            }
+        }
+    ]
+}
