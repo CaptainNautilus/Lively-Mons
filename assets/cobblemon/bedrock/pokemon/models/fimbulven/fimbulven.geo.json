@@ -402,6 +402,23 @@
 					]
 				},
 				{
+					"name": "locator_eye_right",
+					"parent": "head",
+					"pivot": [9.30274, 12.15062, -2.525],
+					"rotation": [0, 0, 15],
+					"locators": {
+						"eye1": [9.30274, 12.15062, -2.525]
+					}
+				},
+				{
+					"name": "locator_eye_left",
+					"parent": "locator_eye_right",
+					"pivot": [9.30274, 12.15062, 2.525],
+					"locators": {
+						"eye2": [9.30274, 12.15062, 2.525]
+					}
+				},
+				{
 					"name": "eyes",
 					"parent": "head",
 					"pivot": [7, 12.25, 0],
@@ -418,14 +435,6 @@
 					"cubes": [
 						{"origin": [8.75, 12.25, -2.62], "size": [1, 1, 1], "inflate": -0.1, "uv": [24, 100]}
 					]
-				},
-				{
-					"name": "locator_eye_right",
-					"parent": "pupil_right",
-					"pivot": [9.25, 12.75, -2.525],
-					"locators": {
-						"eye1": [9.25, 12.75, -2.525]
-					}
 				},
 				{
 					"name": "highlight_left",
@@ -450,14 +459,6 @@
 					"cubes": [
 						{"origin": [8.75, 12.25, 1.62], "size": [1, 1, 1], "inflate": -0.1, "uv": [24, 100]}
 					]
-				},
-				{
-					"name": "locator_eye_left",
-					"parent": "pupil_left",
-					"pivot": [9.25, 12.75, 2.525],
-					"locators": {
-						"eye2": [9.25, 12.75, 2.525]
-					}
 				},
 				{
 					"name": "beak",

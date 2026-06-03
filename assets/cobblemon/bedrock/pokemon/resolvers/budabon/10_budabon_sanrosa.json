@@ -13,6 +13,18 @@
         "aspects": [ "shiny", "sanrosan" ],
         "texture": "cobblemon:textures/pokemon/budabon/budabon_sanrosa_shiny.png",
         "layers":[]
+      },
+      {
+        "aspects": [
+          "alpha_eyes", "sanrosan" 
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/budabon/budabon_sanrosa_alpha.png",
+            "emissive": true
+          }
+        ]
       }
   ]
 }

@@ -13,6 +13,18 @@
         "aspects": [ "shiny", "hoennian" ],
         "texture": "cobblemon:textures/pokemon/budabon/budabon_hoenn_shiny.png",
         "layers":[]
+      },
+      {
+        "aspects": [
+          "alpha_eyes", "hoennian" 
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/budabon/budabon_hoenn_alpha.png",
+            "emissive": true
+          }
+        ]
       }
   ]
 }

@@ -13,6 +13,18 @@
         "aspects": [ "shiny", "unovan" ],
         "texture": "cobblemon:textures/pokemon/budabon/budabon_unova_shiny.png",
         "layers":[]
+      },
+      {
+        "aspects": [
+          "alpha_eyes", "unovan" 
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/budabon/budabon_unova_alpha.png",
+            "emissive": true
+          }
+        ]
       }
   ]
 }

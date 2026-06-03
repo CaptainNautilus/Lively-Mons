@@ -13,6 +13,18 @@
         "aspects": [ "shiny", "johtonian" ],
         "texture": "cobblemon:textures/pokemon/budabon/budabon_johto_shiny.png",
         "layers":[]
+      },
+      {
+        "aspects": [
+          "alpha_eyes", "johtonian" 
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/budabon/budabon_johto_alpha.png",
+            "emissive": true
+          }
+        ]
       }
   ]
 }

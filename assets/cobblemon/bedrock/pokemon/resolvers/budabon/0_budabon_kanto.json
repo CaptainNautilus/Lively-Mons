@@ -13,6 +13,18 @@
         "aspects": [ "shiny"],
         "texture": "cobblemon:textures/pokemon/budabon/budabon_kanto_shiny.png",
         "layers":[]
+      },
+      {
+        "aspects": [
+          "alpha_eyes"
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/budabon/budabon_kanto_alpha.png",
+            "emissive": true
+          }
+        ]
       }
   ]
 }

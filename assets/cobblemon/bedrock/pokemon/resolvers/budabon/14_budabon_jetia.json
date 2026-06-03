@@ -13,6 +13,18 @@
         "aspects": [ "shiny", "jetian" ],
         "texture": "cobblemon:textures/pokemon/budabon/budabon_jetia_shiny.png",
         "layers":[]
+      },
+      {
+        "aspects": [
+          "alpha_eyes", "jetian" 
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/budabon/budabon_jetia_alpha.png",
+            "emissive": true
+          }
+        ]
       }
   ]
 }

@@ -13,6 +13,18 @@
         "aspects": [ "shiny", "lumoran" ],
         "texture": "cobblemon:textures/pokemon/budabon/budabon_lumora_shiny.png",
         "layers":[]
+      },
+      {
+        "aspects": [
+          "alpha_eyes", "lumoran" 
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/budabon/budabon_lumora_alpha.png",
+            "emissive": true
+          }
+        ]
       }
   ]
 }

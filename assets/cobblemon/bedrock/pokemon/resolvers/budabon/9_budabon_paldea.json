@@ -13,6 +13,18 @@
         "aspects": [ "shiny", "paldean" ],
         "texture": "cobblemon:textures/pokemon/budabon/budabon_paldea_shiny.png",
         "layers":[]
+      },
+      {
+        "aspects": [
+          "alpha_eyes", "paldean" 
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/budabon/budabon_paldea_alpha.png",
+            "emissive": true
+          }
+        ]
       }
   ]
 }

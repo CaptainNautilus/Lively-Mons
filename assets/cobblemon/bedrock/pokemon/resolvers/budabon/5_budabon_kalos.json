@@ -13,6 +13,18 @@
         "aspects": [ "shiny", "kalosian" ],
         "texture": "cobblemon:textures/pokemon/budabon/budabon_kalos_shiny.png",
         "layers":[]
+      },
+      {
+        "aspects": [
+          "alpha_eyes", "kalosian" 
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/budabon/budabon_kalos_alpha.png",
+            "emissive": true
+          }
+        ]
       }
   ]
 }

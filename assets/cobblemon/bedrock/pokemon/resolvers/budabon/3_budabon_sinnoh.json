@@ -13,6 +13,18 @@
         "aspects": [ "shiny", "sinnohan" ],
         "texture": "cobblemon:textures/pokemon/budabon/budabon_sinnoh_shiny.png",
         "layers":[]
+      },
+      {
+        "aspects": [
+          "alpha_eyes", "sinnohan" 
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/budabon/budabon_sinnoh_alpha.png",
+            "emissive": true
+          }
+        ]
       }
   ]
 }

@@ -13,6 +13,18 @@
         "aspects": [ "shiny", "lush" ],
         "texture": "cobblemon:textures/pokemon/budabon/budabon_laser_shiny.png",
         "layers":[]
+      },
+      {
+        "aspects": [
+          "alpha_eyes", "lush" 
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/budabon/budabon_laser_alpha.png",
+            "emissive": true
+          }
+        ]
       }
   ]
 }

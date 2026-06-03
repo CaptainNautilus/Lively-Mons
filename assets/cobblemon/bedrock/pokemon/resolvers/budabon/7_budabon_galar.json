@@ -13,6 +13,18 @@
         "aspects": [ "shiny", "galarian" ],
         "texture": "cobblemon:textures/pokemon/budabon/budabon_galar_shiny.png",
         "layers":[]
+      },
+      {
+        "aspects": [
+          "alpha_eyes", "galarian" 
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/budabon/budabon_galar_alpha.png",
+            "emissive": true
+          }
+        ]
       }
   ]
 }

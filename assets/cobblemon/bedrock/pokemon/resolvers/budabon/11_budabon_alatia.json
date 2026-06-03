@@ -13,6 +13,18 @@
         "aspects": [ "shiny", "alatian" ],
         "texture": "cobblemon:textures/pokemon/budabon/budabon_alatia_shiny.png",
         "layers":[]
+      },
+      {
+        "aspects": [
+          "alpha_eyes", "alatian" 
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/budabon/budabon_alatia_alpha.png",
+            "emissive": true
+          }
+        ]
       }
   ]
 }
