@@ -1,0 +1,30 @@
+{
+    "species": "cobblemon:piochio",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:piochio",
+        "model": "cobblemon:piochio.geo",
+        "texture": "cobblemon:textures/pokemon/piochio/piochio.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/piochio/piochio_shiny.png",
+        "layers":[]
+      },
+      {
+        "aspects": [
+          "alpha_eyes"
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/piochio/piochio_alpha.png",
+            "emissive": true
+          }
+        ]
+      }
+    ]
+}

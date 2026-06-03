@@ -1,0 +1,40 @@
+{
+    "portraitScale": 1.5,
+    "portraitTranslation": [ -1.3, 0.1, 0],
+      "profileScale": 0.6,
+      "profileTranslation": [ -0.125, 0.65, 0 ],
+  "rootBone": "shiboom",
+  "animations": {
+    "faint": "q.bedrock_primary('shiboom', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('shiboom', 'cry')",
+      "recoil": "q.bedrock_stateful('shiboom', 'recoil')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "HOVER"],
+      "animations": ["q.pitch_tilt('body')", 
+        "q.bedrock('shiboom', 'air_idle')"],
+      "quirks": [
+        "q.bedrock_quirk('shiboom', 'blink')",
+        "q.bedrock_quirk('shiboom', 'twinkle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM", "FLY"],
+      "animations": ["q.pitch_tilt('body')", 
+        "q.bedrock('shiboom', 'air_fly')"
+    ],
+      "quirks": [
+        "q.bedrock_quirk('shiboom', 'blink')",
+        "q.bedrock_quirk('shiboom', 'twinkle')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('shiboom', 'sleep')"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "species": "cobblemon:catertiller",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:catertiller",
+        "model": "cobblemon:catertiller.geo",
+        "texture": "cobblemon:textures/pokemon/catertiller/catertiller.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/catertiller/catertiller_shiny.png"
+      },
+      {
+        "aspects": [
+          "alpha_eyes"
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/catertiller/catertiller_alpha.png",
+            "emissive": true
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,63 @@
+{
+    "portraitScale": 1.95,
+    "portraitTranslation": [-0.6, -0.86, 0],
+    "profileScale": 0.6,
+    "profileTranslation": [0, 0.85, 0],
+    "rootBone": "pungudua",
+    "animations": {
+      "faint": "q.bedrock_primary('pungudua', 'faint', q.curve('one'))",
+      "cry": "q.bedrock_stateful('pungudua', 'cry')",
+      "recoil": "q.bedrock_stateful('pungudua', 'recoil')"
+    },
+    "poses": {
+      "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": [
+        "q.look('head', 1, 1, 45, -45, 22.5, -22.5)",
+        "q.look('ear_left_ai', -1, -1, 45, -45, 22.5, -22.5)",
+        "q.look('ear_right_ai', -1, -1, 45, -45, 22.5, -22.5)",
+          "q.bedrock('pungudua', 'battle_idle')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('pungudua', 'blink')",
+          "q.bedrock_quirk('pungudua', 'sniff_quirk')"
+        ]
+      },
+      "standing": {
+        "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+        "isBattle": false,
+        "animations": [
+        "q.look('head', 1, 1, 45, -45, 22.5, -22.5)",
+        "q.look('ear_left_ai', -1, -1, 45, -45, 22.5, -22.5)",
+        "q.look('ear_right_ai', -1, -1, 45, -45, 22.5, -22.5)",
+          "q.bedrock('pungudua', 'ground_idle')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('pungudua', 'blink')",
+          "q.bedrock_quirk('pungudua', 'sniff_quirk')"
+        ]
+      },
+      "walking": {
+        "poseTypes": ["WALK", "SWIM"],
+        "animations": [
+        "q.look('head', 1, 1, 45, -45, 22.5, -22.5)",
+        "q.look('ear_left_ai', -1, -1, 45, -45, 22.5, -22.5)",
+        "q.look('ear_right_ai', -1, -1, 45, -45, 22.5, -22.5)",
+        "q.bedrock('pungudua', 'ground_walk')"
+      ],
+        "quirks": [
+          "q.bedrock_quirk('pungudua', 'blink')",
+          "q.bedrock_quirk('pungudua', 'sniff_quirk')"
+        ]
+      },
+      "sleep": {
+        "poseTypes": ["SLEEP"],
+        "namedAnimations": {
+          "cry": "q.bedrock_stateful('dummy', 'cry')"
+        },
+        "animations": ["q.bedrock('pungudua', 'sleep')"],
+        "quirks": ["q.bedrock_quirk('pungudua', 'sniff_quirk')"]
+      }
+   }
+}

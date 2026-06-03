@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:budabon",
+    "order": 12,
+    "variations": [
+      {
+        "aspects": [ "lush"],
+        "poser": "cobblemon:budabon_laser",
+        "model": "cobblemon:budabon_laser.geo",
+        "texture": "cobblemon:textures/pokemon/budabon/budabon_laser.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny", "lush" ],
+        "texture": "cobblemon:textures/pokemon/budabon/budabon_laser_shiny.png",
+        "layers":[]
+      }
+  ]
+}

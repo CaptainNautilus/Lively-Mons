@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:budabon",
+    "order": 4,
+    "variations": [
+      {
+        "aspects": [ "unovan"],
+        "poser": "cobblemon:budabon_unova",
+        "model": "cobblemon:budabon_unova.geo",
+        "texture": "cobblemon:textures/pokemon/budabon/budabon_unova.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny", "unovan" ],
+        "texture": "cobblemon:textures/pokemon/budabon/budabon_unova_shiny.png",
+        "layers":[]
+      }
+  ]
+}

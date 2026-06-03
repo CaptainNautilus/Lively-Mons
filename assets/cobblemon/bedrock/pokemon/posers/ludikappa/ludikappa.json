@@ -1,0 +1,73 @@
+{
+  "portraitScale": 2.0,
+  "portraitTranslation": [-0.2, 3.82, 0],
+  "profileScale": 0.4,
+  "profileTranslation": [-0.05, 1.15, 0],
+  "rootBone": "ludikappa",
+  "animations": {
+    "cry": "q.bedrock_stateful('ludikappa', 'cry')",
+    "recoil": "q.bedrock_stateful('ludikappa', 'recoil')",
+    "faint": "q.bedrock_primary('ludikappa', 'ground_faint', q.curve('one'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "animations": ["q.look('head')", "q.bedrock('ludikappa', 'battle_idle')"],
+      "quirks": ["q.bedrock_quirk('ludikappa', 'blink')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE"],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "animations": ["q.look('head')", "q.bedrock('ludikappa', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('ludikappa', 'blink')"]
+    },
+    "stilt-standing": {
+      "poseTypes": ["STAND", "NONE", "PROFILE", "PORTRAIT"],
+      "isTouchingWater": true,
+      "animations": ["q.look('head')", "q.bedrock('ludikappa', 'battle_idle')"],
+      "quirks": ["q.bedrock_quirk('ludikappa', 'blink')"]
+    },
+    "battle-walking": {
+      "poseTypes": ["WALK"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "animations": ["q.look('head')", "q.bedrock('ludikappa', 'battle_walk')"],
+      "quirks": ["q.bedrock_quirk('ludikappa', 'blink')"]
+    },
+        "walking": {
+      "poseTypes": ["WALK"],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "animations": ["q.look('head')", "q.bedrock('ludikappa', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('ludikappa', 'blink')"]
+    },
+        "stilt-walking": {
+      "poseTypes": ["WALK"],
+      "isTouchingWater": true,
+      "animations": ["q.look('head')", "q.bedrock('ludikappa', 'battle_walk')"],
+      "quirks": ["q.bedrock_quirk('ludikappa', 'blink')"]
+    },
+    "float": {
+      "isUnderWater": true,
+      "poseTypes": ["FLOAT"],
+      "animations": ["q.look('head')", "q.bedrock('ludikappa', 'water_idle')"],
+      "quirks": ["q.bedrock_quirk('ludikappa', 'blink')"]
+    },
+    "swim": {
+      "isUnderWater": true,
+      "poseTypes": ["SWIM"],
+      "animations": ["q.look('head')", "q.bedrock('ludikappa', 'water_swim')"],
+      "quirks": ["q.bedrock_quirk('ludikappa', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('ludikappa', 'sleep')"],
+                  "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

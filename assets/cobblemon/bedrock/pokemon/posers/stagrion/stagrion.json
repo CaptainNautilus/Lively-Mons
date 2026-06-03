@@ -1,0 +1,52 @@
+{
+      "portraitScale": 2,
+      "portraitTranslation": [-0.5, 2.55, 0],
+      "profileScale": 0.45,
+      "profileTranslation": [0, 1.12, 0],
+  "rootBone": "stagrion",
+  "animations": {
+    "faint": "q.bedrock_primary('stagrion', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('stagrion', 'cry')",
+    "recoil": "q.bedrock_stateful('stagrion', 'recoil')"
+  },
+  "poses": {
+        "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('stagrion', 'battle_idle')"],
+      "quirks": [
+        "q.bedrock_quirk('stagrion', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('stagrion', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('stagrion', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('stagrion', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('stagrion', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('stagrion', 'sleep')"],
+            "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

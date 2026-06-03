@@ -1,0 +1,168 @@
+{
+    "portraitScale": 1,
+    "portraitTranslation": [-1, 4.1, 0],
+    "profileScale": 0.245,
+    "profileTranslation": [0, 1.4, -7.5],
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, -0.2]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 0.35, 0],
+    "seat_1_reverse": [0, 0.35, 0]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 0.35, 0],
+    "seat_1_reverse": [0, 0.35, 0]
+  },
+  "rootBone": "mortaraid",
+  "animations": {
+    "faint": "q.bedrock_primary('mortaraid', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('mortaraid', 'cry')",
+    "recoil": "q.bedrock_stateful('mortaraid', 'recoil')",
+    "physical": "q.bedrock_stateful('mortaraid', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_stateful('mortaraid', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_stateful('mortaraid', 'status', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head_ai', 0.5, 1)",
+        "q.look('ear_left', -0.5, 0)",
+        "q.look('ear_right', -0.5, 0)",
+        "q.bedrock('mortaraid', 'battle_idle')",
+        "q.bedrock('mortaraid', 'spin')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mortaraid', 'blink')",
+        "q.bedrock_quirk('mortaraid', 'quirk')"
+      ]
+    },
+    "battle-walking": {
+      "poseTypes": ["WALK"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head_ai', 0.5, 1)",
+        "q.look('ear_left', -0.5, 0)",
+        "q.look('ear_right', -0.5, 0)",
+        "q.bedrock('mortaraid', 'ground_walk')",
+        "q.bedrock('mortaraid', 'spin')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mortaraid', 'blink')",
+        "q.bedrock_quirk('mortaraid', 'quirk')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "condition": "!q.in_air",
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head_ai', 0.5, 1)",
+        "q.look('ear_left', -0.5, 0)",
+        "q.look('ear_right', -0.5, 0)",
+        "q.bedrock('mortaraid', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mortaraid', 'blink')",
+        "q.bedrock_quirk('mortaraid', 'quirk')"
+      ]
+    },
+      "in-air": {
+        "poseTypes": ["STAND", "WALK", "NONE"],
+        "isBattle": false,
+        "condition": "q.in_air && q.is_ridden",
+        "animations": [
+        "q.look('head_ai', 0.5, 1)",
+        "q.look('ear_left', -0.5, 0)",
+        "q.look('ear_right', -0.5, 0)",
+        "q.bedrock('mortaraid', 'ride_jump')"],
+        "transformTicks": 5,
+        "transformToTicks": 5
+      },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "condition": "!q.in_air&& !q.is_sprinting",
+      "isBattle": false,
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head_ai', 0.5, 1)",
+        "q.look('ear_left', -0.5, 0)",
+        "q.look('ear_right', -0.5, 0)",
+        "q.bedrock('mortaraid', 'ground_walk')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('mortaraid', 'ride_ground_walk')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mortaraid', 'blink')",
+        "q.bedrock_quirk('mortaraid', 'quirk')"
+      ]
+    },
+      "run": {
+        "poseTypes": ["STAND","WALK"],
+        "isBattle": false,
+        "condition": "!q.in_air && q.is_sprinting",
+        "animations": [
+        "q.look('head_ai', 0.5, 1)",
+        "q.look('ear_left', -0.5, 0)",
+        "q.look('ear_right', -0.5, 0)",
+          "q.bedrock('mortaraid', 'ground_run')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('mortaraid', 'ride_ground_run')"
+        }
+        ]
+      },
+    "float": {
+      "poseTypes": ["FLOAT", "STAND"],
+      "isTouchingWater": true,
+      "condition": "!q.in_air",
+      "animations": [
+        "q.look('head_ai', 0.5, 1)",
+        "q.look('ear_left', -0.5, 0)",
+        "q.look('ear_right', -0.5, 0)",
+        "q.bedrock('mortaraid', 'water_idle')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('mortaraid', 'ride_ground_run')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mortaraid', 'blink')",
+        "q.bedrock_quirk('mortaraid', 'quirk')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM", "WALK"],
+      "isTouchingWater": true,
+      "condition": "!q.in_air",
+      "animations": [
+        "q.look('head_ai', 0.5, 1)",
+        "q.look('ear_left', -0.5, 0)",
+        "q.look('ear_right', -0.5, 0)",
+        "q.bedrock('mortaraid', 'water_swim')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('mortaraid', 'ride_ground_run')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mortaraid', 'blink')",
+        "q.bedrock_quirk('mortaraid', 'quirk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('mortaraid', 'sleep')"],
+            "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

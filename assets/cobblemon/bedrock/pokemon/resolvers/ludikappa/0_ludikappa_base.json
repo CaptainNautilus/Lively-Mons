@@ -1,0 +1,29 @@
+{
+    "species": "cobblemon:ludikappa",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:ludikappa",
+        "model": "cobblemon:ludikappa.geo",
+        "texture": "cobblemon:textures/pokemon/ludikappa/ludikappa.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/ludikappa/ludikappa_shiny.png"
+      },
+      {
+        "aspects": [
+          "alpha_eyes"
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/ludikappa/ludikappa_alpha.png",
+            "emissive": true
+          }
+        ]
+      }
+    ]
+  }

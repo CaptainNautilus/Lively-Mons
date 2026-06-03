@@ -1,0 +1,29 @@
+{
+    "species": "cobblemon:citrillume",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:citrillume",
+        "model": "cobblemon:citrillume.geo",
+        "texture": "cobblemon:textures/pokemon/citrillume/citrillume.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/citrillume/citrillume_shiny.png"
+      },
+      {
+        "aspects": [
+          "alpha_eyes"
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/citrillume/citrillume_alpha.png",
+            "emissive": true
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:budabon",
+    "order": 14,
+    "variations": [
+      {
+        "aspects": [ "jetian"],
+        "poser": "cobblemon:budabon_jetia",
+        "model": "cobblemon:budabon_jetia.geo",
+        "texture": "cobblemon:textures/pokemon/budabon/budabon_jetia.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny", "jetian" ],
+        "texture": "cobblemon:textures/pokemon/budabon/budabon_jetia_shiny.png",
+        "layers":[]
+      }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+    "species": "cobblemon:shuckle",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": [ "galarian"],
+        "poser": "cobblemon:shucklegalar",
+        "model": "cobblemon:shucklegalar.geo",
+        "texture": "cobblemon:textures/pokemon/shucklegalar/shucklegalar.png",
+        "layers": [
+          {
+            "name": "spikes",
+            "texture": "cobblemon:textures/pokemon/shucklegalar/shucklegalar_transparent.png",
+            "translucent": true
+          }  
+        ]
+      },
+      {
+        "aspects": [ "shiny", "galarian" ],
+        "texture": "cobblemon:textures/pokemon/shucklegalar/shucklegalar_shiny.png",
+        "layers":[
+          {
+          "name": "spikes",
+          "texture": "cobblemon:textures/pokemon/shucklegalar/shucklegalar_shiny_transparent.png",
+          "translucent": true
+        }  
+      ]
+    },
+      {
+        "aspects": [
+          "alpha_eyes"
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/shucklegalar/shucklegalar_alpha.png",
+            "emissive": true
+          }
+        ]
+      }
+  ]
+}

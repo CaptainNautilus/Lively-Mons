@@ -1,0 +1,29 @@
+{
+    "species": "cobblemon:calfresh",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:calfresh",
+        "model": "cobblemon:calfresh.geo",
+        "texture": "cobblemon:textures/pokemon/calfresh/calfresh.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/calfresh/calfresh_shiny.png"
+      },
+      {
+        "aspects": [
+          "alpha_eyes"
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/calfresh/calfresh_alpha.png",
+            "emissive": true
+          }
+        ]
+      }
+    ]
+  }

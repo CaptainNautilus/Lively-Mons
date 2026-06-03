@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:budabon",
+    "order": 9,
+    "variations": [
+      {
+        "aspects": [ "paldean"],
+        "poser": "cobblemon:budabon_paldea",
+        "model": "cobblemon:budabon_paldea.geo",
+        "texture": "cobblemon:textures/pokemon/budabon/budabon_paldea.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny", "paldean" ],
+        "texture": "cobblemon:textures/pokemon/budabon/budabon_paldea_shiny.png",
+        "layers":[]
+      }
+  ]
+}

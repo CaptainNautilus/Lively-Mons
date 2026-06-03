@@ -1,0 +1,29 @@
+{
+    "species": "cobblemon:lactarine",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:lactarine",
+        "model": "cobblemon:lactarine.geo",
+        "texture": "cobblemon:textures/pokemon/lactarine/lactarine.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/lactarine/lactarine_shiny.png"
+      },
+      {
+        "aspects": [
+          "alpha_eyes"
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/lactarine/lactarine_alpha.png",
+            "emissive": true
+          }
+        ]
+      }
+    ]
+  }

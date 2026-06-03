@@ -1,0 +1,138 @@
+  {
+      "portraitScale": 2.8,
+      "portraitTranslation": [-0.85, -0.5, 0],
+      "profileScale": 0.5,
+      "profileTranslation": [0, 1, -2],
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0.3],
+    "seat_2": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 2, 1.5],
+    "seat_1_reverse": [0, 2, 0.5],
+    "seat_2": [0, 1, 1.5],
+    "seat_2_reverse": [0, 2, 0.5]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 2, 1.5],
+    "seat_1_reverse": [0, 1, 0.5],
+    "seat_2": [0, 2, 1.5],
+    "seat_2_reverse": [0, 2, 0.5]
+  },
+  "rootBone": "fimbulven",
+  "animations": {
+    "faint": "q.bedrock_primary('fimbulven', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('fimbulven', 'cry')",
+    "recoil": "q.bedrock_stateful('fimbulven', 'recoil')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "condition": "q.has_entity ? !q.in_air : 1.0",
+      "animations": [
+        "q.look('head_ai', -1, 1, 45, -45, 45, -45)",
+        "q.bedrock('fimbulven', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('fimbulven', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "condition": "!q.is_sprinting",
+      "animations": [
+        "q.look('head_ai', -1, 1, 45, -45, 45, -45)",
+        "q.bedrock('fimbulven', 'ground_walk')",
+        {
+          "condition": "q.is_ridden && q.has_entity",
+          "animation": "q.bedrock('fimbulven', 'ride_ground_walk')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('fimbulven', 'blink')"
+      ],
+      "transformTicks": 5
+    },
+    "running": {
+      "poseTypes": ["WALK"],
+      "condition": "q.is_sprinting",
+      "animations": [
+        "q.look('head_ai', -1, 1, 45, -45, 45, -45)",
+        "q.bedrock('fimbulven', 'ground_run')",
+        {
+          "condition": "q.is_ridden && q.has_entity",
+          "animation": "q.bedrock('fimbulven', 'ride_ground_run')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('fimbulven', 'blink')"
+      ],
+      "transformTicks": 5
+    },
+    "hover": {
+      "poseName": "hover",
+      "poseTypes": ["FLOAT", "HOVER"],
+      "quirks":
+      [
+        "q.bedrock_quirk('fimbulven', 'blink')"
+      ],
+      "animations": [
+        "q.look('head_ai', -1, 1, 45, -45, 45, -45)",
+        "q.bedrock('fimbulven', 'air_idle')"]
+    },
+    "fly": {
+      "poseName": "fly",
+      "poseTypes": ["FLY", "SWIM"],
+      "condition": "!q.is_gliding",
+      "quirks": ["q.bedrock_quirk('fimbulven', 'blink')"],
+      "animations": [
+        "q.look('head_ai', -1, 1, 45, -45, 45, -45)",
+        "q.bedrock('fimbulven', 'air_fly')",
+        {
+          "condition": "q.is_ridden && q.has_entity",
+          "animation": "q.bedrock('fimbulven', 'ride_air_fly')"
+        }
+      ]
+    },
+    "glide": {
+      "poseTypes": ["FLY", "SWIM"],
+      "condition": "q.is_gliding",
+      "animations": [
+        "q.look('head_ai', -1, 1, 45, -45, 45, -45)",
+        "q.bedrock('fimbulven', 'air_glide')",
+        "q.bedrock('fimbulven', 'ride_dive')",
+        {
+          "condition": "q.is_ridden && q.has_entity",
+          "animation": "q.bedrock('fimbulven', 'ride_air_fly')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('fimbulven', 'blink')"
+      ],
+      "transformTicks": 10
+    },
+    "ride-jump": {
+      "poseTypes": ["STAND","WALK"],
+      "condition": "q.in_air",
+      "animations": [
+        "q.look('head_ai', -1, 1, 45, -45, 45, -45)",
+        "q.bedrock('fimbulven', 'ride_jump')",
+        {
+          "condition": "q.is_ridden && q.has_entity",
+          "animation": "q.bedrock('fimbulven', 'ride_ground_run')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('fimbulven', 'blink')"
+      ],
+      "transformTicks": 10
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('fimbulven', 'sleep')"],
+            "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

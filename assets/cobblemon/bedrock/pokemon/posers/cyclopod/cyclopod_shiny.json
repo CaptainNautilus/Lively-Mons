@@ -1,0 +1,82 @@
+{
+	"portraitScale": 2.35,
+	"portraitTranslation": [ -0.15, -0.35, 0 ],
+	"profileScale": 0.7,
+	"profileTranslation": [ 0, 0.7, 0 ],
+  "rootBone": "cyclopod",
+    "animations": {
+      "faint": "q.bedrock_primary('cyclopod', 'faint', q.curve('one'))",
+      "cry": "q.bedrock_stateful('cyclopod', 'cry')",
+      "recoil": "q.bedrock_stateful('cyclopod', 'recoil')"
+    },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "FLOAT", "HOVER"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('cyclopod', 'battle_idle_shiny')"
+      ],
+      "quirks": [
+          "q.bedrock_quirk('cyclopod', 'blink')",
+          "q.bedrock_quirk('cyclopod', 'quirk')"
+      ]
+    },
+    "battle-walk": {
+      "poseTypes": ["WALK", "SWIM", "FLY"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('cyclopod', 'battle_walk_shiny')"
+      ],
+      "quirks": [
+          "q.bedrock_quirk('cyclopod', 'blink')",
+          "q.bedrock_quirk('cyclopod', 'quirk')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT", "HOVER", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('cyclopod', 'ground_idle')"
+      ],
+      "quirks": [
+          "q.bedrock_quirk('cyclopod', 'blink')",
+          "q.bedrock_quirk('cyclopod', 'quirk')"
+      ]
+    },
+    "walk": {
+      "poseTypes": ["WALK", "SWIM", "FLY"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('cyclopod', 'ground_walk')"
+      ],
+      "quirks": [
+          "q.bedrock_quirk('cyclopod', 'blink')",
+          "q.bedrock_quirk('cyclopod', 'quirk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('cyclopod', 'sleep')"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    },
+    "battle-sleep": {
+      "poseTypes": ["SLEEP"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('cyclopod', 'battle_sleep_shiny')"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

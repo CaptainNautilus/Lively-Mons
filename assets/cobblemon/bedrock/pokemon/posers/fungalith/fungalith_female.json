@@ -1,0 +1,142 @@
+{
+  "portraitScale": 0.7,
+  "portraitTranslation": [-0.3, 0.8, 0],
+  "profileScale": 0.34,
+  "profileTranslation": [0, 1.2, -1],
+  "rootBone": "fungalith",
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.25, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 0.45, 1],
+    "seat_1_reverse": [0, 0.45, 1]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 0.45, 1],
+    "seat_1_reverse": [0, 0.45, 1]
+  },
+  "animations": {
+    "faint": "q.bedrock_primary('fungalith', 'faint_female', q.curve('one'))",
+    "cry": "q.bedrock_stateful('fungalith', 'cry')",
+    "recoil": "q.bedrock_stateful('fungalith', 'recoil')"
+  },
+  "poses": {
+    "ride_jump": {
+      "poseTypes": ["WALK", "STAND", "FLOAT", "NONE"],
+      "isBattle": false,
+      "condition": "q.in_air && q.has_entity",
+      "animations": [
+        "q.bedrock('fungalith','ride_jump')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('fungalith', 'ride_ground_run')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('fungalith', 'blink')",
+        "q.bedrock_quirk('fungalith', 'brow_raise_quirk')"
+      ],
+      "transformTicks": 4,
+      "transformToTicks": 4
+    },
+
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('fungalith', 'battle_cry')"
+      },
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('fungalith', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('fungalith', 'blink')",
+        "q.bedrock_quirk('fungalith', 'brow_raise_quirk')"
+              ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isStandingOnSandOrRedSand": false,
+      "isBattle": false,
+      "condition": "!q.in_air",
+      "animations": [
+        "q.bedrock('fungalith', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('fungalith', 'blink')",
+        "q.bedrock_quirk('fungalith', 'brow_raise_quirk')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "isStandingOnSandOrRedSand": false,
+      "condition": "!q.in_air && !q.is_sprinting",
+      "animations": [
+        "q.bedrock('fungalith', 'ground_walk')",
+                {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('fungalith', 'ride_ground_walk')"
+        }
+      ],
+      "quirks": ["q.bedrock_quirk('fungalith', 'blink')",
+      "q.bedrock_quirk('fungalith', 'brow_raise_quirk')"]
+    },
+    "run": {
+      "poseTypes": ["WALK"],
+      "isBattle": false,
+      "condition": "!q.in_air && q.is_sprinting && q.has_entity",
+      "animations": [
+        "q.bedrock('fungalith', 'ground_run')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('fungalith', 'ride_ground_run')"
+        }
+      ],
+      "quirks": ["q.bedrock_quirk('fungalith', 'blink')"]
+    },
+    "sand-standing": {
+      "poseTypes": ["STAND"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('fungalith', 'sand_cry')"
+      },
+      "isStandingOnSandOrRedSand": true,
+      "condition": "!q.is_ridden",
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('fungalith', 'sand_idle')"
+      ],
+      "quirks": []
+    },
+    "sand-swimming": {
+      "poseTypes": ["WALK"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('fungalith', 'sand_cry')"
+      },
+      "isStandingOnSandOrRedSand": true,
+      "condition": "!q.is_ridden",
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('fungalith', 'sand_swim')"
+      ],
+      "quirks": []
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "isStandingOnSandOrRedSand": false,
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+      "animations": ["q.bedrock('fungalith', 'sleep')"]
+    },
+    "sand-sleep": {
+      "poseTypes": ["SLEEP"],
+      "isStandingOnSandOrRedSand": true,
+      "condition": "!q.is_ridden",
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('fungalith', 'sand_sleep')"
+      ],
+      "quirks": []
+    }
+  }
+}

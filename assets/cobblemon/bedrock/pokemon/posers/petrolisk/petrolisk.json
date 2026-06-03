@@ -1,0 +1,170 @@
+{
+      "portraitScale": 1.55,
+      "portraitTranslation": [ -1.6, 0.35, 0],
+      "profileScale": 0.5,
+      "profileTranslation": [ -0.2, 0.92, 0 ],
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.35, -0.5],
+    "seat_2": [0, 0.35, 0],
+    "seat_3": [0, 0.35, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 0.4, 1],
+    "seat_1_reverse": [0, 0.4, 1],
+    "seat_2": [0, 0.4, 1],
+    "seat_2_reverse": [0, 0.4, 1],
+    "seat_3": [0, 0.4, 1],
+    "seat_3_reverse": [0, 0.4, 1]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 0.4, 1],
+    "seat_1_reverse": [0, 0.4, 1],
+    "seat_2": [0, 0.4, 1],
+    "seat_2_reverse": [0, 0.4, 1],
+    "seat_3": [0, 0.4, 1],
+    "seat_3_reverse": [0, 0.4, 1]
+  },
+  "rootBone": "petrolisk",
+  "animations": {
+    "faint": "q.bedrock_primary('petrolisk', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('petrolisk', 'cry')",
+    "recoil": "q.bedrock_stateful('petrolisk', 'recoil')"
+  },
+  "poses": {
+      "portrait": {
+        "poseTypes": ["PORTRAIT", "PROFILE"],
+        "animations": [
+        "q.look('head')",
+        "q.bedrock('petrolisk', 'ground_idle')"
+          ],
+      "quirks": [
+        "q.bedrock_quirk('petrolisk', 'shifty')",
+        "q.bedrock_quirk('petrolisk', 'blink')"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "rotation": [0, -22.5, 0]
+        }
+      ]
+      },
+      "in-air": {
+        "poseTypes": ["STAND", "WALK", "FLOAT", "SWIM"],
+        "isBattle": false,
+        "condition": "q.in_air && q.is_ridden",
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('petrolisk', 'ride_jump')",
+          "q.bedrock('petrolisk', 'water_idle')"
+          ],
+      "quirks": [
+        "q.bedrock_quirk('petrolisk', 'shifty')",
+        "q.bedrock_quirk('petrolisk', 'blink')"
+      ],
+        "transformTicks": 5,
+        "transformToTicks": 5
+      },
+    "swim": {
+      "poseTypes": ["SWIM", "WALK", "NONE"],
+      "isTouchingWater": true,
+      "condition": "!q.in_air",
+      "animations": ["q.pitch_tilt('body')", 
+        "q.look('head')",
+        "q.bedrock('petrolisk', 'water_swim')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('petrolisk', 'ride_water_swim')"
+        }
+      ],
+      "namedAnimations": {
+        "faint": "q.bedrock_primary('petrolisk', 'water_faint', q.curve('one'))",
+        "recoil": "q.bedrock_stateful('petrolisk', 'recoil_water')"
+      },
+      "quirks": [
+        "q.bedrock_quirk('petrolisk', 'shifty')",
+        "q.bedrock_quirk('petrolisk', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND"],
+      "isTouchingWater": false,
+      "condition": "!q.in_air",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('petrolisk', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('petrolisk', 'shifty')",
+        "q.bedrock_quirk('petrolisk', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "condition": "!q.in_air && !q.is_sprinting",
+      "isTouchingWater": false,
+      "animations": [
+                {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('petrolisk', 'ride_ground_walk')"
+        },
+        "q.look('head')",
+        "q.bedrock('petrolisk', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('petrolisk', 'shifty')",
+        "q.bedrock_quirk('petrolisk', 'blink')"
+      ]
+    },
+      "run": {
+        "poseTypes": ["STAND","WALK"],
+      "isTouchingWater": false,
+        "isBattle": false,
+        "condition": "!q.in_air && q.is_sprinting",
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('petrolisk', 'ground_run')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('petrolisk', 'ride_ground_run')"
+        }
+        ],
+      "quirks": [
+        "q.bedrock_quirk('petrolisk', 'shifty')",
+        "q.bedrock_quirk('petrolisk', 'blink')"
+      ]
+      },
+    "float": {
+      "poseTypes": ["FLOAT", "STAND"],
+      "isTouchingWater": true,
+      "condition": "!q.in_air",
+      "animations": ["q.pitch_tilt('body')", 
+        "q.look('head')",
+        "q.bedrock('petrolisk', 'water_idle')"
+      ],
+      "namedAnimations": {
+        "faint": "q.bedrock_primary('petrolisk', 'water_faint', q.curve('one'))",
+        "recoil": "q.bedrock_stateful('petrolisk', 'recoil_water')"
+      },
+      "quirks": [
+        "q.bedrock_quirk('petrolisk', 'shifty')",
+        "q.bedrock_quirk('petrolisk', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "isTouchingWater": false,
+      "animations": ["q.bedrock('petrolisk', 'sleep')"],
+            "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    },
+    "water-sleep": {
+      "poseTypes": ["SLEEP"],
+      "isTouchingWater": true,
+      "animations": ["q.bedrock('petrolisk', 'water_sleep')"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

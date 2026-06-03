@@ -1,0 +1,195 @@
+{
+      "portraitScale": 1,
+      "portraitTranslation": [-0.4, 2.2, -5],
+      "profileScale": 0.32,
+      "profileTranslation": [0, 1.3, -5],
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.3, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 0.35, 0],
+    "seat_1_reverse": [0, 0.35, 0]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 0.35, 0],
+    "seat_1_reverse": [0, 0.35, 0]
+  },
+  "rootBone": "citrisaurid",
+  "animations": {
+    "faint": "q.bedrock_primary('citrisaurid', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('citrisaurid', 'cry')",
+    "recoil": "q.bedrock_stateful('citrisaurid', 'recoil')",
+    "physical": "q.bedrock_primary('citrisaurid', 'physical', q.curve('symmetrical'))",
+    "special": "q.bedrock_primary('citrisaurid', 'special', q.curve('symmetrical'))",
+    "status": "q.bedrock_primary('citrisaurid', 'status', q.curve('symmetrical'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "condition": "q.has_entity ? !q.in_air : 1.0",
+      "isBattle": true,
+      "animations": ["q.look('head_ai')", "q.bedrock('citrisaurid', 'air_idle')", "q.bedrock('citrisaurid', 'turbine')",
+        {
+          "condition": "q.is_ridden && q.has_entity",
+          "animation": "q.bedrock('citrisaurid', 'ride_ground_walk')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('citrisaurid', 'blink')",
+        "q.bedrock_quirk('citrisaurid', 'quirk1')",
+        "q.bedrock_quirk('citrisaurid', 'quirk2')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "condition": "q.has_entity ? !q.in_air : 1.0",
+      "isBattle": false,
+      "animations": ["q.look('head_ai')", 
+      "q.bedrock('citrisaurid', 'ground_idle')", 
+      "q.bedrock('citrisaurid', 'turbine')",
+        {
+          "condition": "q.is_ridden && q.has_entity",
+          "animation": "q.bedrock('citrisaurid', 'ride_ground_walk')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('citrisaurid', 'blink')",
+        "q.bedrock_quirk('citrisaurid', 'quirk1')",
+        "q.bedrock_quirk('citrisaurid', 'quirk2')"
+      ]
+    },
+    "battle-walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "condition": "!q.is_sprinting",
+      "isBattle": true,
+      "animations": ["q.pitch_tilt('body')", "q.look('head_ai')",
+      "q.bedrock('citrisaurid', 'air_fly')", 
+      "q.bedrock('citrisaurid', 'turbine')",
+        {
+          "condition": "q.is_ridden && q.has_entity",
+          "animation": "q.bedrock('citrisaurid', 'ride_ground_walk')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('citrisaurid', 'blink')",
+        "q.bedrock_quirk('citrisaurid', 'quirk1')",
+        "q.bedrock_quirk('citrisaurid', 'quirk2')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "condition": "!q.is_sprinting  && !q.in_air",
+      "isBattle": false,
+      "animations": ["q.look('head_ai')",
+       "q.bedrock('citrisaurid', 'ground_walk')", 
+       "q.bedrock('citrisaurid', 'turbine')",
+        {
+          "condition": "q.is_ridden && q.has_entity",
+          "animation": "q.bedrock('citrisaurid', 'ride_ground_walk')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('citrisaurid', 'blink')",
+        "q.bedrock_quirk('citrisaurid', 'quirk1')",
+        "q.bedrock_quirk('citrisaurid', 'quirk2')"
+      ]
+    },    
+    "running": {
+      "poseTypes": ["WALK"],
+      "condition": "q.is_sprinting && !q.in_air",
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('citrisaurid', 'ground_run')",
+        "q.bedrock('citrisaurid', 'turbine')",
+        {
+          "condition": "q.is_ridden && q.has_entity",
+          "animation": "q.bedrock('citrisaurid', 'ride_ground_run')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('citrisaurid', 'blink')",
+        "q.bedrock_quirk('citrisaurid', 'quirk1')",
+        "q.bedrock_quirk('citrisaurid', 'quirk2')"
+      ],
+      "transformTicks": 5
+    },
+        "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('citrisaurid', 'air_idle')",
+        "q.bedrock('citrisaurid', 'turbine')",
+        "q.pitch_tilt('body', 1)"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('citrisaurid', 'blink')",
+        "q.bedrock_quirk('citrisaurid', 'quirk1')",
+        "q.bedrock_quirk('citrisaurid', 'quirk2')"
+      ]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "condition": "!q.is_gliding",
+      "animations": ["q.pitch_tilt('body')", 
+        "q.look('head_ai')",
+        "q.bedrock('citrisaurid', 'air_fly')", 
+        "q.bedrock('citrisaurid', 'turbine')",
+        {
+          "condition": "q.is_ridden && q.has_entity",
+          "animation": "q.bedrock('citrisaurid', 'ride_air_fly')"
+        }      
+      ],
+      "quirks": [
+        "q.bedrock_quirk('citrisaurid', 'blink')",
+        "q.bedrock_quirk('citrisaurid', 'quirk1')",
+        "q.bedrock_quirk('citrisaurid', 'quirk2')"
+      ]
+    },
+    "glide": {
+      "poseTypes": ["FLY"],
+      "condition": "q.is_gliding",
+      "animations": [
+        "q.pitch_tilt('body', 1)",
+        "q.look('head_ai')",
+        "q.bedrock('citrisaurid', 'air_glide')",
+        "q.bedrock('citrisaurid', 'ride_dive')",
+        "q.bedrock('citrisaurid', 'turbine')",
+        {
+          "condition": "q.is_ridden && q.has_entity",
+          "animation": "q.bedrock('citrisaurid', 'ride_air_fly')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('citrisaurid', 'blink')"
+      ],
+      "transformTicks": 10
+    },
+    "ride-jump": {
+      "poseTypes": ["STAND","WALK"],
+      "condition": "q.in_air",
+      "animations": [
+        "q.pitch_tilt('body', 1)",
+        "q.look('head_ai')",
+        "q.bedrock('citrisaurid', 'ride_jump')",
+        "q.bedrock('citrisaurid', 'ground_idle')",
+        "q.bedrock('citrisaurid', 'turbine')",
+        {
+          "condition": "q.is_ridden && q.has_entity",
+          "animation": "q.bedrock('citrisaurid', 'ride_ground_walk')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('fimbulven', 'blink')"
+      ],
+      "transformTicks": 3
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('citrisaurid', 'sleep')", "q.bedrock('citrisaurid', 'turbine_sleep')"],
+      "quirks": [],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

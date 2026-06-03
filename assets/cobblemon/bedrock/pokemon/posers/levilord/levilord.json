@@ -1,0 +1,123 @@
+{
+      "portraitScale": 0.45,
+      "portraitTranslation": [ -0.38, 1.4, 0],
+      "profileScale": 0.25,
+      "profileTranslation": [ 0, 1.5, 0 ],
+  "rootBone": "levilord",
+  "firstPersonCameraOffset": {
+    "seat_default":  [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_default":  [0, 1, 1]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_default":  [0, 1, 1]
+  },
+  "animations": {
+    "faint": "q.bedrock_primary('levilord', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('levilord', 'cry')",
+    "recoil": "q.bedrock_stateful('levilord', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.bedrock('levilord', 'battle_idle')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('levilord', 'ride_air_fly')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('levilord', 'blink')",
+        "q.bedrock_quirk('levilord', q.array('brow_raise', 'brow_lower'), 15, 25, 1)"
+      ]
+    },
+    "battle-hover": {
+      "poseTypes": ["HOVER", "FLOAT"],
+      "isBattle": true,
+      "animations": ["q.pitch_tilt('body', 0.075)", "q.bedrock('levilord', 'battle_idle')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('levilord', 'ride_air_fly')"
+        }
+      ],
+      "namedAnimations": {
+        "faint": "q.bedrock_stateful('levilord', 'faint_air')"
+      },
+      "quirks": [
+        "q.bedrock_quirk('levilord', 'blink')",
+        "q.bedrock_quirk('levilord', q.array('brow_raise', 'brow_lower'), 15, 25, 1)"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.bedrock('levilord', 'air_idle')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('levilord', 'ride_air_fly')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('levilord', 'blink')",
+        "q.bedrock_quirk('levilord', q.array('brow_raise', 'brow_lower'), 15, 25, 1)"
+      ]
+    },
+    "hover": {
+      "poseTypes": ["HOVER", "FLOAT"],
+      "isBattle": false,
+      "animations": ["q.pitch_tilt('body', 0.075)", "q.bedrock('levilord', 'air_idle')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('levilord', 'ride_air_fly')"
+        }
+      ],
+      "namedAnimations": {
+        "faint": "q.bedrock_stateful('levilord', 'faint_air')"
+      },
+      "quirks": [
+        "q.bedrock_quirk('levilord', 'blink')",
+        "q.bedrock_quirk('levilord', q.array('brow_raise', 'brow_lower'), 15, 25, 1)"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "isBattle": false,
+      "animations": ["q.bedrock('levilord', 'air_fly')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('levilord', 'ride_air_fly')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('levilord', 'blink')",
+        "q.bedrock_quirk('levilord', q.array('brow_raise', 'brow_lower'), 15, 25, 1)"
+      ]
+    },
+    "fly": {
+      "poseTypes": ["FLY", "SWIM"],
+      "isBattle": false,
+      "animations": ["q.pitch_tilt('body', 0.075)", "q.bedrock('levilord', 'air_fly')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('levilord', 'ride_air_fly')"
+        }
+      ],
+      "namedAnimations": {
+        "faint": "q.bedrock_stateful('levilord', 'faint_air')"
+      },
+      "quirks": [
+        "q.bedrock_quirk('levilord', 'blink')",
+        "q.bedrock_quirk('levilord', q.array('brow_raise', 'brow_lower'), 15, 25, 1)"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('levilord', 'sleep')"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+      {
+      "portraitScale": 2.1,
+      "portraitTranslation": [-1.85, 3.5, 0],
+      "profileScale": 0.45,
+      "profileTranslation": [0, 1.15, 0],
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0],
+    "seat_2": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 0.4, 0.5],
+    "seat_1_reverse": [0, 0.4, 0.5],
+    "seat_2": [0, 0.4, 0.5],
+    "seat_2_reverse": [0, 0.4, 0.5]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 0.4, 0.5],
+    "seat_1_reverse": [0, 0.4, 0.5],
+    "seat_2": [0, 0.4, 0.5],
+    "seat_2_reverse": [0, 0.4, 0.5]
+  },
+  "rootBone": "calciopi",
+  "animations": {
+    "faint": "q.bedrock_primary('calciopi', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('calciopi', 'cry')",
+    "recoil": "q.bedrock_stateful('calciopi', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "PORTRAIT", "PROFILE"],
+      "isBattle": true,
+      "animations": [
+        "q.look('neck', 0.5, 0.5, 12.5, -10, 45, -45)",
+        "q.look('neck2', 0.5, 0.5, 12.5, -5, 45, -45)",
+        "q.bedrock('calciopi', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('calciopi', 'blink')",
+        "q.bedrock_quirk('calciopi', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4', 'quirk5', 'quirk6', 'quirk7'), 5, 15, 1)"
+      ]
+    },
+    "battle-walking": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('neck', 0.5, 0.5, 12.5, -10, 22.5, -22.5)",
+        "q.look('neck2', 0.5, 0.5, 12.5, -5, 22.5, -22.5)",
+        "q.bedrock('calciopi', 'battle_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('calciopi', 'blink')",
+        "q.bedrock_quirk('calciopi', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4', 'quirk5', 'quirk6', 'quirk7'), 5, 15, 1)"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE"],
+      "isBattle": false,
+      "condition": "!q.in_air",
+      "animations": [
+        "q.look('neck', 0.5, 0.5, 12.5, -10, 22.5, -22.5)",
+        "q.look('neck2', 0.5, 0.5, 12.5, -5, 22.5, -22.5)",
+        "q.bedrock('calciopi', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('calciopi', 'blink')",
+        "q.bedrock_quirk('calciopi', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4', 'quirk5', 'quirk6', 'quirk7'), 5, 15, 1)"
+      ]
+    },
+      "in-air": {
+        "poseTypes": ["STAND", "WALK", "NONE"],
+        "isBattle": false,
+        "condition": "q.in_air && q.is_ridden",
+        "animations": ["q.look('head')", "q.bedrock('calciopi', 'ride_jump')"],
+        "transformTicks": 5,
+        "transformToTicks": 5
+      },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "condition": "!q.in_air&& !q.is_sprinting",
+      "isBattle": false,
+      "animations": [
+        "q.look('neck', 0.5, 0.5, 12.5, -10, 22.5, -22.5)",
+        "q.look('neck2', 0.5, 0.5, 12.5, -5, 22.5, -22.5)",
+        "q.bedrock('calciopi', 'ground_walk')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('calciopi', 'ride_ground_run')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('calciopi', 'blink')",
+        "q.bedrock_quirk('calciopi', q.array('quirk1', 'quirk2', 'quirk3', 'quirk4', 'quirk5', 'quirk6', 'quirk7'), 5, 15, 1)"
+      ]
+    },
+      "run": {
+        "poseTypes": ["STAND","WALK"],
+        "isBattle": false,
+        "condition": "!q.in_air && q.is_sprinting",
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('calciopi', 'ground_run')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('calciopi', 'ride_ground_run')"
+        }
+        ]
+      },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('calciopi', 'sleep')"],
+            "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      }
+    }
+  }
+}

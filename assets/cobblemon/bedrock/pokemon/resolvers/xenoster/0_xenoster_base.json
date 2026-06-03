@@ -1,0 +1,42 @@
+{
+  "species": "cobblemon:xenoster",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:xenoster",
+      "model": "cobblemon:xenoster.geo",
+      "texture": "cobblemon:textures/pokemon/xenoster/xenoster.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/xenoster/xenoster_emissive.png"
+    }
+      ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/xenoster/xenoster_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/xenoster/xenoster_shiny_emissive.png"
+    }
+      ]
+    },
+      {
+        "aspects": [
+          "alpha_eyes"
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/xenoster/xenoster_alpha.png",
+            "emissive": true
+          }
+        ]
+      }
+  ]
+}

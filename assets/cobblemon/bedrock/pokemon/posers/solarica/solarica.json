@@ -1,0 +1,74 @@
+{
+    "head": "head",
+      "portraitScale": 1.55,
+      "portraitTranslation": [0, 2.5, 0],
+      "profileScale": 0.392,
+      "profileTranslation": [0, 1.2, -5],
+      "animations": {
+        "cry": "q.bedrock_stateful('solarica', 'cry')",
+        "faint": "q.bedrock_primary('solarica', 'faint', q.curve('one'))",
+        "recoil": "q.bedrock_stateful('solarica', 'recoil')"
+      },
+      "poses":{
+
+        "battle-idle": {
+          "poseName": "battle-idle",
+          "transformTicks": 10,
+          "poseTypes": [
+          "STAND",
+          "PROFILE"
+        ],
+          "isBattle": true,
+          "isTouchingWater": false,
+          "animations": [
+            "look",
+            "bedrock(solarica, battle_idle)"],
+          "quirks": [
+            {
+              "name": "blink",
+              "loopTimes": 1,
+              "minSecondsBetweenOccurrences": 8,
+              "maxSecondsBetweenOccurrences": 20,
+              "animations": ["bedrock(solarica, blink)"]
+            }
+          ]
+        },
+        "standing": {
+            "poseName": "standing",
+            "transformTicks": 10,
+            "poseTypes": [
+            "STAND",
+            "PORTRAIT",
+            "NONE"
+            ],
+            "animations": [
+              "look",
+            "bedrock(solarica, ground_idle)"
+            ],
+            "quirks": [
+              {
+                "name": "blink",
+                "loopTimes": 1,
+                "minSecondsBetweenOccurrences": 8,
+                "maxSecondsBetweenOccurrences": 20,
+                "animations": ["bedrock(solarica, blink)"]
+              }
+                  ]
+        },
+        "walking": {
+            "poseName": "walking",
+            "transformTicks": 10,
+            "poseTypes": [ "WALK" ],
+            "animations": [
+              "look",
+               "bedrock(solarica, ground_walk)" ]
+        },
+        "sleeping": {
+            "poseName": "sleeping",
+            "transformTicks": 10,
+            "poseTypes": [ "SLEEP" ],
+            "animations": [
+              "bedrock(solarica, sleep)"]
+        }
+      }
+    }
