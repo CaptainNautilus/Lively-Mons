@@ -24,7 +24,39 @@
     },
       {
         "aspects": [
-          "alpha_eyes"
+          "lively", "alpha_eyes"
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/sandilelively/sandilelively_alpha.png",
+            "emissive": true
+          }
+        ]
+      },
+      {
+        "aspects": [ "sanrosan"],
+        "poser": "cobblemon:sandilelively",
+        "model": "cobblemon:sandilelively.geo",
+        "texture": "cobblemon:textures/pokemon/sandilelively/sandilelively.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny", "sanrosan" ],
+        "texture": "cobblemon:textures/pokemon/sandilelively/sandilelively_shiny.png",
+        "layers":[]
+    },
+    {
+      "aspects": ["sanrosan", "cosmetic_item-black_glasses"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/sandilelively/sandilelively_sunglasses.png"
+        }
+      ]
+    },
+      {
+        "aspects": [
+          "sanrosan", "alpha_eyes"
         ],
         "layers": [
           {

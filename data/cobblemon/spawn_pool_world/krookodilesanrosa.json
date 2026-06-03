@@ -4,8 +4,8 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "krookodile-lively-1",
-            "pokemon": "krookodile lively",
+            "id": "krookodile-sanrosan-1",
+            "pokemon": "krookodile sanrosan",
             "presets": [
                 "natural",
                 "wild"
@@ -27,8 +27,8 @@
             }
         },
         {
-            "id": "krookodile-lively-2",
-            "pokemon": "krookodile lively",
+            "id": "krookodile-sanrosan-2",
+            "pokemon": "krookodile sanrosan",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",

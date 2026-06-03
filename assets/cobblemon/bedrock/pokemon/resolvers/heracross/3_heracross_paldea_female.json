@@ -15,7 +15,30 @@
       },
       {
         "aspects": [
-          "alpha_eyes"
+          "paldean", "alpha_eyes"
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/heracrosspaldea/heracrosspaldea_alpha.png",
+            "emissive": true
+          }
+        ]
+      },
+      {
+        "aspects": ["sanrosan", "female"],
+        "poser": "cobblemon:heracrosspaldea",
+        "model": "cobblemon:heracrosspaldea_female.geo",
+        "texture": "cobblemon:textures/pokemon/heracrosspaldea/heracrosspaldea.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny", "sanrosan"],
+        "texture": "cobblemon:textures/pokemon/heracrosspaldea/heracrosspaldea_shiny.png"
+      },
+      {
+        "aspects": [
+          "sanrosan", "alpha_eyes"
         ],
         "layers": [
           {

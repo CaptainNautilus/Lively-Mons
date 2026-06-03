@@ -1,6 +1,6 @@
 {
     "target": "cobblemon:shuckle",
-    "features": ["galarian"],
+    "features": ["galarian", "sanrosan"],
     "forms": [
       {
         "name": "Galar",
@@ -192,6 +192,197 @@
     ]
   },
   "aspects": ["galarian"]
+      },
+      {
+        "name": "Galar",
+        "primaryType": "bug",
+        "secondaryType": "ice",
+        "abilities": [
+          "technician",
+          "gluttony",
+          "h:contrary"
+        ],
+        "pokedex": [
+          "cobblemon.species.shucklegalar.desc1"
+        ],
+        "labels": [ "custom" ],
+        "baseStats": {
+          "hp": 10,
+          "attack": 230,
+          "defence": 10,
+          "special_attack": 230,
+          "special_defence": 20,
+          "speed": 5
+        },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+        "moves": [
+          "1:withdraw",
+          "1:constrict",
+          "1:bide",
+          "1:wrap",
+          "5:iceball",
+          "10:strugglebug",
+          "15:iceshard",
+          "20:safeguard",
+          "25:rest",
+          "30:bugbite",
+          "35:swordsdance",
+          "35:nastyplot",
+          "40:avalanche",
+          "45:gastroacid",
+          "50:stickyweb",
+          "55:powertrick",
+          "60:icebeam",
+          "65:shellsmash",
+          "tm:afteryou",
+          "tm:ancientpower",
+          "tm:bind",
+          "tm:bodyslam",
+          "tm:bugbite",
+          "tm:bulldoze",
+          "tm:covet",
+          "tm:dig",
+          "tm:encore",
+          "tm:endure",
+          "tm:facade",
+          "tm:flash",
+          "tm:gastroacid",
+          "tm:gyroball",
+          "tm:headbutt",
+          "tm:helpinghand",
+          "tm:infestation",
+          "tm:irondefense",
+          "tm:knockoff",
+          "tm:mudshot",
+          "tm:mudslap",
+          "tm:protect",
+          "tm:rest",
+          "tm:reversal",
+          "tm:rocksmash",
+          "tm:rollout",
+          "tm:safeguard",
+          "tm:skittersmack",
+          "tm:sleeptalk",
+          "tm:sludgebomb",
+          "tm:sludgewave",
+          "tm:steelroller",
+          "tm:strength",
+          "tm:stringshot",
+          "tm:strugglebug",
+          "tm:substitute",
+          "tm:terablast",
+          "tm:toxic",
+          "tm:venoshock",
+          "tm:attract",
+          "tm:auroraveil",
+          "tm:avalanche",
+          "tm:blizzard",
+          "tm:chillingwater",
+          "tm:flashcannon",
+          "tm:frostbreath",
+          "tm:hail",
+          "tm:hydropump",
+          "tm:icebeam",
+          "tm:icespinner",
+          "tm:iciclespear",
+          "tm:icywind",
+          "tm:liquidation",
+          "tm:raindance",
+          "tm:razorshell",
+          "tm:smartstrike",
+          "tm:spikes",
+          "tm:swordsdance",
+          "tm:waterpulse",
+          "egg:acid",
+          "egg:acupressure",
+          "egg:covet",
+          "egg:defensecurl",
+          "egg:finalgambit",
+          "egg:infestation",
+          "egg:knockoff",
+          "egg:sweetscent",
+          "egg:toxic",
+          "egg:iciclespear",
+          "egg:chillyreception",
+          "egg:spikyshield",
+          "tutor:afteryou",
+          "tutor:ancientpower",
+          "tutor:bind",
+          "tutor:bugbite",
+          "tutor:bulldoze",
+          "tutor:covet",
+          "tutor:gastroacid",
+          "tutor:helpinghand",
+          "tutor:irondefense",
+          "tutor:knockoff",
+          "tutor:mudslap",
+          "tutor:rest",
+          "tutor:rocksmash",
+          "tutor:rollout",
+          "tutor:skittersmack",
+          "tutor:sleeptalk",
+          "tutor:sludgebomb",
+          "tutor:steelroller",
+          "tutor:stringshot",
+          "legacy:attract",
+          "legacy:captivate",
+          "legacy:confide",
+          "legacy:curse",
+          "legacy:doubleedge",
+          "legacy:doubleteam",
+          "legacy:frustration",
+          "legacy:hiddenpower",
+          "legacy:mimic",
+          "legacy:naturalgift",
+          "legacy:return",
+          "legacy:round",
+          "legacy:secretpower",
+          "legacy:snore",
+          "legacy:swagger"
+        ],
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.2
+      },
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "willSleepOnBed": true,
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  },
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:casteliacone"
+      },
+      {
+        "item": "cobblemon:never_melt_ice",
+        "percentage": 5.0
       }
     ]
-    }
+  },
+  "aspects": ["sanrosan"]
+      }
+    ]
+}

@@ -28,7 +28,43 @@
     },
       {
         "aspects": [
-          "alpha_eyes"
+          "galarian", "alpha_eyes"
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/shucklegalar/shucklegalar_alpha.png",
+            "emissive": true
+          }
+        ]
+      },
+      {
+        "aspects": [ "sanrosan"],
+        "poser": "cobblemon:shucklegalar",
+        "model": "cobblemon:shucklegalar.geo",
+        "texture": "cobblemon:textures/pokemon/shucklegalar/shucklegalar.png",
+        "layers": [
+          {
+            "name": "spikes",
+            "texture": "cobblemon:textures/pokemon/shucklegalar/shucklegalar_transparent.png",
+            "translucent": true
+          }  
+        ]
+      },
+      {
+        "aspects": [ "shiny", "sanrosan" ],
+        "texture": "cobblemon:textures/pokemon/shucklegalar/shucklegalar_shiny.png",
+        "layers":[
+          {
+          "name": "spikes",
+          "texture": "cobblemon:textures/pokemon/shucklegalar/shucklegalar_shiny_transparent.png",
+          "translucent": true
+        }  
+      ]
+    },
+      {
+        "aspects": [
+          "sanrosan", "alpha_eyes"
         ],
         "layers": [
           {

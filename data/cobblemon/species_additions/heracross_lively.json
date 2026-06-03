@@ -1,6 +1,6 @@
 {
     "target": "cobblemon:heracross",
-    "features": ["paldean"],
+    "features": ["paldean", "sanrosan"],
     "forms": [
       {
         "name": "Paldea",
@@ -316,6 +316,320 @@
         ]
     },
     "aspects": ["paldean"]
+},      {
+        "name": "Paldea",
+        "primaryType": "bug",
+        "secondaryType": "fairy",
+        "abilities": [
+          "shielddust",
+          "friendguard",
+          "h:moxie"
+        ],
+        
+        "labels": [ "custom" ],
+        "baseStats": {
+          "hp": 100,
+          "attack": 115,
+          "defence": 90,
+          "special_attack": 40,
+          "special_defence": 90,
+          "speed": 65
+        },
+        "catchRate": 45,
+        "maleRatio": 0.5,
+        "shoulderMountable": false,
+        "baseExperienceYield": 175,
+        "experienceGroup": "slow",
+        "eggCycles": 25,
+        "eggGroups": [
+          "bug"
+        ],
+        "behaviour": {
+          "moving": {
+            "fly": {
+              "canFly": false
+            },
+            "walk": {
+              "canWalk": true,
+              "avoidsLand": false,
+              "walkSpeed":0.15
+            }
+          },
+    "resting": {
+            "canSleep": true,
+            "willSleepOnBed": false,
+      "times": [
+        "167-11833,13702-22299"
+      ],
+      "drowsyChance": 0.0021,
+      "rouseChance": 0.0042
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+  }
+},
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "25-45",
+          "JUMP": "75-85",
+          "SKILL": "35-50",
+          "SPEED": "15-25",
+          "STAMINA": "80-100"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.71875,
+              "z": 0.2625
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0039696433,
+              "y": -1.6745994,
+              "z": 0.26254645
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.71875,
+              "z": 0.2625
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.71875,
+              "z": 0.2625
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.71875,
+              "z": 0.2625
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0039696433,
+              "y": -1.6745994,
+              "z": 0.26254645
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.71875,
+              "z": 0.2625
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+        "moves": [
+          "1:fairywind",
+          "1:tackle",
+          "1:leer",
+          "5:furyattack",
+          "10:sweetkiss",
+          "15:aerialace",
+          "20:hornattack",
+          "25:moonlight",
+          "30:playrough",
+          "35:floralhealing",
+          "40:aromatherapy",
+          "45:thrash",
+          "46:dazzlinggleam",
+          "50:helpinghand",
+          "55:megahorn",
+          "60:moonblast",
+          "egg:bide",
+          "egg:doubleedge",
+          "egg:feint",
+          "egg:flail",
+          "egg:harden",
+          "egg:ragepowder",
+          "egg:pursuit",
+          "egg:seismictoss",
+          "egg:wideguard",
+          "tm:aerialace",
+          "tm:assurance",
+          "tm:bodyslam",
+          "tm:brutalswing",
+          "tm:bugbite",
+          "tm:bugbuzz",
+          "tm:bulkup",
+          "tm:bulldoze",
+          "tm:bulletseed",
+          "tm:coaching",
+          "tm:curse",
+          "tm:cut",
+          "tm:dig",
+          "tm:doubleedge",
+          "tm:earthquake",
+          "tm:endeavor",
+          "tm:endure",
+          "tm:facade",
+          "tm:falseswipe",
+          "tm:fling",
+          "tm:focusblast",
+          "tm:furycutter",
+          "tm:gigaimpact",
+          "tm:headbutt",
+          "tm:helpinghand",
+          "tm:highhorsepower",
+          "tm:hyperbeam",
+          "tm:irondefense",
+          "tm:knockoff",
+          "tm:lunge",
+          "tm:megahorn",
+          "tm:pinmissile",
+          "tm:pounce",
+          "tm:protect",
+          "tm:raindance",
+          "tm:rest",
+          "tm:rockblast",
+          "tm:rockslide",
+          "tm:rocksmash",
+          "tm:rocktomb",
+          "tm:shadowclaw",
+          "tm:skittersmack",
+          "tm:sleeptalk",
+          "tm:smackdown",
+          "tm:smartstrike",
+          "tm:spikes",
+          "tm:stoneedge",
+          "tm:strength",
+          "tm:strugglebug",
+          "tm:substitute",
+          "tm:sunnyday",
+          "tm:swordsdance",
+          "tm:takedown",
+          "tm:terablast",
+          "tm:thief",
+          "tm:trailblaze",
+          "tm:vacuumwave",
+          "tm:workup",
+          "tm:playrough",
+          "tm:dazzlinggleam",
+          "tm:pollenpuff",
+          "tm:drainingkiss",
+          "tm:mistyterrain",
+          "tm:charm",
+          "tm:babydolleyes",
+          "tm:healpulse",
+          "tm:safeguard",
+          "tutor:aerialace",
+          "tutor:bugbite",
+          "tutor:bulkup",
+          "tutor:bulldoze",
+          "tutor:coaching",
+          "tutor:endeavor",
+          "tutor:falseswipe",
+          "tutor:furycutter",
+          "tutor:gigaimpact",
+          "tutor:helpinghand",
+          "tutor:highhorsepower",
+          "tutor:hyperbeam",
+          "tutor:irondefense",
+          "tutor:knockoff",
+          "tutor:megahorn",
+          "tutor:rest",
+          "tutor:rockslide",
+          "tutor:rocksmash",
+          "tutor:shadowclaw",
+          "tutor:skittersmack",
+          "tutor:sleeptalk",
+          "tutor:spikes",
+          "tutor:stoneedge",
+          "legacy:attract",
+          "legacy:captivate",
+          "legacy:confide",
+          "legacy:detect",
+          "legacy:doubleteam",
+          "legacy:frustration",
+          "legacy:hiddenpower",
+          "legacy:mimic",
+          "legacy:naturalgift",
+          "legacy:return",
+          "legacy:round",
+          "legacy:secretpower",
+          "legacy:snore",
+          "legacy:swagger",
+          "legacy:toxic"
+        ],
+        "pokedex": [
+          "cobblemon.species.heracrosspaldea.desc1"
+        ],
+        "evolutions": [],
+        "baseScale": 1,
+        "hitbox": {
+          "width": 1.05,
+          "height": 0.75,
+          "fixed": false
+        },
+        "baseFriendship": 50,
+        "evYield": {
+          "hp": 1,
+          "attack": 1,
+          "defence": 0,
+          "special_attack": 0,
+          "special_defence": 0,
+          "speed": 0
+        },
+        "height": 15,
+        "weight": 540,
+        "cannotDynamax": false,
+        "drops": {
+          "amount": 1,
+          "entries": [
+            {
+              "item": "cobblemon:coba_berry",
+              "percentage": 5.0
+            }
+        ]
+    },
+    "aspects": ["sanrosan"]
 }
 ]
 }

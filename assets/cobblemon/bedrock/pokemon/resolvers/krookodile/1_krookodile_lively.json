@@ -24,7 +24,39 @@
     },
       {
         "aspects": [
-          "alpha_eyes"
+          "lively", "alpha_eyes"
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/krookodilelively/krookodilelively_alpha.png",
+            "emissive": true
+          }
+        ]
+      },
+      {
+        "aspects": [ "sanrosan"],
+        "poser": "cobblemon:krookodilelively",
+        "model": "cobblemon:krookodilelively.geo",
+        "texture": "cobblemon:textures/pokemon/krookodilelively/krookodilelively.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny", "sanrosan" ],
+        "texture": "cobblemon:textures/pokemon/krookodilelively/krookodilelively_shiny.png",
+        "layers":[]
+    },
+    {
+      "aspects": ["sanrosan", "cosmetic_item-black_glasses"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/krookodilelively/krookodilelively_sunglasses.png"
+        }
+      ]
+    },
+      {
+        "aspects": [
+          "sanrosan", "alpha_eyes"
         ],
         "layers": [
           {

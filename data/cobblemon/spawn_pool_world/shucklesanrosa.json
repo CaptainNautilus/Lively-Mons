@@ -4,8 +4,8 @@
     "neededUninstalledMods": [],
     "spawns": [
       {
-        "id": "shuckle-galarian-1",
-        "pokemon": "shuckle galarian",
+        "id": "shuckle-sanrosan-1",
+        "pokemon": "shuckle sanrosan",
         "type": "pokemon",
         "spawnablePositionType": "grounded",
         "bucket": "uncommon",
@@ -18,8 +18,8 @@
         }
     },
     {
-      "id": "shuckle-galarian-2",
-      "pokemon": "shuckle galarian",
+      "id": "shuckle-sanrosan-2",
+      "pokemon": "shuckle sanrosan",
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "uncommon",

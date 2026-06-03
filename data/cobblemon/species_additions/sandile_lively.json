@@ -1,6 +1,6 @@
 {
     "target": "cobblemon:sandile",
-    "features": ["lively"],
+    "features": ["lively", "sanrosan"],
     "forms": [
     {
       "name": "Lively",
@@ -193,9 +193,215 @@
       ],
         "evolutions": [
     {
-      "id": "sandile_krokoroklively",
+      "id": "sandile_krokoroksanrosan",
       "variant": "level_up",
-      "result": "krokorok lively",
+      "result": "krokorok sanrosan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 29
+        }
+      ]
+    }
+  ],
+      "battleOnly": false
+    },
+        {
+      "name": "Lively",
+      "primaryType": "steel",
+      "secondaryType": "dark",
+      "height": 7,
+      "weight": 228,
+      "pokedex": [
+        "cobblemon.species.sandilelively.desc1"
+      ],
+      "labels": [
+        "custom"
+      ],
+      "aspects": [
+        "sanrosan"
+      ],
+      "abilities": [
+        "stamina",
+        "noguard",
+        "h:steelyspirit"
+      ],
+      "baseStats": {
+        "hp": 40,
+        "attack": 70,
+        "defence": 77,
+        "special_attack": 30,
+        "special_defence": 60,
+        "speed": 15
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "willSleepOnBed": true,
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": "q.is_standing_on_blocks(2, 'minecraft:sand', 'minecraft:red_sand') ? 0.30 : 0.15"
+      },
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "herd": {
+      "maxSize": "4",
+      "toleratedLeaders": [
+        {
+          "pokemon": "sandile",
+          "tier": 1
+        },
+        {
+          "pokemon": "krokorok",
+          "tier": 2
+        },
+        {
+          "pokemon": "krookodile",
+          "tier": 3
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+      "drops": {
+        "amount": 4,
+        "entries": [
+          {
+            "item": "minecraft:iron_ingot",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "minecraft:iron_helmet",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:black_glasses",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:occa_berry",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+    "1:leer",
+    "1:rage",
+    "1:metalclaw",
+    "1:honeclaws",
+    "1:powertrip",
+    "9:bulletpunch",
+    "12:scaryface",
+    "15:bite",
+    "18:autotomize",
+    "21:ironhead",
+    "24:irondefense",
+    "27:crunch",
+    "30:noretreat",
+    "33:foulplay",
+    "36:irontail",
+    "39:thrash",
+    "egg:aquatail",
+    "egg:counter",
+    "egg:doubleedge",
+    "egg:meanlook",
+    "egg:mefirst",
+    "egg:headsmash",
+    "egg:obstruct",
+    "tm:aquatail",
+    "tm:assurance",
+    "tm:beatup",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:crunch",
+    "tm:curse",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:embargo",
+    "tm:endure",
+    "tm:facade",
+    "tm:firefang",
+    "tm:fling",
+    "tm:focusenergy",
+    "tm:foulplay",
+    "tm:grassknot",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:lashout",
+    "tm:payback",
+    "tm:protect",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:roar",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:scaryface",
+    "tm:shadowclaw",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderfang",
+    "tm:ancientpower",
+    "tm:flashcannon",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:metalsound",
+    "legacy:attract",
+    "legacy:confide",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:toxic",
+    "legacy:uproar"
+      ],
+        "evolutions": [
+    {
+      "id": "sandile_krokoroksanrosan",
+      "variant": "level_up",
+      "result": "krokorok sanrosan",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

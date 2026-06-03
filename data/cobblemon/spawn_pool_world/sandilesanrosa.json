@@ -4,8 +4,8 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "sandile-lively-1",
-            "pokemon": "sandile lively",
+            "id": "sandile-sanrosan-1",
+            "pokemon": "sandile sanrosan",
             "presets": [
                 "natural",
                 "wild"
@@ -27,8 +27,8 @@
             }
         },
         {
-            "id": "sandile-lively-2",
-            "pokemon": "sandile lively",
+            "id": "sandile-sanrosan-2",
+            "pokemon": "sandile sanrosan",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",
