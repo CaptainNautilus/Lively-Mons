@@ -1,7 +1,7 @@
 {
     "implemented": true,
 "name": "eggward",
-"nationalPokedexNumber": 17,
+"nationalPokedexNumber": 18,
 "labels": [ "custom" ],
 "pokedex": [
   "cobblemon.species.eggward.desc1"

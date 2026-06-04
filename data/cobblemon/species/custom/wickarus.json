@@ -1,7 +1,7 @@
 {
     "implemented": true,
     "name": "wickarus",
-    "nationalPokedexNumber": 28,
+    "nationalPokedexNumber": 29,
     "labels": [ "custom" ],
     "primaryType": "bug",
     "secondaryType":"flying",

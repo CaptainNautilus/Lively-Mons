@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "solarica",
-  "nationalPokedexNumber": 29,
+  "nationalPokedexNumber": 30,
   "labels": [ "custom" ],
   "primaryType": "bug",
   "secondaryType":"fire",

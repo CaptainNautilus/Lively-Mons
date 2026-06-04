@@ -1,7 +1,7 @@
 {
     "implemented": true,
     "name": "folly",
-    "nationalPokedexNumber": 22,
+    "nationalPokedexNumber": 23,
     "primaryType": "normal",
     "secondaryType":"poison",
     "labels":["custom"],

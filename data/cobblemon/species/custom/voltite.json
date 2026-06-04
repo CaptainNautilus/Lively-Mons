@@ -1,7 +1,7 @@
 {
     "implemented": true,
 "name": "voltite",
-"nationalPokedexNumber": 18,
+"nationalPokedexNumber": 19,
 "labels": [ "custom" ],
 "pokedex": [
   "cobblemon.species.voltite.desc1"

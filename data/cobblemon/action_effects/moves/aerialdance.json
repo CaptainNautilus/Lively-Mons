@@ -29,10 +29,6 @@
       "locators": ["target"]
     },
     {
-      "type": "pause",
-      "pause": 1
-    },
-    {
       "type": "remove_holds",
       "holds": ["effects"]
     },

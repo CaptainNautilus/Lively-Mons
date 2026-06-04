@@ -39,7 +39,7 @@
       ],
         "quirks": [
           "q.bedrock_quirk('sajonin', 'blink')",
-          "q.bedrock_quirk('sajonin', q.array('quirk', 'quirk2', 'quirk3'), 15, 25, 1)"
+          "q.bedrock_quirk('sajonin', q.array('quirk', 'quirk2'), 15, 25, 1)"
         ]
       },
       "standing": {

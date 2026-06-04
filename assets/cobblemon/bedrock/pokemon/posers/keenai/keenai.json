@@ -21,7 +21,7 @@
         "animations": ["q.look('head_ai', 1, -1)", "q.bedrock('keenai', 'battle_idle')"],
         "quirks": [
           "q.bedrock_quirk('keenai', 'blink')",
-          "q.bedrock_quirk('keenai', q.array('quirk', 'quirk2', 'quirk3'), 15, 25, 1)"
+          "q.bedrock_quirk('keenai', q.array('quirk', 'quirk2'), 15, 25, 1)"
         ]
       },
       "standing": {
