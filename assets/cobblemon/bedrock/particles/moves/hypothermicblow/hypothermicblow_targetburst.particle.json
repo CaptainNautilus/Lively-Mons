@@ -63,8 +63,7 @@
 				"collision_drag": 0.5,
 				"coefficient_of_restitution": 1.5,
 				"collision_radius": 0.05
-			},
-			"minecraft:particle_appearance_lighting": {}
+			}
 		}
 	}
 }

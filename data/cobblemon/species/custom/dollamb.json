@@ -225,6 +225,11 @@
           {
             "variant": "level",
             "minLevel": 26
+          },
+          {
+            "variant": "party_member",
+            "target": "type=poison",
+            "contains": true
           }
         ]
       }

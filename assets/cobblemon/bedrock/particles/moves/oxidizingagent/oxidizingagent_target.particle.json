@@ -73,8 +73,7 @@
 						"stretch_to_lifetime": true
 					}
 				}
-			},
-			"minecraft:particle_appearance_lighting": {}
+			}
 		}
 	}
 }

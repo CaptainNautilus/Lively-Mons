@@ -48,6 +48,7 @@
 					"uv_size": [6, 6]
 				}
 			},
+            "minecraft:particle_appearance_lighting": {},
 			"minecraft:particle_motion_collision": {
 				"collision_drag": 0.8,
 				"coefficient_of_restitution": 0.8,

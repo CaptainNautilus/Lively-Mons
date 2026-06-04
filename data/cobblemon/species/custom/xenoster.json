@@ -589,9 +589,5 @@
       "willDefendOwner": true,
       "willFlee": false
     }
-  },
-    "lightingData": {
-      "lightLevel": 7,
-      "liquidGlowMode": "BOTH"
-    }
+  }
 }

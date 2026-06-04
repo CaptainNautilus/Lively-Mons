@@ -53,8 +53,7 @@
 						"max_frame": 6
 					}
 				}
-			},
-			"minecraft:particle_appearance_lighting": {}
+			}
 		}
 	}
 }
