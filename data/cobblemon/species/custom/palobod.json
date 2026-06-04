@@ -310,9 +310,12 @@
     ],
     "evolutions": [],
   "baseScale": 1.2,
+  "standingEyeHeight": 0.875,
+  "swimmingEyeHeight": 0.875,
+  "flyingEyeHeight": 0.875,
     "hitbox": {
       "width": 0.9,
-      "height": 1.7,
+      "height": 2,
       "fixed": false
     },  
     "baseFriendship": 50,

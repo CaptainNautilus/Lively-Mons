@@ -171,9 +171,12 @@
       "cobblemon.species.pokokari.desc1"
     ],
     "baseScale": 0.8,
+  "standingEyeHeight": 0.6,
+  "swimmingEyeHeight": 0.6,
+  "flyingEyeHeight": 0.6,
     "hitbox": {
       "width": 0.8,
-      "height": 1.1,
+      "height": 0.9,
       "fixed": false
     },
     "baseFriendship": 50,

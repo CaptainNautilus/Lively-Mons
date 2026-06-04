@@ -163,6 +163,9 @@
 
 
         "baseScale": 0.8,
+  "standingEyeHeight": 0.55,
+  "swimmingEyeHeight": 0.55,
+  "flyingEyeHeight": 0.55,
 "hitbox": {
   "width": 0.9,
   "height": 1.7,
@@ -173,7 +176,7 @@
   "entries": [
       {
         "item": "minecraft:glow_ink_sac",
-        "quantityRange": "1-2"
+        "quantityRange": "1-2"        
       },
       {
         "item": "cobblemon:colbur_berry",

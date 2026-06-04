@@ -239,6 +239,9 @@
       "cobblemon.species.thunkoo.desc1"
     ],
     "baseScale": 0.9,
+  "standingEyeHeight": 0.85,
+  "swimmingEyeHeight": 0.85,
+  "flyingEyeHeight": 1.2,
     "hitbox": {
       "width": 0.7,
       "height": 1.2,

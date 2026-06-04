@@ -43,13 +43,14 @@
   "eggCycles": 20,
   "baseFriendship": 50,
   "baseScale": 1.2,
+  "standingEyeHeight": 0.225,
+  "swimmingEyeHeight": 0.225,
+  "flyingEyeHeight": 0.225,
   "hitbox": {
     "height": 2.45,
     "fixed": false,
     "width": 2
   },
-  "standingEyeHeight": 0.3,
-  "swimmingEyeHeight": 0.3,
 "riding": {
     "behaviours": {
       "LAND": {

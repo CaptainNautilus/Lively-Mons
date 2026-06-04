@@ -217,6 +217,9 @@
       "cobblemon.species.stagrion.desc1"
     ],
     "baseScale": 1.05,
+  "standingEyeHeight": 0.9,
+  "swimmingEyeHeight": 0.9,
+  "flyingEyeHeight": 0.9,
     "hitbox": {
       "width": 1,
       "height": 2.65,

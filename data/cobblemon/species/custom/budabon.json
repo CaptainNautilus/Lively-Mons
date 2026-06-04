@@ -62,6 +62,9 @@
   "baseFriendship": 100,
   "shoulderMountable": false,
   "baseScale": 0.75,
+  "standingEyeHeight": 0.65,
+  "swimmingEyeHeight": 0.65,
+  "flyingEyeHeight": 0.65,
   "hitbox": {
     "width": 0.4,
     "height": 0.8,

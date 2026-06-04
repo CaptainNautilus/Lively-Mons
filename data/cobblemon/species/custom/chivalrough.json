@@ -42,6 +42,9 @@
   "eggCycles": 15,
   "baseFriendship": 50,
   "baseScale": 0.55,
+  "standingEyeHeight": 0.45,
+  "swimmingEyeHeight": 0.45,
+  "flyingEyeHeight": 0.45,
   "hitbox": {
     "width": 1,
     "height": 1.54,

@@ -379,6 +379,9 @@
       "cobblemon.species.calciopi.desc1"
     ],
     "baseScale": 1,
+  "standingEyeHeight": 0.85,
+  "swimmingEyeHeight": 0.85,
+  "flyingEyeHeight": 0.85,
     "hitbox": {
       "width": 1.45,
       "height": 3,

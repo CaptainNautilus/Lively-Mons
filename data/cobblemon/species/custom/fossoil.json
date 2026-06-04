@@ -168,6 +168,9 @@
 
 
   "baseScale": 0.8,
+  "standingEyeHeight": 0.4,
+  "swimmingEyeHeight": 0.4,
+  "flyingEyeHeight": 0.4,
 "hitbox": {
   "width": 1,
   "height": 1,

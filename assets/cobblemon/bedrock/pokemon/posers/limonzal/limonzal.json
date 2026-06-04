@@ -55,6 +55,12 @@
       "quirks": [
         "q.bedrock_quirk('limonzal', 'blink')",
         "q.bedrock_quirk('limonzal', 'quirk')"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [0, 13, 0]
+        }
       ]
     },
     "fly": {
@@ -64,6 +70,12 @@
       "quirks": [
         "q.bedrock_quirk('limonzal', 'blink')",
         "q.bedrock_quirk('limonzal', 'quirk')"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [0, 13, 0]
+        }
       ]
     },
     "sleep": {
