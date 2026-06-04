@@ -289,6 +289,9 @@
         ],
         "evolutions": [],
         "baseScale": 1,
+  "standingEyeHeight": 0.8,
+  "swimmingEyeHeight": 0.8,
+  "flyingEyeHeight": 0.8,
         "hitbox": {
           "width": 1.05,
           "height": 0.75,

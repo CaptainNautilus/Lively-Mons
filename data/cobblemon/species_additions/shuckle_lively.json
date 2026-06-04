@@ -347,6 +347,9 @@
           "legacy:snore",
           "legacy:swagger"
         ],
+  "standingEyeHeight": 1.2,
+  "swimmingEyeHeight": 1.2,
+  "flyingEyeHeight": 1.2,
   "behaviour": {
     "moving": {
       "walk": {
