@@ -1,0 +1,31 @@
+{
+  "hitbox": "player",
+  "names": [
+    "Saucecoie"
+  ],
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobblemon:saucecoie"
+  },
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "autoHealParty": true,
+  "skill": 5,
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "shiboom lvl=100 ability=blowout nature=adamant attack_ev=252 speed_ev=252 defence_ev=4 moves=flareblitz,breakingswipe,uturn,powerwhip held_item=cobblemon:choice_band hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 pokeball=beast_ball",
+
+      "stagrion lvl=100 ability=apexpredator nature=adamant hp_ev=252 defence_ev=192 attack_ev=64 moves=extremespeed,fakeout,poltergeist,uturn held_item=cobblemon:assault_vest hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 pokeball=beast_ball",
+
+      "petrolisk lvl=100 ability=intimidate nature=adamant attack_ev=252 speed_ev=252 defence_ev=4 moves=gunkshot,flipturn,rockslide,bonemerang held_item=cobblemon:choice_scarf hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 pokeball=beast_ball",
+
+      "krookodile lively lvl=100 ability=steelyspirit nature=adamant hp_ev=252 attack_ev=128 special_defence_ev=128 moves=ironhead,drainpunch,noretreat,obstruct held_item=cobblemon:weakness_policy hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 pokeball=beast_ball",
+
+      "solarica lvl=100 ability=opportunist nature=adamant hp_ev=100 attack_ev=192 speed_ev=216 moves=conflagration,leechlife,swagger,tailwind held_item=cobblemon:focus_sash hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 pokeball=beast_ball",
+
+      "mamolint lvl=100 ability=fluffy nature=modest special_attack_ev=64 speed_ev=64 hp_ev=252 defence_ev=80 special_defence_ev=48 moves=blowingcoat,ragepowder,dazzlinggleam,cottonspore held_item=cobblemon:rocky_helmet hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 pokeball=beast_ball"
+    ]
+  }
+}
