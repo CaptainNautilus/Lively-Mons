@@ -1,0 +1,9 @@
+{
+    "id": "livelymons:reef_fossil",
+    "vanilla_item": "minecraft:fermented_spider_eye",
+    "group": "cobblemon:cobblemon_archaeology",
+    "components": {
+        "custom_model_data": 2,
+        "minecraft:rarity": "uncommon"
+    }
+}

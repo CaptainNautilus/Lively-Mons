@@ -371,6 +371,9 @@
     "cobblemon.ui.pokedex.info.form.budabon-laser": "Laser",
     "cobblemon.ui.pokedex.info.form.budabon-alatian": "Alatian",
     "cobblemon.ui.pokedex.info.form.budabon-jetian": "Jetian",
+
+    "item.livelymons.reef_fossil": "Reef Fossil",
+    "item.livelymons.hollow_fossil": "Hollow Fossil",
     
     "cobblemon.ui.pokedex.region.lively": "Sanrosa",
     "cobblemon.ui.pokedex.region.budabon": "Budabon"

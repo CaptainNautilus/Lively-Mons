@@ -1,29 +1,13 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:fermented_spider_eye",
-            "functions": [
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                  "text": "Reef Fossil",
-                  "italic": false,
-                  "color":"yellow"
-                }
-              }
-            ]
-          }
-        ],
-        "functions": [
-          {
-            "function": "minecraft:set_custom_model_data",
-            "value": 2
-          }
-        ]
-      }
-    ]
-  }
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "livelymons:reef_fossil"
+        }
+      ]
+    }
+  ]
+}

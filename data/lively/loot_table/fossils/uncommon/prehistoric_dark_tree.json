@@ -36,8 +36,8 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "lively:fossils/hollow_fossil",
-                    "value": "lively:fossils/hollow_fossil",
+                    "name": "livelymons:hollow_fossil",
+                    "value": "livelymons:hollow_fossil",
                     "weight": 2
                 },
                 {
