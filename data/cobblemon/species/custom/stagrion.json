@@ -12,9 +12,9 @@
     "preEvolution": "duskarou",
     "baseStats": {
       "hp": 85,
-      "attack": 105,
-      "defence": 65,
-      "special_attack": 40,
+      "attack": 100,
+      "defence": 60,
+      "special_attack": 50,
       "special_defence": 105,
       "speed": 95
     },
