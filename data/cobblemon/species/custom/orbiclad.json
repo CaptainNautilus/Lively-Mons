@@ -1,7 +1,7 @@
 {
     "implemented": true,
 "name": "orbiclad",
-"nationalPokedexNumber": 54,
+"nationalPokedexNumber": 46,
 "labels": [ "custom" ],
 "pokedex": [
   "cobblemon.species.orbiclad.desc1"

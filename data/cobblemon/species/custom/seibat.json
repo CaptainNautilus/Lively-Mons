@@ -1,7 +1,7 @@
 {
 "implemented": true,
 "name": "seibat",
-"nationalPokedexNumber": 82,
+"nationalPokedexNumber": 72,
 "labels": [ "custom" ],
 "pokedex": [
   "cobblemon.species.seibat.desc1"
