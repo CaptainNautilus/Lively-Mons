@@ -46,8 +46,8 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "livelymons:reef_fossil",
-                    "value": "livelymons:reef_fossil",
+                    "name": "lively:fossils/reef_fossil",
+                    "value": "lively:fossils/reef_fossil",
                     "weight": 2
                 },
                 {
