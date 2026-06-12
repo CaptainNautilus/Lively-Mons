@@ -8,17 +8,12 @@ onAnyTryHit(target, source, move) {
 
 	this.add('-immune', target, '[from] ability: Acoustics');
 	
-	if (!this.field.acousticsBoostedThisMove) {
-		this.field.acousticsBoostedThisMove = true;
+	if (!move.acousticsBoosted) {
+		move.acousticsBoosted = true;
 		this.boost({spa: 1}, holder);
 	}
 		return null;
 },
-
-	onAnyAfterMove() {
-		delete this.field.acousticsBoostedThisMove;
-	},
-
 	flags: {breakable: 1},
 	name: "Acoustics",
 	rating: 3.5,
