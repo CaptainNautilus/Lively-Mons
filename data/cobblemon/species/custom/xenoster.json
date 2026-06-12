@@ -38,6 +38,7 @@
     "special_defence": 1
   },
   "moves": [
+    "1:crashlanding",
     "1:gravity",
     "1:psychicterrain",
     "1:dreameater",

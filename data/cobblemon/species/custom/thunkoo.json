@@ -96,6 +96,7 @@
     ]
   },
     "moves": [
+    "1:wakeupcall",
     "1:peck",
     "1:autotomize",
     "1:leafage",

@@ -1,17 +1,23 @@
 {
-	onTryHit(target, source, move) {
+	onAnyTryMove(target, source, move) {
 		if (!move.flags['sound']) return;
 
-		target.boost({spa: 1});
-		this.add('-immune', target, '[from] ability: Acoustics');
-		return null;
-	},
+		const holder = this.effectState.target;
 
-	onAllyTryHit(target, source, move) {
-		if (!move.flags['sound']) return;
+		if (target === holder) {
+			this.add('-immune', target, '[from] ability: Acoustic Absorption');
+			this.boost({spa: 1}, holder);
+			return false;
+		}
 
-		this.add('-immune', target, '[from] ability: Acoustics');
-		return null;
+		if (
+			target.side === holder.side &&
+			target !== holder
+		) {
+			this.add('-immune', target, '[from] ability: Acoustic Absorption');
+			this.boost({spa: 1}, holder);
+			return false;
+		}
 	},
 	flags: {breakable: 1},
 	name: "Acoustics",
