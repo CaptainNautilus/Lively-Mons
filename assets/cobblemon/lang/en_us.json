@@ -256,7 +256,7 @@
     "cobblemon.ability.magicdrain.desc": "This Pokémon drains the magical power of its foes, lowering their Special Attack every turn.",
 
      "cobblemon.ability.acoustics": "Acoustics",
-    "cobblemon.ability.acoustics.desc": "Opponents that use sound moves against the Pokémon or its allies fail, and the Pokémon's Sp. Atk is boosted instead.",
+    "cobblemon.ability.acoustics.desc": "The Pokémon and its allies are immune to sound-based moves. When a sound-based move is blocked this way, the Pokémon's Sp. Atk is boosted.",
 
     "cobblemon.ability.blowout": "Blowout",
     "cobblemon.ability.blowout.desc": "If the Pokémon faints due to a Physical attack, it sets up Tailwind on its side of the field.",
@@ -292,7 +292,7 @@
     "cobblemon.move.fungalinfection.desc": "The user contaminates the target with its spores. If the targer was suffering from a non-volatile status condition, it is replaced with sleep.",
 
     "cobblemon.move.huntinghour": "Hunting Hour",
-    "cobblemon.move.huntinghour.desc": "The user rallies its ally to join its hunt. The target's Special Attack, Special Defence, and Critical Hit Chance are all raised. This move usually goes first.",
+    "cobblemon.move.huntinghour.desc": "The user rallies its ally to join its hunt. The target's Special Attack, Special Defence, and Critical Hit Chance are all raised. This move usually goes first, but cannot be used two turns in a row.",
 
     "cobblemon.move.hypothermicblow": "Hypothermic Blow",
     "cobblemon.move.hypothermicblow.desc": "The user flash freezes the target with a mere touch, causing its skin to sear. This may also leave the target with a burn.",
