@@ -1,0 +1,87 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 50,
+  "name": "Malarach",
+  "primaryType": "electric",
+  "maleRatio": -1,
+  "height": 15,
+  "weight": 470,
+  "pokedex": [
+    "cobblemon.species.malarach.desc"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "abilities": [
+    "prankster",
+    "download",
+    "h:infiltrator"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 86,
+    "attack": 68,
+    "defence": 75,
+    "special_attack": 92,
+    "special_defence": 88,
+    "speed": 73
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 169,
+  "experienceGroup": "medium_fast",
+  "catchRate": 80,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 1.2,
+    "height": 2.5,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "herd": {
+      "maxSize": "9"
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "resting": {
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    }
+  },
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:dubious_disc",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "based on Malamar"
+  ],
+  "preEvolution": "glitchit",
+  "evolutions": []
+}
