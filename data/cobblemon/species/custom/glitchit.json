@@ -1,0 +1,159 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 49,
+  "name": "Glitchit",
+  "primaryType": "electric",
+  "maleRatio": -1,
+  "height": 4,
+  "weight": 35,
+  "pokedex": [
+    "cobblemon.species.glitchit.desc"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "abilities": [
+    "prankster",
+    "download",
+    "h:infiltrator"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 37,
+    "defence": 46,
+    "special_attack": 54,
+    "special_defence": 53,
+    "speed": 53
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 58,
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 0.8,
+    "height": 0.9,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "swim": {
+        "avoidsWater": true
+      },
+      "walk": {
+        "canWalk": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "glitchit",
+          "tier": 1
+        },
+        {
+          "pokemon": "porygonz",
+          "tier": 2
+        },
+        {
+          "pokemon": "malarach",
+          "tier": 3
+        }
+      ]
+    },
+    "resting": {
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  },
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:dubious_disc",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "based on Inkay"
+  ],
+  "evolutions": [
+    {
+      "id": "glitchit_malarach_porygon",
+      "variant": "level_up",
+      "result": "malarach",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        },
+        {
+          "variant": "defeat",
+          "target": "porygon",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "glitchit_malarach_porygon2",
+      "variant": "level_up",
+      "result": "malarach",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        },
+        {
+          "variant": "defeat",
+          "target": "porygon2",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "glitchit_malarach_porygonz",
+      "variant": "level_up",
+      "result": "malarach",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        },
+        {
+          "variant": "defeat",
+          "target": "porygonz",
+          "amount": 1
+        }
+      ]
+    }
+  ]
+}
