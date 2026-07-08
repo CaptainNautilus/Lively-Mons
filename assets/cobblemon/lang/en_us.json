@@ -205,6 +205,8 @@
     "cobblemon.species.laprise.name": "Laprise",
     "cobblemon.species.laprise.desc1": "While Laprise hold a close resemblance to the aquatic Pokémon Lapras, they are much more closely related to ancient bird Pokémon like Archen and Archeops. Essentialy a Living Fossil, Laprise have evolved very little for millions of years due to their absolute domination of jungle canopies, leaving them with no natural predators.",
 
+    "cobblemon.species.nyenlives.name": "Nyenlives",
+    "cobblemon.species.nyenlives.desc1": "Though naturally timid, it loves startling passersby by scarily leaping from the cardboard box it is bound to. While most run away in terror, Nyenlives is happiest when its surprised victims can't help but laugh at its prank.",
 
     "cobblemon.species.budabon.name": "Budabon",
     "cobblemon.species.budabon_kanto.desc": "Budabon is a very resilient Pokémon, seemingly being found across the world in a variety of forms. Because of how common Budabon is, it was the first documented Pokémon in the original Pokédex, making it Pokémon Number 0. This specific form of Budabon is known for its vibrant color and agitated temperament.",
@@ -323,6 +325,9 @@
 
     "cobblemon.move.morningprep": "Morning Prep",
     "cobblemon.move.morningprep.desc": "The user prepares itself for a nice morning. This summons harsh sunlight, grassy terrain, and water sport all at once. While this move usually goes first, it works only on the first turn each time the user enters battle.",
+
+    "cobblemon.move.jumpscare": "Jumpscare",
+    "cobblemon.move.jumpscare.desc": "The user suddenly emerges from its carboard box and terrifies the target. This attack hits first, makes the target flinch, and disables the move it last used, but it works only on the first turn each time the user enters battle.",
 
     "wallpaper.mielador": "Smokey the Bear",
     "wallpaper.polporos": "Ancient Sunset",
