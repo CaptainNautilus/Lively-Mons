@@ -1,13 +1,13 @@
 {
   "implemented": true,
   "nationalPokedexNumber": 41,
-  "name": "Treadon",
+  "name": "Tumblon",
   "primaryType": "steel",
   "maleRatio": 0.5,
   "height": 10,
   "weight": 350,
   "pokedex": [
-    "cobblemon.species.treadon.desc"
+    "cobblemon.species.tumblon.desc"
   ],
   "labels": [
     "custom"
@@ -69,7 +69,7 @@
           "tier": 1
         },
         {
-          "pokemon": "treadon",
+          "pokemon": "tumblon",
           "tier": 2
         },
         {
@@ -243,7 +243,7 @@
   ],
   "evolutions": [
     {
-      "id": "treadon_torqueron",
+      "id": "tumblon_torqueron",
       "variant": "level_up",
       "result": "torqueron",
       "consumeHeldItem": false,

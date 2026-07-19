@@ -260,6 +260,6 @@
     "egg:dragonrush",
     "egg:headlongrush"
   ],
-  "preEvolution": "treadon",
+  "preEvolution": "tumblon",
   "evolutions": []
 }

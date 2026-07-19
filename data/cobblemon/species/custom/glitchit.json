@@ -62,14 +62,26 @@
       }
     },
     "herd": {
-      "maxSize": "9",
+      "maxSize": "5",
       "toleratedLeaders": [
         {
           "pokemon": "glitchit",
           "tier": 1
         },
         {
+          "pokemon": "porygon",
+          "tier": 2
+        },
+        {
+          "pokemon": "porygon2",
+          "tier": 2
+        },
+        {
           "pokemon": "porygonz",
+          "tier": 2
+        },
+        {
+          "pokemon": "porygondelta",
           "tier": 2
         },
         {
