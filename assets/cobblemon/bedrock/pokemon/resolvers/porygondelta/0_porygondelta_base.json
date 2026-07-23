@@ -1,0 +1,42 @@
+{
+    "species": "cobblemon:porygondelta",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:substitute",
+        "model": "cobblemon:porygondelta.geo",
+        "texture": "cobblemon:textures/pokemon/porygondelta/porygondelta.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/porygondelta/porygondelta_emissive.png"
+      }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/porygondelta/porygondelta_shiny.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/porygondelta/porygondelta_shiny_emissive.png"
+         }
+        ]
+      },
+      {
+        "aspects": [
+          "alpha_eyes"
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/porygondelta/porygondelta_alpha.png",
+            "emissive": true
+          }
+        ]
+      }
+    ]
+  }
