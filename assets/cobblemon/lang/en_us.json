@@ -238,6 +238,7 @@
 
     "cobblemon.ability.honeypot": "Honeypot",
     "cobblemon.ability.honeypot.desc": "This Pokémon eats the stored honey inside its hive, healing it 1/16th of its health every turn.",
+    "cobblemon.battle.heal.honeypot": "%1s's hp was a restored a little bit thanks to its Honeypot!",
 
     "cobblemon.ability.starlight": "Starlight",
     "cobblemon.ability.starlight.desc": "This Pokémon and its allies can never miss a damaging attack. This does not effect one-hit knockout moves.",
