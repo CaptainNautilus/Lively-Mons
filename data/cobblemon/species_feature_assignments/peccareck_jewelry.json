@@ -1,0 +1,16 @@
+{
+  "pokemon": [
+    "peccareck"
+  ],
+  "features": [
+    "peccary_jewelry_bracelet_left",
+    "peccary_jewelry_bracelet_right",
+    "peccary_jewelry_anklet_left",
+    "peccary_jewelry_anklet_right",
+    "peccary_jewelry_earring_left",
+    "peccary_jewelry_earring_right",
+    "peccary_jewelry_teeth",
+    "peccary_jewelry_eye",
+    "peccary_jewelry_comb"
+  ]
+}

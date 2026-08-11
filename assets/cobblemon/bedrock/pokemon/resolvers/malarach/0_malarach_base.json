@@ -4,7 +4,7 @@
     "variations": [
       {
         "aspects": [],
-        "poser": "cobblemon:substitute",
+        "poser": "cobblemon:malarach",
         "model": "cobblemon:malarach.geo",
         "texture": "cobblemon:textures/pokemon/malarach/malarach.png",
         "layers": [

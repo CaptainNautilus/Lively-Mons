@@ -1,0 +1,146 @@
+{
+  "species": "cobblemon:peccareck",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:peccareck",
+      "model": "cobblemon:peccareck.geo",
+      "texture": "cobblemon:textures/pokemon/peccareck/peccareck.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/peccareck/peccareck_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/peccareck/peccareck_alpha.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "jewelry-bracelet-right-true"
+      ],
+      "layers": [
+        {
+          "name": "jewelrybraceletright",
+          "texture": "cobblemon:textures/pokemon/peccareck/peccareck_bracelet_right.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "jewelry-bracelet-left-true"
+      ],
+      "layers": [
+        {
+          "name": "jewelrybraceletleft",
+          "texture": "cobblemon:textures/pokemon/peccareck/peccareck_bracelet_left.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "jewelry-anklet-right-true"
+      ],
+      "layers": [
+        {
+          "name": "jewelryankletright",
+          "texture": "cobblemon:textures/pokemon/peccareck/peccareck_anklet_right.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "jewelry-anklet-left-true"
+      ],
+      "layers": [
+        {
+          "name": "jewelryankletleft",
+          "texture": "cobblemon:textures/pokemon/peccareck/peccareck_anklet_left.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "jewelry-earring-right-true"
+      ],
+      "layers": [
+        {
+          "name": "jewelryearringright",
+          "texture": "cobblemon:textures/pokemon/peccareck/peccareck_earring_right.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "jewelry-earring-left-true"
+      ],
+      "layers": [
+        {
+          "name": "jewelryearringleft",
+          "texture": "cobblemon:textures/pokemon/peccareck/peccareck_earring_left.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "jewelry-teeth-true"
+      ],
+      "layers": [
+        {
+          "name": "jewelryteeth",
+          "texture": "cobblemon:textures/pokemon/peccareck/peccareck_teeth.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "jewelry-eye-true"
+      ],
+      "layers": [
+        {
+          "name": "jewelryeye",
+          "texture": "cobblemon:textures/pokemon/peccareck/peccareck_eye.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "jewelry-comb-true"
+      ],
+      "layers": [
+        {
+          "name": "jewelrycomb",
+          "texture": "cobblemon:textures/pokemon/peccareck/peccareck_comb.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["cosmetic_item-black_glasses"],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/peccareck/peccareck_sunglasses.png",
+          "emissive": false
+        }
+      ]
+    }
+  ]
+}

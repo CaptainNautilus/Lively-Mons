@@ -1,0 +1,13 @@
+{
+  "type": "choice",
+  "keys": [
+    "unboxed_form"
+  ],
+  "default": "unboxed",
+  "choices": [
+    "unboxed",
+    "boxed"
+  ],
+  "isAspect": true,
+  "aspectFormat": "{{choice}}-form"
+}

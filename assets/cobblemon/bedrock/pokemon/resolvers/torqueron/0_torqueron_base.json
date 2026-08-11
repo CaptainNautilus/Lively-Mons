@@ -4,14 +4,29 @@
     "variations": [
       {
         "aspects": [],
-        "poser": "cobblemon:substitute",
+        "poser": "cobblemon:torqueron",
         "model": "cobblemon:torqueron.geo",
         "texture": "cobblemon:textures/pokemon/torqueron/torqueron.png",
-        "layers": []
+        "layers": [
+          {
+            "name": "emissive",
+            "translucent": true,
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/torqueron/torqueron_emissive.png"
+      }
+    ]
       },
       {
         "aspects": [ "shiny" ],
-        "texture": "cobblemon:textures/pokemon/torqueron/torqueron_shiny.png"
+        "texture": "cobblemon:textures/pokemon/torqueron/torqueron_shiny.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "translucent": true,
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/torqueron/torqueron_shiny_emissive.png"
+      }
+    ]
       },
       {
         "aspects": [

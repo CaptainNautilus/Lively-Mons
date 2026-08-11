@@ -1,0 +1,11 @@
+{
+  "type": "choice",
+  "keys": ["peccary_jewelry_anklet_left"],
+  "default": "random",
+  "choices": [
+    "false",
+    "true"
+  ],
+  "isAspect": true,
+  "aspectFormat": "jewelry-anklet-left-{{choice}}"
+}

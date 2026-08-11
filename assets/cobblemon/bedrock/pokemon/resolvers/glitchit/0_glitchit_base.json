@@ -4,7 +4,7 @@
     "variations": [
       {
         "aspects": [],
-        "poser": "cobblemon:substitute",
+        "poser": "cobblemon:glitchit",
         "model": "cobblemon:glitchit.geo",
         "texture": "cobblemon:textures/pokemon/glitchit/glitchit.png",
         "layers": [

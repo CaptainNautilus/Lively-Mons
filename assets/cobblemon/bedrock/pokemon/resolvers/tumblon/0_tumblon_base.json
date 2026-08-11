@@ -4,14 +4,29 @@
     "variations": [
       {
         "aspects": [],
-        "poser": "cobblemon:substitute",
+        "poser": "cobblemon:tumblon",
         "model": "cobblemon:tumblon.geo",
         "texture": "cobblemon:textures/pokemon/tumblon/tumblon.png",
-        "layers": []
+        "layers": [
+          {
+            "name": "emissive",
+            "translucent": true,
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/tumblon/tumblon_emissive.png"
+      }
+    ]
       },
       {
         "aspects": [ "shiny" ],
-        "texture": "cobblemon:textures/pokemon/tumblon/tumblon_shiny.png"
+        "texture": "cobblemon:textures/pokemon/tumblon/tumblon_shiny.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "translucent": true,
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/tumblon/tumblon_emissive.png"
+      }
+    ]
       },
       {
         "aspects": [

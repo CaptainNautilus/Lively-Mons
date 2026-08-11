@@ -1,0 +1,63 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [-0.2, -0.6, 0],
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.55, 0],
+  "rootBone": "peccareck",
+  "animations": {
+    "faint": "q.bedrock_primary('peccareck', 'faint', q.curve('symmetrical'))",
+    "cry": "q.bedrock_stateful('peccareck', 'cry')",
+    "recoil": "q.bedrock_stateful('peccareck', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND","FLOAT"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('peccareck', 'battle_idle')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('peccareck', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND","FLOAT","PROFILE","PORTRAIT"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('peccareck', 'ground_idle')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('peccareck', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK","SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('peccareck', 'ground_walk')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('peccareck', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseName": "sleep",
+      "poseTypes": ["SLEEP"],
+          "namedAnimations": {
+          "cry": "q.bedrock_stateful('dummy', 'cry')"
+          },
+      "animations": [
+        "q.bedrock('peccareck', 'sleep')"
+      ],
+      "transformTicks": 10
+    }
+  }
+}

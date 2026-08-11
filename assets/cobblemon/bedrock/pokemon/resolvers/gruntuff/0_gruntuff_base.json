@@ -4,7 +4,7 @@
     "variations": [
       {
         "aspects": [],
-        "poser": "cobblemon:substitute",
+        "poser": "cobblemon:gruntuff",
         "model": "cobblemon:gruntuff.geo",
         "texture": "cobblemon:textures/pokemon/gruntuff/gruntuff.png",
         "layers": []

@@ -1,0 +1,83 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [-0.2, -0.6, 0],
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.55, 0],
+  "rootBone": "gruntuff",
+  "animations": {
+    "faint": "q.bedrock_primary('gruntuff', 'faint', q.curve('symmetrical'))",
+    "cry": "q.bedrock_stateful('gruntuff', 'cry')",
+    "recoil": "q.bedrock_stateful('gruntuff', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND","FLOAT"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gruntuff', 'battle_idle')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('gruntuff', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND","FLOAT","PROFILE","PORTRAIT"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gruntuff', 'ground_idle')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('gruntuff', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK","SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gruntuff', 'ground_walk')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('gruntuff', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseName": "sleep",
+      "poseTypes": ["SLEEP"],
+          "namedAnimations": {
+          "cry": "q.bedrock_stateful('dummy', 'cry')"
+          },
+      "animations": [
+        "q.bedrock('gruntuff', 'sleep')"
+      ],
+      "transformTicks": 10
+    },
+      "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gruntuff', 'shoulder_left')"
+        ],
+      "quirks": [
+        "q.bedrock_quirk('gruntuff', 'blink')"
+      ]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gruntuff', 'shoulder_right')"
+    ],
+      "quirks": [
+        "q.bedrock_quirk('gruntuff', 'blink')"
+      ]
+    }
+  }
+}

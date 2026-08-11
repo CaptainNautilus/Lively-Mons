@@ -458,6 +458,22 @@
 					]
 				},
 				{
+					"name": "mouth_open_wide",
+					"parent": "head",
+					"pivot": [0, 49, -5.9],
+					"cubes": [
+						{"origin": [-1, 44.5, -6.9], "size": [6, 3, 6], "inflate": 0.01, "pivot": [0, 48, -5.9], "rotation": [0, 135, 0], "uv": [104, 67]}
+					]
+				},
+				{
+					"name": "mouth_open_slim",
+					"parent": "head",
+					"pivot": [0, 49, -5.9],
+					"cubes": [
+						{"origin": [-1, 44.5, -6.9], "size": [6, 3, 6], "inflate": 0.01, "pivot": [0, 48, -5.9], "rotation": [0, 135, 0], "uv": [78, 84]}
+					]
+				},
+				{
 					"name": "fibers",
 					"parent": "head",
 					"pivot": [0, 48.5, -6]

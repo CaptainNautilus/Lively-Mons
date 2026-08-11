@@ -1,0 +1,27 @@
+{
+    "species": "cobblemon:nyenlives",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": ["unboxed-form"],
+        "poser": "cobblemon:nyenlives_unboxed",
+        "model": "cobblemon:nyenlives.geo",
+        "texture": "cobblemon:textures/pokemon/nyenlives/nyenlives.png",
+        "layers": []
+      },
+      {
+        "aspects": ["shiny", "unboxed-form"],
+        "texture": "cobblemon:textures/pokemon/nyenlives/nyenlives_shiny.png"
+      },
+      {
+        "aspects": ["alpha_eyes", "unboxed-form"],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/nyenlives/nyenlives_alpha.png",
+            "emissive": true
+          }
+        ]
+      }
+    ]
+  }

@@ -4,25 +4,25 @@
     "variations": [
       {
         "aspects": [],
-        "poser": "cobblemon:substitute",
-        "model": "cobblemon:porygondelta.geo",
-        "texture": "cobblemon:textures/pokemon/porygondelta/porygondelta.png",
+        "poser": "cobblemon:porygon-delta",
+        "model": "cobblemon:porygon-delta.geo",
+        "texture": "cobblemon:textures/pokemon/porygondelta/porygon-delta.png",
         "layers": [
           {
             "name": "emissive",
             "emissive": true,
-            "texture": "cobblemon:textures/pokemon/porygondelta/porygondelta_emissive.png"
+            "texture": "cobblemon:textures/pokemon/porygondelta/porygon-delta_emissive.png"
       }
         ]
       },
       {
         "aspects": [ "shiny" ],
-        "texture": "cobblemon:textures/pokemon/porygondelta/porygondelta_shiny.png",
+        "texture": "cobblemon:textures/pokemon/porygondelta/porygon-delta_shiny.png",
         "layers": [
           {
             "name": "emissive",
             "emissive": true,
-            "texture": "cobblemon:textures/pokemon/porygondelta/porygondelta_shiny_emissive.png"
+            "texture": "cobblemon:textures/pokemon/porygondelta/porygon-delta_shiny_emissive.png"
          }
         ]
       },
@@ -33,7 +33,7 @@
         "layers": [
           {
             "name": "alpha_eyes",
-            "texture": "cobblemon:textures/pokemon/porygondelta/porygondelta_alpha.png",
+            "texture": "cobblemon:textures/pokemon/porygondelta/porygon-delta_alpha.png",
             "emissive": true
           }
         ]

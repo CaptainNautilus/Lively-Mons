@@ -1,0 +1,65 @@
+{
+  "portraitScale": 1.9,
+  "portraitTranslation": [-0.02, 1.39, 0],
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.88, 0],
+  "rootBone": "porygon_z",
+  "animations": {
+    "faint": "q.bedrock_primary('porygon-delta', math.random(0, 1) < 0.1 ? 'faint2' : 'faint', q.curve('one'))",
+    "recoil": "q.bedrock_stateful('porygon-delta', 'recoil')",
+    "cry": "q.bedrock_stateful('porygon-delta', 'cry')",
+    "physical": "q.bedrock_primary('porygon-delta', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('porygon-delta', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('porygon-delta', 'status', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "namedAnimations": {
+        "cry": "q.bedrock_primary('porygon-delta', 'battle_cry', q.curve('symmetrical_wide'))"
+      },
+      "animations": ["q.look('head')", "q.bedrock('porygon-delta', 'battle_idle')"],
+      "quirks": [
+        "q.bedrock_quirk('porygon-delta', 'blink')",
+        "q.bedrock_quirk('porygon-delta', q.array('quirk', 'quirk2'), 8, 30, 1)",
+        "q.bedrock_quirk('porygon-delta', q.array('twitch1', 'twitch2', 'twitch3', 'twitch4', 'twitch5', 'twitch6'), 1, 10, 1)",
+        "q.bedrock_primary_quirk('porygon-delta', 'battle_quirk', 20, 40, 1, q.curve('symmetrical_wide'))"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT", "HOVER", "NONE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('porygon-delta', 'ground_idle')"],
+      "quirks": [
+        "q.bedrock_quirk('porygon-delta', 'blink')",
+        "q.bedrock_quirk('porygon-delta', q.array('quirk', 'quirk2'), 8, 30, 1)",
+        "q.bedrock_quirk('porygon-delta', q.array('twitch1', 'twitch2', 'twitch3', 'twitch4', 'twitch5', 'twitch6'), 1, 10, 1)",
+        "q.bedrock_primary_quirk('porygon-delta', q.array('idle_quirk', 'idle_quirk2'), 20, 40, 1, q.curve('symmetrical_wide'))"
+      ]
+    },
+    "portrait": {
+      "poseTypes": ["PORTRAIT", "PROFILE"],
+      "animations": ["q.bedrock('porygon-delta', 'ground_idle')"],
+      "quirks": [
+        "q.bedrock_quirk('porygon-delta', 'blink')",
+        "q.bedrock_quirk('porygon-delta', q.array('twitch1', 'twitch2', 'twitch3', 'twitch4', 'twitch5', 'twitch6'), 1, 10, 1)"
+      ]
+   },
+    "walking": {
+      "poseTypes": ["WALK", "FLY", "SWIM"],
+      "animations": ["q.look('head')", "q.bedrock('porygon-delta', 'ground_walk')"],
+      "quirks": [
+        "q.bedrock_quirk('porygon-delta', 'blink')",
+        "q.bedrock_quirk('porygon-delta', q.array('twitch1', 'twitch2', 'twitch3', 'twitch4', 'twitch5', 'twitch6'), 1, 10, 1)"
+      ]
+    },
+    "sleeping": {
+      "poseTypes": ["SLEEP"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+      "animations": ["q.bedrock('porygon-delta', 'sleep')"]
+    }
+  }
+}

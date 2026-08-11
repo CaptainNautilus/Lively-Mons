@@ -57,7 +57,7 @@
           "tier": 1
         },
         {
-          "pokemon": "peccarreck",
+          "pokemon": "peccareck",
           "tier": 2
         }
       ]
@@ -96,13 +96,13 @@
     ]
   },
   "moves": [
-    "based on Maschiff"
+    "1:tackle"
   ],
   "evolutions": [
     {
-      "id": "gruntuff_peccarreck",
+      "id": "gruntuff_peccareck",
       "variant": "level_up",
-      "result": "peccarreck",
+      "result": "peccareck",
       "consumeHeldItem": false,
       "learnableMoves": [
         "comeuppance"

@@ -269,6 +269,16 @@
 					]
 				},
 				{
+					"name": "mouth_open_small",
+					"parent": "mouth",
+					"pivot": [0, 6.3, -5.416],
+					"cubes": [
+						{"origin": [-1, 5.5, -5.41], "size": [2, 1, 0], "uv": [51, 33]},
+						{"origin": [-0.5, 5.5, -5.42], "size": [1, 1, 0], "uv": [50, 37]},
+						{"origin": [-0.5, 6.25, -5.41], "size": [1, 1, 0], "uv": [50, 35]}
+					]
+				},
+				{
 					"name": "mouth_open_sad",
 					"parent": "mouth",
 					"pivot": [0, 6.8, -5.416],

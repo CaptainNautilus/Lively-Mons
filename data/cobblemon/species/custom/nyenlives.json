@@ -14,10 +14,13 @@
     "custom"
   ],
   "aspects": [
-    "unboxed-form"
+    "boxed-form"
+  ],
+  "features": [
+    "unboxed"
   ],
   "abilities": [
-    "scaredycat"
+    "intimidate"
   ],
   "eggGroups": [
     "amorphous"
@@ -43,7 +46,7 @@
   "catchRate": 45,
   "eggCycles": 20,
   "baseFriendship": 50,
-  "shoulderMountable": true,
+  "shoulderMountable": false,
   "baseScale": 0.8,
   "hitbox": {
     "width": 0.7,
@@ -247,6 +250,25 @@
         "speed": 0
       },
       "evolutions": [],
+      "behaviour": {
+        "resting": {
+          "willSleepOnBed": false,
+          "times": [
+            "day"
+          ],
+          "drowsyChance": 0.0033,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "canLook": false,
+          "swim": {
+            "avoidsWater": true
+          },
+          "fly": {
+            "canFly": true
+          }
+        }
+      },
       "battleOnly": false
     }
   ],
@@ -260,8 +282,12 @@
       "rouseChance": 0.0042
     },
     "moving": {
+      "canLook": true,
       "swim": {
         "avoidsWater": true
+      },
+      "fly": {
+        "canFly": false
       }
     },
     "combat": {

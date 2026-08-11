@@ -1,0 +1,100 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [-0.2, -0.6, 0],
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.55, 0],
+  "rootBone": "nyenlives",
+  "animations": {
+    "faint": "q.bedrock_primary('nyenlives', 'unboxed_faint', q.curve('symmetrical'))",
+    "cry": "q.bedrock_stateful('nyenlives', 'unboxed_cry')",
+    "recoil": "q.bedrock_stateful('nyenlives', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "namedAnimations": {
+        "recoil": "q.bedrock_stateful('nyenlives', 'recoil_battle')"
+      },
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('nyenlives', 'unboxed_battle_idle')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('nyenlives', 'blink')",
+        "q.bedrock_quirk('nyenlives', 'blink2')"
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND","NONE","PROFILE","PORTRAIT"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('nyenlives', 'unboxed_ground_idle')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('nyenlives', 'blink')",
+        "q.bedrock_quirk('nyenlives', 'blink2')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('nyenlives', 'unboxed_ground_walk')"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        "q.bedrock_quirk('nyenlives', 'blink')",
+        "q.bedrock_quirk('nyenlives', 'blink2')"
+      ]
+    },
+    "hover": {
+      "poseTypes": ["HOVER", "FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('nyenlives', 'unboxed_air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('nyenlives', 'blink')",
+        "q.bedrock_quirk('nyenlives', 'blink2')"
+      ]
+    },
+    "fly": {
+      "poseTypes": ["FLY", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('nyenlives', 'unboxed_air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('nyenlives', 'blink')",
+        "q.bedrock_quirk('nyenlives', 'blink2')"
+      ]
+    },
+    "sleep": {
+      "poseName": "sleep",
+      "poseTypes": ["SLEEP"],
+       "condition": "!q.is_flying",
+          "namedAnimations": {
+          "cry": "q.bedrock_stateful('dummy', 'cry')"
+          },
+      "animations": [
+        "q.bedrock('nyenlives', 'unboxed_sleep')"
+      ],
+      "transformTicks": 10
+    },
+    "air-sleep": {
+      "poseTypes": ["SLEEP"],
+       "condition": "q.is_flying",
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+      "animations": ["q.bedrock('nyenlives', 'unboxed_sleep_air')"]
+    }
+  }
+}

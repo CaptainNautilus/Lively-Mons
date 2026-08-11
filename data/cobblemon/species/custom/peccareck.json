@@ -1,13 +1,13 @@
 {
   "implemented": true,
   "nationalPokedexNumber": 32,
-  "name": "Peccarreck",
+  "name": "Peccareck",
   "primaryType": "dark",
   "maleRatio": 0.5,
   "height": 11,
   "weight": 610,
   "pokedex": [
-    "cobblemon.species.peccarreck.desc"
+    "cobblemon.species.peccareck.desc"
   ],
   "labels": [
     "gen9"
@@ -85,7 +85,7 @@
     ]
   },
   "moves": [
-    "based on Mabosstiff"
+    "1:tackle"
   ],
   "preEvolution": "gruntuff",
   "evolutions": []
