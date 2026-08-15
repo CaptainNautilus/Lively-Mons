@@ -624,7 +624,7 @@
 					"rotation": ["15+math.sin(q.anim_time*90*1-120)*1+math.sin(q.anim_time*90*12-35)*0.65", "math.cos(q.anim_time*90*1-120)*1", 0]
 				},
 				"wheel_pivot": {
-					"rotation": ["math.mod(q.anim_time*1, 1)*360", 0, 0],
+					"rotation": ["0*1+math.mod(q.anim_time*1, 1)*360", 0, 0],
 					"position": [0, "-math.sin(q.anim_time*90*16-90)*1", 0]
 				}
 			}
@@ -4898,7 +4898,7 @@
 					"rotation": ["15+math.sin(q.anim_time*90*1-120)*1+math.sin(q.anim_time*90*12-35)*0.65", "math.cos(q.anim_time*90*1-120)*1", 0]
 				},
 				"wheel_pivot": {
-					"rotation": ["math.mod(q.anim_time*2, 1)*360", 0, 0],
+					"rotation": ["0*1+math.mod(q.anim_time*2, 1)*360", 0, 0],
 					"position": [0, "-math.sin(q.anim_time*90*16-90)*1", 0]
 				}
 			}

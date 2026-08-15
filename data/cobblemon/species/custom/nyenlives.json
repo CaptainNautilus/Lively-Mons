@@ -1,6 +1,6 @@
 {
   "implemented": true,
-  "nationalPokedexNumber": 778,
+  "nationalPokedexNumber": 48,
   "name": "Nyenlives",
   "primaryType": "ghost",
   "secondaryType": "normal",
@@ -8,7 +8,7 @@
   "height": 18,
   "weight": 14,
   "pokedex": [
-    "cobblemon.species.nyenlives.desc"
+    "cobblemon.species.nyenlives.desc1"
   ],
   "labels": [
     "custom"
@@ -49,8 +49,8 @@
   "shoulderMountable": false,
   "baseScale": 0.8,
   "hitbox": {
-    "width": 0.7,
-    "height": 1,
+    "width": 0.9,
+    "height": 0.6,
     "fixed": false
   },
   "drops": {
@@ -225,7 +225,7 @@
       "height": 2,
       "weight": 7,
       "pokedex": [
-        "cobblemon.species.nyenlives-unboxed.desc"
+         "cobblemon.species.nyenlives.desc1"
       ],
       "labels": [
         "custom"
@@ -249,9 +249,19 @@
         "special_defence": 0,
         "speed": 0
       },
+      "baseScale": 0.8,
+      "standingEyeHeight": 0.925,
+      "swimmingEyeHeight": 0.925,
+      "flyingEyeHeight": 0.925,
+      "hitbox": {
+         "width": 0.9,
+        "height": 3.3,
+        "fixed": false
+      },
       "evolutions": [],
       "behaviour": {
         "resting": {
+         "canSleep": true,
           "willSleepOnBed": false,
           "times": [
             "day"
@@ -262,7 +272,8 @@
         "moving": {
           "canLook": false,
           "swim": {
-            "avoidsWater": true
+            "avoidsWater": true,
+            "canWalkOnWater": true
           },
           "fly": {
             "canFly": true
@@ -274,6 +285,7 @@
   ],
   "behaviour": {
     "resting": {
+      "canSleep": true,
       "willSleepOnBed": true,
       "times": [
         "day"
@@ -284,7 +296,8 @@
     "moving": {
       "canLook": true,
       "swim": {
-        "avoidsWater": true
+        "avoidsWater": true,
+        "canWalkOnWater": false
       },
       "fly": {
         "canFly": false

@@ -7,7 +7,7 @@
   "height": 10,
   "weight": 350,
   "pokedex": [
-    "cobblemon.species.tumblon.desc"
+    "cobblemon.species.tumblon.desc1"
   ],
   "labels": [
     "custom"
@@ -44,9 +44,12 @@
   "eggCycles": 20,
   "baseFriendship": 50,
   "baseScale": 0.9,
+  "standingEyeHeight": 0.475,
+  "swimmingEyeHeight": 0.475,
+  "flyingEyeHeight": 0.475,
   "hitbox": {
-    "width": 0.75,
-    "height": 1,
+    "width": 0.8,
+    "height": 0.9,
     "fixed": false
   },
   "behaviour": {

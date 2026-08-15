@@ -15,7 +15,7 @@
 				},
 				"body": {
 					"rotation": [-4.9811, 0.4352, 4.9811],
-					"position": [0, -0.25, 8]
+					"position": [0, -0.25, 12]
 				},
 				"tail8": {
 					"rotation": ["29.9033-math.sin(q.anim_time*90*2-210)*1", "0.8036+math.cos(q.anim_time*90*2-210)*1", -2.7208]
@@ -226,7 +226,7 @@
 					"rotation": [50.5867, 1.7666, 11.8169]
 				},
 				"wheel_pivot": {
-					"rotation": ["math.mod(q.anim_time*2, 1)*360", 0, 0]
+					"rotation": ["0*1+math.mod(q.anim_time*2, 1)*360", 0, 0]
 				}
 			}
 		},
@@ -1510,7 +1510,6 @@
 			"loop": true,
 			"bones": {
 				"tumblon": {
-					"position": [-18, 0, 10],
 					"scale": 0.9
 				}
 			}

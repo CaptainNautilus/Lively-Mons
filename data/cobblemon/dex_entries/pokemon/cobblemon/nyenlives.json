@@ -1,0 +1,21 @@
+{
+  "id": "cobblemon:nyenlives",
+  "speciesId": "cobblemon:nyenlives",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    },
+    {
+      "displayForm": "Unboxed",
+      "unlockForms": [
+        "Unboxed"
+      ]
+    }
+  ],
+  "variations": []
+}

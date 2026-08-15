@@ -7,7 +7,7 @@
   "height": 5,
   "weight": 160,
   "pokedex": [
-    "cobblemon.species.gruntuff.desc"
+    "cobblemon.species.gruntuff.desc1"
   ],
   "labels": [
     "custom"
@@ -42,10 +42,14 @@
   "catchRate": 150,
   "eggCycles": 20,
   "baseFriendship": 50,
-  "baseScale": 0.8,
+  "shoulderMountable": true,
+  "baseScale": 0.7,
+  "standingEyeHeight": 0.6,
+  "swimmingEyeHeight": 0.6,
+  "flyingEyeHeight": 0.6,
   "hitbox": {
-    "width": 1,
-    "height": 0.8,
+    "width": 0.7,
+    "height": 1.1,
     "fixed": false
   },
   "behaviour": {

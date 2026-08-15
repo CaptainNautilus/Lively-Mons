@@ -37,7 +37,7 @@
       "transformTicks": 10,
       "quirks": [
         "q.bedrock_quirk('nyenlives', 'blink')",
-        "q.bedrock_quirk('nyenlives', 'quirk_ground_idle', 5, 5, 1)"
+        "q.bedrock_quirk('nyenlives', 'quirk_ground_idle', 20, 60, 1)"
       ]
     },
     "walking": {

@@ -7,11 +7,24 @@
         "poser": "cobblemon:nyenlives_unboxed",
         "model": "cobblemon:nyenlives.geo",
         "texture": "cobblemon:textures/pokemon/nyenlives/nyenlives.png",
-        "layers": []
+        "layers": [
+          {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/nyenlives/nyenlives_emissive.png"
+         }
+        ]
       },
       {
         "aspects": ["shiny", "unboxed-form"],
-        "texture": "cobblemon:textures/pokemon/nyenlives/nyenlives_shiny.png"
+        "texture": "cobblemon:textures/pokemon/nyenlives/nyenlives_shiny.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/nyenlives/nyenlives_shiny_emissive.png"
+         }
+        ]
       },
       {
         "aspects": ["alpha_eyes", "unboxed-form"],

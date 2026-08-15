@@ -850,8 +850,8 @@
 					"rotation": [-50, 0, 0]
 				},
 				"head": {
-					"rotation": ["-7.4929428108+math.cos(q.anim_time*90)*2", -0.32621, "-math.sin(q.anim_time*90)*2"],
-					"position": [0, 1, 0]
+					"rotation": ["-7.4438+math.cos(q.anim_time*90)*2", -0.80301, "-4.9774-math.sin(q.anim_time*90)*2"],
+					"position": [0.5, 1, 0]
 				},
 				"tail": {
 					"rotation": ["-27.5+math.sin(q.anim_time*90*2)*4", "math.cos(q.anim_time*90*2)*4", 0]
@@ -860,7 +860,10 @@
 					"rotation": [0, 0, 10]
 				},
 				"body": {
-					"position": [3, -3, 3]
+					"position": [0, -7, 3]
+				},
+				"leg_left": {
+					"rotation": [0, 0, 22.5]
 				},
 				"foot_left": {
 					"rotation": [25, 0, 0],
@@ -871,10 +874,11 @@
 					"position": [0, 0.19291, 0.42246]
 				},
 				"torso": {
-					"rotation": [10, 0, 0]
+					"rotation": [10, 0, 0],
+					"position": [0.5, 0, 0]
 				},
 				"arm_left": {
-					"rotation": [-29.13595, 50.24807, 42.96442],
+					"rotation": [0.67385, 56.04167, 79.71992],
 					"position": [-0.18301, 0, -0.68301]
 				},
 				"elbow_left": {
@@ -902,6 +906,9 @@
 				},
 				"hair_front": {
 					"rotation": ["math.cos(q.anim_time*90-30)*2", 0, "-math.sin(q.anim_time*90-30)*2"]
+				},
+				"neck": {
+					"position": [0.5, 0, 0]
 				}
 			}
 		},
@@ -933,8 +940,8 @@
 					"rotation": [-50, 0, 0]
 				},
 				"head": {
-					"rotation": ["-7.4929428108+math.cos(q.anim_time*90)*2", 0.32621, "math.sin(q.anim_time*90)*2"],
-					"position": [0, 1, 0]
+					"rotation": ["-7.4438+math.cos(q.anim_time*90)*2", 0.80301, "4.9774+math.sin(q.anim_time*90)*2"],
+					"position": [-0.5, 1, 0]
 				},
 				"tail": {
 					"rotation": ["-27.5+math.sin(q.anim_time*90*2)*4", "-math.cos(q.anim_time*90*2)*4", 0]
@@ -943,18 +950,22 @@
 					"rotation": [0, 0, -10]
 				},
 				"body": {
-					"position": [-3, -3, 3]
+					"position": [0, -7, 3]
 				},
 				"foot_left": {
 					"rotation": [25, 0, 0],
 					"position": [0, 0.19291, 0.42246]
+				},
+				"leg_right": {
+					"rotation": [0, 0, -22.5]
 				},
 				"foot_right": {
 					"rotation": [25, 0, 0],
 					"position": [0, 0.19291, 0.42246]
 				},
 				"torso": {
-					"rotation": [10, 0, 0]
+					"rotation": [10, 0, 0],
+					"position": [-0.5, 0, 0]
 				},
 				"arm_left": {
 					"rotation": [131.27705, 86.24132, 138.72295],
@@ -965,7 +976,7 @@
 					"position": [0.25788, -0.08196, -0.03797]
 				},
 				"arm_right": {
-					"rotation": [-29.13595, -50.24807, -42.96442],
+					"rotation": [0.67385, -56.04167, -79.71992],
 					"position": [0.18301, 0, -0.68301]
 				},
 				"elbow_right": {
@@ -987,6 +998,9 @@
 				},
 				"hair_front": {
 					"rotation": ["math.cos(q.anim_time*90-30)*2", 0, "math.sin(q.anim_time*90-30)*2"]
+				},
+				"neck": {
+					"position": [-0.5, 0, 0]
 				}
 			}
 		},
@@ -1856,10 +1870,22 @@
 				"mouth_open": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"0.0833": {"pre": [0, 0, 0], "post": [0, 0, 0.1]},
-						"0.25": {"pre": [0, 0, 0.1], "post": [0, 0, 0]},
-						"0.5": {"pre": [0, 0, 0], "post": [0, 0, 0.1]},
-						"0.9167": {"pre": [0, 0, 0.1], "post": [0, 0, 0]}
+						"0.0833": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 0.1]
+						},
+						"0.25": {
+							"pre": [0, 0, 0.1],
+							"post": [0, 0, 0]
+						},
+						"0.5": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 0.1]
+						},
+						"0.9167": {
+							"pre": [0, 0, 0.1],
+							"post": [0, 0, 0]
+						}
 					}
 				},
 				"nose": {
@@ -2011,16 +2037,36 @@
 				"mouth_shock": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"0.0833": {"pre": [0, 0, 0], "post": [0, 0.5, -0.1]},
-						"0.25": {"pre": [0, 0.5, -0.1], "post": [0, 0, 0]},
-						"0.5": {"pre": [0, 0, 0], "post": [0, 0.5, -0.1]},
-						"0.9167": {"pre": [0, 0.5, -0.1], "post": [0, 0, 0]}
+						"0.0833": {
+							"pre": [0, 0, 0],
+							"post": [0, 0.5, -0.1]
+						},
+						"0.25": {
+							"pre": [0, 0.5, -0.1],
+							"post": [0, 0, 0]
+						},
+						"0.5": {
+							"pre": [0, 0, 0],
+							"post": [0, 0.5, -0.1]
+						},
+						"0.9167": {
+							"pre": [0, 0.5, -0.1],
+							"post": [0, 0, 0]
+						}
 					}
 				}
 			},
 			"sound_effects": {
 				"0.0833": {
 					"effect": "gruntuff_cry"
+				}
+			}
+		},
+		"animation.gruntuff.scale": {
+			"loop": true,
+			"bones": {
+				"gruntuff": {
+					"scale": 0.7
 				}
 			}
 		}

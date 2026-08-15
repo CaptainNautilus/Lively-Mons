@@ -3,7 +3,7 @@
   "keys": [
     "unboxed_form"
   ],
-  "default": "unboxed",
+  "default": "boxed",
   "choices": [
     "unboxed",
     "boxed"

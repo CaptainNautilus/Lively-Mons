@@ -8,7 +8,7 @@
     "cobblemon.species.frostnatch.name": "Frostnatch",
     "cobblemon.species.frostnatch.desc1": "Frostnatch search for ice crystals to add to its feather coat. Frostnatch are very territorial and often get into fights with other Pokémon.",
 
-        "cobblemon.species.frivid.name": "Frivid",
+    "cobblemon.species.frivid.name": "Frivid",
     "cobblemon.species.frivid.desc1": "Frivid have been known to steal shiny objects from people to add to their nests. For this reason it is recommended to keep things like jewelry away from wild Frivid. Frivid nests can contain many things like icy crystals, shiny gems, or even some small shiny Pokémon.",
 
     "cobblemon.species.fimbulven.name": "Fimbulven",
@@ -206,7 +206,28 @@
     "cobblemon.species.laprise.desc1": "While Laprise hold a close resemblance to the aquatic Pokémon Lapras, they are much more closely related to ancient bird Pokémon like Archen and Archeops. Essentialy a Living Fossil, Laprise have evolved very little for millions of years due to their absolute domination of jungle canopies, leaving them with no natural predators.",
 
     "cobblemon.species.nyenlives.name": "Nyenlives",
-    "cobblemon.species.nyenlives.desc1": "Though naturally timid, it loves startling passersby by scarily leaping from the cardboard box it is bound to. While most run away in terror, Nyenlives is happiest when its surprised victims can't help but laugh at its prank.",
+    "cobblemon.species.nyenlives.desc1": "Though naturally timid, it loves startling passersby by scarily leaping from the cardboard box it is bound to. While most of its victims run away in terror, Nyenlives is happiest when others can't help but laugh at its pranks. Being very playful by nature, Nyenlives enjoy scaring unwary adventurers by emerging suddenly from the cardboard box that it inhabits. Being inside or outside of its box completely shifts its personality from skittishness to mischievousness.",
+
+    "cobblemon.species.gruntuff.name": "Gruntuff",
+    "cobblemon.species.gruntuff.desc1": "Gruntuff like to hang around in small groups with strict social hierarchies. To climb their social ladder, Gruntuff bully other Pokémon to steal food, shelter, or anything else they find valuable, which they then share with their group. Trainers of Gruntuff need to be vigilant and strict to make sure that their Gruntuff doesn't end up trying to hurt other Pokémon.",
+
+    "cobblemon.species.peccareck.name": "Peccareck",
+    "cobblemon.species.peccareck.desc1": "Peccareck tend to be incredibly vain and arrogant. They boss around groups of Gruntuff to steal shiny jewelry, which they use to decorate their body. The Peccareck with the most jewelry are the leaders of the group. The only thing Peccareck care about more than their gold is their hair, which they groom obsessively.",
+
+    "cobblemon.species.glitchit.name": "Glitchit",
+    "cobblemon.species.glitchit.desc1": "Glitchit are known to mischeviously mess with digital systems. When technology stops working for seemingly no reason, it is likely that a Glitchit is the culprit. The spores that grow on the backs of Glitchit are packed full with DNA. With power from digital systems, Glitchit spores can burst into even more Glitchit, causing a chain reaction. Once a Glitchit made its way into a major power grid, causing a mass outbreak of Glitchit in the area as they reproduced and spread out.",
+
+    "cobblemon.species.malarach.name": "Malarach",
+    "cobblemon.species.malarach.desc1": "Malarach are powerful commanders that are able to control hoards of Glitchit in mass digital attacks. Because of this ability, Malarach are commonly used by government agencies to attack or infiltrate the digital systems of their targets. Malarach are also known to hunt the porygon line, consuming their digital code to amplify their own power. Porygon 2 with prolonged exposure to Malarach or Glitchit seem to somehow merge their own code with the dna in the spores growing on Malarach and Glitchit, corrupting themselves.",
+
+    "cobblemon.species.porygondelta.name": "Porygon Δ",
+    "cobblemon.species.porygondelta.desc1": "Porygon Δ (pronounced Porygon Delta) are even more unstable than their counterpart, Porygon Z. Porygon Δ are so unstable that they are constantly in a superposition between the physical and digital worlds at all times. Porygon Δ have a symbiotic relationship with the spores growing on its back, gaining extra strength from them. Porygon Δ attack nearby Porygon with the spores on its back to infect them with its virus.",
+
+    "cobblemon.species.tumblon.name": "Tumblon",
+    "cobblemon.species.tumblon.desc1": "Tumblon consume fossil fuels like coal and oil in the ground to fuel their powerful bodies. With this energy, they can roll into a wheel and move and breakneck speeds across the desert dunes that they roam. They generate so much heat during their bursts of speed that a smokey exhaust comes out of the end of their tail. Treadon can be found racing Varoom, rushing across the desert in a flash of speed.",
+
+    "cobblemon.species.torqueron.name": "Torqueron",
+    "cobblemon.species.torqueron.desc1": "Torqueron move across desert dunes by rolling into a massive wheel. The friction on the ground from when they roll is used to heat up Torqueron's body, which they then expend in powerful firey attacks. Torqueron also generate tons of heat when they roll on the ground from the friction. Some of the fastest Torqueron generate so much heat on the desert dunes that they turn the sand into glass as they blitz through the desert.",
 
     "cobblemon.species.budabon.name": "Budabon",
     "cobblemon.species.budabon_kanto.desc": "Budabon is a very resilient Pokémon, seemingly being found across the world in a variety of forms. Because of how common Budabon is, it was the first documented Pokémon in the original Pokédex, making it Pokémon Number 0. This specific form of Budabon is known for its vibrant color and agitated temperament.",
@@ -238,7 +259,6 @@
 
     "cobblemon.ability.honeypot": "Honeypot",
     "cobblemon.ability.honeypot.desc": "This Pokémon eats the stored honey inside its hive, healing it 1/16th of its health every turn.",
-    "cobblemon.battle.heal.honeypot": "%1s's hp was a restored a little bit thanks to its Honeypot!",
 
     "cobblemon.ability.starlight": "Starlight",
     "cobblemon.ability.starlight.desc": "This Pokémon and its allies can never miss a damaging attack. This does not effect one-hit knockout moves.",
@@ -259,7 +279,7 @@
     "cobblemon.ability.magicdrain.desc": "This Pokémon drains the magical power of its foes, lowering their Special Attack every turn.",
 
      "cobblemon.ability.acoustics": "Acoustics",
-    "cobblemon.ability.acoustics.desc": "The Pokémon and its allies are immune to sound-based moves. When a sound-based move is blocked this way, the Pokémon's Sp. Atk is boosted.",
+    "cobblemon.ability.acoustics.desc": "Opponents that use sound moves against the Pokémon or its allies fail, and the Pokémon's Sp. Atk is boosted instead.",
 
     "cobblemon.ability.blowout": "Blowout",
     "cobblemon.ability.blowout.desc": "If the Pokémon faints due to a Physical attack, it sets up Tailwind on its side of the field.",
@@ -295,7 +315,7 @@
     "cobblemon.move.fungalinfection.desc": "The user contaminates the target with its spores. If the targer was suffering from a non-volatile status condition, it is replaced with sleep.",
 
     "cobblemon.move.huntinghour": "Hunting Hour",
-    "cobblemon.move.huntinghour.desc": "The user rallies its ally to join its hunt. The target's Special Attack, Special Defence, and Critical Hit Chance are all raised. This move usually goes first, but cannot be used two turns in a row.",
+    "cobblemon.move.huntinghour.desc": "The user rallies its ally to join its hunt. The target's Special Attack, Special Defence, and Critical Hit Chance are all raised. This move usually goes first.",
 
     "cobblemon.move.hypothermicblow": "Hypothermic Blow",
     "cobblemon.move.hypothermicblow.desc": "The user flash freezes the target with a mere touch, causing its skin to sear. This may also leave the target with a burn.",
@@ -326,9 +346,6 @@
 
     "cobblemon.move.morningprep": "Morning Prep",
     "cobblemon.move.morningprep.desc": "The user prepares itself for a nice morning. This summons harsh sunlight, grassy terrain, and water sport all at once. While this move usually goes first, it works only on the first turn each time the user enters battle.",
-
-    "cobblemon.move.jumpscare": "Jumpscare",
-    "cobblemon.move.jumpscare.desc": "The user suddenly emerges from its carboard box and terrifies the target. This attack hits first, makes the target flinch, and disables the move it last used, but it works only on the first turn each time the user enters battle.",
 
     "wallpaper.mielador": "Smokey the Bear",
     "wallpaper.polporos": "Ancient Sunset",
@@ -361,6 +378,9 @@
 
     "cobblemon.ui.pokedex.info.form.sugareign": "Male",
     "cobblemon.ui.pokedex.info.form.sugareign-f": "Female",
+
+    "cobblemon.ui.pokedex.info.form.nyenlives": "Boxed Form",
+    "cobblemon.ui.pokedex.info.form.nyenlives-unboxed": "Unboxed Form",
 
     "cobblemon.ui.pokedex.info.form.budabon-kantonian": "Kantonian",
     "cobblemon.ui.pokedex.info.form.budabon-johtonian": "Johtonian",

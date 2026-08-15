@@ -1,6 +1,6 @@
 {
   "implemented": true,
-  "nationalPokedexNumber": 474,
+  "nationalPokedexNumber": 91,
   "name": "Porygon-Delta",
   "primaryType": "electric",
   "secondaryType": "poison",
@@ -8,7 +8,7 @@
   "height": 18,
   "weight": 680,
   "pokedex": [
-    "cobblemon.species.porygondelta.desc"
+    "cobblemon.species.porygondelta.desc1"
   ],
   "labels": [
     "gen4"
@@ -44,9 +44,12 @@
   "eggCycles": 20,
   "baseFriendship": 50,
   "baseScale": 0.7,
+  "standingEyeHeight": 0.875,
+  "swimmingEyeHeight": 0.875,
+  "flyingEyeHeight": 0.875,
   "hitbox": {
     "width": 0.9,
-    "height": 3.7,
+    "height": 3.4,
     "fixed": false
   },
   "behaviour": {

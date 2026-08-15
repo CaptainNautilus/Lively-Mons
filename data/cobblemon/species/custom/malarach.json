@@ -8,7 +8,7 @@
   "height": 15,
   "weight": 470,
   "pokedex": [
-    "cobblemon.species.malarach.desc"
+    "cobblemon.species.malarach.desc1"
   ],
   "labels": [
     "custom"
@@ -43,10 +43,13 @@
   "catchRate": 80,
   "eggCycles": 20,
   "baseFriendship": 50,
-  "baseScale": 0.7,
+  "baseScale": 0.8,
+  "standingEyeHeight": 0.76,
+  "swimmingEyeHeight": 0.76,
+  "flyingEyeHeight": 0.76,
   "hitbox": {
-    "width": 1.2,
-    "height": 2.5,
+    "width": 1.8,
+    "height": 3.5,
     "fixed": false
   },
   "behaviour": {
