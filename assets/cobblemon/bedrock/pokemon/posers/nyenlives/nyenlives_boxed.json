@@ -1,8 +1,8 @@
 {
   "portraitScale": 2,
-  "portraitTranslation": [-0.2, -0.6, 0],
-  "profileScale": 0.8,
-  "profileTranslation": [0, 0.55, 0],
+  "portraitTranslation": [-0.5, -1.3, 0],
+  "profileScale": 0.9,
+  "profileTranslation": [0, 0.3, 0],
   "rootBone": "nyenlives",
   "animations": {
     "faint": "q.bedrock_primary('nyenlives', 'faint', q.curve('symmetrical'))",

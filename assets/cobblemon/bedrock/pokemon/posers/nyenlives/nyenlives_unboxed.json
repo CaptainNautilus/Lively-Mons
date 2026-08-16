@@ -1,8 +1,8 @@
 {
-  "portraitScale": 2,
-  "portraitTranslation": [-0.2, -0.6, 0],
-  "profileScale": 0.8,
-  "profileTranslation": [0, 0.55, 0],
+  "portraitScale": 1.65,
+  "portraitTranslation": [-0.4, 3.45, 0],
+  "profileScale": 0.4,
+  "profileTranslation": [0, 1.15, 0],
   "rootBone": "nyenlives",
   "animations": {
     "faint": "q.bedrock_primary('nyenlives', 'unboxed_faint', q.curve('symmetrical'))",
@@ -19,6 +19,8 @@
       },
       "animations": [
         "q.look('head')",
+        "q.look('tongue3', -0.5, 0)",
+        "q.look('tongue4', -0.5, 0)",
         "q.bedrock('nyenlives', 'unboxed_battle_idle')"
       ],
       "transformTicks": 10,
@@ -33,6 +35,8 @@
       "isBattle": false,
       "animations": [
         "q.look('head')",
+        "q.look('tongue3', -0.5, 0)",
+        "q.look('tongue4', -0.5, 0)",
         "q.bedrock('nyenlives', 'unboxed_ground_idle')"
       ],
       "transformTicks": 10,
@@ -46,6 +50,8 @@
       "poseTypes": ["WALK"],
       "animations": [
         "q.look('head')",
+        "q.look('tongue3', -0.5, 0)",
+        "q.look('tongue4', -0.5, 0)",
         "q.bedrock('nyenlives', 'unboxed_ground_walk')"
       ],
       "transformTicks": 10,
@@ -58,6 +64,8 @@
       "poseTypes": ["HOVER", "FLOAT"],
       "animations": [
         "q.look('head')",
+        "q.look('tongue3', -0.5, 0)",
+        "q.look('tongue4', -0.5, 0)",
         "q.bedrock('nyenlives', 'unboxed_air_idle')"
       ],
       "quirks": [
@@ -69,6 +77,8 @@
       "poseTypes": ["FLY", "SWIM"],
       "animations": [
         "q.look('head')",
+        "q.look('tongue3', -0.5, 0)",
+        "q.look('tongue4', -0.5, 0)",
         "q.bedrock('nyenlives', 'unboxed_air_fly')"
       ],
       "quirks": [

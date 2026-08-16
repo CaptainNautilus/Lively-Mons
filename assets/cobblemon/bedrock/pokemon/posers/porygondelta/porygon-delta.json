@@ -1,8 +1,8 @@
 {
   "portraitScale": 1.9,
-  "portraitTranslation": [-0.02, 1.39, 0],
-  "profileScale": 0.6,
-  "profileTranslation": [0, 0.88, 0],
+  "portraitTranslation": [-0.55, 3.9, 0],
+  "profileScale": 0.45,
+  "profileTranslation": [0, 1.22, 0],
   "rootBone": "porygon_z",
   "animations": {
     "faint": "q.bedrock_primary('porygon-delta', math.random(0, 1) < 0.1 ? 'faint2' : 'faint', q.curve('one'))",
@@ -40,7 +40,7 @@
     },
     "portrait": {
       "poseTypes": ["PORTRAIT", "PROFILE"],
-      "animations": ["q.bedrock('porygon-delta', 'ground_idle')"],
+      "animations": ["q.look('head')", "q.bedrock('porygon-delta', 'ground_idle')"],
       "quirks": [
         "q.bedrock_quirk('porygon-delta', 'blink')",
         "q.bedrock_quirk('porygon-delta', q.array('twitch1', 'twitch2', 'twitch3', 'twitch4', 'twitch5', 'twitch6'), 1, 10, 1)"

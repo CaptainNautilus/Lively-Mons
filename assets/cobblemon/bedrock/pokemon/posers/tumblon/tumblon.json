@@ -1,8 +1,8 @@
 {
-  "portraitScale": 2,
-  "portraitTranslation": [-0.2, -0.6, 0],
-  "profileScale": 0.8,
-  "profileTranslation": [0, 0.55, 0],
+  "portraitScale": 2.8,
+  "portraitTranslation": [-0.55, -2, 0],
+  "profileScale": 1,
+  "profileTranslation": [0, 0.25, 0],
   "rootBone": "tumblon",
   "animations": {
     "faint": "q.bedrock_primary('tumblon', 'faint', q.curve('symmetrical'))",
@@ -15,7 +15,7 @@
       "poseTypes": ["STAND","FLOAT"],
       "isBattle": true,
       "animations": [
-        "q.look('head')",
+        "q.look('head_ai')",
         "q.bedrock('tumblon', 'battle_idle')"
       ],
       "transformTicks": 10,
@@ -28,7 +28,7 @@
       "poseTypes": ["STAND","FLOAT","PROFILE","PORTRAIT"],
       "isBattle": false,
       "animations": [
-        "q.look('head')",
+        "q.look('head_ai')",
         "q.bedrock('tumblon', 'ground_idle')"
       ],
       "transformTicks": 10,
@@ -40,7 +40,7 @@
       "poseName": "walking",
       "poseTypes": ["WALK","SWIM"],
       "animations": [
-        "q.look('head')",
+        "q.look('head_ai')",
         "q.bedrock('tumblon', 'ground_walk')"
       ],
       "transformTicks": 10,

@@ -78,7 +78,12 @@
 				{
 					"name": "head",
 					"parent": "head_correction",
-					"pivot": [0, 31.9, 1],
+					"pivot": [0, 31.9, 1]
+				},
+				{
+					"name": "head_ai",
+					"parent": "head",
+					"pivot": [0, 31.9, 1.5],
 					"cubes": [
 						{"origin": [-4, 32.9, -3.5], "size": [8, 3, 4], "inflate": 0.1, "uv": [102, 8]},
 						{"origin": [-4, 30.4, -3.5], "size": [8, 7, 8], "uv": [34, 0]}
@@ -86,7 +91,7 @@
 				},
 				{
 					"name": "eye_right",
-					"parent": "head",
+					"parent": "head_ai",
 					"pivot": [-2.5, 33.9, -3.51],
 					"cubes": [
 						{"origin": [-1, 32.9, -3.51], "size": [1, 1, 1], "inflate": 0.01, "uv": [101, 51], "mirror": true},
@@ -123,7 +128,7 @@
 				},
 				{
 					"name": "eye_left",
-					"parent": "head",
+					"parent": "head_ai",
 					"pivot": [2.5, 33.9, -3.51],
 					"cubes": [
 						{"origin": [0, 32.9, -3.51], "size": [1, 1, 1], "inflate": 0.01, "uv": [101, 51]},
@@ -160,7 +165,7 @@
 				},
 				{
 					"name": "hair",
-					"parent": "head",
+					"parent": "head_ai",
 					"pivot": [0, 36.9, 2],
 					"cubes": [
 						{"origin": [-2.5, 35.4, -2.5], "size": [5, 5, 8], "pivot": [0, 39.9, 0], "rotation": [5, 0, 0], "uv": [26, 57]},
@@ -233,7 +238,7 @@
 				},
 				{
 					"name": "ear_left",
-					"parent": "head",
+					"parent": "head_ai",
 					"pivot": [4, 37.4, -1.5],
 					"rotation": [45, 22.5, -22.5],
 					"cubes": [
@@ -251,7 +256,7 @@
 				},
 				{
 					"name": "ear_right",
-					"parent": "head",
+					"parent": "head_ai",
 					"pivot": [-4, 37.4, -1.5],
 					"rotation": [45, -22.5, 22.5],
 					"cubes": [
@@ -269,7 +274,7 @@
 				},
 				{
 					"name": "brow_right",
-					"parent": "head",
+					"parent": "head_ai",
 					"pivot": [-3, 35.75, -4],
 					"rotation": [0, 0, 5],
 					"cubes": [
@@ -280,7 +285,7 @@
 				},
 				{
 					"name": "brow_left",
-					"parent": "head",
+					"parent": "head_ai",
 					"pivot": [3, 35.75, -4],
 					"rotation": [0, 0, -5],
 					"cubes": [
@@ -291,7 +296,7 @@
 				},
 				{
 					"name": "mouth_closed",
-					"parent": "head",
+					"parent": "head_ai",
 					"pivot": [0, 31.30906, -2.54909],
 					"cubes": [
 						{"origin": [-4, 31.4, -1.48], "size": [1, 1, 1], "inflate": 0.01, "uv": [0, 91]},
@@ -337,7 +342,7 @@
 				},
 				{
 					"name": "mouth_open",
-					"parent": "head",
+					"parent": "head_ai",
 					"pivot": [0, 31.30906, -2.54909],
 					"cubes": [
 						{"origin": [2.01, 30.9, -3.51], "size": [2, 1, 2], "inflate": 0.01, "uv": [83, 101], "mirror": true},
@@ -363,7 +368,7 @@
 				},
 				{
 					"name": "nose",
-					"parent": "head",
+					"parent": "head_ai",
 					"pivot": [0, 32.65, -4],
 					"cubes": [
 						{"origin": [-1.5, 32.15, -4.5], "size": [1, 1, 1], "inflate": 0.01, "uv": [64, 90]},

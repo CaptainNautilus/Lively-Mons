@@ -1,8 +1,8 @@
 {
-  "portraitScale": 2,
-  "portraitTranslation": [-0.2, -0.6, 0],
-  "profileScale": 0.8,
-  "profileTranslation": [0, 0.55, 0],
+  "portraitScale": 1.7,
+  "portraitTranslation": [-0.7, 3, 0],
+  "profileScale": 0.4,
+  "profileTranslation": [0, 1.05, 0],
   "rootBone": "malarach",
   "animations": {
     "faint": "q.bedrock_primary('malarach', 'faint', q.curve('symmetrical'))",
@@ -15,7 +15,8 @@
       "poseTypes": ["STAND","FLOAT"],
       "isBattle": true,
       "animations": [
-        "q.look('head')",
+        "q.look('head', 0.25, 1)",
+        "q.look('upper_torso', 0.75, 0)",
         "q.bedrock('malarach', 'eye_twitch')",
         "q.bedrock('malarach', 'battle_idle')"
       ],
@@ -29,7 +30,8 @@
       "poseTypes": ["STAND","FLOAT","PROFILE","PORTRAIT"],
       "isBattle": false,
       "animations": [
-        "q.look('head')",
+        "q.look('head', 0.25, 1)",
+        "q.look('upper_torso', 0.75, 0)",
         "q.bedrock('malarach', 'eye_twitch')",
         "q.bedrock('malarach', 'ground_idle')"
       ],
@@ -42,7 +44,8 @@
       "poseName": "walking",
       "poseTypes": ["WALK","SWIM"],
       "animations": [
-        "q.look('head')",
+        "q.look('head', 0.25, 1)",
+        "q.look('upper_torso', 0.75, 0)",
         "q.bedrock('malarach', 'eye_twitch')",
         "q.bedrock('malarach', 'ground_walk')"
       ],

@@ -1,8 +1,8 @@
 {
   "portraitScale": 2,
-  "portraitTranslation": [-0.2, -0.6, 0],
-  "profileScale": 0.8,
-  "profileTranslation": [0, 0.55, 0],
+  "portraitTranslation": [-1.9, -1.15, 0],
+  "profileScale": 0.35,
+  "profileTranslation": [0, 1.2, 0],
   "rootBone": "torqueron",
   "animations": {
     "faint": "q.bedrock_primary('torqueron', 'faint', q.curve('symmetrical'))",
@@ -15,7 +15,7 @@
       "poseTypes": ["STAND","FLOAT"],
       "isBattle": true,
       "animations": [
-        "q.look('head')",
+        "q.look('head_ai')",
         "q.bedrock('torqueron', 'battle_idle')"
       ],
       "transformTicks": 10,
@@ -28,7 +28,7 @@
       "poseTypes": ["STAND","FLOAT","PROFILE","PORTRAIT"],
       "isBattle": false,
       "animations": [
-        "q.look('head')",
+        "q.look('head_ai')",
         "q.bedrock('torqueron', 'ground_idle')"
       ],
       "transformTicks": 10,
@@ -40,7 +40,7 @@
       "poseName": "walking",
       "poseTypes": ["WALK","SWIM"],
       "animations": [
-        "q.look('head')",
+        "q.look('head_ai')",
         "q.bedrock('torqueron', 'ground_walk')"
       ],
       "transformTicks": 10,

@@ -1,8 +1,8 @@
 {
-  "portraitScale": 2,
-  "portraitTranslation": [-0.2, -0.6, 0],
-  "profileScale": 0.8,
-  "profileTranslation": [0, 0.55, 0],
+  "portraitScale": 1.65,
+  "portraitTranslation": [-0.45, 1.6, 0],
+  "profileScale": 0.54,
+  "profileTranslation": [0, 0.94, 0],
   "rootBone": "peccareck",
   "animations": {
     "faint": "q.bedrock_primary('peccareck', 'faint', q.curve('symmetrical'))",
@@ -15,7 +15,8 @@
       "poseTypes": ["STAND","FLOAT"],
       "isBattle": true,
       "animations": [
-        "q.look('head')",
+        "q.look('head_ai', 0.5, 1)",
+        "q.look('neck', 0.5, 0)",
         "q.bedrock('peccareck', 'battle_idle')"
       ],
       "transformTicks": 10,
@@ -28,7 +29,8 @@
       "poseTypes": ["STAND","FLOAT","PROFILE","PORTRAIT"],
       "isBattle": false,
       "animations": [
-        "q.look('head')",
+        "q.look('head_ai', 0.5, 1)",
+        "q.look('neck', 0.5, 0)",
         "q.bedrock('peccareck', 'ground_idle')"
       ],
       "transformTicks": 10,
@@ -40,7 +42,8 @@
       "poseName": "walking",
       "poseTypes": ["WALK","SWIM"],
       "animations": [
-        "q.look('head')",
+        "q.look('head_ai', 0.5, 1)",
+        "q.look('neck', 0.5, 0)",
         "q.bedrock('peccareck', 'ground_walk')"
       ],
       "transformTicks": 10,
