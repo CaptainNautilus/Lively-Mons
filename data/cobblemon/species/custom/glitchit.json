@@ -264,7 +264,7 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 30
+          "minLevel": 1
         },
         {
           "variant": "defeat",
@@ -282,7 +282,7 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 30
+          "minLevel": 1
         },
         {
           "variant": "defeat",
@@ -300,7 +300,7 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 30
+          "minLevel": 1
         },
         {
           "variant": "defeat",

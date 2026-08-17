@@ -45,9 +45,9 @@
 				{
 					"name": "locator_seat1",
 					"parent": "thorax",
-					"pivot": [0, 16, -2],
+					"pivot": [0, 15.5, 4],
 					"locators": {
-						"seat1": [0, 16, -2]
+						"seat_1": [0, 15.5, 4]
 					}
 				},
 				{

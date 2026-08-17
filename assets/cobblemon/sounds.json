@@ -294,6 +294,30 @@
     "pokemon.laprise.cry": {
         "sounds": ["cobblemon:pokemon/laprise/laprise_cry"]
     },
+    "pokemon.nyenlives.cry": {
+        "sounds": ["cobblemon:pokemon/nyenlives/nyenlives_cry"]
+    },
+    "pokemon.glitchit.cry": {
+        "sounds": ["cobblemon:pokemon/glitchit/glitchit_cry"]
+    },
+    "pokemon.malarach.cry": {
+        "sounds": ["cobblemon:pokemon/malarach/malarach_cry"]
+    },
+    "pokemon.porygondelta.cry": {
+        "sounds": ["cobblemon:pokemon/porygondelta/porygondelta_cry"]
+    },
+    "pokemon.gruntuff.cry": {
+        "sounds": ["cobblemon:pokemon/gruntuff/gruntuff_cry"]
+    },
+    "pokemon.peccareck.cry": {
+        "sounds": ["cobblemon:pokemon/peccareck/peccareck_cry"]
+    },
+    "pokemon.tumblon.cry": {
+        "sounds": ["cobblemon:pokemon/tumblon/tumblon_cry"]
+    },
+    "pokemon.torqueron.cry": {
+        "sounds": ["cobblemon:pokemon/torqueron/torqueron_cry"]
+    },
 
     "move.mist.actor.shroud": {
         "sounds": ["cobblemon:move/fallout/fallout_actorshroud"]

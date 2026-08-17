@@ -365,6 +365,22 @@
 					]
 				},
 				{
+					"name": "locator_smoke_seat",
+					"parent": "wheel_pivot",
+					"pivot": [0, 30, -3.75],
+					"locators": {
+						"locator_smoke_seat": [0, 32, -3.75]
+					}
+				},
+				{
+					"name": "locator_seat1",
+					"parent": "locator_smoke_seat",
+					"pivot": [0, 7, -2],
+					"locators": {
+						"seat_1": [0, 7, -2]
+					}
+				},
+				{
 					"name": "tail",
 					"parent": "wheel_pivot",
 					"pivot": [0, 1, 0],

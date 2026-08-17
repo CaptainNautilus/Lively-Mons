@@ -1363,7 +1363,7 @@
 			},
 			"sound_effects": {
 				"0.2083": {
-					"effect": "tumblon_cry"
+					"effect": "pokemon.tumblon.cry"
 				}
 			}
 		},

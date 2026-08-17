@@ -60,19 +60,16 @@
         "rideSounds": [],
         "stats": {
           "ACCELERATION": "0-5",
-          "JUMP": "15-20",
+          "JUMP": "5-10",
           "SKILL": "25-40",
           "SPEED": "70-85",
-          "STAMINA": "20-40"
+          "STAMINA": "30-50"
         }
       }
     },
     "seats": [
       {
         "locator": "seat_1"
-      },
-      {
-        "locator": "seat_2"
       }
     ]
   },

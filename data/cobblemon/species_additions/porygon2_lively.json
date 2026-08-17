@@ -1,0 +1,41 @@
+{
+  "target": "cobblemon:porygon2",
+    "evolutions": [
+    {
+      "id": "porygon2_porygondelta_glitchit",
+      "variant": "level_up",
+      "result": "porygondelta",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 1
+        },
+        {
+          "variant": "party_member",
+          "target": "glitchit",
+          "contains": true
+        }
+      ]
+    },
+    {
+      "id": "porygon2_porygondelta_malarach",
+      "variant": "level_up",
+      "result": "porygondelta",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 1
+        },
+        {
+          "variant": "party_member",
+          "target": "malarach",
+          "contains": true
+        }
+      ]
+    }
+  ]
+}

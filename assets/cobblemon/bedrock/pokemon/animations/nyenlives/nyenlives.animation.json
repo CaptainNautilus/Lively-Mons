@@ -11428,7 +11428,7 @@
 			},
 			"sound_effects": {
 				"0.0833": {
-					"effect": "schrondingercatcry"
+					"effect": "pokemon.nyenlives.cry"
 				}
 			}
 		},
@@ -11594,7 +11594,7 @@
 			},
 			"sound_effects": {
 				"0.0833": {
-					"effect": "schrondingercatcry"
+					"effect": "pokemon.nyenlives.cry"
 				}
 			}
 		},
@@ -12006,6 +12006,14 @@
 			}
 		},
 		"animation.nyenlives.scale": {
+			"loop": true,
+			"bones": {
+				"nyenlives": {
+					"scale": 0.8
+				}
+			}
+		},
+		"animation.nyenlives.scale2": {
 			"loop": true,
 			"bones": {
 				"nyenlives": {

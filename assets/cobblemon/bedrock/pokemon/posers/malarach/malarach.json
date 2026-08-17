@@ -3,6 +3,17 @@
   "portraitTranslation": [-0.7, 3, 0],
   "profileScale": 0.4,
   "profileTranslation": [0, 1.05, 0],
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0],
+    "seat_1_reverse": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 0.45, 0],
+    "seat_1_reverse": [0, 0.45, 0]
+  },
   "rootBone": "malarach",
   "animations": {
     "faint": "q.bedrock_primary('malarach', 'faint', q.curve('symmetrical'))",
@@ -27,7 +38,8 @@
     },
     "standing": {
       "poseName": "standing",
-      "poseTypes": ["STAND","FLOAT","PROFILE","PORTRAIT"],
+      "condition": "!q.in_air",
+      "poseTypes": ["STAND","FLOAT","PROFILE","PORTRAIT","NONE"],
       "isBattle": false,
       "animations": [
         "q.look('head', 0.25, 1)",
@@ -40,19 +52,57 @@
         "q.bedrock_quirk('malarach', 'blink')"
       ]
     },
+    "in-air": {
+      "poseTypes": ["STAND", "WALK", "NONE"],
+      "isBattle": false,
+      "condition": "q.in_air && q.is_ridden",
+      "animations": [
+        "q.look('head', 0.25, 1)",
+        "q.look('upper_torso', 0.75, 0)",
+        "q.bedrock('malarach', 'eye_twitch')",
+        "q.bedrock('malarach', 'ride_jump')"
+    ],
+      "transformTicks": 2,
+      "transformToTicks": 2,
+      "quirks": [
+        "q.bedrock_quirk('malarach', 'blink')"
+      ]
+    },
     "walking": {
+      "condition": "!q.in_air && !q.is_sprinting",
       "poseName": "walking",
       "poseTypes": ["WALK","SWIM"],
       "animations": [
         "q.look('head', 0.25, 1)",
         "q.look('upper_torso', 0.75, 0)",
         "q.bedrock('malarach', 'eye_twitch')",
-        "q.bedrock('malarach', 'ground_walk')"
+        "q.bedrock('malarach', 'ground_walk')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('malarach', 'ride_ground_walk')"
+        }
       ],
       "transformTicks": 10,
       "quirks": [
         "q.bedrock_quirk('malarach', 'blink')"
       ]
+    },
+    "run": {
+      "poseTypes": ["WALK","SWIM"],
+      "isBattle": false,
+      "condition": "!q.in_air && q.is_sprinting",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('malarach', 'ground_run')",
+      {
+        "condition": "q.is_ridden",
+        "animation": "q.bedrock('malarach', 'ride_ground_run')"
+      }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('malarach', 'blink')"
+      ],
+      "transformTicks": 10
     },
     "sleep": {
       "poseName": "sleep",
