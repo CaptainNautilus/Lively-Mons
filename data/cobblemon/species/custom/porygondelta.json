@@ -118,6 +118,7 @@
     ]
   },
   "moves": [
+    "1:frameshift",
     "1:toxic",
     "1:venomdrench",
     "1:tackle",
