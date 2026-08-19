@@ -29,7 +29,11 @@
         "q.look('head', 0.25, 1)",
         "q.look('upper_torso', 0.75, 0)",
         "q.bedrock('malarach', 'eye_twitch')",
-        "q.bedrock('malarach', 'battle_idle')"
+        "q.bedrock('malarach', 'battle_idle')",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('malarach', 'hold_item')"
+        }
       ],
       "transformTicks": 10,
       "quirks": [
@@ -45,7 +49,11 @@
         "q.look('head', 0.25, 1)",
         "q.look('upper_torso', 0.75, 0)",
         "q.bedrock('malarach', 'eye_twitch')",
-        "q.bedrock('malarach', 'ground_idle')"
+        "q.bedrock('malarach', 'ground_idle')",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('malarach', 'hold_item')"
+        }
       ],
       "transformTicks": 10,
       "quirks": [
@@ -60,7 +68,11 @@
         "q.look('head', 0.25, 1)",
         "q.look('upper_torso', 0.75, 0)",
         "q.bedrock('malarach', 'eye_twitch')",
-        "q.bedrock('malarach', 'ride_jump')"
+        "q.bedrock('malarach', 'ride_jump')",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('malarach', 'hold_item')"
+        }
     ],
       "transformTicks": 2,
       "transformToTicks": 2,
@@ -80,6 +92,10 @@
         {
           "condition": "q.is_ridden",
           "animation": "q.bedrock('malarach', 'ride_ground_walk')"
+        },
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('malarach', 'hold_item')"
         }
       ],
       "transformTicks": 10,
@@ -97,7 +113,11 @@
       {
         "condition": "q.is_ridden",
         "animation": "q.bedrock('malarach', 'ride_ground_run')"
-      }
+      },
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('malarach', 'hold_item')"
+        }
       ],
       "quirks": [
         "q.bedrock_quirk('malarach', 'blink')"
@@ -112,7 +132,11 @@
           },
       "animations": [
         "q.bedrock('malarach', 'eye_twitch')",
-        "q.bedrock('malarach', 'sleep')"
+        "q.bedrock('malarach', 'sleep')",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('malarach', 'hold_item')"
+        }
       ],
       "transformTicks": 10
     }

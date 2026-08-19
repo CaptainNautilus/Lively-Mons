@@ -26,9 +26,9 @@
 				{
 					"name": "locator_top",
 					"parent": "porygon_delta",
-					"pivot": [0, 36.7, 0],
+					"pivot": [0, 59.7, 0],
 					"locators": {
-						"top": [0, 36.7, 0]
+						"top": [0, 59.7, 0]
 					}
 				},
 				{
@@ -554,19 +554,19 @@
 				{
 					"name": "locator_tail",
 					"parent": "tail",
-					"pivot": [0, 16.25, 1],
+					"pivot": [0, 14.25, 1],
 					"rotation": [180, 0, 0],
 					"locators": {
-						"tail": [0, 16.25, 1]
+						"tail": [0, 14.25, 1]
 					}
 				},
 				{
 					"name": "locator_tail_tip",
 					"parent": "tail",
-					"pivot": [0, 10.25, 1],
+					"pivot": [0, 0, 1],
 					"rotation": [180, 0, 0],
 					"locators": {
-						"tail_tip": [0, 10.25, 1]
+						"tail_tip": [0, 0, 1]
 					}
 				},
 				{

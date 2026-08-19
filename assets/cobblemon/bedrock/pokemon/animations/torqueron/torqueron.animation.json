@@ -630,7 +630,7 @@
 					"rotation": ["0*1+math.mod(q.anim_time*1, 1)*360", 0, 0],
 					"position": [0, "-math.sin(q.anim_time*90*16-90)*1", 0]
 				},
-				"locator_smoke_seat": {
+				"seat_wheel_pivot": {
 					"rotation": ["0*1-math.mod(q.anim_time*1, 1)*360", 0, 0]
 				},
 				"locator_seat1": {
@@ -4910,7 +4910,7 @@
 					"rotation": ["0*1+math.mod(q.anim_time*2, 1)*360", 0, 0],
 					"position": [0, "-math.sin(q.anim_time*90*16-90)*1", 0]
 				},
-				"locator_smoke_seat": {
+				"seat_wheel_pivot": {
 					"rotation": ["0*1-math.mod(q.anim_time*2, 1)*360", 0, 0]
 				},
 				"locator_seat1": {
@@ -4942,7 +4942,7 @@
 				"neck5": {
 					"rotation": [0, "0+q.r.yaw_change(0)*8", 0]
 				},
-				"locator_smoke_seat": {
+				"seat_wheel_pivot": {
 					"position": [-2, 0, 0]
 				}
 			}
@@ -4953,7 +4953,7 @@
 				"body": {
 					"rotation": [0, "0+q.r.yaw_change(0)*8", "-0-q.r.yaw_change(0)*15"]
 				},
-				"locator_smoke_seat": {
+				"seat_wheel_pivot": {
 					"position": [-2, 0, 0]
 				},
 				"locator_seat1": {

@@ -5,7 +5,7 @@
       {
         "aspects": ["unboxed-form"],
         "poser": "cobblemon:nyenlives_unboxed",
-        "model": "cobblemon:nyenlives.geo",
+        "model": "cobblemon:nyenlives_unboxed.geo",
         "texture": "cobblemon:textures/pokemon/nyenlives/nyenlives.png",
         "layers": [
           {

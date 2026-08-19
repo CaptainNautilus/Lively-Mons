@@ -5012,6 +5012,20 @@
 					"scale": 0.8
 				}
 			}
+		},
+		"animation.malarach.hold_item": {
+			"loop": true,
+			"bones": {
+				"claw_inner_left": {
+					"rotation": [-27.5, 0, 0]
+				},
+				"claw_back_left": {
+					"rotation": [12.5, 0, 0]
+				},
+				"claw_outer_left": {
+					"rotation": [-27.5, 0, 0]
+				}
+			}
 		}
 	}
 }

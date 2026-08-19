@@ -16,7 +16,12 @@
       "animations": ["q.pitch_tilt('body')", 
         "q.look('head')",
         "q.bedrock('glitchit', 'eye_twitch')",
-        "q.bedrock('glitchit', 'battle_idle')"],
+        "q.bedrock('glitchit', 'battle_idle')",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('glitchit', 'hold_item')"
+        }
+      ],
       "quirks": [
         "q.bedrock_quirk('glitchit', 'blink')"
       ]
@@ -27,7 +32,11 @@
       "animations": ["q.pitch_tilt('body')", 
         "q.look('head')",
         "q.bedrock('glitchit', 'eye_twitch')",
-        "q.bedrock('glitchit', 'ground_idle')"
+        "q.bedrock('glitchit', 'ground_idle')",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('glitchit', 'hold_item')"
+        }
       ],
       "quirks": [
         "q.bedrock_quirk('glitchit', 'blink')"
@@ -38,7 +47,11 @@
       "animations": ["q.pitch_tilt('body')", 
         "q.look('head')",
         "q.bedrock('glitchit', 'eye_twitch')",
-        "q.bedrock('glitchit', 'ground_walk')"
+        "q.bedrock('glitchit', 'ground_walk')",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('glitchit', 'hold_item')"
+        }
       ],
       "quirks": [
         "q.bedrock_quirk('glitchit', 'blink')"
@@ -48,7 +61,11 @@
       "poseTypes": ["SLEEP"],
       "animations": [
         "q.bedrock('glitchit', 'eye_twitch')",
-        "q.bedrock('glitchit', 'sleep')"
+        "q.bedrock('glitchit', 'sleep')",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('glitchit', 'hold_item')"
+        }
         ],
             "namedAnimations": {
         "cry": "q.bedrock_stateful('dummy', 'cry')"
@@ -59,7 +76,11 @@
       "animations": [
         "q.look('head')",
         "q.bedrock('glitchit', 'eye_twitch')",
-        "q.bedrock('glitchit', 'shoulder_left')"
+        "q.bedrock('glitchit', 'shoulder_left')",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('glitchit', 'hold_item')"
+        }
         ],
       "quirks": ["q.bedrock_quirk('glitchit', 'blink')"]
     },
@@ -68,7 +89,11 @@
       "animations": [
         "q.look('head')",
         "q.bedrock('glitchit', 'eye_twitch')",
-        "q.bedrock('glitchit', 'shoulder_right')"
+        "q.bedrock('glitchit', 'shoulder_right')",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('glitchit', 'hold_item')"
+        }
     ],
       "quirks": ["q.bedrock_quirk('glitchit', 'blink')"]
     }
