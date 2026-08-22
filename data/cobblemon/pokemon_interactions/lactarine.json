@@ -1,0 +1,57 @@
+{
+  "requirements": [
+    {
+      "variant": "properties",
+      "target": "lactarine"
+    }
+  ],
+  "interactions": [
+    {
+      "grouping": "cobblemon:glass_bottle",
+      "cooldown": "18000",
+      "requirements": [
+        {
+          "variant": "owner_held_item",
+          "itemCondition": "minecraft:glass_bottle"
+        }
+      ],
+      "effects": [
+        {
+          "variant": "shrink_item"
+        },
+        {
+          "variant": "give_item",
+          "item": "minecraft:honey_bottle"
+        },
+        {
+          "variant": "play_sound",
+          "sound": "minecraft:item.bottle.fill"
+        }
+      ]
+    },
+    {
+      "grouping": "cobblemon:bone_meal",
+      "cooldown": "6000",
+      "requirements": [
+        {
+          "variant": "owner_held_item",
+          "itemCondition": "#c:fertilizers"
+        }
+      ],
+      "effects": [
+        {
+          "variant": "shrink_item"
+        },
+        {
+          "variant": "drop_item",
+          "item": "minecraft:peony",
+          "amount": "1-2"
+        },
+        {
+          "variant": "play_sound",
+          "sound": "minecraft:item.bone_meal.use"
+        }
+      ]
+    }
+  ]
+}

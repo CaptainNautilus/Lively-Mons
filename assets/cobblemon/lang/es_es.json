@@ -347,6 +347,9 @@
     "cobblemon.move.morningprep": "Morning Prep",
     "cobblemon.move.morningprep.desc": "The user prepares itself for a nice morning. This summons harsh sunlight, grassy terrain, and water sport all at once. While this move usually goes first, it works only on the first turn each time the user enters battle.",
 
+    "cobblemon.move.frameshift": "Frameshift",
+    "cobblemon.move.frameshift.desc": "The user mutates the genes of the opposing Pokémon, randomizing the target's typing.",
+
     "wallpaper.mielador": "Smokey the Bear",
     "wallpaper.polporos": "Ancient Sunset",
     "wallpaper.seibat": "Seibat",
@@ -377,7 +380,7 @@
     "cobblemon.ui.pokedex.info.form.palobod-striking": "Striking",
 
     "cobblemon.ui.pokedex.info.form.sugareign": "Male",
-    "cobblemon.ui.pokedex.info.form.sugareign-f": "Female",
+    "cobblemon.ui.pokedex.info.form.sugareign-female": "Female",
 
     "cobblemon.ui.pokedex.info.form.nyenlives": "Boxed Form",
     "cobblemon.ui.pokedex.info.form.nyenlives-unboxed": "Unboxed Form",

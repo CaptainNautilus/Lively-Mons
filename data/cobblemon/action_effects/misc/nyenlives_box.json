@@ -1,0 +1,48 @@
+{
+  "timeline": [
+    {
+      "type": "add_holds",
+      "holds": ["effects"]
+    },
+    {
+      "type": "molang",
+      "expressions": "v.is_boxed = q.pokemon.form == 'unboxed' ? 0 : 1;"
+    },
+    {
+      "type": "molang",
+      "expressions": "q.pokemon.spawn_bedrock_particles('cobblemon:shadowball_targetimpact', 'middle');"
+    },
+    {
+      "type": "animation",
+      "animation": ["recoil"]
+    },
+    {
+      "type": "pause",
+      "pause": 0.2
+    },
+    {
+      "type": "molang",
+      "expressions": "q.pokemon.spawn_bedrock_particles('cobblemon:shadowball_targetimpact', 'middle');"
+    },
+    {
+      "type": "animation",
+      "animation": ["recoil2"]
+    },
+    {
+      "type": "pause",
+      "pause": 0.5
+    },
+    {
+      "type": "molang",
+      "expressions": "v.is_boxed == 1 ? { q.pokemon.apply('unboxed_form=unboxed'); q.pokemon.spawn_bedrock_particles('cobblemon:shadowball_targetimpact', 'middle'); } : 0;"
+    },
+    {
+      "type": "molang",
+      "expressions": "v.is_boxed == 0 ? { q.pokemon.apply('unboxed_form=boxed'); q.pokemon.spawn_bedrock_particles('cobblemon:shadowball_targetimpact', 'middle'); } : 0;"
+    },
+    {
+      "type": "remove_holds",
+      "holds": ["effects"]
+    }
+  ]
+}

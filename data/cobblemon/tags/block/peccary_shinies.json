@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:gold_block",
+    "minecraft:nether_gold_ore",
+    "minecraft:raw_gold_block",
+    "minecraft:deepslate_gold_ore",
+    "minecraft:gold_ore",
+    "minecraft:gilded_blackstone"
+  ]
+}

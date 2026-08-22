@@ -218,7 +218,7 @@
   "evolutions": [],
   "forms": [
     {
-      "name": "Unboxed",
+      "name": "unboxed",
       "primaryType": "ghost",
       "secondaryType": "normal",
       "maleRatio": 0.5,
@@ -269,6 +269,10 @@
           "drowsyChance": 0.0033,
           "rouseChance": 0.0042
         },
+        "entityInteract": {
+          "avoidedByCreeper": true,
+          "avoidedByPhantom": true
+        },
         "moving": {
           "canLook": false,
           "swim": {
@@ -292,6 +296,10 @@
       ],
       "drowsyChance": 0.0033,
       "rouseChance": 0.0042
+    },
+    "entityInteract": {
+      "avoidedByCreeper": true,
+      "avoidedByPhantom": true
     },
     "moving": {
       "canLook": true,

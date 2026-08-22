@@ -1,7 +1,7 @@
 {
 "implemented": true,
 "name": "cyclopod",
-"nationalPokedexNumber": 99,
+"nationalPokedexNumber": 100,
 "labels": [ "custom" ],
 "pokedex": [
   "cobblemon.species.cyclopod.desc1"

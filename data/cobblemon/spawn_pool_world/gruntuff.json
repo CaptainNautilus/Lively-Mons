@@ -112,6 +112,37 @@
                     "#minecraft:is_nether"
                 ]
             }
+        },
+        {
+            "id": "gruntuff-6",
+            "pokemon": "gruntuff",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "9-34",
+            "weight": 30.0,
+            "weightMultiplier": {
+                "multiplier": 2.0,
+                "condition": {
+                    "biomes": [
+                        "#cobblemon:nether/is_crimson",
+                        "#cobblemon:nether/is_fungus",
+                        "#cobblemon:nether/is_overgrowth"
+                    ]
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_nether"
+                ],
+                "neededNearbyBlocks": [
+                    "#cobblemon:peccary_shinies"
+                ]
+            }
         }
     ]
 }
