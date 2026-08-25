@@ -296,7 +296,7 @@
                     {
                         "block_entity_modifier": {
                             "type": "minecraft:append_loot",
-                            "loot_table": "lively:fossils/hollow_fossil"
+                            "loot_table": "lively:fossils/rare/hollow_fossil"
                         },
                         "input_predicate": {
                             "block": "minecraft:suspicious_gravel",

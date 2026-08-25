@@ -61,8 +61,8 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "lively:fossils/reef_fossil",
-                    "value": "lively:fossils/reef_fossil",
+                    "name": "lively:fossils/rare/reef_fossil",
+                    "value": "lively:fossils/rare/reef_fossil",
                     "weight": 2
                 }
             ],

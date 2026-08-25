@@ -68,7 +68,7 @@
                     {
                         "block_entity_modifier": {
                             "type": "minecraft:append_loot",
-                            "loot_table": "lively:fossils/reef_fossil"
+                            "loot_table": "lively:fossils/rare/reef_fossil"
                         },
                         "input_predicate": {
                             "block": "minecraft:suspicious_sand",

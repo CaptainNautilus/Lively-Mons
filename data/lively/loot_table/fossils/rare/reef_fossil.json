@@ -1,4 +1,5 @@
 {
+    "type": "minecraft:archaeology",
     "pools": [
       {
         "rolls": 1,
@@ -25,5 +26,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "cobblemon:fossils/rare/reef_fossil"
 }

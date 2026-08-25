@@ -6,6 +6,7 @@
   "rootBone": "nyenlives",
   "animations": {
     "faint": "q.bedrock_primary('nyenlives', 'unboxed_faint', q.curve('symmetrical'))",
+    "form_change": "q.bedrock_primary('nyenlives', 'box', q.curve('symmetrical_wide'))",
     "cry": "q.bedrock_stateful('nyenlives', 'unboxed_cry')",
     "recoil": "q.bedrock_stateful('nyenlives', math.random(0, 1) < 0.5 ? 'recoil2' : 'recoil')"
   },
