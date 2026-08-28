@@ -15,8 +15,8 @@
 		},
 		secondaries: [
 			{
-				chance: 100,
-        volatileStatus: 'disable',
+				chance: 50,
+        volatileStatus: 'torment',
 			}, 
       {
 				chance: 100,

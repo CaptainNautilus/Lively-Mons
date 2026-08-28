@@ -20,7 +20,7 @@
     "unboxed"
   ],
   "abilities": [
-    "intimidate"
+    "scaredycat"
   ],
   "eggGroups": [
     "amorphous"
@@ -85,7 +85,7 @@
     "50:scaryface",
     "55:phantomforce",
     "60:firstimpression",
-    "60:lastrespects",
+    "65:memento",
     "egg:feint",
     "egg:bite",
     "egg:fakeout",
