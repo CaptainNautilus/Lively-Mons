@@ -11,7 +11,7 @@
             } else {
                 target.formeChange("Nyenlives-Unboxed");
             }
-            target.boxFormChanged = true
+            target.boxFormChanged = true;
             return 0;
         }
     },
