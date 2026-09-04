@@ -299,6 +299,11 @@
     "cobblemon.ability.windturbine": "Wind Turbine",
     "cobblemon.ability.windturbine.desc": "Using an attack with priority charges the Pokémon.",
 
+    "cobblemon.ability.scaredycat": "Scaredy Cat",
+    "cobblemon.ability.scaredycat.desc": "The first time this Pokémon would faint in battle, it alternates its form and restores 50% of its HP.",
+
+
+
     "cobblemon.move.aerialdance": "Aerial Dance",
     "cobblemon.move.aerialdance.desc": "Riding the winds, the user attacks the target by dancing and flapping its wings. This may also boost the user's Atk stat.",
 
@@ -349,6 +354,9 @@
 
     "cobblemon.move.frameshift": "Frameshift",
     "cobblemon.move.frameshift.desc": "The user mutates the genes of the opposing Pokémon, randomizing the target's typing.",
+
+    "cobblemon.battle.heal.honeypot": "%1$s restored HP from its Honey Pot!",
+    "cobblemon.battle.heal.scaredycat": "%1$s restored half of its HP.",
 
     "wallpaper.mielador": "Smokey the Bear",
     "wallpaper.polporos": "Ancient Sunset",

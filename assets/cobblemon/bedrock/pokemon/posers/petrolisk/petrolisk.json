@@ -51,7 +51,7 @@
       "in-air": {
         "poseTypes": ["STAND", "WALK", "FLOAT", "SWIM"],
         "isBattle": false,
-        "condition": "q.in_air && q.is_ridden",
+        "condition": "q.in_air && q.is_ridden && !q.is_standing_on_blocks(3, 'minecraft:sand', 'minecraft:red_sand') && !q.is_in_lava()",
         "animations": [
           "q.look('head')",
           "q.bedrock('petrolisk', 'ride_jump')",
@@ -88,7 +88,7 @@
     "standing": {
       "poseTypes": ["STAND"],
       "isTouchingWater": false,
-      "condition": "!q.in_air",
+      "condition": "!q.in_air && !q.is_standing_on_blocks(3, 'minecraft:sand', 'minecraft:red_sand') && !q.is_in_lava()",
       "animations": [
         "q.look('head')",
         "q.bedrock('petrolisk', 'ground_idle')"
@@ -100,7 +100,7 @@
     },
     "walking": {
       "poseTypes": ["WALK"],
-      "condition": "!q.in_air && !q.is_sprinting",
+      "condition": "!q.in_air && !q.is_sprinting && !q.is_standing_on_blocks(3, 'minecraft:sand', 'minecraft:red_sand') && !q.is_in_lava()",
       "isTouchingWater": false,
       "animations": [
                 {
@@ -133,6 +133,84 @@
         "q.bedrock_quirk('petrolisk', 'blink')"
       ]
       },
+    "sand-standing": {
+      "poseTypes": ["STAND", "FLOAT"],
+      "condition": "q.is_standing_on_blocks(3, 'minecraft:sand', 'minecraft:red_sand') && !q.is_in_lava()",
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('petrolisk', 'water_idle')"],
+      "quirks": [
+        "q.bedrock_quirk('petrolisk', 'shifty')",
+        "q.bedrock_quirk('petrolisk', 'blink')"
+      ],
+      "transformedParts": [
+         {
+           "part": "body",
+           "position": [0, 10, 0],
+           "isVisible": true
+         }
+      ]
+    },
+    "sand-walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "condition": "q.is_standing_on_blocks(3, 'minecraft:sand', 'minecraft:red_sand') && !q.is_in_lava()",
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('petrolisk', 'water_swim')"
+    ],
+      "quirks": [
+        "q.bedrock_quirk('petrolisk', 'shifty')",
+        "q.bedrock_quirk('petrolisk', 'blink')"
+      ],
+      "transformedParts": [
+         {
+           "part": "body",
+           "position": [0, 10, 0],
+           "isVisible": true
+         }
+      ]
+    },
+    "lava-standing": {
+      "poseTypes": ["STAND", "FLOAT"],
+      "condition": "q.is_standing_on_blocks(3, 'minecraft:sand', 'minecraft:red_sand') || q.is_in_lava()",
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('petrolisk', 'water_idle')"],
+      "quirks": [
+        "q.bedrock_quirk('petrolisk', 'shifty')",
+        "q.bedrock_quirk('petrolisk', 'blink')"
+      ],
+      "transformedParts": [
+         {
+           "part": "body",
+           "position": [0, 5, 0],
+           "isVisible": true
+         }
+      ]
+    },
+    "lava-walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "condition": "q.is_standing_on_blocks(3, 'minecraft:sand', 'minecraft:red_sand') || q.is_in_lava()",
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('petrolisk', 'water_swim')"
+    ],
+      "quirks": [
+        "q.bedrock_quirk('petrolisk', 'shifty')",
+        "q.bedrock_quirk('petrolisk', 'blink')"
+      ],
+      "transformedParts": [
+         {
+           "part": "body",
+           "position": [0, 5, 0],
+           "isVisible": true
+         }
+      ]
+    },
     "float": {
       "poseTypes": ["FLOAT", "STAND"],
       "isTouchingWater": true,

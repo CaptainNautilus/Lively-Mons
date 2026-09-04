@@ -12,6 +12,7 @@
   "poses": {
     "battle-standing": {
       "poseTypes": ["STAND"],
+      "condition": "!q.is_standing_on_blocks(3, 'minecraft:sand', 'minecraft:red_sand') && !q.is_in_lava()",
       "isTouchingWater": false,
       "isBattle": true,
       "animations": [
@@ -24,6 +25,7 @@
     },
     "standing": {
       "poseTypes": ["STAND", "PROFILE"],
+      "condition": "!q.is_standing_on_blocks(3, 'minecraft:sand', 'minecraft:red_sand') && !q.is_in_lava()",
       "isTouchingWater": false,
       "isBattle": false,
       "animations": [
@@ -36,6 +38,7 @@
     },
     "walking": {
       "poseTypes": ["WALK"],
+      "condition": "!q.is_standing_on_blocks(3, 'minecraft:sand', 'minecraft:red_sand') && !q.is_in_lava()",
       "isTouchingWater": false,
       "animations": [
         "q.look('head')",
@@ -44,6 +47,84 @@
       "quirks": [
         "q.bedrock_quirk('fossoil', 'shifty')",
         "q.bedrock_quirk('fossoil', 'blink')"
+      ]
+    },
+    "sand-standing": {
+      "poseTypes": ["STAND", "FLOAT"],
+      "condition": "q.is_standing_on_blocks(3, 'minecraft:sand', 'minecraft:red_sand') && !q.is_in_lava()",
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('fossoil', 'water_idle')"],
+      "quirks": [
+        "q.bedrock_quirk('fossoil', 'shifty')",
+        "q.bedrock_quirk('fossoil', 'blink')"
+      ],
+      "transformedParts": [
+         {
+           "part": "body",
+           "position": [0, 5, 0],
+           "isVisible": true
+         }
+      ]
+    },
+    "sand-walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "condition": "q.is_standing_on_blocks(3, 'minecraft:sand', 'minecraft:red_sand') && !q.is_in_lava()",
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('fossoil', 'water_swim')"
+    ],
+      "quirks": [
+        "q.bedrock_quirk('fossoil', 'shifty')",
+        "q.bedrock_quirk('fossoil', 'blink')"
+      ],
+      "transformedParts": [
+         {
+           "part": "body",
+           "position": [0, 5, 0],
+           "isVisible": true
+         }
+      ]
+    },
+    "lava-standing": {
+      "poseTypes": ["STAND", "FLOAT"],
+      "condition": "q.is_standing_on_blocks(3, 'minecraft:sand', 'minecraft:red_sand') || q.is_in_lava()",
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('fossoil', 'water_idle')"],
+      "quirks": [
+        "q.bedrock_quirk('fossoil', 'shifty')",
+        "q.bedrock_quirk('fossoil', 'blink')"
+      ],
+      "transformedParts": [
+         {
+           "part": "body",
+           "position": [0, -3, 0],
+           "isVisible": true
+         }
+      ]
+    },
+    "lava-walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "condition": "q.is_standing_on_blocks(3, 'minecraft:sand', 'minecraft:red_sand') || q.is_in_lava()",
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('fossoil', 'water_swim')"
+    ],
+      "quirks": [
+        "q.bedrock_quirk('fossoil', 'shifty')",
+        "q.bedrock_quirk('fossoil', 'blink')"
+      ],
+      "transformedParts": [
+         {
+           "part": "body",
+           "position": [0, -3, 0],
+           "isVisible": true
+         }
       ]
     },
     "floating": {

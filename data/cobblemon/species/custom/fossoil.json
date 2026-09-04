@@ -168,7 +168,7 @@
 
 
   "baseScale": 0.8,
-  "standingEyeHeight": 0.4,
+  "standingEyeHeight": 0.55,
   "swimmingEyeHeight": 0.4,
   "flyingEyeHeight": 0.4,
 "hitbox": {
@@ -198,7 +198,10 @@
     "swim": {
       "swimSpeed": 0.1,
       "canSwimInWater": true,
-      "canBreatheUnderwater": true
+      "canBreatheUnderwater": true,
+      "canSwimInLava": true,
+      "canBreatheUnderlava": true,
+      "canWalkOnLava": true
     },
     "walk": {
         "canWalk": true
@@ -229,6 +232,7 @@
     },
     "combat": {
       "willDefendOwner": true
-    }
+    },
+    "fireImmune": true
   }
 }

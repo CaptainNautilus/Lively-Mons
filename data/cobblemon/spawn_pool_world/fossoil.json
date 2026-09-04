@@ -108,6 +108,24 @@
                 "minY": -60,
                 "maxY": 13
             }
+        },
+        {
+            "id": "fossoil-5",
+            "pokemon": "fossoil",
+            "presets": [
+                "lava"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "surface",
+            "bucket": "common",
+            "level": "5-32",
+            "weight": 52.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_nether",
+                    "#cobblemon:is_volcanic"
+                ]
+            }
         }
     ]
 }

@@ -14,21 +14,6 @@
         "bucket": "common",
         "level": "33-45",
         "weight": 0.5,
-        "condition": {
-          "canSeeSky": false
-        }
-      },
-      {
-        "id": "petrolisk-1",
-        "pokemon": "petrolisk",
-        "presets": [
-          "water"
-      ],
-        "type": "pokemon",
-        "spawnablePositionType": "submerged",
-        "bucket": "common",
-        "level": "33-45",
-        "weight": 0.5,
         "weightMultiplier": {
           "multiplier": 1.2,
           "condition": {
@@ -122,6 +107,24 @@
                 ],
                 "minY": -60,
                 "maxY": 13
+            }
+        },
+        {
+            "id": "petrolisk-5",
+            "pokemon": "petrolisk",
+            "presets": [
+                "lava"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "surface",
+            "bucket": "common",
+            "level": "33-45",
+            "weight": 5.2,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_nether",
+                    "#cobblemon:is_volcanic"
+                ]
             }
         }
     ]

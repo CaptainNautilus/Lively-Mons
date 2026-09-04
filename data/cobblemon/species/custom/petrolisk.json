@@ -389,7 +389,10 @@
     },          
     "swim": {
       "canSwimInWater": true,
-      "canBreatheUnderwater": true
+      "canBreatheUnderwater": true,
+      "canSwimInLava": true,
+      "canBreatheUnderlava": true,
+      "canWalkOnLava": true
     },
     "walk": {
         "canWalk": true
@@ -412,6 +415,7 @@
       "willDefendSelf": true,
       "willDefendOwner": true,
       "willFlee": false
-    }
+    },
+    "fireImmune": true
   }
 }
