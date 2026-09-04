@@ -147,7 +147,7 @@
     "variant": "level_up",
     "result": "ostrike",
     "consumeHeldItem": false,
-    "learnableMoves": ["thunderclap"],
+    "learnableMoves": [],
     "requirements": [
       {
         "variant": "level",
