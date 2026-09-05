@@ -8,7 +8,8 @@
     "faint": "q.bedrock_primary('mielador', 'faint', q.curve('symmetrical'))",
     "physical": "q.bedrock_primary('mielador', 'physical', q.curve('symmetrical'))",
     "cry": "q.bedrock_stateful('mielador', 'cry')",
-    "recoil": "q.bedrock_stateful('mielador', 'recoil')"
+    "recoil": "q.bedrock_stateful('mielador', 'recoil')",
+    "honeypot": "q.bedrock_primary('mielador', 'honeypot', q.curve('symmetrical'))"
   },
   "poses": {
     "standing": {
@@ -28,7 +29,8 @@
       "poseTypes": ["FLOAT", "HOVER"],
       "quirks": ["q.bedrock_quirk('mielador', 'blink')"],
           "namedAnimations": {
-          "faint": "q.bedrock_stateful('mielador', 'faint_air')"
+          "faint": "q.bedrock_stateful('mielador', 'faint_air')",
+          "honeypot": "q.bedrock_primary('mielador', 'honeypot_air', q.curve('symmetrical'))"
           },
       "animations": [
         "q.look('head_ai')",
@@ -41,7 +43,8 @@
       "poseTypes": ["FLY", "SWIM"],
       "quirks": ["q.bedrock_quirk('mielador', 'blink')"],
           "namedAnimations": {
-          "faint": "q.bedrock_stateful('mielador', 'faint_air')"
+          "faint": "q.bedrock_stateful('mielador', 'faint_air')",
+          "honeypot": "q.bedrock_primary('mielador', 'honeypot_air', q.curve('symmetrical'))"
           },
       "animations": [
         "q.look('head_ai')",

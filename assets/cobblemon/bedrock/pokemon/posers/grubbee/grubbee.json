@@ -9,7 +9,7 @@
     "physical": "q.bedrock_primary('grubbee', 'physical', q.curve('symmetrical'))",
     "cry": "q.bedrock_stateful('grubbee', 'cry')",
     "recoil": "q.bedrock_stateful('grubbee', 'recoil')",
-    "ability": "q.bedrock_primary('grubbee', 'honeypot')"
+    "honeypot": "q.bedrock_primary('grubbee', 'honeypot', q.curve('symmetrical'))"
   },
   "poses": {
     "standing": {

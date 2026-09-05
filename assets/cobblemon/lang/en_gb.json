@@ -356,7 +356,9 @@
     "cobblemon.move.frameshift.desc": "The user mutates the genes of the opposing Pokémon, randomizing the target's typing.",
 
     "cobblemon.battle.heal.honeypot": "%1$s restored HP from its Honey Pot!",
+    "cobblemon.battle.activate.honeypot": "",
     "cobblemon.battle.heal.scaredycat": "%1$s restored half of its HP.",
+    "cobblemon.battle.activate.scaredycat": "",
 
     "wallpaper.mielador": "Smokey the Bear",
     "wallpaper.polporos": "Ancient Sunset",

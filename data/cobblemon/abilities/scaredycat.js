@@ -15,7 +15,6 @@
       damage >= target.hp
     ) {
       target.scaredyCatTriggered = true;
-      this.add("-ability", target, "Scaredy Cat");
 
       target.sethp(1);
       const healAmount = Math.floor(target.maxhp / 2) - target.hp;
@@ -26,7 +25,7 @@
       if (target.baseSpecies.baseSpecies === "Nyenlives" && !target.transformed) {
         target.scaredyCatForme = target.species.id === "nyenlivesunboxed" ?
           "Nyenlives" : "Nyenlives-Unboxed";
-        target.formeChange(target.scaredyCatForme, this.effect);
+        target.formeChange(target.scaredyCatForme, this.effect, '[silent]');
       }
 
       return 0;
