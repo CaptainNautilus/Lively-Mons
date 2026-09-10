@@ -31,7 +31,13 @@
     ], 
   "behaviour": {
     "herd": {
-      "maxSize": "3"
+      "maxSize": 3,
+      "toleratedLeaders": [
+        {
+          "pokemon": "palobod alpha",
+          "tier": 1
+        }
+      ]
     },
     "moving": {
       "swim": {

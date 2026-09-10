@@ -1,0 +1,93 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "fungalith-alpha-1",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 3,
+      "levelRange": "20-100",
+      "weight": 50.0,
+      "condition": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_badlands",
+              "#cobblemon:is_desert",
+              "#cobblemon:is_mushroom"
+          ],
+          "timeRange": "night",
+          "neededBaseBlocks": [
+              "#minecraft:sand",
+              "#c:sand",
+              "#cobblemon:fungal_stuff"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "fungalith held_item=cobblemon:ground_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "fungalith",
+          "weight": 80.0,
+          "levelRange": "25-44",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "fungalith-alpha-2",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 3,
+      "levelRange": "20-100",
+      "weight": 50.0,
+      "condition": {
+          "biomes": [
+              "#cobblemon:nether/is_fungus"
+          ],
+          "neededBaseBlocks": [
+              "#cobblemon:fungal_stuff"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "fungalith held_item=cobblemon:ground_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "fungalith",
+          "weight": 80.0,
+          "levelRange": "25-44",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

@@ -36,7 +36,13 @@
       "avoidedBySkeleton": true
     },
     "herd": {
-      "maxSize": "9"
+      "maxSize": 9,
+      "toleratedLeaders": [
+        {
+          "pokemon": "lupayena alpha",
+          "tier": 1
+        }
+      ]
     },
         "combat": {
       "willDefendSelf": true,

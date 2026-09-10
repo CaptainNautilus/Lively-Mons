@@ -1,0 +1,119 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "krillcracker-herd-1",
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 7,
+      "levelRange": "6-48",
+      "weight": 30.0,
+            "weightMultipliers": [
+              {
+                "multiplier": 2.0,
+                "condition": {
+                    "timeRange": "night"
+                }
+              },
+              {
+                "multiplier": 0.5,
+                "condition": {
+                    "timeRange": "day"
+                }
+              }
+            ],
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_coast"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "krillcracker",
+          "weight": 80.0,
+          "levelRange": "9-28",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "shiboom",
+          "weight": 20.0,
+          "levelRange": "38-44",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "krillcracker-herd-2",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "seafloor",
+      "maxHerdSize": 7,
+      "levelRange": "6-48",
+      "weight": 10.0,
+            "weightMultipliers": [
+              {
+                "multiplier": 2.0,
+                "condition": {
+                    "timeRange": "night"
+                }
+              },
+              {
+                "multiplier": 0.5,
+                "condition": {
+                    "timeRange": "day"
+                }
+              }
+            ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_coast",
+          "#cobblemon:is_warm_ocean"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "krillcracker",
+          "weight": 80.0,
+          "levelRange": "9-28",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "shiboom",
+          "weight": 20.0,
+          "levelRange": "38-44",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

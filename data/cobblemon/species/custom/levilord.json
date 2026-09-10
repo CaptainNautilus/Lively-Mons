@@ -1593,7 +1593,7 @@
       "willDefendOwner": true
     },
     "herd": {
-      "maxSize": "8",
+      "maxSize": 8,
       "toleratedLeaders": [
         {
           "pokemon": "levilord",

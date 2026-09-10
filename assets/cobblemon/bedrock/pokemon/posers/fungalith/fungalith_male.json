@@ -59,7 +59,7 @@
       "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
       "isStandingOnSandOrRedSand": false,
       "isBattle": false,
-      "condition": "!q.in_air",
+      "condition": "!q.in_air && !q.is_standing_on_blocks(1, 'minecraft:mycelium', 'minecraft:crimson_nylium', 'minecraft:warped_nylium')",
       "animations": [
         "q.bedrock('fungalith','male')",
         "q.bedrock('fungalith', 'ground_idle')"
@@ -72,7 +72,7 @@
     "walking": {
       "poseTypes": ["WALK", "SWIM"],
       "isStandingOnSandOrRedSand": false,
-      "condition": "!q.in_air && !q.is_sprinting",
+      "condition": "!q.in_air && !q.is_sprinting && !q.is_standing_on_blocks(1, 'minecraft:mycelium', 'minecraft:crimson_nylium', 'minecraft:warped_nylium')",
       "animations": [
         "q.bedrock('fungalith','male')",
         "q.bedrock('fungalith', 'ground_walk')",
@@ -126,9 +126,36 @@
       ],
       "quirks": []
     },
+    "mycelium-standing": {
+      "poseTypes": ["STAND"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('fungalith', 'sand_cry')"
+      },
+      "condition": "!q.is_ridden && q.is_standing_on_blocks(1, 'minecraft:mycelium', 'minecraft:crimson_nylium', 'minecraft:warped_nylium')",
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('fungalith','male')",
+        "q.bedrock('fungalith', 'sand_idle')"
+      ],
+      "quirks": []
+    },
+    "mycelium-swimming": {
+      "poseTypes": ["WALK"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('fungalith', 'sand_cry')"
+      },
+      "condition": "!q.is_ridden && q.is_standing_on_blocks(1, 'minecraft:mycelium', 'minecraft:crimson_nylium', 'minecraft:warped_nylium')",
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('fungalith','male')",
+        "q.bedrock('fungalith', 'sand_swim')"
+      ],
+      "quirks": []
+    },
     "sleep": {
       "poseTypes": ["SLEEP"],
       "isStandingOnSandOrRedSand": false,
+      "condition": "!q.is_standing_on_blocks(1, 'minecraft:mycelium', 'minecraft:crimson_nylium', 'minecraft:warped_nylium')",
       "namedAnimations": {
         "cry": "q.bedrock_stateful('dummy', 'cry')"
       },
@@ -140,8 +167,24 @@
     "sand-sleep": {
       "poseTypes": ["SLEEP"],
       "isStandingOnSandOrRedSand": true,
-      "condition": "!q.is_ridden",
+      "condition": "!q.is_ridden && !q.is_standing_on_blocks(1, 'minecraft:mycelium', 'minecraft:crimson_nylium', 'minecraft:warped_nylium')",
       "isBattle": false,
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+      "animations": [
+        "q.bedrock('fungalith','male')",
+        "q.bedrock('fungalith', 'sand_sleep')"
+      ],
+      "quirks": []
+    },
+    "mycelium-sleep": {
+      "poseTypes": ["SLEEP"],
+      "condition": "!q.is_ridden && q.is_standing_on_blocks(1, 'minecraft:mycelium', 'minecraft:crimson_nylium', 'minecraft:warped_nylium')",
+      "isBattle": false,
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
       "animations": [
         "q.bedrock('fungalith','male')",
         "q.bedrock('fungalith', 'sand_sleep')"

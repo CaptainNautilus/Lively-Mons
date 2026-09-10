@@ -189,7 +189,7 @@
     "fixed": false
   },
 "drops": {
-"amount": "3",
+"amount": 3,
   "entries": [
     {
       "item": "minecraft:iron_ingot",
@@ -314,7 +314,13 @@
             "rouseChance": 0.0042
           },
     "herd": {
-      "maxSize": "9"
+      "maxSize": 9,
+      "toleratedLeaders": [
+        {
+          "pokemon": "sajonin",
+          "tier": 1
+        }
+      ]
     },
     "combat": {
       "willDefendSelf": true,

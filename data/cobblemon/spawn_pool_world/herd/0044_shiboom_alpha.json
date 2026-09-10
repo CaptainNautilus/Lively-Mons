@@ -1,0 +1,135 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "shiboom-alpha-1",
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "34-100",
+      "weight": 80.0,
+            "weightMultipliers": [
+              {
+                "multiplier": 2.0,
+                "condition": {
+                    "timeRange": "night"
+                }
+              },
+              {
+                "multiplier": 0.5,
+                "condition": {
+                    "timeRange": "day"
+                }
+              }
+            ],
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_coast"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "shiboom held_item=cobblemon:fire_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "krillcracker",
+          "weight": 80.0,
+          "levelRange": "9-28",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "shiboom",
+          "weight": 120.0,
+          "levelRange": "40-46",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "shiboom-alpha-2",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "seafloor",
+      "maxHerdSize": 8,
+      "levelRange": "34-100",
+      "weight": 100.0,
+            "weightMultipliers": [
+              {
+                "multiplier": 2.0,
+                "condition": {
+                    "timeRange": "night"
+                }
+              },
+              {
+                "multiplier": 0.5,
+                "condition": {
+                    "timeRange": "day"
+                }
+              }
+            ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_coast",
+          "#cobblemon:is_warm_ocean"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "shiboom held_item=cobblemon:fire_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "krillcracker",
+          "weight": 80.0,
+          "levelRange": "9-28",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "shiboom",
+          "weight": 120.0,
+          "levelRange": "40-46",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

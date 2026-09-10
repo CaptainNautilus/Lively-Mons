@@ -55,8 +55,13 @@
   },
   "behaviour": {
     "herd": {
-      "maxSize": "10",
-      "toleratedLeaders": []
+      "maxSize": 10,
+      "toleratedLeaders": [
+        {
+          "pokemon": "sugareign alpha",
+          "tier": 1
+        }
+      ]
     },
     "resting": {
       "times": [

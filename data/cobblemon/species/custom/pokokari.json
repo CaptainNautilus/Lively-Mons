@@ -27,7 +27,18 @@
       "willSleepOnBed": true,
       "light": "0-4"
       },
+    "herd": {
+      "maxSize": 2,
+      "toleratedLeaders": [
+        {
+          "pokemon": "pokokari",
+          "tier": 1
+        }
+      ]
+    },
+    "combat": {
       "willDefendOwner": true
+    }
     },
     "catchRate": 180,
     "maleRatio": 0.5,

@@ -281,6 +281,15 @@
           },
           "fly": {
             "canFly": true
+          },
+          "herd": {
+            "maxSize": 5,
+            "toleratedLeaders": [
+              {
+                "pokemon": "nyenlives unboxed_form=unboxed",
+                "tier": 1
+              }
+            ]
           }
         }
       },
@@ -310,6 +319,19 @@
       "fly": {
         "canFly": false
       }
+    },
+    "herd": {
+      "maxSize": 5,
+      "toleratedLeaders": [
+        {
+          "pokemon": "nyenlives unboxed_form=boxed",
+          "tier": 1
+        },
+        {
+          "pokemon": "nyenlives unboxed_form=unboxed",
+          "tier": 2
+        }
+      ]
     },
     "combat": {
       "willDefendSelf": true,

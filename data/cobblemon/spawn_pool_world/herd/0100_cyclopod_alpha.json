@@ -1,0 +1,149 @@
+{
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+    {
+        "id": "cyclopod-alpha-1",
+        "pokemon": "cyclopod",
+        "presets": [
+            "water",
+            "ocean_monument"
+        ],
+        "type": "pokemon-herd",
+        "bucket": "boss",
+        "spawnablePositionType": "submerged",
+        "maxHerdSize": 3,
+        "levelRange": "19-100",
+        "weight": 100.0,
+        "weightMultipliers": [
+          {
+            "multiplier": 2.0,
+            "condition": {
+                "isRaining": true,
+                "isThundering": false
+            }
+          },
+          {
+            "multiplier": 5.0,
+            "condition": {
+                "isThundering": true
+            }
+          }
+        ],
+        "condition": {
+            "biomes": [
+                "#cobblemon:is_ocean"
+            ],
+            "canSeeSky": false
+        },
+        "herdablePokemon": [
+          {
+            "pokemon": "cyclopod held_item=cobblemon:water_gem alpha=true",
+            "weight": 30.0,
+            "levelRange": "1-100",
+            "maxTimes": 1,
+            "isLeader": true,
+            "isFollower": false
+          },
+          {
+            "pokemon": "cyclopod",
+            "weight": 80.0,
+            "level": "24-42",
+            "levelRangeOffset": "-3-3",
+            "maxTimes": 5,
+            "isLeader": false,
+            "isFollower": true
+          }
+        ]
+    },
+    {
+        "id": "cyclopod-alpha-2",
+        "pokemon": "cyclopod",
+        "presets": [
+            "water",
+            "ocean_monument"
+        ],
+        "type": "pokemon-herd",
+        "bucket": "boss",
+        "spawnablePositionType": "submerged",
+        "maxHerdSize": 3,
+        "levelRange": "19-100",
+        "weight": 100.0,
+        "weightMultiplier": {
+            "multiplier": 5.0,
+            "condition": {
+                "isThundering": true
+            }
+        },
+        "condition": {
+            "biomes": [
+                "#cobblemon:is_ocean"
+            ],
+            "canSeeSky": true,
+            "isRaining": true
+        },
+        "herdablePokemon": [
+          {
+            "pokemon": "cyclopod held_item=cobblemon:water_gem alpha=true",
+            "weight": 30.0,
+            "levelRange": "1-100",
+            "maxTimes": 1,
+            "isLeader": true,
+            "isFollower": false
+          },
+          {
+            "pokemon": "cyclopod",
+            "weight": 80.0,
+            "level": "24-42",
+            "levelRangeOffset": "-3-3",
+            "maxTimes": 5,
+            "isLeader": false,
+            "isFollower": true
+          }
+        ]
+    },
+    {
+        "id": "cyclopod-alpha-3",
+        "pokemon": "cyclopod",
+        "presets": [
+            "water"
+        ],
+        "type": "pokemon-herd",
+        "bucket": "boss",
+        "spawnablePositionType": "submerged",
+        "maxHerdSize": 3,
+        "levelRange": "19-100",
+        "weight": 80.0,
+        "weightMultiplier": {
+            "multiplier": 5.0,
+            "condition": {
+                "isThundering": true
+            }
+        },
+        "condition": {
+            "biomes": [ "#cobblemon:is_warm_ocean" ],
+            "canSeeSky": true,
+            "isRaining": true
+        },
+        "herdablePokemon": [
+          {
+            "pokemon": "cyclopod held_item=cobblemon:water_gem alpha=true",
+            "weight": 30.0,
+            "levelRange": "1-100",
+            "maxTimes": 1,
+            "isLeader": true,
+            "isFollower": false
+          },
+          {
+            "pokemon": "cyclopod",
+            "weight": 80.0,
+            "level": "24-42",
+            "levelRangeOffset": "-3-3",
+            "maxTimes": 5,
+            "isLeader": false,
+            "isFollower": true
+          }
+        ]
+    }
+  ]
+}

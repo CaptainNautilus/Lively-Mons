@@ -33,6 +33,15 @@
             "drowsyChance": 0.0333,
             "rouseChance": 0.0042
           },
+    "herd": {
+      "maxSize": 4,
+      "toleratedLeaders": [
+        {
+          "pokemon": "solarica alpha",
+          "tier": 1
+        }
+      ]
+    },
     "combat": {
       "willDefendSelf": true,
       "willDefendOwner": true,

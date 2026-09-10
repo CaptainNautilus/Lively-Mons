@@ -14,7 +14,21 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "9-34",
-            "weight": 5.4,
+            "weight": 45.0,
+            "weightMultipliers": [
+              {
+                "multiplier": 2.0,
+                "condition": {
+                    "isPokeSnack": true
+                }
+              },
+              {
+                "multiplier": 0.5,
+                "condition": {
+                    "timeRange": "day"
+                }
+              }
+            ],
             "condition": {
                 "minSkyLight": 8,
                 "maxSkyLight": 15,
@@ -27,21 +41,25 @@
             "id": "gruntuff-2",
             "pokemon": "gruntuff",
             "presets": [
-                "natural"
+                "natural",
+                "pillager_outpost"
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "9-34",
-            "weight": 5.4,
+            "weight": 45.0,
+            "weightMultiplier": {
+                "multiplier": 2.0,
+                "condition": {
+                    "isPokeSnack": true
+                }
+            },
             "condition": {
                 "minSkyLight": 8,
                 "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
-                ],
-                "structures": [
-                    "#minecraft:village"
                 ]
             }
         },
@@ -50,13 +68,19 @@
             "pokemon": "gruntuff",
             "presets": [
                 "natural",
-                "pillager_outpost"
+                "mansion"
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "9-34",
-            "weight": 90.0,
+            "weight": 45.0,
+            "weightMultiplier": {
+                "multiplier": 2.0,
+                "condition": {
+                    "isPokeSnack": true
+                }
+            },
             "condition": {
                 "minSkyLight": 8,
                 "maxSkyLight": 15,
@@ -70,41 +94,17 @@
             "pokemon": "gruntuff",
             "presets": [
                 "natural",
-                "mansion"
-            ],
-            "type": "pokemon",
-            "spawnablePositionType": "grounded",
-            "bucket": "common",
-            "level": "9-34",
-            "weight": 90.0,
-            "condition": {
-                "minSkyLight": 8,
-                "maxSkyLight": 15,
-                "biomes": [
-                    "#cobblemon:is_overworld"
-                ]
-            }
-        },
-        {
-            "id": "gruntuff-5",
-            "pokemon": "gruntuff",
-            "presets": [
-                "natural",
                 "nether_structures"
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "9-34",
-            "weight": 15.0,
+            "weight": 450.0,
             "weightMultiplier": {
                 "multiplier": 2.0,
                 "condition": {
-                    "biomes": [
-                        "#cobblemon:nether/is_crimson",
-                        "#cobblemon:nether/is_fungus",
-                        "#cobblemon:nether/is_overgrowth"
-                    ]
+                    "isPokeSnack": true
                 }
             },
             "condition": {
@@ -114,25 +114,20 @@
             }
         },
         {
-            "id": "gruntuff-6",
+            "id": "gruntuff-5",
             "pokemon": "gruntuff",
             "presets": [
-                "natural",
-                "wild"
+                "natural"
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "9-34",
-            "weight": 30.0,
+            "weight": 450.0,
             "weightMultiplier": {
                 "multiplier": 2.0,
                 "condition": {
-                    "biomes": [
-                        "#cobblemon:nether/is_crimson",
-                        "#cobblemon:nether/is_fungus",
-                        "#cobblemon:nether/is_overgrowth"
-                    ]
+                    "isPokeSnack": true
                 }
             },
             "condition": {

@@ -14,7 +14,21 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "30-51",
-            "weight": 0.6,
+            "weight": 5.0,
+            "weightMultipliers": [
+              {
+                "multiplier": 2.0,
+                "condition": {
+                    "isPokeSnack": true
+                }
+              },
+              {
+                "multiplier": 0.5,
+                "condition": {
+                    "timeRange": "day"
+                }
+              }
+            ],
             "condition": {
                 "minSkyLight": 8,
                 "maxSkyLight": 15,
@@ -27,21 +41,25 @@
             "id": "peccareck-2",
             "pokemon": "peccareck",
             "presets": [
-                "natural"
+                "natural",
+                "pillager_outpost"
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "30-51",
-            "weight": 0.6,
+            "weight": 5.0,
+            "weightMultiplier": {
+                "multiplier": 2.0,
+                "condition": {
+                    "isPokeSnack": true
+                }
+            },
             "condition": {
                 "minSkyLight": 8,
                 "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
-                ],
-                "structures": [
-                    "#minecraft:village"
                 ]
             }
         },
@@ -50,13 +68,19 @@
             "pokemon": "peccareck",
             "presets": [
                 "natural",
-                "pillager_outpost"
+                "mansion"
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "30-51",
-            "weight": 10.0,
+            "weight": 5.0,
+            "weightMultiplier": {
+                "multiplier": 2.0,
+                "condition": {
+                    "isPokeSnack": true
+                }
+            },
             "condition": {
                 "minSkyLight": 8,
                 "maxSkyLight": 15,
@@ -70,41 +94,17 @@
             "pokemon": "peccareck",
             "presets": [
                 "natural",
-                "mansion"
-            ],
-            "type": "pokemon",
-            "spawnablePositionType": "grounded",
-            "bucket": "common",
-            "level": "30-51",
-            "weight": 10.0,
-            "condition": {
-                "minSkyLight": 8,
-                "maxSkyLight": 15,
-                "biomes": [
-                    "#cobblemon:is_overworld"
-                ]
-            }
-        },
-        {
-            "id": "peccareck-5",
-            "pokemon": "peccareck",
-            "presets": [
-                "natural",
                 "nether_structures"
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "30-51",
-            "weight": 1.5,
+            "weight": 50.0,
             "weightMultiplier": {
                 "multiplier": 2.0,
                 "condition": {
-                    "biomes": [
-                        "#cobblemon:nether/is_crimson",
-                        "#cobblemon:nether/is_fungus",
-                        "#cobblemon:nether/is_overgrowth"
-                    ]
+                    "isPokeSnack": true
                 }
             },
             "condition": {
@@ -114,7 +114,7 @@
             }
         },
         {
-            "id": "peccareck-6",
+            "id": "peccareck-5",
             "pokemon": "peccareck",
             "presets": [
                 "natural",
@@ -124,15 +124,11 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "30-51",
-            "weight": 3.0,
+            "weight": 50.0,
             "weightMultiplier": {
                 "multiplier": 2.0,
                 "condition": {
-                    "biomes": [
-                        "#cobblemon:nether/is_crimson",
-                        "#cobblemon:nether/is_fungus",
-                        "#cobblemon:nether/is_overgrowth"
-                    ]
+                    "isPokeSnack": true
                 }
             },
             "condition": {
