@@ -1,0 +1,187 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sugareign-1",
+            "pokemon": "sugareign",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "30-47",
+            "weight": 0.5,
+            "condition": {
+                "timeRange": "day",
+                "isPokeSnack": true,
+                "neededNearbyBlocks": [
+                "#cobblemon:flowers"
+                ],
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_temperate"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "sugareign-2",
+            "pokemon": "sugareign",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "30-47",
+            "weight": 0.5,
+            "condition": {
+                "timeRange": "day",
+                "isPokeSnack": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_floral"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "sugareign-3",
+            "pokemon": "sugareign",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "30-47",
+            "weight": 0.3,
+            "condition": {
+                "timeRange": "day",
+                "isPokeSnack": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+            "#cobblemon:is_temperate"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_tundra"
+                ]
+            }
+        },
+        {
+            "id": "sugareign-female-1",
+            "pokemon": "sugareign female",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "30-47",
+            "weight": 0.5,
+            "condition": {
+                "timeRange": "day",
+                "isPokeSnack": true,
+                "neededNearbyBlocks": [
+                "#cobblemon:flowers"
+                ],
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                  "#cobblemon:is_temperate"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "sugareign-female-2",
+            "pokemon": "sugareign female",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "30-47",
+            "weight": 0.5,
+            "condition": {
+                "timeRange": "day",
+                "isPokeSnack": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_floral"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "sugareign-female-3",
+            "pokemon": "sugareign female",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "30-47",
+            "weight": 0.3,
+            "condition": {
+                "timeRange": "day",
+                "isPokeSnack": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+            "#cobblemon:is_temperate"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_tundra"
+                ]
+            }
+        }
+    ]
+}

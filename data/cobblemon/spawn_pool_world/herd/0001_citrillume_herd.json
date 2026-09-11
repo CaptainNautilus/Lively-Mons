@@ -1,0 +1,56 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "citrillume-herd-1",
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "ultra-rare",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "5-54",
+      "weight": 50.0,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_tropical_island"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "citrillume",
+          "weight": 80.0,
+          "levelRange": "8-28",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "limonzal",
+          "weight": 18.0,
+          "levelRange": "18-38",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "citrisaurid",
+          "weight": 2.0,
+          "levelRange": "37-49",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 1,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

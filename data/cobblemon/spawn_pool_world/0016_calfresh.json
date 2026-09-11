@@ -1,0 +1,97 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "calfresh-1",
+            "pokemon": "calfresh",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "2-30",
+            "weight": 90.0,
+            "condition": {
+                "timeRange": "day",
+                "isPokeSnack": true,
+                "neededNearbyBlocks": [
+                "#cobblemon:flowers"
+                ],
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_temperate"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "calfresh-2",
+            "pokemon": "calfresh",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "2-30",
+            "weight": 90.0,
+            "condition": {
+                "timeRange": "day",
+                "isPokeSnack": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_floral"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "calfresh-3",
+            "pokemon": "calfresh",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "2-30",
+            "weight": 54.0,
+            "condition": {
+                "timeRange": "day",
+                "isPokeSnack": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+            "#cobblemon:is_temperate"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_tundra"
+                ]
+            }
+        }
+    ]
+}

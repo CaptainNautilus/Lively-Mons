@@ -103,7 +103,7 @@
   ],
   "behaviour": {
     "herd": {
-      "maxSize": 2,
+      "maxSize": 6,
       "toleratedLeaders": [
         {
           "pokemon": "chivalrough",

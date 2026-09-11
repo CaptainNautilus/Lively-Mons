@@ -1,0 +1,207 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "catertiller-herd-1",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 5,
+      "levelRange": "6-47",
+      "weight": 100.0,
+      "condition": {
+          "timeRange": "day",
+          "neededNearbyBlocks": [
+          "#cobblemon:flowers"
+          ],
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+            "#cobblemon:is_temperate"
+          ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_floral",
+              "#cobblemon:is_freezing",
+              "#cobblemon:is_spooky"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "catertiller",
+          "weight": 80.0,
+          "levelRange": "9-18",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "chivalrough",
+          "weight": 18.0,
+          "levelRange": "12-29",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "isLeader": true,
+          "isFollower": true
+        },
+        {
+          "pokemon": "sugareign male",
+          "weight": 1.0,
+          "levelRange": "31-42",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "sugareign female",
+          "weight": 1.0,
+          "levelRange": "31-42",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        }
+      ]
+    },
+    {
+      "id": "catertiller-herd-2",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 5,
+      "levelRange": "6-47",
+      "weight": 100.0,
+      "condition": {
+          "timeRange": "day",
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_floral"
+          ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_freezing",
+              "#cobblemon:is_spooky"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "catertiller",
+          "weight": 80.0,
+          "levelRange": "9-18",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "chivalrough",
+          "weight": 18.0,
+          "levelRange": "12-29",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "isLeader": true,
+          "isFollower": true
+        },
+        {
+          "pokemon": "sugareign male",
+          "weight": 1.0,
+          "levelRange": "31-42",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "sugareign female",
+          "weight": 1.0,
+          "levelRange": "31-42",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        }
+      ]
+    },
+    {
+      "id": "catertiller-herd-3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 5,
+      "levelRange": "6-47",
+      "weight": 60.0,
+      "condition": {
+          "timeRange": "day",
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+            "#cobblemon:is_temperate"
+          ],
+          "structures": [
+              "#minecraft:village"
+          ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_arid",
+              "#cobblemon:is_tundra"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "catertiller",
+          "weight": 80.0,
+          "levelRange": "9-18",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "chivalrough",
+          "weight": 18.0,
+          "levelRange": "12-29",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "isLeader": true,
+          "isFollower": true
+        },
+        {
+          "pokemon": "sugareign male",
+          "weight": 1.0,
+          "levelRange": "31-42",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "sugareign female",
+          "weight": 1.0,
+          "levelRange": "31-42",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        }
+      ]
+    }
+  ]
+}

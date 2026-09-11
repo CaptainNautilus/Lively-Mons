@@ -1,0 +1,255 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sugareign-alpha-1",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "28-100",
+      "weight": 100.0,
+      "condition": {
+          "timeRange": "day",
+          "neededNearbyBlocks": [
+          "#cobblemon:flowers"
+          ],
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+            "#cobblemon:is_temperate"
+          ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_floral",
+              "#cobblemon:is_freezing",
+              "#cobblemon:is_spooky"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "sugareign held_item=cobblemon:bug_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "sugareign female held_item=cobblemon:bug_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "catertiller",
+          "weight": 80.0,
+          "levelRange": "9-18",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "chivalrough",
+          "weight": 70.0,
+          "levelRange": "12-29",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "sugareign",
+          "weight": 25.0,
+          "levelRange": "31-42",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "sugareign female",
+          "weight": 25.0,
+          "levelRange": "31-42",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "sugareign-alpha-2",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "28-100",
+      "weight": 100.0,
+      "condition": {
+          "timeRange": "day",
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_floral"
+          ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_freezing",
+              "#cobblemon:is_spooky"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "sugareign held_item=cobblemon:bug_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "sugareign female held_item=cobblemon:bug_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "catertiller",
+          "weight": 80.0,
+          "levelRange": "9-18",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "chivalrough",
+          "weight": 70.0,
+          "levelRange": "12-29",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "sugareign",
+          "weight": 25.0,
+          "levelRange": "31-42",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "sugareign female",
+          "weight": 25.0,
+          "levelRange": "31-42",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "sugareign-alpha-3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "28-100",
+      "weight": 100.0,
+      "condition": {
+          "timeRange": "day",
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+            "#cobblemon:is_temperate"
+          ],
+          "structures": [
+              "#minecraft:village"
+          ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_arid",
+              "#cobblemon:is_tundra"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "sugareign held_item=cobblemon:bug_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "sugareign female held_item=cobblemon:bug_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "catertiller",
+          "weight": 80.0,
+          "levelRange": "9-18",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "chivalrough",
+          "weight": 70.0,
+          "levelRange": "12-29",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "sugareign",
+          "weight": 25.0,
+          "levelRange": "31-42",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "sugareign female",
+          "weight": 25.0,
+          "levelRange": "31-42",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

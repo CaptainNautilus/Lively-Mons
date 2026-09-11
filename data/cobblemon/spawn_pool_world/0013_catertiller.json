@@ -13,25 +13,23 @@
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "6-31",
-            "weight": 6.0,
+            "level": "6-21",
+            "weight": 90.0,
             "condition": {
+                "timeRange": "day",
+                "isPokeSnack": true,
+                "neededNearbyBlocks": [
+                "#cobblemon:flowers"
+                ],
                 "minSkyLight": 8,
                 "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_forest"
+                    "#cobblemon:is_temperate"
                 ]
-            },
-            "weightMultiplier": {
-                "multiplier": 2,
-                "condition": {
-                  "neededNearbyBlocks": [
-                      "#cobblemon:flowers"
-                    ]
-                }
             },
             "anticondition": {
                 "biomes": [
+                    "#cobblemon:is_floral",
                     "#cobblemon:is_freezing",
                     "#cobblemon:is_spooky"
                 ]
@@ -47,9 +45,11 @@
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "6-31",
-            "weight": 9.0,
+            "level": "6-21",
+            "weight": 90.0,
             "condition": {
+                "timeRange": "day",
+                "isPokeSnack": true,
                 "minSkyLight": 8,
                 "maxSkyLight": 15,
                 "biomes": [
@@ -60,6 +60,36 @@
                 "biomes": [
                     "#cobblemon:is_freezing",
                     "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "catertiller-3",
+            "pokemon": "catertiller",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "6-21",
+            "weight": 54.0,
+            "condition": {
+                "timeRange": "day",
+                "isPokeSnack": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+            "#cobblemon:is_temperate"
+                ],
+                "structures": [
+                    "#minecraft:village"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_tundra"
                 ]
             }
         }

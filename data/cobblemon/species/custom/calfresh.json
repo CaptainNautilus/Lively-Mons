@@ -56,7 +56,7 @@
       "willDefendOwner": true
     },
     "herd": {
-      "maxSize": 4,
+      "maxSize": 7,
       "toleratedLeaders": [
         {
           "pokemon": "calfresh",
@@ -68,15 +68,15 @@
         },
         {
           "pokemon": "miltank",
-          "tier": 3
+          "tier": 2
         },
         {
           "pokemon": "bouffalant",
-          "tier": 4
+          "tier": 2
         },
         {
           "pokemon": "lactarine",
-          "tier": 5
+          "tier": 3
         }
       ]
     },

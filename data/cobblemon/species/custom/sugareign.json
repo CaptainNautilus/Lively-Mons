@@ -55,7 +55,7 @@
   },
   "behaviour": {
     "herd": {
-      "maxSize": 10,
+      "maxSize": 9,
       "toleratedLeaders": [
         {
           "pokemon": "sugareign alpha",

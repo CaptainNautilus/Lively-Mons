@@ -1,0 +1,178 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "lactarine-alpha-1",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "30-100",
+      "weight": 100.0,
+      "condition": {
+          "timeRange": "day",
+          "neededNearbyBlocks": [
+          "#cobblemon:flowers"
+          ],
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+            "#cobblemon:is_temperate"
+          ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_floral",
+              "#cobblemon:is_freezing",
+              "#cobblemon:is_spooky"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "lactarine held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "calfresh",
+          "weight": 80.0,
+          "levelRange": "5-27",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "lactarine",
+          "weight": 120.0,
+          "levelRange": "34-45",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "lactarine-alpha-2",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "30-100",
+      "weight": 100.0,
+      "condition": {
+          "timeRange": "day",
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_floral"
+          ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_freezing",
+              "#cobblemon:is_spooky"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "lactarine held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "calfresh",
+          "weight": 80.0,
+          "levelRange": "5-27",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "lactarine",
+          "weight": 120.0,
+          "levelRange": "34-45",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "lactarine-alpha-3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "30-100",
+      "weight": 100.0,
+      "condition": {
+          "timeRange": "day",
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+            "#cobblemon:is_temperate"
+          ],
+          "structures": [
+              "#minecraft:village"
+          ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_arid",
+              "#cobblemon:is_tundra"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "lactarine held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "calfresh",
+          "weight": 80.0,
+          "levelRange": "5-27",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "lactarine",
+          "weight": 120.0,
+          "levelRange": "34-45",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

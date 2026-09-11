@@ -1,0 +1,64 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "citrisaurid-alpha-1",
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 7,
+      "levelRange": "34-100",
+      "weight": 10.0,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_tropical_island"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "citrisaurid held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "citrillume",
+          "weight": 80.0,
+          "levelRange": "8-28",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "limonzal",
+          "weight": 70.0,
+          "levelRange": "18-38",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "citrisaurid",
+          "weight": 50.0,
+          "levelRange": "37-49",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}
