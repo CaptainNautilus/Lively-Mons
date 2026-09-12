@@ -1,0 +1,138 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "dollamb-herd-1",
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "3-43",
+      "weight": 450.0,
+      "condition": {
+          "biomes": [
+              "#cobblemon:is_overworld"
+          ],
+          "neededNearbyBlocks": [
+              "cobblemon:restoration_tank"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "dollamb",
+          "weight": 80.0,
+          "levelRange": "6-22",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "folly",
+          "weight": 120.0,
+          "levelRange": "28-39",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "dollamb-herd-2",
+      "presets": [
+        "natural",
+        "urban"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "3-43",
+      "weight": 45.0,
+      "condition": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_overworld"
+          ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_arid",
+              "#cobblemon:is_taiga"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "dollamb",
+          "weight": 80.0,
+          "levelRange": "6-22",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "folly",
+          "weight": 120.0,
+          "levelRange": "28-39",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "dollamb-herd-3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "3-43",
+      "weight": 45.0,
+      "condition": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_overworld"
+          ],
+          "timeRange": "night",
+          "structures": [
+              "#minecraft:village"
+          ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_arid",
+              "#cobblemon:is_taiga"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "dollamb",
+          "weight": 80.0,
+          "levelRange": "6-22",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "folly",
+          "weight": 120.0,
+          "levelRange": "28-39",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "folly-alpha-1",
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 6,
+      "levelRange": "24-100",
+      "weight": 100.0,
+      "condition": {
+          "biomes": [
+              "#cobblemon:is_overworld"
+          ],
+          "neededNearbyBlocks": [
+              "cobblemon:restoration_tank"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "folly held_item=cobblemon:poison_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "dollamb",
+          "weight": 80.0,
+          "levelRange": "6-22",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "folly",
+          "weight": 120.0,
+          "levelRange": "28-39",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "folly-alpha-2",
+      "presets": [
+        "natural",
+        "urban"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 6,
+      "levelRange": "24-100",
+      "weight": 100.0,
+      "condition": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_overworld"
+          ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_arid",
+              "#cobblemon:is_taiga"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "folly held_item=cobblemon:poison_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "dollamb",
+          "weight": 80.0,
+          "levelRange": "6-22",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "folly",
+          "weight": 120.0,
+          "levelRange": "28-39",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "folly-alpha-3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 6,
+      "levelRange": "24-100",
+      "weight": 100.0,
+      "condition": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_overworld"
+          ],
+          "timeRange": "night",
+          "structures": [
+              "#minecraft:village"
+          ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_arid",
+              "#cobblemon:is_taiga"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "folly held_item=cobblemon:poison_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "dollamb",
+          "weight": 80.0,
+          "levelRange": "6-22",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "folly",
+          "weight": 120.0,
+          "levelRange": "28-39",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}
