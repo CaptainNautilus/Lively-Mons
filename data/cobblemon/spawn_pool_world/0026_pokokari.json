@@ -30,6 +30,30 @@
         {
             "id": "pokokari-2",
             "pokemon": "pokokari",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "16-41",
+            "weight": 20.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "#minecraft:rails"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+            "id": "pokokari-3",
+            "pokemon": "pokokari",
             "presets": [
                 "natural"
             ],

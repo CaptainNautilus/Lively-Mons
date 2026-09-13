@@ -26,8 +26,7 @@
                 "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_tropical_island"
-                ],
-                "isPokeSnack": true
+                ]
             }
         },
         {
@@ -56,8 +55,7 @@
                     "#cobblemon:is_sky",
                     "aether:skyroot_forest",
                     "aether:skyroot_woodland"
-                ],
-                "isPokeSnack": true
+                ]
             },
             "anticondition": {
                 "biomes": [

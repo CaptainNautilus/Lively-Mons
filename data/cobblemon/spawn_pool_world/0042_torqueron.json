@@ -13,30 +13,61 @@
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",
             "level": "40-50",
-            "weight": 0.64,
+            "weight": 7.68,
+            "weightMultiplier": {
+                "multiplier": 1.25,
+                "condition": {
+                    "isPokeSnack": true
+                }
+            },
             "condition": {
                 "minSkyLight": 8,
                 "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_badlands",
                     "#cobblemon:is_desert"
-                ]
-            },
-            "weightMultiplier": {
-                "multiplier": 2,
-                "condition": {
-                  "timeRange": "night"
-                }
+                ],
+                "timeRange": "night"
             }
         },
         {
             "id": "torqueron-2",
             "pokemon": "torqueron",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",
             "level": "40-50",
-            "weight": 0.96,
+            "weight": 7.68,
+            "weightMultiplier": {
+                "multiplier": 1.25,
+                "condition": {
+                    "isPokeSnack": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_badlands"
+                ]
+            }
+        },
+        {
+            "id": "torqueron-3",
+            "pokemon": "torqueron",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 7.68,
+            "weightMultiplier": {
+                "multiplier": 1.25,
+                "condition": {
+                    "isPokeSnack": true
+                }
+            },
             "condition": {
                 "minSkyLight": 8,
                 "maxSkyLight": 15,

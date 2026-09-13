@@ -1,0 +1,192 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mamolint-alpha-1",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 5,
+      "levelRange": "38-100",
+      "weight": 100.0,
+      "condition": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_overworld"
+          ],
+          "structures": [
+              "#minecraft:village"
+          ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_desert"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "mamolint held_item=cobblemon:ground_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "linub",
+          "weight": 80.0,
+          "levelRange": "35-41",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "pilolint",
+          "weight": 70.0,
+          "levelRange": "34-35",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "mamolint",
+          "weight": 50.0,
+          "levelRange": "41-48",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "mamolint-alpha-2",
+      "presets": [
+        "mansion"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 5,
+      "levelRange": "38-100",
+      "weight": 100.0,
+      "condition": {
+        "canSeeSky": false,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "mamolint held_item=cobblemon:ground_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "linub",
+          "weight": 80.0,
+          "levelRange": "35-41",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "pilolint",
+          "weight": 70.0,
+          "levelRange": "34-35",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "mamolint",
+          "weight": 50.0,
+          "levelRange": "41-48",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "mamolint-alpha-3",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 5,
+      "levelRange": "38-100",
+      "weight": 100.0,
+      "weightMultiplier": {
+          "multiplier": 2.0,
+          "condition": {
+            "maxY": 0
+          }
+      },
+      "condition": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7,
+          "biomes": [
+              "#cobblemon:is_overworld"
+          ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_deep_dark"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "mamolint held_item=cobblemon:ground_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "linub",
+          "weight": 80.0,
+          "levelRange": "35-41",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "pilolint",
+          "weight": 70.0,
+          "levelRange": "34-35",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "mamolint",
+          "weight": 50.0,
+          "levelRange": "41-48",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

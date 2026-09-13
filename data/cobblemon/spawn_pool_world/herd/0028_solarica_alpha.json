@@ -1,0 +1,165 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "solarica-alpha-1",
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 5,
+      "levelRange": "29-100",
+      "weight": 80.0,
+      "condition": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_jungle",
+              "#cobblemon:is_forest"
+          ],
+          "isRaining": false
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_freezing",
+              "#cobblemon:is_spooky"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "solarica held_item=cobblemon:fire_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "wickarus",
+          "weight": 90.0,
+          "levelRange": "7-26",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "solarica",
+          "weight": 120.0,
+          "levelRange": "33-49",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "solarica-alpha-2",
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 5,
+      "levelRange": "29-100",
+      "weight": 100.0,
+      "condition": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_tropical_island"
+          ],
+          "isRaining": false
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_freezing",
+              "#cobblemon:is_spooky"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "solarica held_item=cobblemon:fire_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "wickarus",
+          "weight": 90.0,
+          "levelRange": "7-26",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "solarica",
+          "weight": 120.0,
+          "levelRange": "33-49",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "solarica-alpha-1",
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 5,
+      "levelRange": "29-100",
+      "weight": 100.0,
+      "condition": {
+          "biomes": [
+              "the_bumblezone:floral_meadow",
+              "the_bumblezone:pollinated_fields"
+          ]
+      },
+      "anticondition": {
+          "structures": [
+              "#the_bumblezone:sempiternal_sanctums"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "solarica held_item=cobblemon:fire_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "wickarus",
+          "weight": 90.0,
+          "levelRange": "7-26",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "solarica",
+          "weight": 120.0,
+          "levelRange": "33-49",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

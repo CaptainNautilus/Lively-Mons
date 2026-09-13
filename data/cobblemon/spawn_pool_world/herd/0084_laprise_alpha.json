@@ -11,7 +11,7 @@
       "type": "pokemon-herd",
       "bucket": "boss",
       "spawnablePositionType": "grounded",
-      "maxHerdSize": 7,
+      "maxHerdSize": 4,
       "levelRange": "27-100",
             "weightMultiplier": {
                 "multiplier": 2,
@@ -56,7 +56,7 @@
       "type": "pokemon-herd",
       "bucket": "boss",
       "spawnablePositionType": "grounded",
-      "maxHerdSize": 7,
+      "maxHerdSize": 4,
       "levelRange": "27-100",
             "weightMultiplier": {
                 "multiplier": 2,

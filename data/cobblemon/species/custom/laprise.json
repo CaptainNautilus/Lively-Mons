@@ -60,7 +60,7 @@
       "willFlee": false
     },
     "herd": {
-      "maxSize": 6,
+      "maxSize": 3,
       "toleratedLeaders": [
         {
           "pokemon": "laprise",

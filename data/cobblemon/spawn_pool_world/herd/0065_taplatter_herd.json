@@ -1,0 +1,46 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "taplatter-herd-1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 6,
+      "levelRange": "3-49",
+      "weight": 100.0,
+      "condition": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_jungle",
+              "#cobblemon:is_tropical_island"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "taplatter",
+          "weight": 80.0,
+          "levelRange": "6-23",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "pungudua",
+          "weight": 20.0,
+          "levelRange": "29-45",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}
