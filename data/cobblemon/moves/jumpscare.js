@@ -6,7 +6,7 @@
 		name: "Jumpscare",
 		pp: 10,
 		priority: 3,
-		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, sound: 1 },
 		onTry(source) {
 			if (source.activeMoveActions > 1) {
 				this.hint("Jumpscare only works on your first turn out.");
