@@ -46,6 +46,15 @@
       "drowsyChance": 0.0033,
       "rouseChance": 0.0042
       },
+    "herd": {
+      "maxSize": 6,
+      "toleratedLeaders": [
+        {
+          "pokemon": "ludikappa alpha",
+          "tier": 1
+        }
+      ]
+    },
     "combat": {
       "willDefendSelf": true,
       "willDefendOwner": true,

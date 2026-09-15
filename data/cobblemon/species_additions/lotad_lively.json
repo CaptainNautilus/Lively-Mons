@@ -1,0 +1,48 @@
+{
+    "target": "cobblemon:lotad",
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.2
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canWalkOnWater": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "willSleepOnBed": true,
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0033,
+      "rouseChance": 0.0042
+    },
+    "herd": {
+      "maxSize": 4,
+      "toleratedLeaders": [
+        {
+          "pokemon": "lotad",
+          "tier": 1
+        },
+        {
+          "pokemon": "lombre",
+          "tier": 2
+        },
+        {
+          "pokemon": "ludicolo",
+          "tier": 3
+        },
+        {
+          "pokemon": "ludikappa",
+          "tier": 3
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  }
+}

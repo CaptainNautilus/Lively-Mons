@@ -10,5 +10,42 @@
         "requirements": [],
         "requiredContext": "cobblemon:leaf_stone"
       }
-    ]
+    ],
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "swimSpeed": 0.3,
+        "canWalkOnWater": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0033,
+      "rouseChance": 0.0042
+    },
+    "herd": {
+      "maxSize": 5,
+      "toleratedLeaders": [
+        {
+          "pokemon": "lombre",
+          "tier": 1
+        },
+        {
+          "pokemon": "ludicolo",
+          "tier": 2
+        },
+        {
+          "pokemon": "ludikappa",
+          "tier": 2
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
   }
+}

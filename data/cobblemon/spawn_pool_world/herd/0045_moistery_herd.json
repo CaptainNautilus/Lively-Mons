@@ -1,0 +1,156 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "moistery-herd-1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 7,
+      "levelRange": "5-51",
+      "weight": 1000.0,
+      "condition": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "canSeeSky": true,
+          "biomes": [
+              "#cobblemon:is_coast"
+          ],
+          "timeRange":"night",
+          "isRaining": false,         
+          "moonPhase":"0"
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "moistery",
+          "weight": 80.0,
+          "levelRange": "8-20",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "orbiclad",
+          "weight": 18.0,
+          "levelRange": "26-33",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": true
+        },
+        {
+          "pokemon": "xenoster",
+          "weight": 2.0,
+          "levelRange": "39-46",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        }
+      ]
+    },
+    {
+      "id": "moistery-herd-2",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "submerged",
+      "maxHerdSize": 7,
+      "levelRange": "5-51",
+      "weight": 1000.0,
+      "condition": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "canSeeSky": true,
+          "biomes": [
+              "#cobblemon:is_coast"
+          ],
+          "timeRange":"night",
+          "isRaining": false,         
+          "moonPhase":"0"
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "moistery",
+          "weight": 80.0,
+          "levelRange": "8-20",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "orbiclad",
+          "weight": 18.0,
+          "levelRange": "26-33",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "xenoster",
+          "weight": 2.0,
+          "levelRange": "39-46",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        }
+      ]
+    },
+    {
+      "id": "moistery-herd-3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 7,
+      "levelRange": "5-51",
+      "weight": 100.0,
+      "condition": {
+          "biomes": [
+              "#minecraft:is_end"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "moistery",
+          "weight": 80.0,
+          "levelRange": "8-20",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "orbiclad",
+          "weight": 18.0,
+          "levelRange": "26-33",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "xenoster",
+          "weight": 2.0,
+          "levelRange": "39-46",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        }
+      ]
+    }
+  ]
+}
