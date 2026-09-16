@@ -1,0 +1,105 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "tropius-sanrosan-alpha-1",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 3,
+      "levelRange": "19-100",
+      "weight": 80.0,
+      "weightMultiplier": {            
+          "multiplier": 3.0,
+          "condition": {
+              "biomes": [
+                  "minecraft:old_growth_pine_taiga",
+                  "minecraft:old_growth_spruce_taiga"
+              ]
+          }
+      },
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_taiga"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "tropius sanrosan held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "tropius sanrosan",
+          "weight": 80.0,
+          "levelRange": "24-43",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "tropius-sanrosan-alpha-2",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 3,
+      "levelRange": "19-100",
+      "weight": 100.0,
+      "weightMultiplier": {            
+          "multiplier": 3.0,
+          "condition": {
+              "biomes": [
+                  "minecraft:old_growth_pine_taiga",
+                  "minecraft:old_growth_spruce_taiga"
+              ]
+          }
+      },
+      "condition": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_taiga"
+          ],
+          "neededNearbyBlocks": [
+              "minecraft:spruce_sapling"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "tropius sanrosan held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "tropius sanrosan",
+          "weight": 80.0,
+          "levelRange": "24-43",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

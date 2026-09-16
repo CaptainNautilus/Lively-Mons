@@ -1,0 +1,64 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "palobod-alpha-1",
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "40-100",
+      "weight": 100.0,
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      },
+      "condition": {
+          "biomes": [
+              "#cobblemon:is_mountain"
+          ],
+          "neededBaseBlocks": [
+              "#minecraft:base_stone_overworld",
+              "#c:stones"
+          ],
+          "minY": 48
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "palobod held_item=cobblemon:rock_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "sandygast sanrosan",
+          "weight": 80.0,
+          "levelRange": "10-29",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "palobod",
+          "weight": 120.0,
+          "levelRange": "44-44",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

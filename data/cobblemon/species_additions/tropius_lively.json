@@ -21,15 +21,19 @@
           "speed": 15
         },
         "behaviour": {
-    "herd": {
-      "maxSize": "8",
-      "toleratedLeaders": [
-        {
-          "pokemon": "tropius sanrosan",
-          "tier": 1
-        }
-      ]
-    },
+        "herd": {
+          "maxSize": 8,
+          "toleratedLeaders": [
+            {
+              "pokemon": "tropius alpha",
+              "tier": 1
+            },
+            {
+              "pokemon": "tropius sanrosan",
+              "tier": 2
+            }
+          ]
+        },
           "moving": {
             "fly": {
               "canFly": false

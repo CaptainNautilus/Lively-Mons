@@ -21,15 +21,23 @@
         },
   "behaviour": {
     "herd": {
-      "maxSize": "2",
+      "maxSize": 2,
       "toleratedLeaders": [
         {
-          "pokemon": "palossand",
+          "pokemon": "sandygast alpha",
           "tier": 1
         },
         {
-          "pokemon": "palobod",
+          "pokemon": "sandygast sanrosan alpha",
           "tier": 2
+        },
+        {
+          "pokemon": "palossand",
+          "tier": 3
+        },
+        {
+          "pokemon": "palobod",
+          "tier": 4
         }
       ]
     },

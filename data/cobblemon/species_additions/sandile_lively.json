@@ -55,19 +55,31 @@
       }
     },
     "herd": {
-      "maxSize": "4",
+      "maxSize": 4,
       "toleratedLeaders": [
         {
           "pokemon": "sandile",
           "tier": 1
         },
         {
-          "pokemon": "krokorok",
+          "pokemon": "sandile sanrosan",
           "tier": 2
         },
         {
-          "pokemon": "krookodile",
+          "pokemon": "krokorok",
           "tier": 3
+        },
+        {
+          "pokemon": "krokorok sanrosan",
+          "tier": 4
+        },
+        {
+          "pokemon": "krookodile",
+          "tier": 5
+        },
+        {
+          "pokemon": "krookodile sanrosan",
+          "tier": 6
         }
       ]
     },
@@ -261,19 +273,31 @@
       }
     },
     "herd": {
-      "maxSize": "4",
+      "maxSize": 4,
       "toleratedLeaders": [
         {
           "pokemon": "sandile",
           "tier": 1
         },
         {
-          "pokemon": "krokorok",
+          "pokemon": "sandile sanrosan",
           "tier": 2
         },
         {
-          "pokemon": "krookodile",
+          "pokemon": "krokorok",
           "tier": 3
+        },
+        {
+          "pokemon": "krokorok sanrosan",
+          "tier": 4
+        },
+        {
+          "pokemon": "krookodile",
+          "tier": 5
+        },
+        {
+          "pokemon": "krookodile sanrosan",
+          "tier": 6
         }
       ]
     },

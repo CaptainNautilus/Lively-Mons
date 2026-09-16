@@ -1,0 +1,53 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "shuckle-sanrosan-1",
+            "pokemon": "shuckle sanrosan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "16-51",
+            "weight": 20.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                  "#cobblemon:is_glacial",
+                  "#cobblemon:is_frozen_ocean"
+                ]
+            }
+        },
+        {
+            "id": "shuckle-sanrosan-2",
+            "pokemon": "shuckle sanrosan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "16-51",
+            "weight": 20.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [ 
+                  "#cobblemon:is_freezing"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                  "#cobblemon:is_glacial",
+                  "#cobblemon:is_frozen_ocean",
+                  "#cobblemon:is_peak"
+                ]
+            }
+        }
+    ]
+}

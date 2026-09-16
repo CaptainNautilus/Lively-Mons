@@ -54,7 +54,20 @@
       "willDefendSelf": true,
       "willDefendOwner": true,
       "willFlee": false
-  }
+  },
+    "herd": {
+      "maxSize": 3,
+      "toleratedLeaders": [
+        {
+          "pokemon": "heracross alpha",
+          "tier": 1
+        },
+        {
+          "pokemon": "heracross sanrosan",
+          "tier": 2
+        }
+      ]
+    }
 },
   "riding": {
     "behaviours": {
@@ -371,7 +384,20 @@
       "willDefendSelf": true,
       "willDefendOwner": true,
       "willFlee": false
-  }
+  },
+    "herd": {
+      "maxSize": 3,
+      "toleratedLeaders": [
+        {
+          "pokemon": "heracross alpha",
+          "tier": 1
+        },
+        {
+          "pokemon": "heracross sanrosan",
+          "tier": 2
+        }
+      ]
+    }
 },
   "riding": {
     "behaviours": {

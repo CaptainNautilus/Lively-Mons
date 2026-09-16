@@ -1,0 +1,106 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sandile-sanrosan-herd-1",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "4-52",
+      "weight": 30.0,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#cobblemon:ruin"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "sandile sanrosan",
+          "weight": 80.0,
+          "levelRange": "7-26",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "krokorok sanrosan",
+          "weight": 18.0,
+          "levelRange": "31-31",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "krookodile sanrosan",
+          "weight": 2.0,
+          "levelRange": "41-47",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 1,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "sandile-sanrosan-herd-2",
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "5-51",
+      "weight": 50.0,
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "#aether:dungeons"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "sandile sanrosan",
+          "weight": 80.0,
+          "levelRange": "7-26",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "krokorok sanrosan",
+          "weight": 18.0,
+          "levelRange": "31-31",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "krookodile sanrosan",
+          "weight": 2.0,
+          "levelRange": "41-47",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 1,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}
