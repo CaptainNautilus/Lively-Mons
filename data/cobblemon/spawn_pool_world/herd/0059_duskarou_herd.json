@@ -1,0 +1,137 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "duskarou-herd-1",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "9-48",
+      "weight": 20.0,
+      "condition": {
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#cobblemon:is_forest",
+          "#cobblemon:is_hills",
+          "#cobblemon:is_plains",
+          "#cobblemon:is_snowy_forest",
+          "#cobblemon:is_taiga"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "duskarou",
+          "weight": 80.0,
+          "levelRange": "12-31",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "stagrion",
+          "weight": 20.0,
+          "levelRange": "36-44",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "duskarou-herd-2",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "9-48",
+      "weight": 20.0,
+      "condition": {
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#aether:is_aether"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "duskarou",
+          "weight": 80.0,
+          "levelRange": "12-31",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "stagrion",
+          "weight": 20.0,
+          "levelRange": "36-44",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "duskarou-herd-3",
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "9-48",
+      "weight": 60.0,
+      "condition": {
+        "timeRange": "night",
+        "biomes": [
+          "the_bumblezone:floral_meadow"
+        ]
+      },
+      "anticondition": {
+        "structures": [
+          "#the_bumblezone:sempiternal_sanctums"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "duskarou",
+          "weight": 80.0,
+          "levelRange": "12-31",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "stagrion",
+          "weight": 20.0,
+          "levelRange": "36-44",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+        "id": "frostnatch-1",
+        "pokemon": "frostnatch",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+        "type": "pokemon",
+        "spawnablePositionType": "grounded",
+        "bucket": "common",
+        "level": "17-34",
+        "weight": 5.4,
+        "condition": {
+          "isPokeSnack": true,
+          "timeRange": "night",
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+            "#cobblemon:is_taiga"
+          ]
+        }
+      },
+      {
+        "id": "frostnatch-2",
+        "pokemon": "frostnatch",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+        "type": "pokemon",
+        "spawnablePositionType": "grounded",
+        "bucket": "common",
+        "level": "17-34",
+        "weight": 9.0,
+        "condition": {
+          "isPokeSnack": true,
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+            "#cobblemon:is_sky",
+            "#cobblemon:is_snowy_taiga"
+          ]
+        },
+        "anticondition": {
+          "biomes": [
+              "#cobblemon:is_arid"
+          ]
+        }
+      }
+    ]
+  }

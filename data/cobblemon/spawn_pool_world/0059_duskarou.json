@@ -1,0 +1,81 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "duskarou-1",
+            "pokemon": "duskarou",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "9-34",
+            "weight": 18.0,
+            "condition": {
+                "timeRange": "night",
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_snowy_forest",
+                    "#cobblemon:is_taiga"
+                ],
+                "isPokeSnack": true
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        },
+        {
+            "id": "duskarou-2",
+            "pokemon": "duskarou",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "9-34",
+            "weight": 18.0,
+            "condition": {
+                "timeRange": "night",
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#aether:is_aether"
+                ],
+                "isPokeSnack": true
+            }
+        },
+        {
+            "id": "duskarou-3",
+            "pokemon": "duskarou",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "9-34",
+            "weight": 50.4,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "the_bumblezone:floral_meadow"
+                ],
+                "isPokeSnack": true
+            },
+            "anticondition": {
+                "structures": [
+                    "#the_bumblezone:sempiternal_sanctums"
+                ]
+            }
+        }
+    ]
+}
