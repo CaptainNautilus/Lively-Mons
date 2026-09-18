@@ -1,0 +1,256 @@
+{
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "malarach-alpha-1",
+            "presets": [
+                "redstone"
+            ],
+            "type": "pokemon-herd",
+            "bucket": "boss",
+            "spawnablePositionType": "grounded",
+            "maxHerdSize": 8,
+            "levelRange": "28-100",
+            "weight": 80.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            },
+            "herdablePokemon": [
+                {
+                    "pokemon": "malarach held_item=cobblemon:electric_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                },
+                {
+                    "pokemon": "glitchit",
+                    "weight": 90.0,
+                    "levelRange": "13-32",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                },
+                {
+                    "pokemon": "malarach",
+                    "weight": 120.0,
+                    "levelRange": "32-43",
+                    "levelRangeOffset": "-2-4",
+                    "maxTimes": 5,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        },
+        {
+            "id": "malarach-alpha-2",
+            "presets": [
+                "urban"
+            ],
+            "type": "pokemon-herd",
+            "bucket": "boss",
+            "spawnablePositionType": "grounded",
+            "maxHerdSize": 8,
+            "levelRange": "28-100",
+            "weight": 80.0,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "herdablePokemon": [
+                {
+                    "pokemon": "malarach held_item=cobblemon:electric_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                },
+                {
+                    "pokemon": "glitchit",
+                    "weight": 90.0,
+                    "levelRange": "13-32",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                },
+                {
+                    "pokemon": "malarach",
+                    "weight": 120.0,
+                    "levelRange": "32-43",
+                    "levelRangeOffset": "-2-4",
+                    "maxTimes": 5,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        },
+        {
+            "id": "malarach-alpha-3",
+            "type": "pokemon-herd",
+            "bucket": "boss",
+            "spawnablePositionType": "grounded",
+            "maxHerdSize": 8,
+            "levelRange": "28-100",
+            "weight": 80.0,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "cobblemon:pc"
+                ]
+            },
+            "herdablePokemon": [
+                {
+                    "pokemon": "malarach held_item=cobblemon:electric_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                },
+                {
+                    "pokemon": "glitchit",
+                    "weight": 90.0,
+                    "levelRange": "13-32",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                },
+                {
+                    "pokemon": "malarach",
+                    "weight": 120.0,
+                    "levelRange": "32-43",
+                    "levelRangeOffset": "-2-4",
+                    "maxTimes": 5,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        },
+        {
+            "id": "malarach-alpha-4",
+            "type": "pokemon-herd",
+            "bucket": "boss",
+            "spawnablePositionType": "grounded",
+            "maxHerdSize": 8,
+            "levelRange": "28-100",
+            "weight": 80.0,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "cobblemon:monitor"
+                ]
+            },
+            "herdablePokemon": [
+                {
+                    "pokemon": "malarach held_item=cobblemon:electric_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                },
+                {
+                    "pokemon": "glitchit",
+                    "weight": 90.0,
+                    "levelRange": "13-32",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                },
+                {
+                    "pokemon": "malarach",
+                    "weight": 120.0,
+                    "levelRange": "32-43",
+                    "levelRangeOffset": "-2-4",
+                    "maxTimes": 5,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        },
+        {
+            "id": "malarach-alpha-5",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon-herd",
+            "bucket": "boss",
+            "spawnablePositionType": "grounded",
+            "maxHerdSize": 8,
+            "levelRange": "28-100",
+            "weight": 80.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end"
+                ]
+            },
+            "herdablePokemon": [
+                {
+                    "pokemon": "malarach held_item=cobblemon:electric_gem alpha=true",
+                    "weight": 30.0,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "isLeader": true,
+                    "isFollower": false
+                },
+                {
+                    "pokemon": "glitchit",
+                    "weight": 90.0,
+                    "levelRange": "13-32",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                },
+                {
+                    "pokemon": "malarach",
+                    "weight": 120.0,
+                    "levelRange": "32-43",
+                    "levelRangeOffset": "-2-4",
+                    "maxTimes": 5,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }
+    ]
+}

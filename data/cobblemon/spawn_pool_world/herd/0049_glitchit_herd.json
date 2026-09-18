@@ -1,0 +1,171 @@
+{
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "glitchit-herd-1",
+            "presets": [
+                "redstone"
+            ],
+            "type": "pokemon-herd",
+            "bucket": "uncommon",
+            "spawnablePositionType": "grounded",
+            "maxHerdSize": 7,
+            "levelRange": "8-33",
+            "weight": 920.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            },
+            "herdablePokemon": [
+                {
+                    "pokemon": "glitchit",
+                    "weight": 80.0,
+                    "levelRange": "11-30",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        },
+        {
+            "id": "glitchit-herd-2",
+            "presets": [
+                "urban"
+            ],
+            "type": "pokemon-herd",
+            "bucket": "uncommon",
+            "spawnablePositionType": "grounded",
+            "maxHerdSize": 7,
+            "levelRange": "8-33",
+            "weight": 92.0,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "herdablePokemon": [
+                {
+                    "pokemon": "glitchit",
+                    "weight": 80.0,
+                    "levelRange": "11-30",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        },
+        {
+            "id": "glitchit-herd-3",
+            "type": "pokemon-herd",
+            "bucket": "uncommon",
+            "spawnablePositionType": "grounded",
+            "maxHerdSize": 7,
+            "levelRange": "8-33",
+            "weight": 55.2,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "cobblemon:pc"
+                ]
+            },
+            "herdablePokemon": [
+                {
+                    "pokemon": "glitchit",
+                    "weight": 80.0,
+                    "levelRange": "11-30",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        },
+        {
+            "id": "glitchit-herd-4",
+            "type": "pokemon-herd",
+            "bucket": "uncommon",
+            "spawnablePositionType": "grounded",
+            "maxHerdSize": 7,
+            "levelRange": "8-33",
+            "weight": 92.0,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "cobblemon:monitor"
+                ]
+            },
+            "herdablePokemon": [
+                {
+                    "pokemon": "glitchit",
+                    "weight": 80.0,
+                    "levelRange": "11-30",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        },
+        {
+            "id": "glitchit-herd-5",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon-herd",
+            "bucket": "uncommon",
+            "spawnablePositionType": "grounded",
+            "maxHerdSize": 7,
+            "levelRange": "8-33",
+            "weight": 92.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end"
+                ]
+            },
+            "herdablePokemon": [
+                {
+                    "pokemon": "glitchit",
+                    "weight": 80.0,
+                    "levelRange": "11-30",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "isLeader": false,
+                    "isFollower": true
+                }
+            ]
+        }
+    ]
+}

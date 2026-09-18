@@ -160,7 +160,7 @@
     "requirements": [
       {
         "variant": "level",
-        "minLevel": 48
+        "minLevel": 42
       }
     ]
   }

@@ -152,7 +152,7 @@
     "requirements": [
       {
         "variant": "level",
-        "minLevel": 31
+        "minLevel": 32
       }
     ]
   }
@@ -192,7 +192,7 @@
             "rouseChance": 0.0042
           },
     "herd": {
-      "maxSize": 3,
+      "maxSize": 2,
       "toleratedLeaders": [
         {
           "pokemon": "slimara",

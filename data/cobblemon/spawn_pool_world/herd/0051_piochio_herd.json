@@ -1,0 +1,147 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "piochio-herd-1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "2-46",
+      "weight": 60.0,
+      "condition": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_overworld"
+          ],
+          "structures": [
+              "#minecraft:village"
+          ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_arid"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "piochio",
+          "weight": 80.0,
+          "levelRange": "5-18",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "thunkoo",
+          "weight": 20.0,
+          "levelRange": "24-42",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "piochio-herd-2",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "2-46",
+      "weight": 60.0,
+      "condition": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_overworld"
+          ],
+          "neededNearbyBlocks": [
+              "create:cogwheel",
+              "create:large_cogwheel",
+              "create:gearbox",
+              "create:vertical_gearbox"
+          ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_arid"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "piochio",
+          "weight": 80.0,
+          "levelRange": "5-18",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "thunkoo",
+          "weight": 20.0,
+          "levelRange": "24-42",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "piochio-herd-3",
+      "presets": [
+        "redstone"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "2-46",
+      "weight": 600.0,
+       "condition": {
+           "minSkyLight": 8,
+           "maxSkyLight": 15,
+           "biomes": [
+               "#cobblemon:is_overworld"
+           ]
+       },
+       "anticondition": {
+           "biomes": [
+               "#cobblemon:is_arid"
+           ]
+       },
+      "herdablePokemon": [
+        {
+          "pokemon": "piochio",
+          "weight": 80.0,
+          "levelRange": "5-18",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "thunkoo",
+          "weight": 20.0,
+          "levelRange": "24-42",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

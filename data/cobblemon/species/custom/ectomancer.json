@@ -200,10 +200,10 @@
             "rouseChance": 0.0042
           },
     "herd": {
-      "maxSize": 3,
+      "maxSize": 4,
       "toleratedLeaders": [
         {
-          "pokemon": "ectomancer",
+          "pokemon": "ectomancer alpha",
           "tier": 1
         }
       ]

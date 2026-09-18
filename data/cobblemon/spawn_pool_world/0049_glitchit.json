@@ -4,17 +4,18 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "malarach-1",
-            "pokemon": "malarach",
+            "id": "glitchit-1",
+            "pokemon": "glitchit",
             "presets": [
                 "redstone"
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "30-47",
-            "weight": 15.2,
+            "level": "8-33",
+            "weight": 920.0,
             "condition": {
+                "isPokeSnack": true,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ]
@@ -26,13 +27,16 @@
             }
         },
         {
-            "id": "malarach-2",
-            "pokemon": "malarach",
+            "id": "glitchit-2",
+            "pokemon": "glitchit",
+            "presets": [
+                "urban"
+            ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "common",
-            "level": "30-47",
-            "weight": 0.19,
+            "bucket": "uncommon",
+            "level": "8-33",
+            "weight": 92.0,
             "weightMultiplier": {
                 "multiplier": 5.0,
                 "condition": {
@@ -40,25 +44,30 @@
                 }
             },
             "condition": {
+                "isPokeSnack": true,
                 "minSkyLight": 8,
                 "maxSkyLight": 15,
                 "biomes": [
                     "#cobblemon:is_overworld"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:lightning_rod"
                 ]
             }
         },
         {
-            "id": "malarach-3",
-            "pokemon": "malarach",
+            "id": "glitchit-3",
+            "pokemon": "glitchit",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "30-47",
-            "weight": 0.72,
+            "level": "8-33",
+            "weight": 55.2,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
             "condition": {
+                "isPokeSnack": true,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ],
@@ -68,13 +77,13 @@
             }
         },
         {
-            "id": "malarach-4",
-            "pokemon": "malarach",
+            "id": "glitchit-4",
+            "pokemon": "glitchit",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "common",
-            "level": "30-47",
-            "weight": 0.42,
+            "bucket": "uncommon",
+            "level": "8-33",
+            "weight": 92.0,
             "weightMultiplier": {
                 "multiplier": 5.0,
                 "condition": {
@@ -82,11 +91,30 @@
                 }
             },
             "condition": {
+                "isPokeSnack": true,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ],
                 "neededNearbyBlocks": [
                     "cobblemon:monitor"
+                ]
+            }
+        },
+        {
+            "id": "glitchit-5",
+            "pokemon": "glitchit",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "8-33",
+            "weight": 92.0,
+            "condition": {
+                "isPokeSnack": true,
+                "biomes": [
+                    "#cobblemon:is_end"
                 ]
             }
         }

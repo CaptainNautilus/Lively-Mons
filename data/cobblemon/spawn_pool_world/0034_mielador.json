@@ -46,7 +46,8 @@
                     "#cobblemon:saccharine_trees"
                 ],
                 "biomes": [
-                    "#cobblemon:is_volcanic"
+                    "#cobblemon:is_volcanic",
+                    "#cobblemon:is_freezing"
                 ]
             }
         },

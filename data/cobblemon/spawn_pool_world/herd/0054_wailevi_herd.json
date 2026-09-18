@@ -1,0 +1,47 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "wailevi-herd-1",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 5,
+      "levelRange": "15-50",
+      "weight": 20.0,
+      "condition": {
+          "canSeeSky": true,
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_peak"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "wailevi",
+          "weight": 80.0,
+          "levelRange": "18-37",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "levilord",
+          "weight": 20.0,
+          "levelRange": "42-46",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

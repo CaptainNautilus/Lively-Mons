@@ -1580,7 +1580,7 @@
           "canWalkOnWater": true
         },
         "walk": {
-          "wanderChance": 1
+          "canWalk": false
         }
       },
           "resting": {
@@ -1593,7 +1593,7 @@
       "willDefendOwner": true
     },
     "herd": {
-      "maxSize": 8,
+      "maxSize": 7,
       "toleratedLeaders": [
         {
           "pokemon": "levilord",

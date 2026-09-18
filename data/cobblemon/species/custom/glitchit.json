@@ -67,7 +67,7 @@
       }
     },
     "herd": {
-      "maxSize": 5,
+      "maxSize": 9,
       "toleratedLeaders": [
         {
           "pokemon": "glitchit",
