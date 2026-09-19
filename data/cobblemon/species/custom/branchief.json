@@ -288,6 +288,7 @@
       ]
     },
     "combat": {
+      "fightsMelee": true,
       "willDefendSelf": true,
       "willDefendOwner": true,
       "willFlee": false
@@ -298,5 +299,19 @@
             "drowsyChance": 0.0333,
             "rouseChance": 0.0042
     }
-  }
+  },
+  "ai": [
+    {
+      "type": "cobblemon:add_tasks_to_activity",
+      "activity": "idle",
+      "tasksByPriority": {
+        "7": [
+          {
+            "type": "cobblemon:hate_entity",
+            "entityCondition": "q.entity.is_pokemon && q.entity.species.identifier == 'cobblemon:keenai || q.entity.species.identifier == 'cobblemon:sajonin'"
+          }
+        ]
+      }
+    }
+  ]
 }

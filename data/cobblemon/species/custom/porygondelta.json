@@ -218,5 +218,9 @@
     "tm:venoshock"
   ],
   "preEvolution": "porygon2",
-  "evolutions": []
+  "evolutions": [],
+  "lightingData": {
+    "lightLevel": 10,
+    "liquidGlowMode": "BOTH"
+  }
 }

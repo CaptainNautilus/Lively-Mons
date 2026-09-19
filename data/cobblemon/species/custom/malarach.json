@@ -262,5 +262,9 @@
     "egg:lockon"
   ],
   "preEvolution": "glitchit",
-  "evolutions": []
+  "evolutions": [],
+  "lightingData": {
+    "lightLevel": 14,
+    "liquidGlowMode": "BOTH"
+  }
 }
