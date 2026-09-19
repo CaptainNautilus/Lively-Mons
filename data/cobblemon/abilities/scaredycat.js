@@ -33,6 +33,5 @@
   },
   flags: { breakable: 1, failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, cantsuppress: 1 },
   name: "Scaredy Cat",
-  rating: 3,
-  num: -1
+  rating: 3
 }

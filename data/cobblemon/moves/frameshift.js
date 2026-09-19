@@ -1,5 +1,4 @@
 ({
-	num: 10140,
     accuracy: 100,
     basePower: 80,
     category: "Special",
@@ -47,7 +46,6 @@
         }
         const typeText = newTypes.join(" / ");
         this.add(
-            "-message",
             `${target.name}'s type was randomized to ${typeText}!`
         );
 

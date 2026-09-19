@@ -16,6 +16,5 @@ onAnyTryHit(target, source, move) {
 },
 	flags: {breakable: 1},
 	name: "Acoustics",
-	rating: 3.5,
-	num: 292,
+	rating: 3.5
 }

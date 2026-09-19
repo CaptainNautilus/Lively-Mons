@@ -6,6 +6,5 @@
     },
     flags: {},
     name: "Blowout",
-    rating: 3.5,
-    num: 62
+    rating: 3.5
 }

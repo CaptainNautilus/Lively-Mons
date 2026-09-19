@@ -1,5 +1,4 @@
 {
-	num: 10134,
 	accuracy: 100,
     basePower: 30,
     category: "Special",

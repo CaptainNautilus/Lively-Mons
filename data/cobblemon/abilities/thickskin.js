@@ -12,6 +12,5 @@
     },
     flags: { breakable: 1 },
     name: "Thick Skin",
-    rating: 3.5,
-    num: 292
+    rating: 3.5
 }

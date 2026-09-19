@@ -11,6 +11,5 @@
     },
     flags: {},
     name: "Burning Passion",
-    rating: 3.5,
-    num: 62
+    rating: 3.5
 }
