@@ -204,6 +204,15 @@
     },
     "combat": {
       "willDefendOwner": true
+    },
+    "herd": {
+      "maxSize": 9,
+      "toleratedLeaders": [
+        {
+          "pokemon": "budabon",
+          "tier": 1
+        }
+      ]
     }
   },
  "forms": [

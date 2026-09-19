@@ -1,0 +1,749 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "budabon-alpha-1",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "14-100",
+      "weight": 80.0,
+      "weightMultiplier": {
+          "multiplier": 10.0,
+          "condition": {
+          "neededNearbyBlocks": [
+              "#minecraft:saplings"
+              ]
+          }
+      },
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+            "#cobblemon:is_floral"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "budabon kantonian held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "budabon kantonian",
+          "weight": 80.0,
+          "levelRange": "19-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "budabon-alpha-2",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "14-100",
+      "weight": 80.0,
+      "weightMultiplier": {
+          "multiplier": 10.0,
+          "condition": {
+          "neededNearbyBlocks": [
+              "#minecraft:saplings"
+              ]
+          }
+      },
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+            "#cobblemon:has_block/birch_log"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "budabon johtonian held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "budabon johtonian",
+          "weight": 80.0,
+          "levelRange": "19-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "budabon-alpha-3",
+      "presets": [
+        "foliage",
+        "treetop",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "14-100",
+      "weight": 80.0,
+      "weightMultiplier": {
+          "multiplier": 10.0,
+          "condition": {
+          "neededNearbyBlocks": [
+              "#minecraft:saplings"
+              ]
+          }
+      },
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+            "#cobblemon:is_jungle"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "budabon hoennian held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "budabon hoennian",
+          "weight": 80.0,
+          "levelRange": "19-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "budabon-alpha-4",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "14-100",
+      "weight": 80.0,
+      "weightMultiplier": {
+          "multiplier": 10.0,
+          "condition": {
+          "neededNearbyBlocks": [
+              "#minecraft:saplings"
+              ]
+          }
+      },
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+            "#cobblemon:is_freezing"
+        ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_mountain",
+              "#cobblemon:is_ocean",
+              "#cobblemon:is_coast"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "budabon sinnohan held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "budabon sinnohan",
+          "weight": 80.0,
+          "levelRange": "19-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "budabon-alpha-5",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "14-100",
+      "weight": 80.0,
+      "weightMultiplier": {
+          "multiplier": 10.0,
+          "condition": {
+          "neededNearbyBlocks": [
+              "#minecraft:saplings"
+              ]
+          }
+      },
+      "condition": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_overworld"
+          ],
+          "structures": [
+              "#minecraft:village"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "budabon unovan held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "budabon unovan",
+          "weight": 80.0,
+          "levelRange": "19-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "budabon-alpha-6",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "14-100",
+      "weight": 80.0,
+      "weightMultiplier": {
+          "multiplier": 10.0,
+          "condition": {
+          "neededNearbyBlocks": [
+              "#minecraft:saplings"
+              ]
+          }
+      },
+      "condition": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_hills"
+          ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_freezing"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "budabon kalosian held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "budabon kalosian",
+          "weight": 80.0,
+          "levelRange": "19-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "budabon-alpha-7",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "14-100",
+      "weight": 80.0,
+      "weightMultiplier": {
+          "multiplier": 10.0,
+          "condition": {
+          "neededNearbyBlocks": [
+              "#minecraft:saplings"
+              ]
+          }
+      },
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+            "#cobblemon:is_beach",
+            "#cobblemon:is_tropical_island"
+        ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_cold"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "budabon alolan held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "budabon alolan",
+          "weight": 80.0,
+          "levelRange": "19-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "budabon-alpha-8",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "14-100",
+      "weight": 80.0,
+      "weightMultiplier": {
+          "multiplier": 10.0,
+          "condition": {
+          "neededNearbyBlocks": [
+              "#minecraft:saplings"
+              ]
+          }
+      },
+      "condition": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_overworld"
+          ],
+          "structures": [
+              "#cobblemon:ruin"
+          ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_arid",
+              "#cobblemon:is_jungle"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "budabon galarian held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "budabon galarian",
+          "weight": 80.0,
+          "levelRange": "19-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "budabon-alpha-9",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "14-100",
+      "weight": 80.0,
+      "weightMultiplier": {
+          "multiplier": 10.0,
+          "condition": {
+          "neededNearbyBlocks": [
+              "#minecraft:saplings"
+              ]
+          }
+      },
+      "condition": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_spooky"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "budabon hisuian held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "budabon hisuian",
+          "weight": 80.0,
+          "levelRange": "19-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "budabon-alpha-10",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "14-100",
+      "weight": 80.0,
+      "weightMultiplier": {
+          "multiplier": 10.0,
+          "condition": {
+          "neededNearbyBlocks": [
+              "#minecraft:saplings"
+              ]
+          }
+      },
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+            "#cobblemon:is_savanna"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "budabon paldean held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "budabon paldean",
+          "weight": 80.0,
+          "levelRange": "19-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "budabon-alpha-11",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "14-100",
+      "weight": 80.0,
+      "weightMultiplier": {
+          "multiplier": 10.0,
+          "condition": {
+          "neededNearbyBlocks": [
+              "#minecraft:saplings"
+              ]
+          }
+      },
+      "condition": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_sandy"
+          ]
+      },
+      "anticondition": {
+          "biomes": [
+              "#cobblemon:is_coast"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "budabon sanrosan held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "budabon sanrosan",
+          "weight": 80.0,
+          "levelRange": "19-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "budabon-alpha-12",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "14-100",
+      "weight": 80.0,
+      "weightMultiplier": {
+          "multiplier": 10.0,
+          "condition": {
+          "neededNearbyBlocks": [
+              "#minecraft:saplings"
+              ]
+          }
+      },
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+            "#cobblemon:is_magical"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "budabon lumoran held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "budabon lumoran",
+          "weight": 80.0,
+          "levelRange": "19-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "budabon-alpha-13",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "14-100",
+      "weight": 80.0,
+      "weightMultiplier": {
+          "multiplier": 10.0,
+          "condition": {
+          "neededNearbyBlocks": [
+              "#minecraft:saplings"
+              ]
+          }
+      },
+      "condition": {
+          "minSkyLight": 0,
+          "maxSkyLight": 7,
+          "biomes": [
+              "#cobblemon:is_lush"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "budabon lush held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "budabon lush",
+          "weight": 80.0,
+          "levelRange": "19-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "budabon-alpha-14",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "14-100",
+      "weight": 80.0,
+      "weightMultiplier": {
+          "multiplier": 10.0,
+          "condition": {
+          "neededNearbyBlocks": [
+              "#minecraft:saplings"
+              ]
+          }
+      },
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+            "#cobblemon:is_jungle"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "budabon alatian held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "budabon alatian",
+          "weight": 80.0,
+          "levelRange": "19-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "budabon-alpha-15",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "14-100",
+      "weight": 80.0,
+      "weightMultiplier": {
+          "multiplier": 10.0,
+          "condition": {
+          "neededNearbyBlocks": [
+              "#minecraft:saplings"
+              ]
+          }
+      },
+      "condition": {
+          "minSkyLight": 8,
+          "maxSkyLight": 15,
+          "biomes": [
+              "#cobblemon:is_overworld"
+          ],
+          "neededNearbyBlocks": [
+              "minecraft:allium"
+          ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "budabon jetian held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "budabon jetian",
+          "weight": 80.0,
+          "levelRange": "19-38",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}
