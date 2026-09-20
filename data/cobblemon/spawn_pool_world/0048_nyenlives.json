@@ -12,15 +12,23 @@
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "uncommon",
+            "bucket": "rare",
             "level": "23-48",
-            "weight": 60.0,
-            "weightMultiplier": {
+            "weight": 100.0,
+            "weightMultipliers": [
+              {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "day"
+                }
+              },
+              {
                 "multiplier": 2.0,
                 "condition": {
-                    "timeRange": "night"
+                    "canSeeSky": false
                 }
-            },
+              }
+            ],
             "condition": {
                 "minSkyLight": 8,
                 "maxSkyLight": 15,
@@ -33,33 +41,6 @@
             "id": "nyenlives-2",
             "pokemon": "nyenlives",
             "presets": [
-                "natural",
-                "urban"
-            ],
-            "type": "pokemon",
-            "spawnablePositionType": "grounded",
-            "bucket": "common",
-            "level": "23-48",
-            "weight": 60.0,
-            "weightMultiplier": {
-                "multiplier": 2.0,
-                "condition": {
-                    "timeRange": "night"
-                }
-            },
-            "condition": {
-                "canSeeSky": false,
-                "minSkyLight": 8,
-                "maxSkyLight": 15,
-                "biomes": [
-                    "#cobblemon:is_overworld"
-                ]
-            }
-        },
-        {
-            "id": "nyenlives-3",
-            "pokemon": "nyenlives",
-            "presets": [
                 "natural"
             ],
             "type": "pokemon",
@@ -67,42 +48,21 @@
             "bucket": "rare",
             "level": "23-48",
             "weight": 60.0,
-            "weightMultiplier": {
+            "weightMultipliers": [
+              {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "day"
+                }
+              },
+              {
                 "multiplier": 2.0,
                 "condition": {
-                    "timeRange": "night"
+                    "canSeeSky": false
                 }
-            },
-            "condition": {
-                "minSkyLight": 8,
-                "maxSkyLight": 15,
-                "biomes": [
-                    "#cobblemon:is_overworld"
-                ],
-                "structures": [
-                    "#minecraft:village"
-                ]
-            }
-        },
-        {
-            "id": "nyenlives-4",
-            "pokemon": "nyenlives",
-            "presets": [
-                "natural"
+              }
             ],
-            "type": "pokemon",
-            "spawnablePositionType": "grounded",
-            "bucket": "uncommon",
-            "level": "23-48",
-            "weight": 60.0,
-            "weightMultiplier": {
-                "multiplier": 2.0,
-                "condition": {
-                    "timeRange": "night"
-                }
-            },
             "condition": {
-                "canSeeSky": false,
                 "minSkyLight": 8,
                 "maxSkyLight": 15,
                 "biomes": [

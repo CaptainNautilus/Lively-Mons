@@ -186,15 +186,33 @@
           {
             "muffleEnabled": true,
             "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
-            "playForNonPassengers": true,
-            "soundLocation": "cobblemon:ride.loop.wind",
+            "playForNonPassengers": false,
+            "playForPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.wind.stereo",
             "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
           },
           {
             "muffleEnabled": true,
-            "pitchExpr": "math.pow(math.min(math.max(0.5,(q.ride_velocity()*0.5 / 1.5) + 0.5), 1.0),2)",
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
             "playForNonPassengers": true,
-            "soundLocation": "cobblemon:ride.loop.saucer",
+            "playForPassengers": false,
+            "soundLocation": "cobblemon:ride.loop.wind.mono",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          },
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": false,
+            "playForPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.saucer.stereo",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          },
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": true,
+            "playForPassengers": false,
+            "soundLocation": "cobblemon:ride.loop.saucer.mono",
             "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
           }
         ],
@@ -209,7 +227,34 @@
       "LIQUID": {
         "key": "cobblemon:liquid/submarine",
         "hitboxBreachPercentage": 0.9,
-        "rideSounds": [],
+        "rideSounds": [
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": false,
+            "playForPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.water_surface.stereo",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          },
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": true,
+            "playForPassengers": false,
+            "soundLocation": "cobblemon:ride.loop.water_surface.mono",
+            "submerged": false,
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          },
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": false,
+            "playForPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.underwater.stereo",
+            "submerged": true,
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          }
+        ],
         "stats": {
           "ACCELERATION": "25-40",
           "JUMP": "50-75",
@@ -221,320 +266,7 @@
     },
     "seats": [
       {
-        "offset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        "poseOffsets": [
-          {
-            "offset": {
-              "x": -0.0007805396,
-              "y": -1.2943133,
-              "z": -0.40744212
-            },
-            "poseTypes": [
-              "STAND"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.03168701,
-              "y": -1.443021,
-              "z": -0.38566333
-            },
-            "poseTypes": [
-              "WALK"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.0007733833,
-              "y": -1.4106412,
-              "z": -0.3683446
-            },
-            "poseTypes": [
-              "HOVER"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.0007733833,
-              "y": -1.4106412,
-              "z": -0.4224712
-            },
-            "poseTypes": [
-              "FLY"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.0007733833,
-              "y": -1.4106412,
-              "z": -0.3683446
-            },
-            "poseTypes": [
-              "FLOAT"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.0007733833,
-              "y": -1.4106412,
-              "z": -0.4224712
-            },
-            "poseTypes": [
-              "SWIM"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.0007733833,
-              "y": -1.4106412,
-              "z": -0.3683446
-            },
-            "poseTypes": [
-              "GLIDE"
-            ]
-          }
-        ]
-      },
-      {
-        "offset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        "poseOffsets": [
-          {
-            "offset": {
-              "x": 0.37363234,
-              "y": -1.3079666,
-              "z": -0.03210418
-            },
-            "poseTypes": [
-              "STAND"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.4100101,
-              "y": -1.4489274,
-              "z": -0.014063157
-            },
-            "poseTypes": [
-              "WALK"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.37576288,
-              "y": -1.4043188,
-              "z": 0.0066125556
-            },
-            "poseTypes": [
-              "HOVER"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.37576288,
-              "y": -1.4043188,
-              "z": -0.04751403
-            },
-            "poseTypes": [
-              "FLY"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.37576288,
-              "y": -1.4043188,
-              "z": 0.0066125556
-            },
-            "poseTypes": [
-              "FLOAT"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.37576288,
-              "y": -1.4043188,
-              "z": -0.04751403
-            },
-            "poseTypes": [
-              "SWIM"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.37576288,
-              "y": -1.4043188,
-              "z": 0.0066125556
-            },
-            "poseTypes": [
-              "GLIDE"
-            ]
-          }
-        ]
-      },
-      {
-        "offset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        "poseOffsets": [
-          {
-            "offset": {
-              "x": -0.3763659,
-              "y": -1.3068329,
-              "z": -0.033237804
-            },
-            "poseTypes": [
-              "STAND"
-            ]
-          },
-          {
-            "offset": {
-              "x": -0.33993268,
-              "y": -1.4554721,
-              "z": -0.0075182593
-            },
-            "poseTypes": [
-              "WALK"
-            ]
-          },
-          {
-            "offset": {
-              "x": -0.3742359,
-              "y": -1.4056278,
-              "z": 0.0066125556
-            },
-            "poseTypes": [
-              "HOVER"
-            ]
-          },
-          {
-            "offset": {
-              "x": -0.3742359,
-              "y": -1.4056278,
-              "z": -0.04751403
-            },
-            "poseTypes": [
-              "FLY"
-            ]
-          },
-          {
-            "offset": {
-              "x": -0.3742359,
-              "y": -1.4056278,
-              "z": 0.0066125556
-            },
-            "poseTypes": [
-              "FLOAT"
-            ]
-          },
-          {
-            "offset": {
-              "x": -0.3742359,
-              "y": -1.4056278,
-              "z": -0.04751403
-            },
-            "poseTypes": [
-              "SWIM"
-            ]
-          },
-          {
-            "offset": {
-              "x": -0.3742359,
-              "y": -1.4056278,
-              "z": 0.0066125556
-            },
-            "poseTypes": [
-              "GLIDE"
-            ]
-          }
-        ]
-      },
-      {
-        "offset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        "poseOffsets": [
-          {
-            "offset": {
-              "x": -0.0019530337,
-              "y": -1.3204862,
-              "z": 0.3421001
-            },
-            "poseTypes": [
-              "STAND"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.038390387,
-              "y": -1.4613783,
-              "z": 0.36408192
-            },
-            "poseTypes": [
-              "WALK"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.000753602,
-              "y": -1.3993053,
-              "z": 0.38156968
-            },
-            "poseTypes": [
-              "HOVER"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.000753602,
-              "y": -1.3993053,
-              "z": 0.3274431
-            },
-            "poseTypes": [
-              "FLY"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.000753602,
-              "y": -1.3993053,
-              "z": 0.38156968
-            },
-            "poseTypes": [
-              "FLOAT"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.000753602,
-              "y": -1.3993053,
-              "z": 0.3274431
-            },
-            "poseTypes": [
-              "SWIM"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.000753602,
-              "y": -1.3993053,
-              "z": 0.38156968
-            },
-            "poseTypes": [
-              "GLIDE"
-            ]
-          }
-        ]
+        "locator": "seat_1"
       }
     ]
   },
