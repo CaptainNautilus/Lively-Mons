@@ -14,7 +14,7 @@
 		},
 		"frame": "challenge"
 	},
-	"parent": "cobblemon:first_catch",
+	"parent": "cobblemon:catching/craft_pokedex",
 	"criteria": {
 		"kantonian": {
 			"trigger": "cobblemon:aspects_collected",
