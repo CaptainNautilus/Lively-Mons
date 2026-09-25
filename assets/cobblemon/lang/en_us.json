@@ -320,7 +320,7 @@
     "cobblemon.move.fungalinfection.desc": "The user contaminates the target with its spores. If the targer was suffering from a non-volatile status condition, it is replaced with sleep.",
 
     "cobblemon.move.huntinghour": "Hunting Hour",
-    "cobblemon.move.huntinghour.desc": "The user rallies its ally to join its hunt. The target's Special Attack, Special Defence, and Critical Hit Chance are all raised. This move usually goes first.",
+    "cobblemon.move.huntinghour.desc": "The user rallies its ally to join its hunt. The target's Special Attack and Special Defence are both raised. This move usually goes first, but cannot be used twice in a row.",
 
     "cobblemon.move.hypothermicblow": "Hypothermic Blow",
     "cobblemon.move.hypothermicblow.desc": "The user flash freezes the target with a mere touch, causing its skin to sear. This may also leave the target with a burn.",

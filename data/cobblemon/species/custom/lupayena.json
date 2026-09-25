@@ -10,10 +10,10 @@
   ],
   "preEvolution":"mightyena",
   "baseStats": {
-    "hp": 75,
-    "attack": 90,
+    "hp": 90,
+    "attack": 80,
     "defence": 85,
-    "special_attack": 120,
+    "special_attack": 115,
     "special_defence": 60,
     "speed": 90
   },

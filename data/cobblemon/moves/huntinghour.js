@@ -6,7 +6,6 @@
     pp: 5,
     priority: 1,
     flags: { snatch: 1, sound: 1, metronome: 1, cantusetwice: 1 },
-    volatileStatus: "focusenergy",
     boosts: {
       spa: 1,
       spd: 1
