@@ -1,6 +1,6 @@
 {
 	accuracy: 95,
-  basePower: 45,
+  basePower: 60,
   category: "Physical",
   name: "Conflagration",
   pp: 15,
