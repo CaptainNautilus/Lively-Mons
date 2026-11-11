@@ -356,7 +356,7 @@
     "cobblemon.move.frameshift.desc": "The user mutates the genes of the opposing Pokémon, randomizing the target's typing.",
 
     "cobblemon.move.jumpscare": "Jumpscare",
-    "cobblemon.move.jumpscare.desc": "The user emerges out of its box suddenly and scares an opponent. This move always flinches the target, and torments them, but can only be used on the first turn the user enters battle.",
+    "cobblemon.move.jumpscare.desc": "The user suddenly emerges out of its box and badly startles an opponent. This move always flinches and torments the target, but can only be used on the first turn the user enters battle.",
 
     "cobblemon.battle.heal.honeypot": "%1$s restored HP from its Honey Pot!",
     "cobblemon.battle.activate.honeypot": "",
