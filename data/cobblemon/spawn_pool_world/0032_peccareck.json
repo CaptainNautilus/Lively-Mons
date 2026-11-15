@@ -41,14 +41,13 @@
             "id": "peccareck-2",
             "pokemon": "peccareck",
             "presets": [
-                "natural",
-                "pillager_outpost"
+                "natural"
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "30-51",
-            "weight": 5.0,
+            "weight": 50.0,
             "weightMultiplier": {
                 "multiplier": 2.0,
                 "condition": {
@@ -56,6 +55,10 @@
                 }
             },
             "condition": {
+                "structures": [
+                    "#cobblemon:spawns/is_illager_outpost"
+                ],
+                "minY": 62,
                 "minSkyLight": 8,
                 "maxSkyLight": 15,
                 "biomes": [
@@ -93,8 +96,7 @@
             "id": "peccareck-4",
             "pokemon": "peccareck",
             "presets": [
-                "natural",
-                "nether_structures"
+                "natural"
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
@@ -110,7 +112,10 @@
             "condition": {
                 "biomes": [
                     "#minecraft:is_nether"
-                ]
+                ],
+          "structures": [
+              "#cobblemon:spawns/is_nether_structure"
+          ]
             }
         },
         {

@@ -83,7 +83,7 @@
             "#cobblemon:is_temperate"
                 ],
                 "structures": [
-                    "#minecraft:village"
+                    "#cobblemon:spawns/is_civilization"
                 ]
             },
             "anticondition": {
@@ -173,7 +173,7 @@
             "#cobblemon:is_temperate"
                 ],
                 "structures": [
-                    "#minecraft:village"
+                    "#cobblemon:spawns/is_civilization"
                 ]
             },
             "anticondition": {

@@ -29,8 +29,7 @@
             "id": "lupayena-2",
             "pokemon": "lupayena",
             "presets": [
-                "natural",
-                "pillager_outpost"
+                "natural"
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
@@ -38,6 +37,10 @@
             "level": "35-59",
             "weight": 6.0,
             "condition": {
+                "structures": [
+                    "#cobblemon:spawns/is_illager_outpost"
+                ],
+                "minY": 62,
                 "minSkyLight": 8,
                 "maxSkyLight": 15,
                 "biomes": [

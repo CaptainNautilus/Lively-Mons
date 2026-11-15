@@ -104,7 +104,7 @@
           ],
           "timeRange": "night",
           "structures": [
-              "#minecraft:village"
+              "#cobblemon:spawns/is_civilization"
           ]
       },
       "anticondition": {

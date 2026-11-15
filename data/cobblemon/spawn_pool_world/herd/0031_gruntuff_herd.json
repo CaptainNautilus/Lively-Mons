@@ -51,16 +51,19 @@
     {
       "id": "gruntuff-herd-2",
       "presets": [
-          "natural",
-          "pillager_outpost"
+          "natural"
       ],
       "type": "pokemon-herd",
       "bucket": "common",
       "spawnablePositionType": "grounded",
       "maxHerdSize": 5,
       "levelRange": "9-51",
-      "weight": 45.0,
+      "weight": 450.0,
       "condition": {
+        "structures": [
+            "#cobblemon:spawns/is_illager_outpost"
+        ],
+        "minY": 62,
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "biomes": [
@@ -131,8 +134,7 @@
     {
       "id": "gruntuff-herd-4",
       "presets": [
-            "natural",
-            "nether_structures"
+            "natural"
       ],
       "type": "pokemon-herd",
       "bucket": "common",
@@ -143,6 +145,9 @@
       "condition": {
           "biomes": [
               "#minecraft:is_nether"
+          ],
+          "structures": [
+              "#cobblemon:spawns/is_nether_structure"
           ]
       },
       "herdablePokemon": [

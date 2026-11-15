@@ -6,8 +6,7 @@
         "id": "cyclopod-alpha-1",
         "pokemon": "cyclopod",
         "presets": [
-            "water",
-            "ocean_monument"
+            "water"
         ],
         "type": "pokemon-herd",
         "bucket": "boss",
@@ -31,6 +30,9 @@
           }
         ],
         "condition": {
+           "structures": [
+               "#cobblemon:spawns/is_ocean_monument"
+           ],
             "biomes": [
                 "#cobblemon:is_ocean"
             ],
@@ -60,8 +62,7 @@
         "id": "cyclopod-alpha-2",
         "pokemon": "cyclopod",
         "presets": [
-            "water",
-            "ocean_monument"
+            "water"
         ],
         "type": "pokemon-herd",
         "bucket": "boss",
@@ -76,6 +77,9 @@
             }
         },
         "condition": {
+           "structures": [
+               "#cobblemon:spawns/is_ocean_monument"
+           ],
             "biomes": [
                 "#cobblemon:is_ocean"
             ],

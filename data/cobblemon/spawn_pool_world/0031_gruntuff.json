@@ -41,14 +41,13 @@
             "id": "gruntuff-2",
             "pokemon": "gruntuff",
             "presets": [
-                "natural",
-                "pillager_outpost"
+                "natural"
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "9-34",
-            "weight": 45.0,
+            "weight": 450.0,
             "weightMultiplier": {
                 "multiplier": 2.0,
                 "condition": {
@@ -56,6 +55,10 @@
                 }
             },
             "condition": {
+                "structures": [
+                    "#cobblemon:spawns/is_illager_outpost"
+                ],
+                "minY": 62,
                 "minSkyLight": 8,
                 "maxSkyLight": 15,
                 "biomes": [
@@ -93,8 +96,7 @@
             "id": "gruntuff-4",
             "pokemon": "gruntuff",
             "presets": [
-                "natural",
-                "nether_structures"
+                "natural"
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
@@ -110,7 +112,10 @@
             "condition": {
                 "biomes": [
                     "#minecraft:is_nether"
-                ]
+                ],
+          "structures": [
+              "#cobblemon:spawns/is_nether_structure"
+          ]
             }
         },
         {

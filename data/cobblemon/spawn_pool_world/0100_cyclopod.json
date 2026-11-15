@@ -7,8 +7,7 @@
         "id": "cyclopod-1",
         "pokemon": "cyclopod",
         "presets": [
-            "water",
-            "ocean_monument"
+            "water"
         ],
         "type": "pokemon",
         "spawnablePositionType": "submerged",
@@ -31,6 +30,9 @@
           }
         ],
         "condition": {
+           "structures": [
+               "#cobblemon:spawns/is_ocean_monument"
+           ],
             "biomes": [
                 "#cobblemon:is_ocean"
             ],
@@ -41,8 +43,7 @@
         "id": "cyclopod-2",
         "pokemon": "cyclopod",
         "presets": [
-            "water",
-            "ocean_monument"
+            "water"
         ],
         "type": "pokemon",
         "spawnablePositionType": "submerged",
@@ -50,6 +51,9 @@
         "level": "21-45",
         "weight": 500.0,
         "weightMultiplier": {
+           "structures": [
+               "#cobblemon:spawns/is_ocean_monument"
+           ],
             "multiplier": 5.0,
             "condition": {
                 "isThundering": true

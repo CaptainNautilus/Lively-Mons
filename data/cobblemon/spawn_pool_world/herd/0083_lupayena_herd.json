@@ -55,8 +55,7 @@
     {
       "id": "poochyena-herd-2",
       "presets": [
-        "natural",
-        "pillager_outpost"
+        "natural"
       ],
       "type": "pokemon-herd",
       "bucket": "common",
@@ -65,6 +64,10 @@
       "levelRange": "1-59",
       "weight": 600.0,
       "condition": {
+        "structures": [
+            "#cobblemon:spawns/is_illager_outpost"
+        ],
+        "minY": 62,
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "biomes": [

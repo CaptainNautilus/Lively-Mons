@@ -63,8 +63,7 @@
     {
       "id": "mightyena-alpha-2",
       "presets": [
-        "natural",
-        "pillager_outpost"
+        "natural"
       ],
       "type": "pokemon-herd",
       "bucket": "boss",
@@ -73,6 +72,10 @@
       "levelRange": "35-100",
       "weight": 100.0,
       "condition": {
+        "structures": [
+            "#cobblemon:spawns/is_illager_outpost"
+        ],
+        "minY": 62,
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "biomes": [
