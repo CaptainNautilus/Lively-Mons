@@ -344,7 +344,7 @@
     "cobblemon.move.oxidizingagent.desc": "The user corrodes the target with acidic goo. This may also leave the target badly poisoned. This move is super effective on Steel types.",
 
     "cobblemon.move.wakeupcall": "Wake-Up Call",
-    "cobblemon.move.wakeupcall.desc": "The user's clock malfunctions, making it explode in a time-distorting blast. The user faints upon using this move. This also summons a bizarre area in which slower Pokémon get to move first.",
+    "cobblemon.move.wakeupcall.desc": "The user's clock malfunctions, making it explode in a time-distorting blast that wakes up sleeping Pokémon, and damages the user heavily. This also summons a bizarre area in which slower Pokémon get to move first.",
 
     "cobblemon.move.conflagration": "Conflagration",
     "cobblemon.move.conflagration.desc": "The user fires flame-laced feathers at opposing Pokémon. This may also leave the targets with a burn.",

@@ -5,8 +5,8 @@
     name: "Wake-Up Call",
     pp: 5,
     priority: 0,
-    flags: { protect: 1, mirror: 1, metronome: 1, noparentalbond: 1, sound: 1 },
-    selfdestruct: "always",
+    flags: { protect: 1, mirror: 1, noparentalbond: 1, nosketch: 1, sound: 1 },
+    mindBlownRecoil: true,
     secondary: null,
     onTry() {
       this.field.addPseudoWeather("trickroom");
